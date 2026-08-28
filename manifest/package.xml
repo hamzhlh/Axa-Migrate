@@ -1,36 +1,144 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
+<members>Access_Token__c</members>
+<members>Achievement__c</members>
+<members>Achievement_Assignment__c</members>
+<members>Achievement_Category__c</members>
+<members>Activity</members>
+<members>AFI_Knowledge__kav</members>
+<members>Agent_KPI__c</members>
+<members>Agent_KPI_Item__c</members>
+<members>Agent_Parameter__c</members>
+<members>Agent_Status__c</members>
+<members>AGI_Knowledge__kav</members>
+<members>Almond_Settings__c</members>
+<members>AMFS_Dipcad_Setting__mdt</members>
+<members>AMFS_E2C_Scheduler__mdt</members>
+<members>AMFS_E2C_Setting__mdt</members>
+<members>AMFS_Knowledge__kav</members>
+<members>AMFS_Service_API__mdt</members>
+<members>Answer_Sequence__c</members>
+<members>Answer_Sequence_Item__c</members>
+<members>AppLog__c</members>
+<members>Approver__c</members>
+<members>Assign_Log__c</members>
+<members>BackEndPaging__c</members>
+<members>Batch_Operation_Record__c</members>
+<members>Business_Hours_Adjustment__c</members>
+<members>Calc_FCR_Manual__c</members>
+<members>Call_Bucket__c</members>
+<members>Call_List__c</members>
+<members>Call_Status_Type__c</members>
+<members>CallLine_Reason_Type__c</members>
+<members>Campaign_Query__c</members>
+<members>Campaign_Setup__c</members>
+<members>Campaign_Type_Mapping__c</members>
+<members>Case</members>
+<members>Case_Escalation__c</members>
+<members>Case_Snapshot__c</members>
+<members>CMU_Contact__c</members>
+<members>Config__c</members>
+<members>Contact</members>
+<members>Content_Delivery__e</members>
+<members>Data_Load_Sequence__c</members>
+<members>Department__c</members>
+<members>DMU_Data_Manual__c</members>
+<members>DMU_Delivery_Status_Daily__c</members>
+<members>Dummy__c</members>
+<members>EIP_Code_Properties__c</members>
+<members>Email_Assignment__c</members>
+<members>Email_Config__c</members>
+<members>Email_Scoring__c</members>
+<members>Event</members>
+<members>FA_Integration__mdt</members>
+<members>Hashkey__c</members>
+<members>Hyperlink_Config__c</members>
+<members>ICF_Claim_Approve__c</members>
+<members>ICF_Parameterized_Filter_Criteria__c</members>
+<members>ICF_Template_and_Namespace__c</members>
+<members>Inbound_Call_Monthly_Agent__c</members>
+<members>Inbound_Call_Monthly_Interval__c</members>
+<members>Incoming_Email_Checker__c</members>
+<members>Jatis_Users__c</members>
+<members>Learning__c</members>
+<members>Learning_Assignment__c</members>
+<members>Learning_Category__c</members>
+<members>Learning_Version__c</members>
+<members>LiveChatTranscriptTemp__c</members>
+<members>Log_CTI_Valdo__c</members>
+<members>Log_Notification__c</members>
+<members>Log_PCIDSS__c</members>
+<members>MAGI_Knowledge__kav</members>
+<members>Master_Case_Type_Regional__c</members>
+<members>Master_Document_Type__c</members>
+<members>Master_Fund_Code__c</members>
+<members>Master_legal__c</members>
+<members>Master_Pinalty__c</members>
+<members>Master_Product_Plan_Code__c</members>
+<members>MID_Custom_History__c</members>
+<members>MID_Secure_Payment__c</members>
+<members>Named_User__c</members>
+<members>Negative_Feedback__c</members>
+<members>NumberCounter__c</members>
+<members>PIC_Department__c</members>
+<members>Plan_CD_PAYDI_AFI__c</members>
+<members>Postal_Code__c</members>
+<members>Product_Knowledge__kav</members>
+<members>PureCloud__c</members>
+<members>PureCloud_Call_Service__c</members>
+<members>PureCloud_Call_Summary__c</members>
+<members>Purecloud_Connector__c</members>
+<members>Purecloud_Master_Queue__c</members>
+<members>Question__c</members>
+<members>Question_Line__c</members>
+<members>Quiz__c</members>
+<members>RDS_Box__c</members>
+<members>Related_Policy__c</members>
+<members>Repeat_Call__c</members>
+<members>Request_Tada_History__c</members>
+<members>Response__c</members>
+<members>Response_History__c</members>
+<members>SampleObject__c</members>
+<members>Score_Card__c</members>
+<members>Session_Data__c</members>
+<members>Shared_Learning_Assignment__c</members>
+<members>Skill_of_Nature_Category__c</members>
+<members>SLA_Setting__c</members>
+<members>SOP__kav</members>
+<members>Summary_Daily__c</members>
+<members>Survey_Response__c</members>
+<members>Task</members>
+<members>Task__c</members>
+<members>Task_Approver__c</members>
+<members>TML_Answer_Sequence__c</members>
+<members>TML_Answer_Sequence_Item__c</members>
+<members>TML_Question__c</members>
+<members>Touchpoint_Setting__mdt</members>
+<members>Training_Plan__c</members>
+<members>Training_Plan_Access_Request__c</members>
+<members>Training_Plan_Account__c</members>
+<members>Training_Plan_Achievement__c</members>
+<members>Training_Plan_Assignment__c</members>
+<members>Training_Plan_Batch_Operation__c</members>
+<members>Training_Plan_Category__c</members>
+<members>Training_Plan_Feedback__c</members>
+<members>Training_Plan_Section__c</members>
+<members>Training_Plan_Section_Assignment__c</members>
+<members>Training_Plan_Section_Item__c</members>
+<members>Training_Resource__c</members>
+<members>Training_Track__c</members>
+<members>Training_Track_Account__c</members>
+<members>Training_Track_Level__c</members>
+<members>Training_Track_Level_Item__c</members>
+<members>User_Detail__c</members>
+<members>User_Skill__c</members>
+<members>WelcomeCal_Schedule__c</members>
+<members>WelcomeCall_Criteria__c</members>
+<members>WelcomeCall_Group__c</members>
+<members>WelcomeCall_Product__c</members>
+<members>WelcomeCall_Script__c</members>
+<name>CustomObject</name>
+</types>
     <version>67.0</version>
 </Package>
