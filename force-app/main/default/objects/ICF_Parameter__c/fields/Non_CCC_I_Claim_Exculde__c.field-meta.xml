@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_CCC_I_Claim_Exculde__c</fullName>
+    <label>Non CCC - I Claim – Exculde</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non Customer</fullName>
+                <default>false</default>
+                <label>Non Customer</label>
+            </value>
+            <value>
+                <fullName>Partial Payment Claims</fullName>
+                <default>false</default>
+                <label>Partial Payment Claims</label>
+            </value>
+            <value>
+                <fullName>Non in-force policies</fullName>
+                <default>false</default>
+                <label>Non in-force policies</label>
+            </value>
+            <value>
+                <fullName>Death Claims</fullName>
+                <default>false</default>
+                <label>Death Claims</label>
+            </value>
+            <value>
+                <fullName>CI, AP and diability (WP)</fullName>
+                <default>false</default>
+                <label>CI, AP and diability (WP)</label>
+            </value>
+            <value>
+                <fullName>Reject Claims</fullName>
+                <default>false</default>
+                <label>Reject Claims</label>
+            </value>
+            <value>
+                <fullName>Claim With Adjustment Process</fullName>
+                <default>false</default>
+                <label>Claim With Adjustment Process</label>
+            </value>
+            <value>
+                <fullName>PA Products</fullName>
+                <default>false</default>
+                <label>PA Products</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

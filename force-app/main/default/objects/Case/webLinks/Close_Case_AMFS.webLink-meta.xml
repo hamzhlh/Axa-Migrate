@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Case_AMFS</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Close Case AMFS</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/60.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/support/console/60.0/integration.js&quot;)}
+
+var caseId = &quot;{!Case.Id}&quot;;
+var contactId = &quot;{!Case.ContactId}&quot;;
+var department = &quot;{!Case.Department__c}&quot;;
+var slaTarget = &quot;{!Case.AMFS_SLA_Target__c}&quot;;
+
+if (!contactId || contactId === &quot;&quot;) {
+    alert(&quot;Maaf, Case tidak dapat ditutup karena Contact belum terisi.&quot;);
+} else {
+    var isConfirm = confirm(&quot;Apakah Anda yakin ingin menutup case ini?&quot;);
+
+    if (isConfirm) {
+        if (slaTarget == &quot;OH&quot; &amp;&amp; (!department || department === &quot;&quot;)) {
+            alert(&quot;Harap Isi Department.&quot;);
+        } else {
+            // 1. Update Object Case
+            var c = new sforce.SObject(&quot;Case&quot;);
+            c.Id = caseId;
+            c.Status = &quot;Closed&quot;;
+{!REQUIRESCRIPT(&quot;/soap/ajax/60.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/support/console/60.0/integration.js&quot;)}
+
+var caseId = &quot;{!Case.Id}&quot;;
+var contactId = &quot;{!Case.ContactId}&quot;;
+var department = &quot;{!Case.Department__c}&quot;;
+var slaTarget = &quot;{!Case.AMFS_SLA_Target__c}&quot;;
+
+if (!contactId || contactId === &quot;&quot;) {
+    alert(&quot;Maaf, Case tidak dapat ditutup karena Contact belum terisi.&quot;);
+} else {
+    var isConfirm = confirm(&quot;Apakah Anda yakin ingin menutup case ini?&quot;);
+
+    if (isConfirm) {
+        if (slaTarget == &quot;OH&quot; &amp;&amp; (!department || department === &quot;&quot;)) {
+            alert(&quot;Harap Isi Department.&quot;);
+        } else {
+            // 1. Update Object Case
+            var c = new sforce.SObject(&quot;Case&quot;);
+            c.Id = caseId;
+            c.Status = &quot;Closed&quot;;
+            var result = sforce.connection.update([c]);
+            if (result[0].success) {
+                // Close tab di Classic Console
+                sforce.console.getEnclosingTabId(function(res) {
+                    sforce.console.closeTab(res.id);
+                });
+            } else {
+                alert(&quot;Gagal update case: &quot; + result[0].errors[0].message);
+            }
+        }
+    }
+}
+            if (result[0].success) {
+                // Close tab di Classic Console
+                sforce.console.getEnclosingTabId(function(res) {
+                    sforce.console.closeTab(res.id);
+                });
+            } else {
+                alert(&quot;Gagal update case: &quot; + result[0].errors[0].message);
+            }
+        }
+    }
+}</url>
+</WebLink>

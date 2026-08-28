@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMFS_Email_Category__c</fullName>
+    <label>AMFS Email Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Completed &amp; Process</fullName>
+                <default>false</default>
+                <label>Completed &amp; Process</label>
+            </value>
+            <value>
+                <fullName>Incompleted Data</fullName>
+                <default>false</default>
+                <label>Incompleted Data</label>
+            </value>
+            <value>
+                <fullName>No Need Reply</fullName>
+                <default>false</default>
+                <label>No Need Reply</label>
+            </value>
+            <value>
+                <fullName>Double Mail</fullName>
+                <default>false</default>
+                <label>Double Mail</label>
+            </value>
+            <value>
+                <fullName>Pending &amp; Process</fullName>
+                <default>false</default>
+                <label>Pending &amp; Process</label>
+            </value>
+            <value>
+                <fullName>Advertisment</fullName>
+                <default>false</default>
+                <label>Advertisment</label>
+            </value>
+            <value>
+                <fullName>Internal Mail</fullName>
+                <default>false</default>
+                <label>Internal Mail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

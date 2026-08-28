@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agree_to_Redebet_Score_1_Desc__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Agree_to_Redebet__c != 0,
+Agree_to_Redebet_Desc__c &amp;&quot; &quot;&amp; TEXT(Agree_to_Redebet_Score_1__c) &amp;&quot; - &quot;&amp; TEXT(Agree_to_Redebet_Score_2__c)
+,NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Agree to Redebet Score 1 Desc</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

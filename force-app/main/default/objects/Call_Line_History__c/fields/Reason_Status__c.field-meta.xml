@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Status__c</fullName>
+    <label>Reason Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AFI - Wrong Number</fullName>
+                <default>false</default>
+                <label>AFI - Wrong Number</label>
+            </value>
+            <value>
+                <fullName>Agent Personal Closing (Tdk Pernah Setuju)</fullName>
+                <default>false</default>
+                <label>Agent Personal Closing (Tdk Pernah Setuju)</label>
+            </value>
+            <value>
+                <fullName>Agree</fullName>
+                <default>false</default>
+                <label>Agree</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree switch to Credit Card</fullName>
+                <default>false</default>
+                <label>Agree - Agree switch to Credit Card</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree to Cancel Redemption</fullName>
+                <default>false</default>
+                <label>Agree - Agree to Cancel Redemption</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree to Cancel Withdrawal</fullName>
+                <default>false</default>
+                <label>Agree - Agree to Cancel Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree to Pay</fullName>
+                <default>false</default>
+                <label>Agree - Agree to Pay</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree to pay via Autodebet</fullName>
+                <default>false</default>
+                <label>Agree - Agree to pay via Autodebet</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree to pay via SO or Walk In</fullName>
+                <default>false</default>
+                <label>Agree - Agree to pay via SO or Walk In</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree to Pay via Transfer</fullName>
+                <default>false</default>
+                <label>Agree - Agree to Pay via Transfer</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree to Pay via Virtual Account</fullName>
+                <default>false</default>
+                <label>Agree - Agree to Pay via Virtual Account</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree Top Up Lumpsum</fullName>
+                <default>false</default>
+                <label>Agree - Agree Top Up Lumpsum</label>
+            </value>
+            <value>
+                <fullName>Agree - Agree to reinstate</fullName>
+                <default>false</default>
+                <label>Agree - Agree to reinstate</label>
+            </value>
+            <value>
+                <fullName>Agree - Bersedia Melengkapi Kekurangan Dokumen</fullName>
+                <default>false</default>
+                <label>Agree - Bersedia Melengkapi Kekurangan Dokumen</label>
+            </value>
+            <value>
+                <fullName>Agree - Bersedia Menunggu Proses Claim</fullName>
+                <default>false</default>
+                <label>Agree - Bersedia Menunggu Proses Claim</label>
+            </value>
+            <value>
+                <fullName>Agree - Koreksi data polis</fullName>
+                <default>false</default>
+                <label>Agree - Koreksi data polis</label>
+            </value>
+            <value>
+                <fullName>Agree - Koreksi Data Rekening</fullName>
+                <default>false</default>
+                <label>Agree - Koreksi Data Rekening</label>
+            </value>
+            <value>
+                <fullName>Agree - Menerima Penjelasan dari Agen</fullName>
+                <default>false</default>
+                <label>Agree - Menerima Penjelasan dari Agen</label>
+            </value>
+            <value>
+                <fullName>Agree - Mengisi dan Menandatangani SPAJ</fullName>
+                <default>false</default>
+                <label>Agree - Mengisi dan Menandatangani SPAJ</label>
+            </value>
+            <value>
+                <fullName>Agree - Others</fullName>
+                <default>false</default>
+                <label>Agree - Others</label>
+            </value>
+            <value>
+                <fullName>Agree - Quisioner By Phone</fullName>
+                <default>false</default>
+                <label>Agree - Quisioner By Phone</label>
+            </value>
+            <value>
+                <fullName>Agree - Sudah terima Buku polis</fullName>
+                <default>false</default>
+                <label>Agree - Sudah terima Buku polis</label>
+            </value>
+            <value>
+                <fullName>Agree Surat Keluhan</fullName>
+                <default>false</default>
+                <label>Agree Surat Keluhan</label>
+            </value>
+            <value>
+                <fullName>Agree - Tahapan</fullName>
+                <default>false</default>
+                <label>Agree - Tahapan</label>
+            </value>
+            <value>
+                <fullName>Agree - Transferred to Other account</fullName>
+                <default>false</default>
+                <label>Agree - Transferred to Other account</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Address</fullName>
+                <default>false</default>
+                <label>Agree - Update Address</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Data</fullName>
+                <default>false</default>
+                <label>Agree - Update Data</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Data All</fullName>
+                <default>false</default>
+                <label>Agree - Update Data All</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Data more than 1 item</fullName>
+                <default>false</default>
+                <label>Agree - Update Data more than 1 item</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Document</fullName>
+                <default>false</default>
+                <label>Agree - Update Document</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Email</fullName>
+                <default>false</default>
+                <label>Agree - Update Email</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Expd Card</fullName>
+                <default>false</default>
+                <label>Agree - Update Expd Card</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Name</fullName>
+                <default>false</default>
+                <label>Agree - Update Name</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Name/DOB</fullName>
+                <default>false</default>
+                <label>Agree - Update Name/DOB</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Name/DOB/ (PP/TT)</fullName>
+                <default>false</default>
+                <label>Agree - Update Name/DOB/ (PP/TT)</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Others</fullName>
+                <default>false</default>
+                <label>Agree - Update Others</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Ph.Number</fullName>
+                <default>false</default>
+                <label>Agree - Update Ph.Number</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Phone Number</fullName>
+                <default>false</default>
+                <label>Agree - Update Phone Number</label>
+            </value>
+            <value>
+                <fullName>Agree - Update Telepon &amp; HP</fullName>
+                <default>false</default>
+                <label>Agree - Update Telepon &amp; HP</label>
+            </value>
+            <value>
+                <fullName>Agree - Verification Failed</fullName>
+                <default>false</default>
+                <label>Agree - Verification Failed</label>
+            </value>
+            <value>
+                <fullName>Agree - Verification Success</fullName>
+                <default>false</default>
+                <label>Agree - Verification Success</label>
+            </value>
+            <value>
+                <fullName>Agree - Verifikasi Data</fullName>
+                <default>false</default>
+                <label>Agree - Verifikasi Data</label>
+            </value>
+            <value>
+                <fullName>Agree with Complaint settlement</fullName>
+                <default>false</default>
+                <label>Agree with Complaint settlement</label>
+            </value>
+            <value>
+                <fullName>Agree - with Info by Email</fullName>
+                <default>false</default>
+                <label>Agree - with Info by Email</label>
+            </value>
+            <value>
+                <fullName>Agree with Letter</fullName>
+                <default>false</default>
+                <label>Agree with Letter</label>
+            </value>
+            <value>
+                <fullName>Agree - With Reduction Withdrawal Amount</fullName>
+                <default>false</default>
+                <label>Agree - With Reduction Withdrawal Amount</label>
+            </value>
+            <value>
+                <fullName>Agree with SMS</fullName>
+                <default>false</default>
+                <label>Agree with SMS</label>
+            </value>
+            <value>
+                <fullName>Agree - With Withdrawal</fullName>
+                <default>false</default>
+                <label>Agree - With Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Akan konfirmasi FA</fullName>
+                <default>false</default>
+                <label>Akan konfirmasi FA</label>
+            </value>
+            <value>
+                <fullName>ALI - Wrong Number</fullName>
+                <default>false</default>
+                <label>ALI - Wrong Number</label>
+            </value>
+            <value>
+                <fullName>At Work/Meeting</fullName>
+                <default>false</default>
+                <label>At Work/Meeting</label>
+            </value>
+            <value>
+                <fullName>Busy Line</fullName>
+                <default>false</default>
+                <label>Busy Line</label>
+            </value>
+            <value>
+                <fullName>Call Back</fullName>
+                <default>false</default>
+                <label>Call Back</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>Cancel By System</fullName>
+                <default>false</default>
+                <label>Cancel By System</label>
+            </value>
+            <value>
+                <fullName>Cancel Complaint</fullName>
+                <default>false</default>
+                <label>Cancel Complaint</label>
+            </value>
+            <value>
+                <fullName>Cancel the Policy</fullName>
+                <default>false</default>
+                <label>Cancel the Policy</label>
+            </value>
+            <value>
+                <fullName>Cancel the Policy – tidak setuju biaya UCO</fullName>
+                <default>false</default>
+                <label>Cancel the Policy – tidak setuju biaya UCO</label>
+            </value>
+            <value>
+                <fullName>Cause Of Death-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Cause Of Death-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>CLAI</fullName>
+                <default>false</default>
+                <label>CLAI</label>
+            </value>
+            <value>
+                <fullName>Claim Document Not Look Authentic-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Claim Document Not Look Authentic-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Claim Setup By Agent, Policy Party, Medical Practisioner-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Claim Setup By Agent, Policy Party, Medical Practisioner-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Clear Case</fullName>
+                <default>false</default>
+                <label>Clear Case</label>
+            </value>
+            <value>
+                <fullName>Client Did Not Received Renewal Notice</fullName>
+                <default>false</default>
+                <label>Client Did Not Received Renewal Notice</label>
+            </value>
+            <value>
+                <fullName>Client Is Not Willing To Disclose Surrender Reason</fullName>
+                <default>false</default>
+                <label>Client Is Not Willing To Disclose Surrender Reason</label>
+            </value>
+            <value>
+                <fullName>Client Was Forced To Buy Policy In The Beginning</fullName>
+                <default>false</default>
+                <label>Client Was Forced To Buy Policy In The Beginning</label>
+            </value>
+            <value>
+                <fullName>Closed Policy</fullName>
+                <default>false</default>
+                <label>Closed Policy</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>Confirmed</fullName>
+                <default>false</default>
+                <label>Confirmed</label>
+            </value>
+            <value>
+                <fullName>Credit Card OR Account Cancellation</fullName>
+                <default>false</default>
+                <label>Credit Card OR Account Cancellation</label>
+            </value>
+            <value>
+                <fullName>Customer Did Not Receive Policy</fullName>
+                <default>false</default>
+                <label>Customer Did Not Receive Policy</label>
+            </value>
+            <value>
+                <fullName>Cuti Premi</fullName>
+                <default>false</default>
+                <label>Cuti Premi</label>
+            </value>
+            <value>
+                <fullName>Dana Tidak Tersedia</fullName>
+                <default>false</default>
+                <label>Dana Tidak Tersedia</label>
+            </value>
+            <value>
+                <fullName>Death Claim</fullName>
+                <default>false</default>
+                <label>Death Claim</label>
+            </value>
+            <value>
+                <fullName>Disagree</fullName>
+                <default>false</default>
+                <label>Disagree</label>
+            </value>
+            <value>
+                <fullName>Disagree - Akan Ajukan Pembatalan Polis</fullName>
+                <default>false</default>
+                <label>Disagree - Akan Ajukan Pembatalan Polis</label>
+            </value>
+            <value>
+                <fullName>Disagree - Akan konfirmasi Ke Agen</fullName>
+                <default>false</default>
+                <label>Disagree - Akan konfirmasi Ke Agen</label>
+            </value>
+            <value>
+                <fullName>Disagree - Akan konfirmasi Ke CCC</fullName>
+                <default>false</default>
+                <label>Disagree - Akan konfirmasi Ke CCC</label>
+            </value>
+            <value>
+                <fullName>Disagree - Belum menerima Buku Polis</fullName>
+                <default>false</default>
+                <label>Disagree - Belum menerima Buku Polis</label>
+            </value>
+            <value>
+                <fullName>Disagree - Claim Issue</fullName>
+                <default>false</default>
+                <label>Disagree - Claim Issue</label>
+            </value>
+            <value>
+                <fullName>Disagree - Compensation for AFI New Policy</fullName>
+                <default>false</default>
+                <label>Disagree - Compensation for AFI New Policy</label>
+            </value>
+            <value>
+                <fullName>Disagree - Complaint</fullName>
+                <default>false</default>
+                <label>Disagree - Complaint</label>
+            </value>
+            <value>
+                <fullName>Disagree - disapointment or rejected claim</fullName>
+                <default>false</default>
+                <label>Disagree - disapointment or rejected claim</label>
+            </value>
+            <value>
+                <fullName>Disagree - disapointment with MAGI service</fullName>
+                <default>false</default>
+                <label>Disagree - disapointment with MAGI service</label>
+            </value>
+            <value>
+                <fullName>Disagree - Disappointed with Agent service</fullName>
+                <default>false</default>
+                <label>Disagree - Disappointed with Agent service</label>
+            </value>
+            <value>
+                <fullName>Disagree - Disappointed with Claim</fullName>
+                <default>false</default>
+                <label>Disagree - Disappointed with Claim</label>
+            </value>
+            <value>
+                <fullName>Disagree - Dissapointed with AXA service</fullName>
+                <default>false</default>
+                <label>Disagree - Dissapointed with AXA service</label>
+            </value>
+            <value>
+                <fullName>Disagree - Email lupa password</fullName>
+                <default>false</default>
+                <label>Disagree - Email lupa password</label>
+            </value>
+            <value>
+                <fullName>Disagree - Email tidak aktif</fullName>
+                <default>false</default>
+                <label>Disagree - Email tidak aktif</label>
+            </value>
+            <value>
+                <fullName>Disagree - Financial Problem</fullName>
+                <default>false</default>
+                <label>Disagree - Financial Problem</label>
+            </value>
+            <value>
+                <fullName>Disagree - Fund is incompatible</fullName>
+                <default>false</default>
+                <label>Disagree - Fund is incompatible</label>
+            </value>
+            <value>
+                <fullName>Disagree - investments progress</fullName>
+                <default>false</default>
+                <label>Disagree - investments progress</label>
+            </value>
+            <value>
+                <fullName>Disagree - Lupa user/password</fullName>
+                <default>false</default>
+                <label>Disagree - Lupa user/password</label>
+            </value>
+            <value>
+                <fullName>Disagree - Memiliki email namun belum mau didaftarkan</fullName>
+                <default>false</default>
+                <label>Disagree - Memiliki email namun belum mau didaftarkan</label>
+            </value>
+            <value>
+                <fullName>Disagree - Miss info oleh Agent</fullName>
+                <default>false</default>
+                <label>Disagree - Miss info oleh Agent</label>
+            </value>
+            <value>
+                <fullName>Disagree - Nasabah Sibuk Namun Sudah Paham Polisnya</fullName>
+                <default>false</default>
+                <label>Disagree - Nasabah Sibuk Namun Sudah Paham Polisnya</label>
+            </value>
+            <value>
+                <fullName>Disagree - Need Funds</fullName>
+                <default>false</default>
+                <label>Disagree - Need Funds</label>
+            </value>
+            <value>
+                <fullName>Disagree - Not receive premium reminder letter</fullName>
+                <default>false</default>
+                <label>Disagree - Not receive premium reminder letter</label>
+            </value>
+            <value>
+                <fullName>Disagree - Not Receive Renewal Reminder (letter/email/SMS)</fullName>
+                <default>false</default>
+                <label>Disagree - Not Receive Renewal Reminder (letter/email/SMS)</label>
+            </value>
+            <value>
+                <fullName>Disagree - Others</fullName>
+                <default>false</default>
+                <label>Disagree - Others</label>
+            </value>
+            <value>
+                <fullName>Disagree - Policy was take care by other person</fullName>
+                <default>false</default>
+                <label>Disagree - Policy was take care by other person</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP akan batalkan polis</fullName>
+                <default>false</default>
+                <label>Disagree - PP akan batalkan polis</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP akan konfirmasi ke CCC/Agen untuk informasi lebih lanjut</fullName>
+                <default>false</default>
+                <label>Disagree - PP akan konfirmasi ke CCC/Agen untuk informasi lebih lanjut</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP akan konfirmasi ke CCC/Agen untuk pendaftaran</fullName>
+                <default>false</default>
+                <label>Disagree - PP akan konfirmasi ke CCC/Agen untuk pendaftaran</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP akan mendaftar menggunakan Form/SMS</fullName>
+                <default>false</default>
+                <label>Disagree - PP akan mendaftar menggunakan Form/SMS</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP busy</fullName>
+                <default>false</default>
+                <label>Disagree - PP busy</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP have no plan to pay premium</fullName>
+                <default>false</default>
+                <label>Disagree - PP have no plan to pay premium</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP have no time to take care Policy</fullName>
+                <default>false</default>
+                <label>Disagree - PP have no time to take care Policy</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP keberatan dengan nominal Claim yang disetujui</fullName>
+                <default>false</default>
+                <label>Disagree - PP keberatan dengan nominal Claim yang disetujui</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP not interest to pay premium</fullName>
+                <default>false</default>
+                <label>Disagree - PP not interest to pay premium</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP tidak bersedia melengkapi Kekurangan dokumen</fullName>
+                <default>false</default>
+                <label>Disagree - PP tidak bersedia melengkapi Kekurangan dokumen</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP tidak bersedia menunggu dan req diproses Urgent</fullName>
+                <default>false</default>
+                <label>Disagree - PP tidak bersedia menunggu dan req diproses Urgent</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP tidak menerima penjelasan dari Agen</fullName>
+                <default>false</default>
+                <label>Disagree - PP tidak menerima penjelasan dari Agen</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP tidak merasa menandatangani SPAJ</fullName>
+                <default>false</default>
+                <label>Disagree - PP tidak merasa menandatangani SPAJ</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP want all insurance charge taken from his insurance</fullName>
+                <default>false</default>
+                <label>Disagree - PP want all insurance charge taken from his insurance</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP will ask agent first</fullName>
+                <default>false</default>
+                <label>Disagree - PP will ask agent first</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP will call CS for other information</fullName>
+                <default>false</default>
+                <label>Disagree - PP will call CS for other information</label>
+            </value>
+            <value>
+                <fullName>Disagree - PP will close policy</fullName>
+                <default>false</default>
+                <label>Disagree - PP will close policy</label>
+            </value>
+            <value>
+                <fullName>Disagree - Premium Holiday</fullName>
+                <default>false</default>
+                <label>Disagree - Premium Holiday</label>
+            </value>
+            <value>
+                <fullName>Disagree - Premium Policy Payment</fullName>
+                <default>false</default>
+                <label>Disagree - Premium Policy Payment</label>
+            </value>
+            <value>
+                <fullName>Disagree - Premium too expensive</fullName>
+                <default>false</default>
+                <label>Disagree - Premium too expensive</label>
+            </value>
+            <value>
+                <fullName>Disagree - product features or product complaint</fullName>
+                <default>false</default>
+                <label>Disagree - product features or product complaint</label>
+            </value>
+            <value>
+                <fullName>Disagree - Product is incompatible</fullName>
+                <default>false</default>
+                <label>Disagree - Product is incompatible</label>
+            </value>
+            <value>
+                <fullName>Disagree - Refused Verification</fullName>
+                <default>false</default>
+                <label>Disagree - Refused Verification</label>
+            </value>
+            <value>
+                <fullName>Disagree - Security issue</fullName>
+                <default>false</default>
+                <label>Disagree - Security issue</label>
+            </value>
+            <value>
+                <fullName>Disagree - Single Premi</fullName>
+                <default>false</default>
+                <label>Disagree - Single Premi</label>
+            </value>
+            <value>
+                <fullName>Disagree - Switch to AFI&apos;s Other Policy</fullName>
+                <default>false</default>
+                <label>Disagree - Switch to AFI&apos;s Other Policy</label>
+            </value>
+            <value>
+                <fullName>Disagree - Switch to Competitor</fullName>
+                <default>false</default>
+                <label>Disagree - Switch to Competitor</label>
+            </value>
+            <value>
+                <fullName>Disagree - Switch to New Policy in AXA</fullName>
+                <default>false</default>
+                <label>Disagree - Switch to New Policy in AXA</label>
+            </value>
+            <value>
+                <fullName>Disagree - Switch to other investments</fullName>
+                <default>false</default>
+                <label>Disagree - Switch to other investments</label>
+            </value>
+            <value>
+                <fullName>Disagree - Tahapan</fullName>
+                <default>false</default>
+                <label>Disagree - Tahapan</label>
+            </value>
+            <value>
+                <fullName>Disagree - Thinking and/or see the investment progress</fullName>
+                <default>false</default>
+                <label>Disagree - Thinking and/or see the investment progress</label>
+            </value>
+            <value>
+                <fullName>Disagree - Tidak memiliki email</fullName>
+                <default>false</default>
+                <label>Disagree - Tidak memiliki email</label>
+            </value>
+            <value>
+                <fullName>Disagree - Transfered to Other account</fullName>
+                <default>false</default>
+                <label>Disagree - Transfered to Other account</label>
+            </value>
+            <value>
+                <fullName>Disagree - Update Data</fullName>
+                <default>false</default>
+                <label>Disagree - Update Data</label>
+            </value>
+            <value>
+                <fullName>Disagree - Update Document</fullName>
+                <default>false</default>
+                <label>Disagree - Update Document</label>
+            </value>
+            <value>
+                <fullName>Disappointed of AXA Service</fullName>
+                <default>false</default>
+                <label>Disappointed of AXA Service</label>
+            </value>
+            <value>
+                <fullName>Disappointed or Rejected Claim</fullName>
+                <default>false</default>
+                <label>Disappointed or Rejected Claim</label>
+            </value>
+            <value>
+                <fullName>Disgaree Surat Keluhan</fullName>
+                <default>false</default>
+                <label>Disgaree Surat Keluhan</label>
+            </value>
+            <value>
+                <fullName>Done</fullName>
+                <default>false</default>
+                <label>Done</label>
+            </value>
+            <value>
+                <fullName>Done CHS &amp; Surat Keluhan</fullName>
+                <default>false</default>
+                <label>Done CHS &amp; Surat Keluhan</label>
+            </value>
+            <value>
+                <fullName>Ex Agent or Other Influence (FA/Agent Change)</fullName>
+                <default>false</default>
+                <label>Ex Agent or Other Influence (FA/Agent Change)</label>
+            </value>
+            <value>
+                <fullName>Family Reason</fullName>
+                <default>false</default>
+                <label>Family Reason</label>
+            </value>
+            <value>
+                <fullName>Fictive Creation Customer</fullName>
+                <default>false</default>
+                <label>Fictive Creation Customer</label>
+            </value>
+            <value>
+                <fullName>Financial Dificulities</fullName>
+                <default>false</default>
+                <label>Financial Dificulities</label>
+            </value>
+            <value>
+                <fullName>Follow Up</fullName>
+                <default>false</default>
+                <label>Follow Up</label>
+            </value>
+            <value>
+                <fullName>Frequency Of Claim Within 12 Month-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Frequency Of Claim Within 12 Month-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Geographical Location-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Geographical Location-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Hard Complaint</fullName>
+                <default>false</default>
+                <label>Hard Complaint</label>
+            </value>
+            <value>
+                <fullName>Hard Contact</fullName>
+                <default>false</default>
+                <label>Hard Contact</label>
+            </value>
+            <value>
+                <fullName>Have Many Insurances</fullName>
+                <default>false</default>
+                <label>Have Many Insurances</label>
+            </value>
+            <value>
+                <fullName>Hold</fullName>
+                <default>false</default>
+                <label>Hold</label>
+            </value>
+            <value>
+                <fullName>Hospital Or Clinic-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Hospital Or Clinic-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Identitiy Of Cover Person-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Identitiy Of Cover Person-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Inactive Policy</fullName>
+                <default>false</default>
+                <label>Inactive Policy</label>
+            </value>
+            <value>
+                <fullName>Inactive policy / in process Cooling off</fullName>
+                <default>false</default>
+                <label>Inactive policy / in process Cooling off</label>
+            </value>
+            <value>
+                <fullName>Inforce</fullName>
+                <default>false</default>
+                <label>Inforce</label>
+            </value>
+            <value>
+                <fullName>Information Received</fullName>
+                <default>false</default>
+                <label>Information Received</label>
+            </value>
+            <value>
+                <fullName>Invalid Number</fullName>
+                <default>false</default>
+                <label>Invalid Number</label>
+            </value>
+            <value>
+                <fullName>Kartu Kredit Sudah Tutup</fullName>
+                <default>false</default>
+                <label>Kartu Kredit Sudah Tutup</label>
+            </value>
+            <value>
+                <fullName>Kartu Kredit Tidak Aktif</fullName>
+                <default>false</default>
+                <label>Kartu Kredit Tidak Aktif</label>
+            </value>
+            <value>
+                <fullName>Kecewa dengan AXA</fullName>
+                <default>false</default>
+                <label>Kecewa dengan AXA</label>
+            </value>
+            <value>
+                <fullName>Kecewa Dengan Layanan AXA MANDIRI - Buku Polis Tidak Diterima</fullName>
+                <default>false</default>
+                <label>Kecewa Dengan Layanan AXA MANDIRI - Buku Polis Tidak Diterima</label>
+            </value>
+            <value>
+                <fullName>Kecewa Dengan Layanan AXA MANDIRI - Claim Proses</fullName>
+                <default>false</default>
+                <label>Kecewa Dengan Layanan AXA MANDIRI - Claim Proses</label>
+            </value>
+            <value>
+                <fullName>Kecewa Dengan Layanan AXA MANDIRI - Penjelasan FA Tidak Sesuai</fullName>
+                <default>false</default>
+                <label>Kecewa Dengan Layanan AXA MANDIRI - Penjelasan FA Tidak Sesuai</label>
+            </value>
+            <value>
+                <fullName>Kecewa Dengan Layanan AXA MANDIRI - Service / Pelayanan</fullName>
+                <default>false</default>
+                <label>Kecewa Dengan Layanan AXA MANDIRI - Service / Pelayanan</label>
+            </value>
+            <value>
+                <fullName>Large Sa Vs Low Premium-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Large Sa Vs Low Premium-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Mailbox</fullName>
+                <default>false</default>
+                <label>Mailbox</label>
+            </value>
+            <value>
+                <fullName>Malpractice Or Misrepresentation-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Malpractice Or Misrepresentation-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Manfaat Kurang Menarik</fullName>
+                <default>false</default>
+                <label>Manfaat Kurang Menarik</label>
+            </value>
+            <value>
+                <fullName>Market/Industry Information-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Market/Industry Information-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Miss Customer</fullName>
+                <default>false</default>
+                <label>Miss Customer</label>
+            </value>
+            <value>
+                <fullName>Miss Selling</fullName>
+                <default>false</default>
+                <label>Miss Selling</label>
+            </value>
+            <value>
+                <fullName>Move to Competitor</fullName>
+                <default>false</default>
+                <label>Move to Competitor</label>
+            </value>
+            <value>
+                <fullName>Multiple Insurance Cover-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Multiple Insurance Cover-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Nasabah Meninggal Dunia</fullName>
+                <default>false</default>
+                <label>Nasabah Meninggal Dunia</label>
+            </value>
+            <value>
+                <fullName>NCB Has Been Auto Generated</fullName>
+                <default>false</default>
+                <label>NCB Has Been Auto Generated</label>
+            </value>
+            <value>
+                <fullName>Need FA Confirmation</fullName>
+                <default>false</default>
+                <label>Need FA Confirmation</label>
+            </value>
+            <value>
+                <fullName>No Answer</fullName>
+                <default>false</default>
+                <label>No Answer</label>
+            </value>
+            <value>
+                <fullName>No Confidence To Axa Indonesia</fullName>
+                <default>false</default>
+                <label>No Confidence To Axa Indonesia</label>
+            </value>
+            <value>
+                <fullName>No Follow Up</fullName>
+                <default>false</default>
+                <label>No Follow Up</label>
+            </value>
+            <value>
+                <fullName>No Interest</fullName>
+                <default>false</default>
+                <label>No Interest</label>
+            </value>
+            <value>
+                <fullName>No Phone Number</fullName>
+                <default>false</default>
+                <label>No Phone Number</label>
+            </value>
+            <value>
+                <fullName>No Phone Number Available (Worng Phoneno, Fax, Sound, Move, Resign, Etc)</fullName>
+                <default>false</default>
+                <label>No Phone Number Available (Worng Phoneno, Fax, Sound, Move, Resign, Etc)</label>
+            </value>
+            <value>
+                <fullName>No Pickup/Mailbox</fullName>
+                <default>false</default>
+                <label>No Pickup/Mailbox</label>
+            </value>
+            <value>
+                <fullName>Not Agree with complaint settlement</fullName>
+                <default>false</default>
+                <label>Not Agree with complaint settlement</label>
+            </value>
+            <value>
+                <fullName>Not Covered In The List Of Illness Stipulated-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Not Covered In The List Of Illness Stipulated-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Not willing to confirmed</fullName>
+                <default>false</default>
+                <label>Not willing to confirmed</label>
+            </value>
+            <value>
+                <fullName>Ok Debet</fullName>
+                <default>false</default>
+                <label>Ok Debet</label>
+            </value>
+            <value>
+                <fullName>Other-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Other-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Other Reason, e.g Emmigration, Bankrupt, etc</fullName>
+                <default>false</default>
+                <label>Other Reason, e.g Emmigration, Bankrupt, etc</label>
+            </value>
+            <value>
+                <fullName>Paid</fullName>
+                <default>false</default>
+                <label>Paid</label>
+            </value>
+            <value>
+                <fullName>Partially Successful</fullName>
+                <default>false</default>
+                <label>Partially Successful</label>
+            </value>
+            <value>
+                <fullName>Pending - Customer Did Not Receive Renewal Notice</fullName>
+                <default>false</default>
+                <label>Pending - Customer Did Not Receive Renewal Notice</label>
+            </value>
+            <value>
+                <fullName>Pending - Document submission</fullName>
+                <default>false</default>
+                <label>Pending - Document submission</label>
+            </value>
+            <value>
+                <fullName>Pending - Request Discount</fullName>
+                <default>false</default>
+                <label>Pending - Request Discount</label>
+            </value>
+            <value>
+                <fullName>Penurunan RTU</fullName>
+                <default>false</default>
+                <label>Penurunan RTU</label>
+            </value>
+            <value>
+                <fullName>Pick up Non PP</fullName>
+                <default>false</default>
+                <label>Pick up Non PP</label>
+            </value>
+            <value>
+                <fullName>Pleace Of Claim Occurred-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Pleace Of Claim Occurred-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Policy Delivering</fullName>
+                <default>false</default>
+                <label>Policy Delivering</label>
+            </value>
+            <value>
+                <fullName>Policy Duration-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Policy Duration-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Poor Agent Services</fullName>
+                <default>false</default>
+                <label>Poor Agent Services</label>
+            </value>
+            <value>
+                <fullName>Product Features</fullName>
+                <default>false</default>
+                <label>Product Features</label>
+            </value>
+            <value>
+                <fullName>Product Replacement</fullName>
+                <default>false</default>
+                <label>Product Replacement</label>
+            </value>
+            <value>
+                <fullName>Prolong Hospital Stay-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Prolong Hospital Stay-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Promise To Pay</fullName>
+                <default>false</default>
+                <label>Promise To Pay</label>
+            </value>
+            <value>
+                <fullName>Received Complaint updates</fullName>
+                <default>false</default>
+                <label>Received Complaint updates</label>
+            </value>
+            <value>
+                <fullName>Redebet</fullName>
+                <default>false</default>
+                <label>Redebet</label>
+            </value>
+            <value>
+                <fullName>Redemption</fullName>
+                <default>false</default>
+                <label>Redemption</label>
+            </value>
+            <value>
+                <fullName>Reedem</fullName>
+                <default>false</default>
+                <label>Reedem</label>
+            </value>
+            <value>
+                <fullName>Reject / Blocked</fullName>
+                <default>false</default>
+                <label>Reject / Blocked</label>
+            </value>
+            <value>
+                <fullName>Rekening Sudah Tutup</fullName>
+                <default>false</default>
+                <label>Rekening Sudah Tutup</label>
+            </value>
+            <value>
+                <fullName>Reported By Axa Staff-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Reported By Axa Staff-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Reported By External Provider-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Reported By External Provider-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>Request Cancel by customer</fullName>
+                <default>false</default>
+                <label>Request Cancel by customer</label>
+            </value>
+            <value>
+                <fullName>Request Cancel - Data not verified</fullName>
+                <default>false</default>
+                <label>Request Cancel - Data not verified</label>
+            </value>
+            <value>
+                <fullName>Request confirm</fullName>
+                <default>false</default>
+                <label>Request confirm</label>
+            </value>
+            <value>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+                <label>Reschedule</label>
+            </value>
+            <value>
+                <fullName>Rider Exclusion-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Rider Exclusion-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>SAGT</fullName>
+                <default>false</default>
+                <label>SAGT</label>
+            </value>
+            <value>
+                <fullName>Sales Personnel-[Claim Investigation]</fullName>
+                <default>false</default>
+                <label>Sales Personnel-[Claim Investigation]</label>
+            </value>
+            <value>
+                <fullName>SCOM</fullName>
+                <default>false</default>
+                <label>SCOM</label>
+            </value>
+            <value>
+                <fullName>SCON</fullName>
+                <default>false</default>
+                <label>SCON</label>
+            </value>
+            <value>
+                <fullName>SDEA</fullName>
+                <default>false</default>
+                <label>SDEA</label>
+            </value>
+            <value>
+                <fullName>SFAM</fullName>
+                <default>false</default>
+                <label>SFAM</label>
+            </value>
+            <value>
+                <fullName>SFIN</fullName>
+                <default>false</default>
+                <label>SFIN</label>
+            </value>
+            <value>
+                <fullName>SIMM</fullName>
+                <default>false</default>
+                <label>SIMM</label>
+            </value>
+            <value>
+                <fullName>SINV</fullName>
+                <default>false</default>
+                <label>SINV</label>
+            </value>
+            <value>
+                <fullName>SMIN</fullName>
+                <default>false</default>
+                <label>SMIN</label>
+            </value>
+            <value>
+                <fullName>SNAV</fullName>
+                <default>false</default>
+                <label>SNAV</label>
+            </value>
+            <value>
+                <fullName>SNOT</fullName>
+                <default>false</default>
+                <label>SNOT</label>
+            </value>
+            <value>
+                <fullName>SOTH</fullName>
+                <default>false</default>
+                <label>SOTH</label>
+            </value>
+            <value>
+                <fullName>SPRO</fullName>
+                <default>false</default>
+                <label>SPRO</label>
+            </value>
+            <value>
+                <fullName>SREP</fullName>
+                <default>false</default>
+                <label>SREP</label>
+            </value>
+            <value>
+                <fullName>SSER</fullName>
+                <default>false</default>
+                <label>SSER</label>
+            </value>
+            <value>
+                <fullName>STRM</fullName>
+                <default>false</default>
+                <label>STRM</label>
+            </value>
+            <value>
+                <fullName>Success</fullName>
+                <default>false</default>
+                <label>Success</label>
+            </value>
+            <value>
+                <fullName>Success but Complaint</fullName>
+                <default>false</default>
+                <label>Success but Complaint</label>
+            </value>
+            <value>
+                <fullName>Success but Suspicious</fullName>
+                <default>false</default>
+                <label>Success but Suspicious</label>
+            </value>
+            <value>
+                <fullName>Successful</fullName>
+                <default>false</default>
+                <label>Successful</label>
+            </value>
+            <value>
+                <fullName>Success with data changes</fullName>
+                <default>false</default>
+                <label>Success with data changes</label>
+            </value>
+            <value>
+                <fullName>Success with Note</fullName>
+                <default>false</default>
+                <label>Success with Note</label>
+            </value>
+            <value>
+                <fullName>Sudah Pay By System</fullName>
+                <default>false</default>
+                <label>Sudah Pay By System</label>
+            </value>
+            <value>
+                <fullName>Surrender Wait NCB</fullName>
+                <default>false</default>
+                <label>Surrender Wait NCB</label>
+            </value>
+            <value>
+                <fullName>Switch To Other Bank Mandiri Product</fullName>
+                <default>false</default>
+                <label>Switch To Other Bank Mandiri Product</label>
+            </value>
+            <value>
+                <fullName>Switch To Other Her Instrument Investment</fullName>
+                <default>false</default>
+                <label>Switch To Other Her Instrument Investment</label>
+            </value>
+            <value>
+                <fullName>SWLK</fullName>
+                <default>false</default>
+                <label>SWLK</label>
+            </value>
+            <value>
+                <fullName>Terlalu Banyak Asuransi</fullName>
+                <default>false</default>
+                <label>Terlalu Banyak Asuransi</label>
+            </value>
+            <value>
+                <fullName>Tidak Bersedia Diverifikasi</fullName>
+                <default>false</default>
+                <label>Tidak Bersedia Diverifikasi</label>
+            </value>
+            <value>
+                <fullName>Tidak Pernah Setuju</fullName>
+                <default>false</default>
+                <label>Tidak Pernah Setuju</label>
+            </value>
+            <value>
+                <fullName>Too Many Insurance</fullName>
+                <default>false</default>
+                <label>Too Many Insurance</label>
+            </value>
+            <value>
+                <fullName>Uncontacted (Busy On The Line, Etc)</fullName>
+                <default>false</default>
+                <label>Uncontacted (Busy On The Line, Etc)</label>
+            </value>
+            <value>
+                <fullName>Unit Price Fluctuation</fullName>
+                <default>false</default>
+                <label>Unit Price Fluctuation</label>
+            </value>
+            <value>
+                <fullName>Un success/need meet FA</fullName>
+                <default>false</default>
+                <label>Un success/need meet FA</label>
+            </value>
+            <value>
+                <fullName>Un-Verified</fullName>
+                <default>false</default>
+                <label>Un-Verified</label>
+            </value>
+            <value>
+                <fullName>Unwilling</fullName>
+                <default>false</default>
+                <label>Unwilling</label>
+            </value>
+            <value>
+                <fullName>Un-willing to be confirmed</fullName>
+                <default>false</default>
+                <label>Un-willing to be confirmed</label>
+            </value>
+            <value>
+                <fullName>Un-willing to be recorded</fullName>
+                <default>false</default>
+                <label>Un-willing to be recorded</label>
+            </value>
+            <value>
+                <fullName>Verified : Close Complaint</fullName>
+                <default>false</default>
+                <label>Verified : Close Complaint</label>
+            </value>
+            <value>
+                <fullName>Verified : New Complaint</fullName>
+                <default>false</default>
+                <label>Verified : New Complaint</label>
+            </value>
+            <value>
+                <fullName>Walk In Customer</fullName>
+                <default>false</default>
+                <label>Walk In Customer</label>
+            </value>
+            <value>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+                <label>Wrong Number</label>
+            </value>
+            <value>
+                <fullName>Busy Person</fullName>
+                <default>false</default>
+                <label>Busy Person</label>
+            </value>
+            <value>
+                <fullName>SONP</fullName>
+                <default>false</default>
+                <label>SONP</label>
+            </value>
+            <value>
+                <fullName>Success, already teleconfirm</fullName>
+                <default>false</default>
+                <label>Success, already teleconfirm</label>
+            </value>
+            <value>
+                <fullName>Done FU</fullName>
+                <default>false</default>
+                <label>Done FU</label>
+            </value>
+            <value>
+                <fullName>Has Approve</fullName>
+                <default>false</default>
+                <label>Has Approve</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

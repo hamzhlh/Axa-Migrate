@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Over_SLA_Email_ALI__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Incoming == FALSE, IF(ISBLANK(Last_Response_Date__c), &quot;&quot; , &quot;On Schedule&quot;),
+
+
+IF(ISBLANK(Last_Response_Date__c), &quot;New Email&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &lt;= MessageDate+ (Target_TAT__c/24), &quot;On-Time (&lt;= 4 Jam)&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &gt; MessageDate+ (Target_TAT__c/24) &amp;&amp; Last_Response_Date__c &lt;= MessageDate+ (Target_TAT__c/24) + 1, &quot;Over SLA 1 (&gt;4-24 Jam)&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &gt; MessageDate+ (Target_TAT__c/24) + 1 &amp;&amp; Last_Response_Date__c &lt;= MessageDate+ (Target_TAT__c/24) + 1.5, &quot;Over SLA 2 (&gt;24-36 Jam)&quot;,
+
+&quot;Over SLA 3 (&gt;36 Jam)&quot; ))))
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Over SLA Email ALI</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

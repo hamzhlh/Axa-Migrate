@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_4__c</fullName>
+    <label>Field 4</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PolicyIssue</fullName>
+                <default>false</default>
+                <label>PolicyIssue</label>
+            </value>
+            <value>
+                <fullName>Case Closed</fullName>
+                <default>false</default>
+                <label>Case Closed</label>
+            </value>
+            <value>
+                <fullName>Transaction Completion Date</fullName>
+                <default>false</default>
+                <label>Transaction Completion Date</label>
+            </value>
+            <value>
+                <fullName>Success full transfer</fullName>
+                <default>false</default>
+                <label>Success full transfer</label>
+            </value>
+            <value>
+                <fullName>Payment to</fullName>
+                <default>false</default>
+                <label>Payment to</label>
+            </value>
+            <value>
+                <fullName>Vehicle checkout date</fullName>
+                <default>false</default>
+                <label>Vehicle checkout date</label>
+            </value>
+            <value>
+                <fullName>Policy Number</fullName>
+                <default>false</default>
+                <label>Policy Number</label>
+            </value>
+            <value>
+                <fullName>Policy Communication</fullName>
+                <default>false</default>
+                <label>Policy Communication</label>
+            </value>
+            <value>
+                <fullName>Policy Status</fullName>
+                <default>false</default>
+                <label>Policy Status</label>
+            </value>
+            <value>
+                <fullName>Submitted Date</fullName>
+                <default>false</default>
+                <label>Submitted Date</label>
+            </value>
+            <value>
+                <fullName>Issued Date</fullName>
+                <default>false</default>
+                <label>Issued Date</label>
+            </value>
+            <value>
+                <fullName>Insurance Type</fullName>
+                <default>false</default>
+                <label>Insurance Type</label>
+            </value>
+            <value>
+                <fullName>Plan Code</fullName>
+                <default>false</default>
+                <label>Plan Code</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Entity</fullName>
+                <default>false</default>
+                <label>Entity</label>
+            </value>
+            <value>
+                <fullName>Suspicious</fullName>
+                <default>false</default>
+                <label>Suspicious</label>
+            </value>
+            <value>
+                <fullName>MOT</fullName>
+                <default>false</default>
+                <label>MOT</label>
+            </value>
+            <value>
+                <fullName>Payment Mode</fullName>
+                <default>false</default>
+                <label>Payment Mode</label>
+            </value>
+            <value>
+                <fullName>Due Date</fullName>
+                <default>false</default>
+                <label>Due Date</label>
+            </value>
+            <value>
+                <fullName>Premium Settled</fullName>
+                <default>false</default>
+                <label>Premium Settled</label>
+            </value>
+            <value>
+                <fullName>Record Type</fullName>
+                <default>false</default>
+                <label>Record Type</label>
+            </value>
+            <value>
+                <fullName>Reversal Code</fullName>
+                <default>false</default>
+                <label>Reversal Code</label>
+            </value>
+            <value>
+                <fullName>Reversal Date</fullName>
+                <default>false</default>
+                <label>Reversal Date</label>
+            </value>
+            <value>
+                <fullName>Transaction Code</fullName>
+                <default>false</default>
+                <label>Transaction Code</label>
+            </value>
+            <value>
+                <fullName>Captured Date</fullName>
+                <default>false</default>
+                <label>Captured Date</label>
+            </value>
+            <value>
+                <fullName>Approved Date</fullName>
+                <default>false</default>
+                <label>Approved Date</label>
+            </value>
+            <value>
+                <fullName>Plan</fullName>
+                <default>false</default>
+                <label>Plan</label>
+            </value>
+            <value>
+                <fullName>Claim Number</fullName>
+                <default>false</default>
+                <label>Claim Number</label>
+            </value>
+            <value>
+                <fullName>Claim status</fullName>
+                <default>false</default>
+                <label>Claim status</label>
+            </value>
+            <value>
+                <fullName>Claim Payment Date</fullName>
+                <default>false</default>
+                <label>Claim Payment Date</label>
+            </value>
+            <value>
+                <fullName>Claim Approved Date</fullName>
+                <default>false</default>
+                <label>Claim Approved Date</label>
+            </value>
+            <value>
+                <fullName>Product Type</fullName>
+                <default>false</default>
+                <label>Product Type</label>
+            </value>
+            <value>
+                <fullName>Claim Submitted Date</fullName>
+                <default>false</default>
+                <label>Claim Submitted Date</label>
+            </value>
+            <value>
+                <fullName>TAT</fullName>
+                <default>false</default>
+                <label>TAT</label>
+            </value>
+            <value>
+                <fullName>Claim Type</fullName>
+                <default>false</default>
+                <label>Claim Type</label>
+            </value>
+            <value>
+                <fullName>Send Date</fullName>
+                <default>false</default>
+                <label>Send Date</label>
+            </value>
+            <value>
+                <fullName>Received Date</fullName>
+                <default>false</default>
+                <label>Received Date</label>
+            </value>
+            <value>
+                <fullName>Priority Customer</fullName>
+                <default>false</default>
+                <label>Priority Customer</label>
+            </value>
+            <value>
+                <fullName>Pay To Date</fullName>
+                <default>false</default>
+                <label>Pay To Date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

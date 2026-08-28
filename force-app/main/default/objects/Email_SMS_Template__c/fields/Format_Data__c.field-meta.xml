@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Format_Data__c</fullName>
+    <label>Format Data</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>[CONTACT_NAME]</fullName>
+                <default>false</default>
+                <label>[CONTACT_NAME]</label>
+            </value>
+            <value>
+                <fullName>[SURVEY_LINK]</fullName>
+                <default>false</default>
+                <label>[SURVEY_LINK]</label>
+            </value>
+            <value>
+                <fullName>[CASE_NUMBER]</fullName>
+                <default>false</default>
+                <label>[CASE_NUMBER]</label>
+            </value>
+            <value>
+                <fullName>[CASE_SUBJECT]</fullName>
+                <default>false</default>
+                <label>[CASE_SUBJECT]</label>
+            </value>
+            <value>
+                <fullName>[POLICY_NO]</fullName>
+                <default>false</default>
+                <label>[POLICY_NO]</label>
+            </value>
+            <value>
+                <fullName>[SHORT_URL]</fullName>
+                <default>false</default>
+                <label>[SHORT_URL]</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

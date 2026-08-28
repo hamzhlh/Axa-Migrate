@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Available_Sum__c</fullName>
+    <description>Total seluruh primary status dan sub status available</description>
+    <externalId>false</externalId>
+    <formula>Admin_Sum__c +  Walk_In_Sum__c +  Outbound_Sum__c +  Follow_Up_Sum__c +  Available_Sum__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Available Sum</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

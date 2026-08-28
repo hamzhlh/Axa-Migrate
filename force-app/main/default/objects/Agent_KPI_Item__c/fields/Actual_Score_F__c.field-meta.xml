@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Score_F__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( ISBLANK(Actual_Data__c) ||  ISNULL(Actual_Data__c) , NULL,
+IF ( Master_Data_1__c &gt; Master_Data_2__c,
+IF( Actual_Data__c &gt;= Master_Data_1__c, VALUE(TEXT(Master_Score_1__c)),
+IF( Actual_Data__c &gt;= Master_Data_2__c, VALUE(TEXT(Master_Score_2__c)),
+IF( Actual_Data__c &gt;= Master_Data_3__c, VALUE(TEXT(Master_Score_3__c)),
+IF( Actual_Data__c &gt;= Master_Data_4__c, VALUE(TEXT(Master_Score_4__c)),
+IF( Actual_Data__c &gt;= Master_Data_5__c, VALUE(TEXT(Master_Score_5__c)),
+0)))))
+,
+IF( Actual_Data__c &lt;= Master_Data_1__c, VALUE(TEXT(Master_Score_1__c)),
+IF( Actual_Data__c &lt;= Master_Data_2__c, VALUE(TEXT(Master_Score_2__c)),
+IF( Actual_Data__c &lt;= Master_Data_3__c, VALUE(TEXT(Master_Score_3__c)),
+IF( Actual_Data__c &lt;= Master_Data_4__c, VALUE(TEXT(Master_Score_4__c)),
+IF( Actual_Data__c &lt;= Master_Data_5__c, VALUE(TEXT(Master_Score_5__c)),
+0)))))
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Actual Score F</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

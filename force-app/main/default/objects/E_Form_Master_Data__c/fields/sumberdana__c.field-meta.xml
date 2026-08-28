@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumberdana__c</fullName>
+    <label>sumberdana</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gaji</fullName>
+                <default>false</default>
+                <label>Gaji</label>
+            </value>
+            <value>
+                <fullName>Penghasilan Suami/Istri</fullName>
+                <default>false</default>
+                <label>Penghasilan Suami/Istri</label>
+            </value>
+            <value>
+                <fullName>Hasil Investasi</fullName>
+                <default>false</default>
+                <label>Hasil Investasi</label>
+            </value>
+            <value>
+                <fullName>Lainnya</fullName>
+                <default>false</default>
+                <label>Lainnya</label>
+            </value>
+            <value>
+                <fullName>Tabungan</fullName>
+                <default>false</default>
+                <label>Tabungan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

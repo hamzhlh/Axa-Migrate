@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trigger_Update_Active__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Trigger Update Active</label>
+    <referenceTo>Named_User__c</referenceTo>
+    <relationshipLabel>Named User</relationshipLabel>
+    <relationshipName>Named_User</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

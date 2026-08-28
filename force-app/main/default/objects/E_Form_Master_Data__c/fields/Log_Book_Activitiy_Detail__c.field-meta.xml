@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_Book_Activitiy_Detail__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Log Book Activitiy Detail</label>
+    <referenceTo>Log_Book_Activitiy_Detail__c</referenceTo>
+    <relationshipLabel>E-Forms Master Data</relationshipLabel>
+    <relationshipName>E_Forms_Master_Data</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

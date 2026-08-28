@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AMFS</fullName>
+    <columns>NAME</columns>
+    <columns>Parameterized__c</columns>
+    <columns>Type__c</columns>
+    <columns>Seq__c</columns>
+    <columns>Field__c</columns>
+    <columns>Operator__c</columns>
+    <columns>Value__c</columns>
+    <columns>Value_Custom__c</columns>
+    <columns>Result__c</columns>
+    <columns>Category__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>ICF_Parameterized_Filter_Criteria__c.AMFS</value>
+    </filters>
+    <label>All - AMFS</label>
+    <language>en_US</language>
+</ListView>

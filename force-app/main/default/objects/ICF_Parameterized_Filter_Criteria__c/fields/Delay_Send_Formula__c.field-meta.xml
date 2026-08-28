@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delay_Send_Formula__c</fullName>
+    <formula>IF(OR(ISBLANK(Parameterized__r.Countdown_Send__c),ISNULL(Parameterized__r.Countdown_Send__c)), DATETIMEVALUE(TODAY() - 0), DATETIMEVALUE(TODAY() - Parameterized__r.Countdown_Send__c))</formula>
+    <label>Delay Send Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bank_Name__c</fullName>
+    <label>Bank Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Entity__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BCA</fullName>
+                <default>false</default>
+                <label>Bank Central Asia</label>
+            </value>
+            <value>
+                <fullName>Mandiri</fullName>
+                <default>false</default>
+                <label>Bank Mandiri</label>
+            </value>
+            <value>
+                <fullName>Danamon</fullName>
+                <default>false</default>
+                <label>Bank Danamon</label>
+            </value>
+            <value>
+                <fullName>BNI</fullName>
+                <default>false</default>
+                <label>Bank Negara Indonesia</label>
+            </value>
+            <value>
+                <fullName>BRI</fullName>
+                <default>false</default>
+                <label>Bank Rakyat Indonesia</label>
+            </value>
+            <value>
+                <fullName>Bank Syariah Mandiri</fullName>
+                <default>false</default>
+                <label>Bank Syariah Mandiri</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>BCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Mandiri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Danamon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>BNI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>BRI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Bank Syariah Mandiri</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

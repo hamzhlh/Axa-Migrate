@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Parameter_must_100</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF ( TEXT(Status_KPI__c) == &apos;Active&apos;,
+IF(Total_Parameter__c != 0,
+IF(Total_Parameter__c*100 != 100,TRUE,FALSE)
+,FALSE)
+,FALSE)</errorConditionFormula>
+    <errorMessage>Total Parameter KPI must 100%</errorMessage>
+</ValidationRule>

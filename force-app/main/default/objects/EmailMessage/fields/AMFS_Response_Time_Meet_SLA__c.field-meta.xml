@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMFS_Response_Time_Meet_SLA__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check AMFS SLA Target
+CS/Syariah/OH:&lt;= 6 hours
+PBC: &lt;=3 hours</description>
+    <label>AMFS Response Time Meet SLA?</label>
+    <type>Checkbox</type>
+</CustomField>

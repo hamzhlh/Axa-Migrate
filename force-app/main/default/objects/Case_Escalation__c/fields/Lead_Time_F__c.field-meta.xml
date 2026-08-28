@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Time_F__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+End_Datetime__c - Start_Datetime__c &gt; 0 ,
+TEXT( FLOOR( End_Datetime__c - Start_Datetime__c ) ) &amp; &quot; days &quot;
+&amp; TEXT( FLOOR( MOD( (End_Datetime__c - Start_Datetime__c ) * 24, 24 ) ) ) &amp; &quot; hours &quot;
+&amp; TEXT( ROUND( MOD( (End_Datetime__c - Start_Datetime__c ) * 24 * 60, 60 ), 0 ) ) &amp; &quot; minutes &quot;
+&amp; TEXT( ROUND( MOD( (End_Datetime__c - Start_Datetime__c ) * 24 * 60 * 60, 60 ), 0 ) ) &amp; &quot; seconds&quot;,
+&quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lead Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

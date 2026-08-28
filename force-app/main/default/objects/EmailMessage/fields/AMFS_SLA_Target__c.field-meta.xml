@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMFS_SLA_Target__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  CONTAINS(ToAddress, $Label.AMFS_Channel_CS), &quot;CS&quot;,
+  IF(
+    CONTAINS(ToAddress, $Label.AMFS_Channel_OH), &quot;OH&quot;,
+    IF(
+      CONTAINS(ToAddress, $Label.AMFS_Channel_PBC), &quot;PBC&quot;,
+      IF(
+        CONTAINS(ToAddress, $Label.AMFS_Channel_Syariah), &quot;Syariah&quot;,
+        IF(
+          CONTAINS(FromAddress, $Label.AMFS_Channel_CS), &quot;CS&quot;,
+          IF(
+            CONTAINS(FromAddress, $Label.AMFS_Channel_OH), &quot;OH&quot;,
+            IF(
+              CONTAINS(FromAddress, $Label.AMFS_Channel_PBC), &quot;PBC&quot;,
+              IF(
+                CONTAINS(FromAddress, $Label.AMFS_Channel_Syariah), &quot;Syariah&quot;,
+                NULL
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AMFS SLA Target</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

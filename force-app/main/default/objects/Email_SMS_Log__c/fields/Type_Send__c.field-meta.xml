@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Send__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (  ISPICKVAL(Category__c , &apos;Ereciept-AMFS&apos;),
+IF (
+ NOT( ISBLANK( Mobile__c ) ) ,
+&apos;SMS&apos;,
+&apos;Email&apos;
+),
+&apos;&apos; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Type Send</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

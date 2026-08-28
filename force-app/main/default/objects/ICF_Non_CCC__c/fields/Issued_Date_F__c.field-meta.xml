@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issued_Date_F__c</fullName>
+    <description>IF ( ISBLANK( Issued_Date__c ), NULL,
+DATE( VALUE(LEFT(Issued_Date__c,4)) ,VALUE(RIGHT(LEFT(Issued_Date__c,6),2)),VALUE(RIGHT(Issued_Date__c,2))) 
+)</description>
+    <formula>IF ( ISBLANK( Issued_Date__c ), NULL,
+ DATEVALUE(Issued_Date__c) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Issued Date F</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

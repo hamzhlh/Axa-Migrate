@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Doc__c</fullName>
+    <label>Type Doc</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>polis hardcopy</fullName>
+                <default>false</default>
+                <label>polis hardcopy</label>
+            </value>
+            <value>
+                <fullName>redelivery</fullName>
+                <default>false</default>
+                <label>redelivery</label>
+            </value>
+            <value>
+                <fullName>epolicy</fullName>
+                <default>false</default>
+                <label>epolicy</label>
+            </value>
+            <value>
+                <fullName>AXA Tower</fullName>
+                <default>false</default>
+                <label>AXA Tower</label>
+            </value>
+            <value>
+                <fullName>Kartu Kesehatan</fullName>
+                <default>false</default>
+                <label>Kartu Kesehatan</label>
+            </value>
+            <value>
+                <fullName>surat hardcopy</fullName>
+                <default>false</default>
+                <label>surat hardcopy</label>
+            </value>
+            <value>
+                <fullName>e-letter</fullName>
+                <default>false</default>
+                <label>e-letter</label>
+            </value>
+            <value>
+                <fullName>transaction statement (hardcopy)</fullName>
+                <default>false</default>
+                <label>transaction statement (hardcopy)</label>
+            </value>
+            <value>
+                <fullName>transaction statement (email)</fullName>
+                <default>false</default>
+                <label>transaction statement (email)</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Policy BTO</fullName>
+                <default>false</default>
+                <label>Policy BTO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

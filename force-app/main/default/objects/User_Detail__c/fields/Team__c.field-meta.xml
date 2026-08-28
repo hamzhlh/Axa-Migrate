@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team__c</fullName>
+    <inlineHelpText>for Workforce and KPI</inlineHelpText>
+    <label>Team</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ICT</fullName>
+                <default>false</default>
+                <label>ICT</label>
+            </value>
+            <value>
+                <fullName>WCT</fullName>
+                <default>false</default>
+                <label>WCT</label>
+            </value>
+            <value>
+                <fullName>TCC</fullName>
+                <default>false</default>
+                <label>TCC</label>
+            </value>
+            <value>
+                <fullName>Retention</fullName>
+                <default>false</default>
+                <label>Retention</label>
+            </value>
+            <value>
+                <fullName>Reinstate</fullName>
+                <default>false</default>
+                <label>Reinstate</label>
+            </value>
+            <value>
+                <fullName>Premium FU</fullName>
+                <default>false</default>
+                <label>Premium FU</label>
+            </value>
+            <value>
+                <fullName>DIGITAL TEAM</fullName>
+                <default>false</default>
+                <label>DIGITAL TEAM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

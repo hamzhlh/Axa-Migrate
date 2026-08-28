@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Name__c</fullName>
+    <description>Case__r.Agent_Name__c</description>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(Case__r.Origin) == &apos;Email&apos;,  Case__r.Owner:User.FirstName &amp; &quot; &quot; &amp; Case__r.Owner:User.LastName,
+Case__r.CreatedBy.FirstName &amp; &quot; &quot; &amp; Case__r.CreatedBy.LastName
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Agent Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

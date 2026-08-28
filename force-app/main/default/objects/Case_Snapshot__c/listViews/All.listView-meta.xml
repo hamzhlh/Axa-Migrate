@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Owner_Case__c</columns>
+    <columns>Periode__c</columns>
+    <columns>Age_Days__c</columns>
+    <columns>Date__c</columns>
+    <columns>Age_Hours__c</columns>
+    <columns>Closed__c</columns>
+    <columns>Entity__c</columns>
+    <columns>FCR__c</columns>
+    <columns>First_Interaction__c</columns>
+    <columns>Open__c</columns>
+    <columns>Repeat_Call__c</columns>
+    <columns>Service_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AMFS</value>
+    </filters>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

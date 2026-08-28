@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Running_By__c</fullName>
+    <description>Running By &quot;Scheduler&quot;, atau kosong. Untuk mencatat apakah update terakhir pada data telah &quot;diRunning&quot; oleh sistem (Scheduler) atau tidak (kosong). Digunakan utk keperluan check hasil API Scheduler Survey / Purecloud_GetSurveyResult_Batch.</description>
+    <externalId>false</externalId>
+    <label>Running By</label>
+    <length>128</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

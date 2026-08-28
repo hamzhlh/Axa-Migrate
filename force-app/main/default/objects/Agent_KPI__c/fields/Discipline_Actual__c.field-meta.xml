@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discipline_Actual__c</fullName>
+    <label>Discipline Actual</label>
+    <summarizedField>Agent_KPI_Item__c.Actual_Point__c</summarizedField>
+    <summaryFilterItems>
+        <field>Agent_KPI_Item__c.Parameter__c</field>
+        <operation>equals</operation>
+        <value>Discipline</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Agent_KPI_Item__c.Agent_KPI__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

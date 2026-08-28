@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_in_Minute__c</fullName>
+    <description>IF(CallDurationInSeconds/3600 &lt; 10, &apos;0&apos;,&apos;&apos;)+TEXT(FLOOR(CallDurationInSeconds/3600)) + &quot;:&quot; + IF(FLOOR(MOD(CallDurationInSeconds,3600)/60)&lt; 10, &apos;0&apos;,&apos;&apos;)+TEXT( FLOOR(MOD(CallDurationInSeconds,3600)/60)) + &quot;:&quot; + IF(MOD(MOD(CallDurationInSeconds,3600),60)&lt; 10, &apos;0&apos;,&apos;&apos;)+ TEXT(MOD(MOD(CallDurationInSeconds,3600),60))</description>
+    <externalId>false</externalId>
+    <formula>IF(Duration_Call__c/3600 &lt; 10, &apos;0&apos;,&apos;&apos;)+TEXT(FLOOR(Duration_Call__c/3600)) + &quot;:&quot; + IF(FLOOR(MOD(Duration_Call__c,3600)/60)&lt; 10, &apos;0&apos;,&apos;&apos;)+TEXT( FLOOR(MOD(Duration_Call__c,3600)/60)) + &quot;:&quot; + IF(MOD(MOD(Duration_Call__c,3600),60)&lt; 10, &apos;0&apos;,&apos;&apos;)+ TEXT(MOD(MOD(Duration_Call__c,3600),60))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Duration in Minute</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

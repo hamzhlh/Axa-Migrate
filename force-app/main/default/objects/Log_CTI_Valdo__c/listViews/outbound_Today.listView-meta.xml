@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>outbound_Today</fullName>
+    <columns>NAME</columns>
+    <columns>From__c</columns>
+    <columns>SIP__c</columns>
+    <columns>Status__c</columns>
+    <columns>Contact__c</columns>
+    <columns>ID_Valdo__c</columns>
+    <columns>Datetime_Start_Call__c</columns>
+    <columns>Recording_File__c</columns>
+    <columns>Agent__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Outbound</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>SIP__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>outound Today</label>
+    <language>en_US</language>
+</ListView>

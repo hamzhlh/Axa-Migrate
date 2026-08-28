@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Form_Utama__c</fullName>
+    <label>Form Utama</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Kind_Of_Transaction__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request_POS_Pengalihan Dana (Switching)</fullName>
+                <default>false</default>
+                <label>Request_POS_Pengalihan Dana (Switching)</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Alokasi Dana (Redirection)</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Alokasi Dana (Redirection)</label>
+            </value>
+            <value>
+                <fullName>Request_POS Lumpsum</fullName>
+                <default>false</default>
+                <label>Request_POS Lumpsum</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Switching &amp; Redirection</fullName>
+                <default>false</default>
+                <label>Request_POS_Switching &amp; Redirection</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Ahli waris</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Ahli waris</label>
+            </value>
+            <value>
+                <fullName>Request_POS_ Perubahan Alamat email</fullName>
+                <default>false</default>
+                <label>Request_POS_ Perubahan Alamat email</label>
+            </value>
+            <value>
+                <fullName>Request_POS_ Perubahan Alamat Koresponden</fullName>
+                <default>false</default>
+                <label>Request_POS_ Perubahan Alamat Koresponden</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan ID KTP</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan ID KTP</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Nomor Kontak</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Nomor Kontak</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Cuti Premi</fullName>
+                <default>false</default>
+                <label>Request_POS_Cuti Premi</label>
+            </value>
+            <value>
+                <fullName>Request_POS Pemulihan Polis</fullName>
+                <default>false</default>
+                <label>Request_POS Pemulihan Polis</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Withdrawal</fullName>
+                <default>false</default>
+                <label>Request_POS_Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Withdrawal Big Amount</fullName>
+                <default>false</default>
+                <label>Request_POS_Withdrawal Big Amount</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Redemption</fullName>
+                <default>false</default>
+                <label>Request_POS_Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_POS Cooling off</fullName>
+                <default>false</default>
+                <label>Request_POS Cooling off</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Policy Loan MSW</fullName>
+                <default>false</default>
+                <label>Request_POS_Policy Loan MSW</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Loan MSW</fullName>
+                <default>false</default>
+                <label>Request_POS_Loan MSW</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan SKDR</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan SKDR</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan SKDKK</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan SKDKK</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Data Pertanggungan</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Data Pertanggungan</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Tanggal Lahir</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Tanggal Lahir</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Payment Policy Loan MSW</fullName>
+                <default>false</default>
+                <label>Request_POS_Payment Policy Loan MSW</label>
+            </value>
+            <value>
+                <fullName>Request_POS Top Up Berkala</fullName>
+                <default>false</default>
+                <label>Request_POS Top Up Berkala</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Ejaan Nama</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Ejaan Nama</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Lainnya (Agama)</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Lainnya (Agama)</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Status Perkawinan</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Status Perkawinan</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Pekerjaan</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Pekerjaan</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Penghentian Cuti Premi</fullName>
+                <default>false</default>
+                <label>Request_POS_Penghentian Cuti Premi</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Frekuensi Pembayaran</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Frekuensi Pembayaran</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Pemegang Polis</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Pemegang Polis</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Duplikat Polis</fullName>
+                <default>false</default>
+                <label>Request_POS_Duplikat Polis</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Duplikat Kartu</fullName>
+                <default>false</default>
+                <label>Request_POS_Duplikat Kartu</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Lainnya</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Lainnya</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Refund Premi</fullName>
+                <default>false</default>
+                <label>Request_POS_Refund Premi</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Frekwensi pembayaran</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request_POS_Perubahan Frekwensi pembayaran</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Lainnya (Jenis Kelamin)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request_POS_Perubahan Lainnya (Jenis Kelamin)</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Lainnya (Kewarganegaraan)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request_POS_Perubahan Lainnya (Kewarganegaraan)</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Lainnya (Pekerjaan)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request_POS_Perubahan Lainnya (Pekerjaan)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Pengalihan Dana (Switching)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Alokasi Dana (Redirection)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS Lumpsum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Switching &amp; Redirection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Policy Loan MSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Data Pertanggungan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Tanggal Lahir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Payment Policy Loan MSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS Top Up Berkala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Refund Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Ahli waris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_ Perubahan Alamat email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_ Perubahan Alamat Koresponden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan ID KTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Nomor Kontak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Cuti Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS Pemulihan Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan SKDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan SKDKK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Ejaan Nama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Penghentian Cuti Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Frekuensi Pembayaran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Pemegang Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Duplikat Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Duplikat Kartu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Lainnya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Ubi/Uwi/Ure/Uco</controllingFieldValue>
+            <valueName>Request_POS_Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Ubi/Uwi/Ure/Uco</controllingFieldValue>
+            <valueName>Request_POS_Withdrawal Big Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Ubi/Uwi/Ure/Uco</controllingFieldValue>
+            <valueName>Request_POS_Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Ubi/Uwi/Ure/Uco</controllingFieldValue>
+            <valueName>Request_POS Cooling off</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

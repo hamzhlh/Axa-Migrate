@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AFI_Complaint</fullName>
+    <columns>NAME</columns>
+    <columns>Case_Type__c</columns>
+    <columns>Type__c</columns>
+    <columns>TAT__c</columns>
+    <columns>SLA__c</columns>
+    <columns>PIC_Department__c</columns>
+    <columns>Department_Queue__c</columns>
+    <columns>MOT__c</columns>
+    <columns>Entity__c</columns>
+    <columns>Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AFI</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Complaint</value>
+    </filters>
+    <label>AFI - Complaint</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinatesInternal>CEO_AFI_AFI_TM</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

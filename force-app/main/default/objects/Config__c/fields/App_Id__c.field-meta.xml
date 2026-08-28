@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>App_Id__c</fullName>
+    <label>App Id</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>JATIS</fullName>
+                <default>false</default>
+                <label>JATIS</label>
+            </value>
+            <value>
+                <fullName>Purecloud</fullName>
+                <default>false</default>
+                <label>Purecloud</label>
+            </value>
+            <value>
+                <fullName>T2MIO</fullName>
+                <default>false</default>
+                <label>T2MIO</label>
+            </value>
+            <value>
+                <fullName>JATIS_COSTER</fullName>
+                <default>false</default>
+                <label>JATIS_COSTER</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

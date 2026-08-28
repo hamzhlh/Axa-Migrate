@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Field__c</fullName>
+    <label>Send Field</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Submitted Date</fullName>
+                <default>false</default>
+                <label>Submitted Date</label>
+            </value>
+            <value>
+                <fullName>Issued Date</fullName>
+                <default>false</default>
+                <label>Issued Date</label>
+            </value>
+            <value>
+                <fullName>Due Date</fullName>
+                <default>false</default>
+                <label>Due Date</label>
+            </value>
+            <value>
+                <fullName>Captured Date</fullName>
+                <default>false</default>
+                <label>Captured Date</label>
+            </value>
+            <value>
+                <fullName>Approved Date</fullName>
+                <default>false</default>
+                <label>Approved Date</label>
+            </value>
+            <value>
+                <fullName>Claim Payment Date</fullName>
+                <default>false</default>
+                <label>Claim Payment Date</label>
+            </value>
+            <value>
+                <fullName>Claim Approved Date</fullName>
+                <default>false</default>
+                <label>Claim Approved Date</label>
+            </value>
+            <value>
+                <fullName>Claim Submitted Date</fullName>
+                <default>false</default>
+                <label>Claim Submitted Date</label>
+            </value>
+            <value>
+                <fullName>Send Date</fullName>
+                <default>false</default>
+                <label>Send Date</label>
+            </value>
+            <value>
+                <fullName>Received Date</fullName>
+                <default>false</default>
+                <label>Received Date</label>
+            </value>
+            <value>
+                <fullName>Pay To Date</fullName>
+                <default>false</default>
+                <label>Pay To Date</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
+            <valueName>Claim Payment Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
+            <valueName>Claim Approved Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
+            <valueName>Claim Submitted Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
+            <valueName>Submitted Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
+            <valueName>Issued Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
+            <valueName>Approved Date</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

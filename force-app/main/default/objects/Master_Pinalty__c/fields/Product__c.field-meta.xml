@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <label>Product</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MANDIRI JAMINAN KESEHATAN</fullName>
+                <default>false</default>
+                <label>MANDIRI JAMINAN KESEHATAN</label>
+            </value>
+            <value>
+                <fullName>MANDIRI SOLUSI KESEHATAN</fullName>
+                <default>false</default>
+                <label>MANDIRI SOLUSI KESEHATAN</label>
+            </value>
+            <value>
+                <fullName>MANDIRI HOSPITALIFE</fullName>
+                <default>false</default>
+                <label>MANDIRI HOSPITALIFE</label>
+            </value>
+            <value>
+                <fullName>MANDIRI PROTEKSI PENYAKIT TROPIS</fullName>
+                <default>false</default>
+                <label>MANDIRI PROTEKSI PENYAKIT TROPIS</label>
+            </value>
+            <value>
+                <fullName>MANDIRI PROTEKSI KANKER</fullName>
+                <default>false</default>
+                <label>MANDIRI PROTEKSI KANKER</label>
+            </value>
+            <value>
+                <fullName>MANDIRI PROTEKSI KANKER DINI</fullName>
+                <default>false</default>
+                <label>MANDIRI PROTEKSI KANKER DINI</label>
+            </value>
+            <value>
+                <fullName>MANDIRI HEART PROTECTION</fullName>
+                <default>false</default>
+                <label>MANDIRI HEART PROTECTION</label>
+            </value>
+            <value>
+                <fullName>MANDIRI PROTEKSI JANTUNG</fullName>
+                <default>false</default>
+                <label>MANDIRI PROTEKSI JANTUNG</label>
+            </value>
+            <value>
+                <fullName>MANDIRI SECURE LIFE</fullName>
+                <default>false</default>
+                <label>MANDIRI SECURE LIFE</label>
+            </value>
+            <value>
+                <fullName>MANDIRI PROTEKSI KESEHATAN SYARIAH</fullName>
+                <default>false</default>
+                <label>MANDIRI PROTEKSI KESEHATAN SYARIAH</label>
+            </value>
+            <value>
+                <fullName>MANDIRI INCOME REPLACEMENT</fullName>
+                <default>false</default>
+                <label>MANDIRI INCOME REPLACEMENT</label>
+            </value>
+            <value>
+                <fullName>MANDIRI SECURE PLAN</fullName>
+                <default>false</default>
+                <label>MANDIRI SECURE PLAN</label>
+            </value>
+            <value>
+                <fullName>MANDIRI JAMINAN KESEHATAN SYARIAH</fullName>
+                <default>false</default>
+                <label>MANDIRI JAMINAN KESEHATAN SYARIAH</label>
+            </value>
+            <value>
+                <fullName>MANDIR FAMILY CARE</fullName>
+                <default>false</default>
+                <label>MANDIR FAMILY CARE</label>
+            </value>
+            <value>
+                <fullName>MANDIRI HOSPITAL SAVING</fullName>
+                <default>false</default>
+                <label>MANDIRI HOSPITAL SAVING</label>
+            </value>
+            <value>
+                <fullName>Mandiri Elite Plan</fullName>
+                <default>false</default>
+                <label>Mandiri Elite Plan</label>
+            </value>
+            <value>
+                <fullName>Mandiri Investasi Prestise</fullName>
+                <default>false</default>
+                <label>Mandiri Investasi Prestise</label>
+            </value>
+            <value>
+                <fullName>Mandiri Perlindungan Sejahtera</fullName>
+                <default>false</default>
+                <label>Mandiri Perlindungan Sejahtera</label>
+            </value>
+            <value>
+                <fullName>Mandiri Wealth Plan (from basic account balance)</fullName>
+                <default>false</default>
+                <label>Mandiri Wealth Plan (from basic account balance)</label>
+            </value>
+            <value>
+                <fullName>Mandiri Legacy Plan</fullName>
+                <default>false</default>
+                <label>Mandiri Legacy Plan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

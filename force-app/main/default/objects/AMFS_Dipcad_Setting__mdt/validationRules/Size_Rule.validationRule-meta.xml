@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Size_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Address_Type__c = &apos;Receiver&apos;,
+    OR(
+        ISBLANK(Size_Attachment__c),
+        OR(
+            Size_Attachment__c &lt; 5,
+            Size_Attachment__c &gt; 36
+        )
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Size_Attachment__c</errorDisplayField>
+    <errorMessage>Total file attachment tidak boleh kurang dari 5 mb dan lebih dari 36 mb</errorMessage>
+</ValidationRule>

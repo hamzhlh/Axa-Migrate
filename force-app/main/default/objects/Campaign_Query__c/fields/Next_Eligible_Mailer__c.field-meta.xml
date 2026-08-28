@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Eligible_Mailer__c</fullName>
+    <label>Next Eligible Mailer</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st Mailer</fullName>
+                <default>false</default>
+                <label>1st Mailer</label>
+            </value>
+            <value>
+                <fullName>2nd Mailer</fullName>
+                <default>false</default>
+                <label>2nd Mailer</label>
+            </value>
+            <value>
+                <fullName>3rd Mailer</fullName>
+                <default>false</default>
+                <label>3rd Mailer</label>
+            </value>
+            <value>
+                <fullName>Stage 2 Package</fullName>
+                <default>false</default>
+                <label>Stage 2 Package</label>
+            </value>
+            <value>
+                <fullName>1st Mailer Stage 2</fullName>
+                <default>false</default>
+                <label>1st Mailer Stage 2</label>
+            </value>
+            <value>
+                <fullName>2nd Mailer Stage 2</fullName>
+                <default>false</default>
+                <label>2nd Mailer Stage 2</label>
+            </value>
+            <value>
+                <fullName>3rd Mailer Stage 2</fullName>
+                <default>false</default>
+                <label>3rd Mailer Stage 2</label>
+            </value>
+            <value>
+                <fullName>4th Mailer Stage 2</fullName>
+                <default>false</default>
+                <label>4th Mailer Stage 2</label>
+            </value>
+            <value>
+                <fullName>End</fullName>
+                <default>false</default>
+                <label>End</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

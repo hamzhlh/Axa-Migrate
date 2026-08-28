@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team__c</fullName>
+    <label>Team</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Entity__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inbound</fullName>
+                <default>false</default>
+                <label>Inbound</label>
+            </value>
+            <value>
+                <fullName>Outbound</fullName>
+                <default>false</default>
+                <label>Outbound</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Live Chat</fullName>
+                <default>false</default>
+                <label>Live Chat</label>
+            </value>
+            <value>
+                <fullName>Walk IN</fullName>
+                <default>false</default>
+                <label>Walk IN</label>
+            </value>
+            <value>
+                <fullName>Teleservice</fullName>
+                <default>false</default>
+                <label>Teleservice</label>
+            </value>
+            <value>
+                <fullName>CS Corpsol</fullName>
+                <default>false</default>
+                <label>CS Corpsol</label>
+            </value>
+            <value>
+                <fullName>Email &amp; Live Chat</fullName>
+                <default>false</default>
+                <label>Email &amp; Live Chat</label>
+            </value>
+            <value>
+                <fullName>Inbound Customer</fullName>
+                <default>false</default>
+                <label>Inbound Customer</label>
+            </value>
+            <value>
+                <fullName>Inbound Helpline</fullName>
+                <default>false</default>
+                <label>Inbound Helpline</label>
+            </value>
+            <value>
+                <fullName>Email Helpline</fullName>
+                <default>false</default>
+                <label>Email Helpline</label>
+            </value>
+            <value>
+                <fullName>WhatsApp</fullName>
+                <default>false</default>
+                <label>WhatsApp</label>
+            </value>
+            <value>
+                <fullName>Outbound TM</fullName>
+                <default>false</default>
+                <label>Outbound TM</label>
+            </value>
+            <value>
+                <fullName>Inbound TM</fullName>
+                <default>false</default>
+                <label>Inbound TM</label>
+            </value>
+            <value>
+                <fullName>Email TM</fullName>
+                <default>false</default>
+                <label>Email TM</label>
+            </value>
+            <value>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+                <label>Quality Control</label>
+            </value>
+            <value>
+                <fullName>Employee Benefit</fullName>
+                <default>false</default>
+                <label>Employee Benefit</label>
+            </value>
+            <value>
+                <fullName>Walk-in Regular</fullName>
+                <default>false</default>
+                <label>Walk-in Regular</label>
+            </value>
+            <value>
+                <fullName>Walk-in Preffered</fullName>
+                <default>false</default>
+                <label>Walk-in Preffered</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Walk IN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Email &amp; Live Chat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Inbound Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Inbound Helpline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Email Helpline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>WhatsApp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Outbound TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Inbound TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Email TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Quality Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Employee Benefit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Inbound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Outbound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Live Chat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Teleservice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>CS Corpsol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Walk-in Regular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Walk-in Preffered</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

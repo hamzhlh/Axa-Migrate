@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value__c</fullName>
+    <label>Value</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0 day</fullName>
+                <default>false</default>
+                <label>0 day</label>
+            </value>
+            <value>
+                <fullName>1 day</fullName>
+                <default>false</default>
+                <label>1 day</label>
+            </value>
+            <value>
+                <fullName>2 days</fullName>
+                <default>false</default>
+                <label>2 days</label>
+            </value>
+            <value>
+                <fullName>3 days</fullName>
+                <default>false</default>
+                <label>3 days</label>
+            </value>
+            <value>
+                <fullName>4 days</fullName>
+                <default>false</default>
+                <label>4 days</label>
+            </value>
+            <value>
+                <fullName>5 days</fullName>
+                <default>false</default>
+                <label>5 days</label>
+            </value>
+            <value>
+                <fullName>6 days</fullName>
+                <default>false</default>
+                <label>6 days</label>
+            </value>
+            <value>
+                <fullName>7 days</fullName>
+                <default>false</default>
+                <label>7 days</label>
+            </value>
+            <value>
+                <fullName>8 days</fullName>
+                <default>false</default>
+                <label>8 days</label>
+            </value>
+            <value>
+                <fullName>9 days</fullName>
+                <default>false</default>
+                <label>9 days</label>
+            </value>
+            <value>
+                <fullName>10 days</fullName>
+                <default>false</default>
+                <label>10 days</label>
+            </value>
+            <value>
+                <fullName>11 days</fullName>
+                <default>false</default>
+                <label>11 days</label>
+            </value>
+            <value>
+                <fullName>12 days</fullName>
+                <default>false</default>
+                <label>12 days</label>
+            </value>
+            <value>
+                <fullName>13 days</fullName>
+                <default>false</default>
+                <label>13 days</label>
+            </value>
+            <value>
+                <fullName>14 days</fullName>
+                <default>false</default>
+                <label>14 days</label>
+            </value>
+            <value>
+                <fullName>15 days</fullName>
+                <default>false</default>
+                <label>15 days</label>
+            </value>
+            <value>
+                <fullName>16 days</fullName>
+                <default>false</default>
+                <label>16 days</label>
+            </value>
+            <value>
+                <fullName>17 days</fullName>
+                <default>false</default>
+                <label>17 days</label>
+            </value>
+            <value>
+                <fullName>18 days</fullName>
+                <default>false</default>
+                <label>18 days</label>
+            </value>
+            <value>
+                <fullName>19 days</fullName>
+                <default>false</default>
+                <label>19 days</label>
+            </value>
+            <value>
+                <fullName>20 days</fullName>
+                <default>false</default>
+                <label>20 days</label>
+            </value>
+            <value>
+                <fullName>Bank Mandiri</fullName>
+                <default>false</default>
+                <label>Bank Mandiri</label>
+            </value>
+            <value>
+                <fullName>Other Bank</fullName>
+                <default>false</default>
+                <label>Other Bank</label>
+            </value>
+            <value>
+                <fullName>TRUE</fullName>
+                <default>false</default>
+                <label>TRUE</label>
+            </value>
+            <value>
+                <fullName>FALSE</fullName>
+                <default>false</default>
+                <label>FALSE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

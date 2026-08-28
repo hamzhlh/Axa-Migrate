@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>API_Status__c</fullName>
+    <description>Data dari API Purecloud Survey yang ditarik, untuk melihat apakah tarikan data error atau berhasil. Jikalau berhasil, maka &quot;Okay&quot;. Jika gagal, error log akan ditaruh.</description>
+    <externalId>false</externalId>
+    <label>API Status</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

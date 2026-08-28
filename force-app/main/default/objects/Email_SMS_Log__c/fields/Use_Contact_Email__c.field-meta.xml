@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Contact_Email__c</fullName>
+    <formula>IF (ISBLANK(Contact__c), FALSE, 
+IF (ISBLANK(Contact__r.Email), FALSE, 
+IF (!ISBLANK(Contact__r.EmailBouncedDate), FALSE, 
+IF (Contact__r.Email != Email__c, FALSE, 
+TRUE))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Use Contact Email</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

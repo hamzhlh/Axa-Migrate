@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Admin_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Redirect all contact email to admin email (for testing purposes only)
+Hard Go Live, 21 Maret 2017.
+22 Maret 2017, tutup dahulu</description>
+    <inlineHelpText>Redirect all contact email to admin email (for testing purposes only)</inlineHelpText>
+    <label>Send Admin</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

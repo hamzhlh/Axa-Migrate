@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description_Status_JATIS__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Status_JATIS__c, &apos;1&apos;, &apos;Success&apos;, &apos;2&apos;, &apos;Missing Parameter&apos;, &apos;3&apos;, &apos;Invalid User Id or Password &apos;, &apos;4&apos;, &apos;Invalid Message&apos;, &apos;5&apos;, &apos;Invalid MSISDN&apos;, &apos;6&apos;, &apos;Invalid Sender&apos;, &apos;7&apos;, &apos;Client’s IP Address is not allowed&apos;, &apos;8&apos;, &apos;Internal Server Error&apos;, &apos;9&apos;, &apos;Invalid division&apos;, &apos;20&apos;, &apos;Invalid Channel&apos;, &apos;21&apos;, &apos;Token Not Enough&apos;, &apos;22&apos;,&apos;Token Not Available&apos;,&apos;&apos;)</formula>
+    <label>Description Status JATIS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

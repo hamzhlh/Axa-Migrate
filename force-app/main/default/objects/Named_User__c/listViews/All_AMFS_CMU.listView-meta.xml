@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AMFS_CMU</fullName>
+    <columns>NAME</columns>
+    <columns>User__c</columns>
+    <columns>Status__c</columns>
+    <columns>Count_Case__c</columns>
+    <columns>Count_Skip__c</columns>
+    <columns>Division__c</columns>
+    <columns>Channel_Digital__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Trigger_Update_Active__c</columns>
+    <columns>Reset_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AMFS</value>
+    </filters>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>CMU</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <label>All - AMFS - CMU</label>
+    <language>en_US</language>
+</ListView>

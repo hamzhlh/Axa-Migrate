@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Type__c</fullName>
+    <label>Case Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Kind_Of_Transaction__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request_CS_Cancelled Redemption</fullName>
+                <default>false</default>
+                <label>Request_CS_Cancelled Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_UW_Cancelled SPAJ</fullName>
+                <default>false</default>
+                <label>Request_UW_Cancelled SPAJ</label>
+            </value>
+            <value>
+                <fullName>Customer Service_Cancelled Transaction</fullName>
+                <default>false</default>
+                <label>Customer Service_Cancelled Transaction</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Cancelled Withdrawal</fullName>
+                <default>false</default>
+                <label>Request_POS_Cancelled Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Premium Holiday Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Premium Holiday Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Lumpsum</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Lumpsum</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_NB/UW Payment Refund</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_NB/UW Payment Refund</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_NCB Cases</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_NCB Cases</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Claim Payment Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Claim Payment Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Reinstatement Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Reinstatement Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Pengalihan Dana (Switching)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Pengalihan Dana (Switching)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perbedaan / perubahan TTD</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perbedaan / perubahan TTD</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan Ahli waris</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan Ahli waris</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan Data Pertanggungan</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan Data Pertanggungan</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan Ejaan Nama</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan Ejaan Nama</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan Frekuensi Pembayaran</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan Frekuensi Pembayaran</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan ID KTP</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan ID KTP</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan Pemegang Polis</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan Pemegang Polis</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan SKDKK</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan SKDKK</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan SKDR</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan SKDR</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Perubahan Tanggal Lahir</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Perubahan Tanggal Lahir</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Redemption Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Redemption Status</label>
+            </value>
+            <value>
+                <fullName>Cek Refund Premi (Collection Related)</fullName>
+                <default>false</default>
+                <label>Cek Refund Premi (Collection Related)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Account Balance</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Account Balance</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Claim Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Claim Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Complaint Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Complaint Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Policy Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Policy Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Switching &amp; Redirection</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Switching &amp; Redirection</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Top Up Berkala (RTU)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Top Up Berkala (RTU)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Withdraw Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Withdraw Status</label>
+            </value>
+            <value>
+                <fullName>Request_CS Cooling off</fullName>
+                <default>false</default>
+                <label>Request_CS Cooling off</label>
+            </value>
+            <value>
+                <fullName>Complaint_CS Complaint</fullName>
+                <default>false</default>
+                <label>Complaint_CS Complaint</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Cuti Premi</fullName>
+                <default>false</default>
+                <label>Request_POS_Cuti Premi</label>
+            </value>
+            <value>
+                <fullName>Request_ADS Duplikat Kartu</fullName>
+                <default>false</default>
+                <label>Request_ADS Duplikat Kartu</label>
+            </value>
+            <value>
+                <fullName>Request_POS Duplikat Polis Konven</fullName>
+                <default>false</default>
+                <label>Request_POS Duplikat Polis Konven</label>
+            </value>
+            <value>
+                <fullName>Request_ADS Duplikat Polis TM</fullName>
+                <default>false</default>
+                <label>Request_ADS Duplikat Polis TM</label>
+            </value>
+            <value>
+                <fullName>Inquiry_CS Info Manfaat Polis</fullName>
+                <default>false</default>
+                <label>Inquiry_CS Info Manfaat Polis</label>
+            </value>
+            <value>
+                <fullName>Inquiry_CS Info Produk Polis</fullName>
+                <default>false</default>
+                <label>Inquiry_CS Info Produk Polis</label>
+            </value>
+            <value>
+                <fullName>Request_POS Lumpsum</fullName>
+                <default>false</default>
+                <label>Request_POS Lumpsum</label>
+            </value>
+            <value>
+                <fullName>Inquiry_CS None</fullName>
+                <default>false</default>
+                <label>Inquiry_CS None</label>
+            </value>
+            <value>
+                <fullName>Request_ADS Pemulihan Polis</fullName>
+                <default>false</default>
+                <label>Request_ADS Pemulihan Polis</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Pengalihan Dana (Switching)</fullName>
+                <default>false</default>
+                <label>Request_POS_Pengalihan Dana (Switching)</label>
+            </value>
+            <value>
+                <fullName>Request_CMU_Penyelesaian Keluhan</fullName>
+                <default>false</default>
+                <label>Request_CMU_Penyelesaian Keluhan</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perbedaan / perubahan TTD</fullName>
+                <default>false</default>
+                <label>Request_POS_Perbedaan / perubahan TTD</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Perubahan Ahli waris</fullName>
+                <default>false</default>
+                <label>Request_ADS_Perubahan Ahli waris</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Alokasi Dana (Redirection)</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Alokasi Dana (Redirection)</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Perubahan Data Pertanggungan</fullName>
+                <default>false</default>
+                <label>Request_ADS_Perubahan Data Pertanggungan</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Ejaan Nama</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Ejaan Nama</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Frekuensi Pembayaran</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Frekuensi Pembayaran</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Perubahan ID KTP</fullName>
+                <default>false</default>
+                <label>Request_ADS_Perubahan ID KTP</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Lainnya</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Lainnya</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Perubahan Nomor Kontak</fullName>
+                <default>false</default>
+                <label>Request_ADS_Perubahan Nomor Kontak</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Perubahan Pemegang Polis</fullName>
+                <default>false</default>
+                <label>Request_ADS_Perubahan Pemegang Polis</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Perubahan SKDKK</fullName>
+                <default>false</default>
+                <label>Request_ADS_Perubahan SKDKK</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Perubahan SKDR</fullName>
+                <default>false</default>
+                <label>Request_ADS_Perubahan SKDR</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Tanggal Lahir</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Tanggal Lahir</label>
+            </value>
+            <value>
+                <fullName>Request _Transaction Statement</fullName>
+                <default>false</default>
+                <label>Request _Transaction Statement</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Redemption</fullName>
+                <default>false</default>
+                <label>Request_POS_Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_CS_Redemption TM</fullName>
+                <default>false</default>
+                <label>Request_CS_Redemption TM</label>
+            </value>
+            <value>
+                <fullName>Request_CS Req Form / Pick Up Doc</fullName>
+                <default>false</default>
+                <label>Request_CS Req Form / Pick Up Doc</label>
+            </value>
+            <value>
+                <fullName>Request_CS_Submit Claim Ketidakmampuan</fullName>
+                <default>false</default>
+                <label>Request_CS_Submit Claim Ketidakmampuan</label>
+            </value>
+            <value>
+                <fullName>Request_CS_Submit Claim Meninggal</fullName>
+                <default>false</default>
+                <label>Request_CS_Submit Claim Meninggal</label>
+            </value>
+            <value>
+                <fullName>Request_CS_Submit Claim Rawat Inap</fullName>
+                <default>false</default>
+                <label>Request_CS_Submit Claim Rawat Inap</label>
+            </value>
+            <value>
+                <fullName>Request_CS Submit rawat jalan</fullName>
+                <default>false</default>
+                <label>Request_CS Submit rawat jalan</label>
+            </value>
+            <value>
+                <fullName>Request_CS Submit express claim</fullName>
+                <default>false</default>
+                <label>Request_CS Submit express claim</label>
+            </value>
+            <value>
+                <fullName>Request_CS_Submit Claim Sakit Kritis</fullName>
+                <default>false</default>
+                <label>Request_CS_Submit Claim Sakit Kritis</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Submit kelengkapan dok ADS</fullName>
+                <default>false</default>
+                <label>Request_ADS_Submit kelengkapan dok ADS</label>
+            </value>
+            <value>
+                <fullName>Request_CS Submit kelengkapan Doc Claim</fullName>
+                <default>false</default>
+                <label>Request_CS Submit kelengkapan Doc Claim</label>
+            </value>
+            <value>
+                <fullName>Request_CS_Submit Kelengkapan dok CMU</fullName>
+                <default>false</default>
+                <label>Request_CS_Submit Kelengkapan dok CMU</label>
+            </value>
+            <value>
+                <fullName>Request_CS Submit kelengkapan Doc POS</fullName>
+                <default>false</default>
+                <label>Request_CS Submit kelengkapan Doc POS</label>
+            </value>
+            <value>
+                <fullName>Request_UW_Submit Kelengkapan SPAJ</fullName>
+                <default>false</default>
+                <label>Request_UW_Submit Kelengkapan SPAJ</label>
+            </value>
+            <value>
+                <fullName>Request_CS_Submit SPAJ</fullName>
+                <default>false</default>
+                <label>Request_CS_Submit SPAJ</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Switching &amp; Redirection</fullName>
+                <default>false</default>
+                <label>Request_POS_Switching &amp; Redirection</label>
+            </value>
+            <value>
+                <fullName>Inquiry_CS Tanya Mekanisme/Prosedur</fullName>
+                <default>false</default>
+                <label>Inquiry_CS Tanya Mekanisme/Prosedur</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Top Up Berkala (RTU)</fullName>
+                <default>false</default>
+                <label>Request_POS_Top Up Berkala (RTU)</label>
+            </value>
+            <value>
+                <fullName>Inquiry_CS Touch Point CCC_Care Corner</fullName>
+                <default>false</default>
+                <label>Inquiry_CS Touch Point CCC_Care Corner</label>
+            </value>
+            <value>
+                <fullName>Inquiry_CS Touch Point CCC_Quick Response</fullName>
+                <default>false</default>
+                <label>Inquiry_CS Touch Point CCC_Quick Response</label>
+            </value>
+            <value>
+                <fullName>Request_CS_Quick Response</fullName>
+                <default>false</default>
+                <label>Request_CS_Quick Response</label>
+            </value>
+            <value>
+                <fullName>Inquiry_CS Touch Point CCC_Regional</fullName>
+                <default>false</default>
+                <label>Inquiry_CS Touch Point CCC_Regional</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Withdrawal</fullName>
+                <default>false</default>
+                <label>Request_POS_Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Withdrawal Big Amount</fullName>
+                <default>false</default>
+                <label>Request_POS_Withdrawal Big Amount</label>
+            </value>
+            <value>
+                <fullName>Inquiry_CS Wrong Counter</fullName>
+                <default>false</default>
+                <label>Inquiry_CS Wrong Counter</label>
+            </value>
+            <value>
+                <fullName>Request_Prospek In Branch</fullName>
+                <default>false</default>
+                <label>Request_Prospek In Branch</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection Related</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection Related</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Cek Refund Premi (NB)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Cek Refund Premi (NB)</label>
+            </value>
+            <value>
+                <fullName>Inquiry_Other</fullName>
+                <default>false</default>
+                <label>Inquiry_Other</label>
+            </value>
+            <value>
+                <fullName>Inquiry_TS explanation</fullName>
+                <default>false</default>
+                <label>Inquiry_TS explanation</label>
+            </value>
+            <value>
+                <fullName>Request _Call Confirmation CR Withdrawal PBC</fullName>
+                <default>false</default>
+                <label>Request _Call Confirmation CR Withdrawal PBC</label>
+            </value>
+            <value>
+                <fullName>Request _Call Confirmation CR Withdrawal Regular</fullName>
+                <default>false</default>
+                <label>Request _Call Confirmation CR Withdrawal Regular</label>
+            </value>
+            <value>
+                <fullName>Request _Form NB / After Sales</fullName>
+                <default>false</default>
+                <label>Request _Form NB / After Sales</label>
+            </value>
+            <value>
+                <fullName>Request _Other</fullName>
+                <default>false</default>
+                <label>Request _Other</label>
+            </value>
+            <value>
+                <fullName>Request_Up date Address</fullName>
+                <default>false</default>
+                <label>Request_Up date Address</label>
+            </value>
+            <value>
+                <fullName>Request_Up date Email Address</fullName>
+                <default>false</default>
+                <label>Request_Up date Email Address</label>
+            </value>
+            <value>
+                <fullName>Request_Up date Nomor Kontak</fullName>
+                <default>false</default>
+                <label>Request_Up date Nomor Kontak</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery ? Speed Up Delivery</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery ? Speed Up Delivery</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery ? Change of Address</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery ? Change of Address</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery - Inquiry Receipt</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery - Inquiry Receipt</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery ? Policy Retur</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery ? Policy Retur</label>
+            </value>
+            <value>
+                <fullName>Request_Resend E-Policy</fullName>
+                <default>false</default>
+                <label>Request_Resend E-Policy</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Polis Convent</fullName>
+                <default>false</default>
+                <label>Request_Reprint Polis Convent</label>
+            </value>
+            <value>
+                <fullName>Request_Add Debit</fullName>
+                <default>false</default>
+                <label>Request_Add Debit</label>
+            </value>
+            <value>
+                <fullName>Request_Auto Reinstate</fullName>
+                <default>false</default>
+                <label>Request_Auto Reinstate</label>
+            </value>
+            <value>
+                <fullName>Request_Tax Amnesty</fullName>
+                <default>false</default>
+                <label>Request_Tax Amnesty</label>
+            </value>
+            <value>
+                <fullName>Request_VRS</fullName>
+                <default>false</default>
+                <label>Request_VRS</label>
+            </value>
+            <value>
+                <fullName>Request_Refund Premi</fullName>
+                <default>false</default>
+                <label>Request_Refund Premi</label>
+            </value>
+            <value>
+                <fullName>Request_PDF e-Policy</fullName>
+                <default>false</default>
+                <label>Request_PDF e-Policy</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Incoming Documents</fullName>
+                <default>false</default>
+                <label>Request_Claim_Incoming Documents</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Status</fullName>
+                <default>false</default>
+                <label>Request_Claim_Status</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Payment</fullName>
+                <default>false</default>
+                <label>Request_Claim_Payment</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Japen</fullName>
+                <default>false</default>
+                <label>Request_Claim_Japen</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Return Documents</fullName>
+                <default>false</default>
+                <label>Request_Claim_Return Documents</label>
+            </value>
+            <value>
+                <fullName>Request_Claim Health_Express Claim</fullName>
+                <default>false</default>
+                <label>Request_Claim Health_Express Claim</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Withdrawal Big Amount</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Withdrawal Big Amount</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Withdrawal</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Redemption</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Non Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Non Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Ubi/Uwi/Ure/Uco</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Ubi/Uwi/Ure/Uco</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Non Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Non Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Financial</label>
+            </value>
+            <value>
+                <fullName>Request_NB_Polis Belum Cetak</fullName>
+                <default>false</default>
+                <label>Request_NB_Polis Belum Cetak</label>
+            </value>
+            <value>
+                <fullName>Request_Call Back Withdrawl PBC (HL &amp; EMAIL)</fullName>
+                <default>false</default>
+                <label>Request_Call Back Withdrawl PBC (HL &amp; EMAIL)</label>
+            </value>
+            <value>
+                <fullName>Request_Resend SMS E-Policy</fullName>
+                <default>false</default>
+                <label>Request_Resend SMS E-Policy</label>
+            </value>
+            <value>
+                <fullName>Request_Call Back Withdrawl Reguler (HL &amp; EMAIL)</fullName>
+                <default>false</default>
+                <label>Request_Call Back Withdrawl Reguler (HL &amp; EMAIL)</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Document NCB</fullName>
+                <default>false</default>
+                <label>Request_ADS_Document NCB</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Confirmation Non Financial</fullName>
+                <default>false</default>
+                <label>Request_ADS_Confirmation Non Financial</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Confirmation Financial</fullName>
+                <default>false</default>
+                <label>Request_ADS_Confirmation Financial</label>
+            </value>
+            <value>
+                <fullName>Request_Prospek TM</fullName>
+                <default>false</default>
+                <label>Request_Prospek TM</label>
+            </value>
+            <value>
+                <fullName>Request_Prospek CorpSol</fullName>
+                <default>false</default>
+                <label>Request_Prospek CorpSol</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Hold Transfer Auto Surrender MAPAN</fullName>
+                <default>false</default>
+                <label>Request_POS_Hold Transfer Auto Surrender MAPAN</label>
+            </value>
+            <value>
+                <fullName>Request_DMU_Hold Pengiriman Buku Polis</fullName>
+                <default>false</default>
+                <label>Request_DMU_Hold Pengiriman Buku Polis</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Hold Surat Perubahan Alamat</fullName>
+                <default>false</default>
+                <label>Request_POS_Hold Surat Perubahan Alamat</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Major Minor</fullName>
+                <default>false</default>
+                <label>Request_POS_Major Minor</label>
+            </value>
+            <value>
+                <fullName>Request_CR_Redemption</fullName>
+                <default>false</default>
+                <label>Request_CR_Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_CR_Withdrawal Big Amount</fullName>
+                <default>false</default>
+                <label>Request_CR_Withdrawal Big Amount</label>
+            </value>
+            <value>
+                <fullName>Request-Printing New Policy DMTM</fullName>
+                <default>false</default>
+                <label>Request-Printing New Policy DMTM</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Tele Claim</fullName>
+                <default>false</default>
+                <label>Request_Claim_Tele Claim</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Perubahan Ejaan nama</fullName>
+                <default>false</default>
+                <label>Request_ADS - Perubahan Ejaan nama</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Perubahan Title</fullName>
+                <default>false</default>
+                <label>Request_ADS - Perubahan Title</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Perubahan DOB</fullName>
+                <default>false</default>
+                <label>Request_ADS - Perubahan DOB</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Perubahan Gender</fullName>
+                <default>false</default>
+                <label>Request_ADS - Perubahan Gender</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Perubahan Alamat Email</fullName>
+                <default>false</default>
+                <label>Request_ADS - Perubahan Alamat Email</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Perubahan Relationship</fullName>
+                <default>false</default>
+                <label>Request_ADS - Perubahan Relationship</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Rekening Penerimaan NCB</fullName>
+                <default>false</default>
+                <label>Request_ADS - Rekening Penerimaan NCB</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Perubahan Frekuensi Pembayaran</fullName>
+                <default>false</default>
+                <label>Request_ADS - Perubahan Frekuensi Pembayaran</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Hold Pengiriman Buku Polis</fullName>
+                <default>false</default>
+                <label>Request_POS_Hold Pengiriman Buku Polis</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery-surat retur</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery-surat retur</label>
+            </value>
+            <value>
+                <fullName>Request_Take Out Auto Reinstate</fullName>
+                <default>false</default>
+                <label>Request_Take Out Auto Reinstate</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Kartu ADS</fullName>
+                <default>false</default>
+                <label>Request_Reprint Kartu ADS</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Kartu NBUW</fullName>
+                <default>false</default>
+                <label>Request_Reprint Kartu NBUW</label>
+            </value>
+            <value>
+                <fullName>Request_Confirmation Financial</fullName>
+                <default>false</default>
+                <label>Request_Confirmation Financial</label>
+            </value>
+            <value>
+                <fullName>Request_Confirmation Non Financial</fullName>
+                <default>false</default>
+                <label>Request_Confirmation Non Financial</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Transfer Tolakan NCB</fullName>
+                <default>false</default>
+                <label>Request_ADS_Transfer Tolakan NCB</label>
+            </value>
+            <value>
+                <fullName>Request E-Policy</fullName>
+                <default>false</default>
+                <label>Request E-Policy</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Major Minor Fin</fullName>
+                <default>false</default>
+                <label>Request_POS_Major Minor Fin</label>
+            </value>
+            <value>
+                <fullName>Request_CCC_Surat Kepemilikan Polis</fullName>
+                <default>false</default>
+                <label>Request_CCC_Surat Kepemilikan Polis</label>
+            </value>
+            <value>
+                <fullName>Request_CCC_Call Back Customer</fullName>
+                <default>false</default>
+                <label>Request_CCC_Call Back Customer</label>
+            </value>
+            <value>
+                <fullName>Request_CCC_Call Back DMU</fullName>
+                <default>false</default>
+                <label>Request_CCC_Call Back DMU</label>
+            </value>
+            <value>
+                <fullName>Request_Hold Debit</fullName>
+                <default>false</default>
+                <label>Request_Hold Debit</label>
+            </value>
+            <value>
+                <fullName>Request_DMU_Reprint Polis TM</fullName>
+                <default>false</default>
+                <label>Request_DMU_Reprint Polis TM</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Duplicate Policy DMTM</fullName>
+                <default>false</default>
+                <label>Request_ADS_Duplicate Policy DMTM</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Major Minor Non Fin</fullName>
+                <default>false</default>
+                <label>Request_POS_Major Minor Non Fin</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Major Minor Withdrawal</fullName>
+                <default>false</default>
+                <label>Request_POS_Major Minor Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Information Fin</fullName>
+                <default>false</default>
+                <label>Request_POS_Information Fin</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Information Non Fin</fullName>
+                <default>false</default>
+                <label>Request_POS_Information Non Fin</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Information Withdrawal</fullName>
+                <default>false</default>
+                <label>Request_POS_Information Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Request_DPLK_Information</fullName>
+                <default>false</default>
+                <label>Request_DPLK_Information</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Cancelled Redemption</fullName>
+                <default>false</default>
+                <label>Request_POS_Cancelled Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_POS Cooling off</fullName>
+                <default>false</default>
+                <label>Request_POS Cooling off</label>
+            </value>
+            <value>
+                <fullName>Request_POS Duplikat Kartu</fullName>
+                <default>false</default>
+                <label>Request_POS Duplikat Kartu</label>
+            </value>
+            <value>
+                <fullName>Request_POS Pemulihan Polis</fullName>
+                <default>false</default>
+                <label>Request_POS Pemulihan Polis</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Ahli waris</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Ahli waris</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Data Pertanggungan</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Data Pertanggungan</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan ID KTP</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan ID KTP</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Nomor Kontak</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Nomor Kontak</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Pemegang Polis</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Pemegang Polis</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan SKDKK</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan SKDKK</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan SKDR</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan SKDR</label>
+            </value>
+            <value>
+                <fullName>Request_Prospek FA Mobile</fullName>
+                <default>false</default>
+                <label>Request_Prospek FA Mobile</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Refund Premi</fullName>
+                <default>false</default>
+                <label>Request_POS_Refund Premi</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Refund Premi</fullName>
+                <default>false</default>
+                <label>Request_ADS_Refund Premi</label>
+            </value>
+            <value>
+                <fullName>Request_UW_Refund Premi</fullName>
+                <default>false</default>
+                <label>Request_UW_Refund Premi</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CS_Collection Related</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CS_Collection Related</label>
+            </value>
+            <value>
+                <fullName>Request_DMU_Sanggah</fullName>
+                <default>false</default>
+                <label>Request_DMU_Sanggah</label>
+            </value>
+            <value>
+                <fullName>Request_DMU_Sanggah Berulang</fullName>
+                <default>false</default>
+                <label>Request_DMU_Sanggah Berulang</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Claim_Form</fullName>
+                <default>false</default>
+                <label>Corpsol_Claim_Form</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Claim_History</fullName>
+                <default>false</default>
+                <label>Corpsol_Claim_History</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Claim_Excess Claim</fullName>
+                <default>false</default>
+                <label>Corpsol_Claim_Excess Claim</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Membership_Update Email Address</fullName>
+                <default>false</default>
+                <label>Corpsol_Membership_Update Email Address</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Membership_Update Account Number</fullName>
+                <default>false</default>
+                <label>Corpsol_Membership_Update Account Number</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Membership_ Reprint Card: Lost/Damage/Wrong Data</fullName>
+                <default>false</default>
+                <label>Corpsol_Membership_ Reprint Card: Lost/Damage/Wrong Data</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Membership_Update: Add/Term/Change Data</fullName>
+                <default>false</default>
+                <label>Corpsol_Membership_Update: Add/Term/Change Data</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Provider_New</fullName>
+                <default>false</default>
+                <label>Corpsol_Provider_New</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Penjaminan</fullName>
+                <default>false</default>
+                <label>Corpsol_Penjaminan</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Ex-Gratia</fullName>
+                <default>false</default>
+                <label>Corpsol_Ex-Gratia</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Telekonsultasi_Pengkinian data email</fullName>
+                <default>false</default>
+                <label>Corpsol_Telekonsultasi_Pengkinian data email</label>
+            </value>
+            <value>
+                <fullName>Corpsol_Telekonsultasi_Pengkinian data No HP</fullName>
+                <default>false</default>
+                <label>Corpsol_Telekonsultasi_Pengkinian data No HP</label>
+            </value>
+            <value>
+                <fullName>Request_MDM ID</fullName>
+                <default>false</default>
+                <label>Request_MDM ID</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MSW</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MSW</label>
+            </value>
+            <value>
+                <fullName>Process &amp; Procedure POS_Policy Loan MSW</fullName>
+                <default>false</default>
+                <label>Process &amp; Procedure POS_Policy Loan MSW</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Policy Loan Status MSW</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Policy Loan Status MSW</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Payment Policy Loan MSW</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Payment Policy Loan MSW</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Policy Loan MSW</fullName>
+                <default>false</default>
+                <label>Request_POS_Policy Loan MSW</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Payment Policy Loan MSW</fullName>
+                <default>false</default>
+                <label>Request_POS_Payment Policy Loan MSW</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Penghentian Cuti Premi</fullName>
+                <default>false</default>
+                <label>Request_POS_Penghentian Cuti Premi</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Release PH Passive</fullName>
+                <default>false</default>
+                <label>Request_POS_Release PH Passive</label>
+            </value>
+            <value>
+                <fullName>Activasi EMMA</fullName>
+                <default>false</default>
+                <label>Activasi EMMA</label>
+            </value>
+            <value>
+                <fullName>Transaksi EMMA</fullName>
+                <default>false</default>
+                <label>Transaksi EMMA</label>
+            </value>
+            <value>
+                <fullName>Surat Penjelasan Keluhan/Surat Tanggapan</fullName>
+                <default>false</default>
+                <label>Surat Penjelasan Keluhan/Surat Tanggapan</label>
+            </value>
+            <value>
+                <fullName>Surat Penyelesaian Keluhan</fullName>
+                <default>false</default>
+                <label>Surat Penyelesaian Keluhan</label>
+            </value>
+            <value>
+                <fullName>Request_POS_ Perubahan Alamat email</fullName>
+                <default>false</default>
+                <label>Request_POS_ Perubahan Alamat email</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Redemption TM</fullName>
+                <default>false</default>
+                <label>Request_ADS_Redemption TM</label>
+            </value>
+            <value>
+                <fullName>Cooling Off</fullName>
+                <default>false</default>
+                <label>Cooling Off</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Pemulihan Polis</fullName>
+                <default>false</default>
+                <label>Request_ADS_Pemulihan Polis</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen MP Resign</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen MP Resign</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen Kelengkapan</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen Kelengkapan</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen Life Cycle Fund</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen Life Cycle Fund</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen MP Dipercepat</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen MP Dipercepat</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen MP Ditunda</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen MP Ditunda</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen MP Meninggal Dunia</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen MP Meninggal Dunia</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen MP Normal</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen MP Normal</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen Penarikan Iuran Sebagian</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen Penarikan Iuran Sebagian</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen Pendaftaran Individu</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen Pendaftaran Individu</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen Pengalihan</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen Pengalihan</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen Pengkinian Data</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen Pengkinian Data</label>
+            </value>
+            <value>
+                <fullName>Dplk - Submit Dokumen Perubahan Investasi</fullName>
+                <default>false</default>
+                <label>Dplk - Submit Dokumen Perubahan Investasi</label>
+            </value>
+            <value>
+                <fullName>Dplk - Tanya Mekanisme / Prosedur</fullName>
+                <default>false</default>
+                <label>Dplk - Tanya Mekanisme / Prosedur</label>
+            </value>
+            <value>
+                <fullName>Request_POS_ Perubahan Alamat Koresponden</fullName>
+                <default>false</default>
+                <label>Request_POS_ Perubahan Alamat Koresponden</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_Perubahan Alamat Korespondensi</fullName>
+                <default>false</default>
+                <label>Request_ADS_Perubahan Alamat Korespondensi</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</label>
+            </value>
+            <value>
+                <fullName>Request_ADS_NCB Over SLA</fullName>
+                <default>false</default>
+                <label>Request_ADS_NCB Over SLA</label>
+            </value>
+            <value>
+                <fullName>Request_Portofolio Syariah_Batal Polis</fullName>
+                <default>false</default>
+                <label>Request_Portofolio Syariah_Batal Polis</label>
+            </value>
+            <value>
+                <fullName>Request_Portofolio Syariah_Keluhan</fullName>
+                <default>false</default>
+                <label>Request_Portofolio Syariah_Keluhan</label>
+            </value>
+            <value>
+                <fullName>Request_Portofolio Syariah_Konversi</fullName>
+                <default>false</default>
+                <label>Request_Portofolio Syariah_Konversi</label>
+            </value>
+            <value>
+                <fullName>Request_Portofolio Syariah_Transfer ASLI</fullName>
+                <default>false</default>
+                <label>Request_Portofolio Syariah_Transfer ASLI</label>
+            </value>
+            <value>
+                <fullName>Request_Portofolio Syariah_Terima Dokumen</fullName>
+                <default>false</default>
+                <label>Request_Portofolio Syariah_Terima Dokumen</label>
+            </value>
+            <value>
+                <fullName>Request_Portofolio Syariah_Batal Polis &amp; Konversi</fullName>
+                <default>false</default>
+                <label>Request_Portofolio Syariah_Batal Polis &amp; Konversi</label>
+            </value>
+            <value>
+                <fullName>Not Activated Emma</fullName>
+                <default>false</default>
+                <label>Not Activated Emma</label>
+            </value>
+            <value>
+                <fullName>Already Activated Emma</fullName>
+                <default>false</default>
+                <label>Already Activated Emma</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Transaksi EMMA</controllingFieldValue>
+            <valueName>Transaksi EMMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activasi EMMA</controllingFieldValue>
+            <valueName>Activasi EMMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surat Penyelesaian Keluhan</controllingFieldValue>
+            <valueName>Surat Penyelesaian Keluhan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surat Penjelasan Keluhan/Surat Tanggapan</controllingFieldValue>
+            <valueName>Surat Penjelasan Keluhan/Surat Tanggapan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_NCB Over SLA</controllingFieldValue>
+            <valueName>Request_ADS_NCB Over SLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Activated Emma</controllingFieldValue>
+            <valueName>Not Activated Emma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Already Activated Emma</controllingFieldValue>
+            <valueName>Already Activated Emma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Courier Delivery - Inquiry Receipt</controllingFieldValue>
+            <valueName>Request_Courier Delivery - Inquiry Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_CR_Redemption</controllingFieldValue>
+            <valueName>Request_CR_Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_CR_Redemption TM</controllingFieldValue>
+            <valueName>Request_CS_Redemption TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_CR_Withdrawal Big Amount</controllingFieldValue>
+            <valueName>Request_CR_Withdrawal Big Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_DMU_Hold Pengiriman Buku Polis</controllingFieldValue>
+            <valueName>Request_DMU_Hold Pengiriman Buku Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_DMU_Reprint Polis TM</controllingFieldValue>
+            <valueName>Request_DMU_Reprint Polis TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_DMU_Sanggah</controllingFieldValue>
+            <valueName>Request_DMU_Sanggah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_DMU_Sanggah Berulang</controllingFieldValue>
+            <valueName>Request_DMU_Sanggah Berulang</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Hold Debit</controllingFieldValue>
+            <valueName>Request_Hold Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_NB_Polis Belum Cetak</controllingFieldValue>
+            <valueName>Request_NB_Polis Belum Cetak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Membership_Update Account Number</controllingFieldValue>
+            <valueName>Corpsol_Membership_Update Account Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cancelled Redemption</controllingFieldValue>
+            <valueName>Request_POS_Cancelled Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Membership_Update Email Address</controllingFieldValue>
+            <valueName>Corpsol_Membership_Update Email Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cancelled Withdrawal</controllingFieldValue>
+            <valueName>Request_POS_Cancelled Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Penjaminan</controllingFieldValue>
+            <valueName>Corpsol_Penjaminan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Confirmation Financial</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Provider_New</controllingFieldValue>
+            <valueName>Corpsol_Provider_New</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Confirmation Redemption</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Telekonsultasi_Pengkinian data email</controllingFieldValue>
+            <valueName>Corpsol_Telekonsultasi_Pengkinian data email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Confirmation Withdrawal</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Telekonsultasi_Pengkinian data No HP</controllingFieldValue>
+            <valueName>Corpsol_Telekonsultasi_Pengkinian data No HP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Confirmation Withdrawal Big Amount</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Withdrawal Big Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Cek Saldo</controllingFieldValue>
+            <controllingFieldValue>Cek saldo</controllingFieldValue>
+            <valueName>Policy Inquiry_Account Balance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cuti Premi</controllingFieldValue>
+            <valueName>Request_POS_Cuti Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Hold Pengiriman Buku Polis</controllingFieldValue>
+            <valueName>Request_POS_Hold Pengiriman Buku Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Hold Surat Perubahan Alamat</controllingFieldValue>
+            <valueName>Request_POS_Hold Surat Perubahan Alamat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Hold Transfer Auto Surrender MAPAN</controllingFieldValue>
+            <valueName>Request_POS_Hold Transfer Auto Surrender MAPAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Information Fin</controllingFieldValue>
+            <valueName>Request_POS_Information Fin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Information Non Fin</controllingFieldValue>
+            <valueName>Request_POS_Information Non Fin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Information Withdrawal</controllingFieldValue>
+            <valueName>Request_POS_Information Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <valueName>Request_POS_Japen Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Japen Non Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Ubi/Uwi/Ure/Uco</controllingFieldValue>
+            <valueName>Request_POS_Japen Ubi/Uwi/Ure/Uco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Major Minor</controllingFieldValue>
+            <valueName>Request_POS_Major Minor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Pengalihan Dana (Switching)</controllingFieldValue>
+            <valueName>Request_POS_Pengalihan Dana (Switching)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perbedaan / perubahan TTD</controllingFieldValue>
+            <valueName>Request_POS_Perbedaan / perubahan TTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Ahli waris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat email</controllingFieldValue>
+            <valueName>Request_POS_ Perubahan Alamat email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat Koresponden</controllingFieldValue>
+            <valueName>Request_POS_ Perubahan Alamat Koresponden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Alokasi Dana (Redirection)</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Alokasi Dana (Redirection)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Data Pertanggungan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen Kelengkapan</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen Kelengkapan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Ejaan Nama</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Ejaan Nama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen Life Cycle Fund</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen Life Cycle Fund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Frekuensi Pembayaran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Dipercepat</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen MP Dipercepat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan ID KTP</controllingFieldValue>
+            <valueName>Request_POS_Perubahan ID KTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS - Confirmation Non Financial</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Non Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Ditunda</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen MP Ditunda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Lainnya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Meninggal Dunia</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen MP Meninggal Dunia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Nomor Kontak</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Nomor Kontak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Normal</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen MP Normal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Resign</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen MP Resign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Pemegang Polis</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Pemegang Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen Penarikan Iuran Sebagian</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen Penarikan Iuran Sebagian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan SKDKK</controllingFieldValue>
+            <valueName>Request_POS_Perubahan SKDKK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen Pendaftaran Individu</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen Pendaftaran Individu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan SKDR</controllingFieldValue>
+            <valueName>Request_POS_Perubahan SKDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen Pengalihan</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen Pengalihan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Tanggal Lahir</controllingFieldValue>
+            <valueName>Request_POS_Perubahan Tanggal Lahir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen Pengkinian Data</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen Pengkinian Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Redemption</controllingFieldValue>
+            <valueName>Request_POS_Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Submit Dokumen Perubahan Investasi</controllingFieldValue>
+            <valueName>Dplk - Submit Dokumen Perubahan Investasi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Back Customer</controllingFieldValue>
+            <valueName>Request_CCC_Call Back Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Back DMU</controllingFieldValue>
+            <valueName>Request_CCC_Call Back DMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Call Back Withdrawl PBC (HL &amp; EMAIL)</controllingFieldValue>
+            <valueName>Request_Call Back Withdrawl PBC (HL &amp; EMAIL)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Call Back Withdrawl Reguler (HL &amp; EMAIL)</controllingFieldValue>
+            <valueName>Request_Call Back Withdrawl Reguler (HL &amp; EMAIL)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Confirmation CR Withdrawal PBC</controllingFieldValue>
+            <valueName>Request _Call Confirmation CR Withdrawal PBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Refund Premi</controllingFieldValue>
+            <valueName>Request_POS_Refund Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Tanya Mekanisme / Prosedur</controllingFieldValue>
+            <valueName>Inquiry_CS Tanya Mekanisme/Prosedur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Tanya Mekanisme / Prosedur</controllingFieldValue>
+            <valueName>Dplk - Tanya Mekanisme / Prosedur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Switching &amp; Redirection</controllingFieldValue>
+            <valueName>Request_POS_Switching &amp; Redirection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FA Mobile</controllingFieldValue>
+            <valueName>Request_Prospek FA Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Top Up Berkala (RTU)</controllingFieldValue>
+            <valueName>Request_POS_Top Up Berkala (RTU)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Withdrawal</controllingFieldValue>
+            <valueName>Request_POS_Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Withdrawal Big Amount</controllingFieldValue>
+            <valueName>Request_POS_Withdrawal Big Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Cooling off</controllingFieldValue>
+            <valueName>Request_POS Cooling off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospek CorpSol</controllingFieldValue>
+            <valueName>Request_Prospek CorpSol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Duplikat Kartu</controllingFieldValue>
+            <valueName>Request_POS Duplikat Kartu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospek In Branch</controllingFieldValue>
+            <valueName>Request_Prospek In Branch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Duplikat Polis Konven</controllingFieldValue>
+            <valueName>Request_POS Duplikat Polis Konven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospek TM</controllingFieldValue>
+            <valueName>Request_Prospek TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Lumpsum</controllingFieldValue>
+            <valueName>Request_POS Lumpsum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Pemulihan Polis</controllingFieldValue>
+            <valueName>Request_POS Pemulihan Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Print Pernyataan Transaksi</controllingFieldValue>
+            <valueName>Request _Transaction Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Confirmation CR Withdrawal Reguler</controllingFieldValue>
+            <valueName>Request _Call Confirmation CR Withdrawal Regular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled Redemption</controllingFieldValue>
+            <valueName>Request_CS_Cancelled Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled Transaction</controllingFieldValue>
+            <valueName>Customer Service_Cancelled Transaction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Cuti Premi</controllingFieldValue>
+            <valueName>Policy Inquiry_Premium Holiday Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Lumpsum</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Lumpsum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek NB/UW Refund</controllingFieldValue>
+            <valueName>Policy Inquiry_NB/UW Payment Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek No Claim Bonus (NCB)</controllingFieldValue>
+            <valueName>Policy Inquiry_NCB Cases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Pemulihan Polis</controllingFieldValue>
+            <valueName>Policy Inquiry_Reinstatement Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Add Debit</controllingFieldValue>
+            <valueName>Request_Add Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Refund Premi</controllingFieldValue>
+            <valueName>Request_Refund Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Confirmation financial</controllingFieldValue>
+            <valueName>Request_ADS_Confirmation Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Confirmation Non Financial</controllingFieldValue>
+            <valueName>Request_ADS_Confirmation Non Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Reprint Polis Convent</controllingFieldValue>
+            <valueName>Request_Reprint Polis Convent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Document NCB</controllingFieldValue>
+            <valueName>Request_ADS_Document NCB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Duplicate Policy DMTM</controllingFieldValue>
+            <valueName>Request_ADS_Duplicate Policy DMTM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reprint Kartu ADS</controllingFieldValue>
+            <valueName>Request_Reprint Kartu ADS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Resend SMS E-Policy</controllingFieldValue>
+            <valueName>Request_Resend SMS E-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reprint Kartu NBUW</controllingFieldValue>
+            <valueName>Request_Reprint Kartu NBUW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Take Out Auto Reinstate</controllingFieldValue>
+            <valueName>Request_Take Out Auto Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Perubahan Ahli waris</controllingFieldValue>
+            <valueName>Request_ADS_Perubahan Ahli waris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request Other</controllingFieldValue>
+            <valueName>Request _Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Perubahan Alamat Korespondensi</controllingFieldValue>
+            <valueName>Request_ADS_Perubahan Alamat Korespondensi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Pengalihan Dana (Switching)</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Pengalihan Dana (Switching)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perbedaan / Perubahan TTD</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perbedaan / perubahan TTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan Ahli Waris</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan Ahli waris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan Data Pertanggungan</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan Data Pertanggungan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan Ejaan Nama</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan Ejaan Nama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan Frekuensi Pembayaran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan ID KTP</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan ID KTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan Pemegang Polis</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan Pemegang Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan SKDKK</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan SKDKK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan SKDR</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan SKDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <valueName>Request_ADS_Perubahan Data Pertanggungan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request Form / Pick Up Doc</controllingFieldValue>
+            <valueName>Request_CS Req Form / Pick Up Doc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Perubahan ID KTP</controllingFieldValue>
+            <valueName>Request_ADS_Perubahan ID KTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resend E-Policy</controllingFieldValue>
+            <valueName>Request_Resend E-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Perubahan Nomor Kontak</controllingFieldValue>
+            <valueName>Request_ADS_Perubahan Nomor Kontak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_UW_Cancelled SPAJ</controllingFieldValue>
+            <valueName>Request_UW_Cancelled SPAJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_UW_Refund Premi</controllingFieldValue>
+            <valueName>Request_UW_Refund Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Ketidakmampuan</controllingFieldValue>
+            <valueName>Request_CS_Submit Claim Ketidakmampuan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Perubahan Pemegang Polis</controllingFieldValue>
+            <valueName>Request_ADS_Perubahan Pemegang Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_UW_Submit Kelengkapan SPAJ</controllingFieldValue>
+            <valueName>Request_UW_Submit Kelengkapan SPAJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <valueName>Request_CS_Submit Claim Meninggal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Perubahan SKDKK</controllingFieldValue>
+            <valueName>Request_ADS_Perubahan SKDKK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Rawat Inap</controllingFieldValue>
+            <valueName>Request_CS_Submit Claim Rawat Inap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Perubahan SKDR</controllingFieldValue>
+            <valueName>Request_ADS_Perubahan SKDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Sakit Kritis</controllingFieldValue>
+            <valueName>Request_CS_Submit Claim Sakit Kritis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Redemption TM</controllingFieldValue>
+            <valueName>Request_ADS_Redemption TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request E-policy</controllingFieldValue>
+            <valueName>Request E-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Refund Premi</controllingFieldValue>
+            <valueName>Request_ADS_Refund Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request-Printing New Policy DMTM</controllingFieldValue>
+            <valueName>Request-Printing New Policy DMTM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Perubahan Tanggal Lahir</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Perubahan Tanggal Lahir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Redemption</controllingFieldValue>
+            <valueName>Policy Inquiry_Redemption Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Refund Premi (Collection Related)</controllingFieldValue>
+            <valueName>Cek Refund Premi (Collection Related)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Refund Premi (NB)</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Refund Premi (NB)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Status Claim</controllingFieldValue>
+            <valueName>Policy Inquiry_Claim Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Status Complaint</controllingFieldValue>
+            <valueName>Policy Inquiry_Complaint Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Status Polis</controllingFieldValue>
+            <valueName>Policy Inquiry_Policy Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Switching &amp; Redirection</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Switching &amp; Redirection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Top Up Berkala (RTU)</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Cek Top Up Berkala (RTU)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Kelengkapan Dok CMU</controllingFieldValue>
+            <valueName>Request_CS_Submit Kelengkapan dok CMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Policy Loan MSW</controllingFieldValue>
+            <valueName>Request_POS_Policy Loan MSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Submit kelengkapan dok ADS</controllingFieldValue>
+            <valueName>Request_ADS_Submit kelengkapan dok ADS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Payment Policy Loan MSW</controllingFieldValue>
+            <valueName>Request_POS_Payment Policy Loan MSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Knowledge_MSW</controllingFieldValue>
+            <valueName>Product Knowledge_MSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Rawat Jalan</controllingFieldValue>
+            <valueName>Request_CS Submit rawat jalan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Transfer Tolakan NCB</controllingFieldValue>
+            <valueName>Request_ADS_Transfer Tolakan NCB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Process &amp; Procedure POS_Policy Loan MSW</controllingFieldValue>
+            <valueName>Process &amp; Procedure POS_Policy Loan MSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS Duplikat Kartu</controllingFieldValue>
+            <valueName>Request_ADS Duplikat Kartu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Inquiry_Policy Loan Status MSW</controllingFieldValue>
+            <valueName>Policy Inquiry_Policy Loan Status MSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surat Kepemilikan Polis</controllingFieldValue>
+            <valueName>Request_CCC_Surat Kepemilikan Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS Pemulihan Polis</controllingFieldValue>
+            <valueName>Request_ADS Pemulihan Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS Pemulihan Polis</controllingFieldValue>
+            <valueName>Request_ADS_Pemulihan Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy Inquiry_Payment Policy Loan MSW</controllingFieldValue>
+            <valueName>Policy Inquiry_Payment Policy Loan MSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Perubahan Alamat Email</controllingFieldValue>
+            <valueName>Request_ADS - Perubahan Alamat Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Penghentian Cuti Premi</controllingFieldValue>
+            <valueName>Request_POS_Penghentian Cuti Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Perubahan DOB</controllingFieldValue>
+            <valueName>Request_ADS - Perubahan DOB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Release PH Passive</controllingFieldValue>
+            <valueName>Request_POS_Release PH Passive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Perubahan Ejaan nama</controllingFieldValue>
+            <valueName>Request_ADS - Perubahan Ejaan nama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Tax Amnesty</controllingFieldValue>
+            <valueName>Request_Tax Amnesty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Withdrawal</controllingFieldValue>
+            <valueName>Policy Inquiry_Withdraw Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Payment</controllingFieldValue>
+            <valueName>Policy Inquiry_Claim Payment Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Payment Collection</controllingFieldValue>
+            <valueName>Policy Inquiry_Collection Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cek Payment Collection</controllingFieldValue>
+            <valueName>Policy Inquiry_CS_Collection Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <valueName>Request_ADS - Perubahan Frekuensi Pembayaran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Perubahan Gender</controllingFieldValue>
+            <valueName>Request_ADS - Perubahan Gender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Touch Point CCC - Care Corner</controllingFieldValue>
+            <valueName>Inquiry_CS Touch Point CCC_Care Corner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Perubahan Relationship</controllingFieldValue>
+            <valueName>Request_ADS - Perubahan Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Touch Point CCC - Regional</controllingFieldValue>
+            <valueName>Inquiry_CS Touch Point CCC_Regional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Perubahan Title</controllingFieldValue>
+            <valueName>Request_ADS - Perubahan Title</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS Explanation</controllingFieldValue>
+            <valueName>Inquiry_TS explanation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Rekening Penerimaan NCB</controllingFieldValue>
+            <valueName>Request_ADS - Rekening Penerimaan NCB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Update Address</controllingFieldValue>
+            <controllingFieldValue>ADS - Perubahan Alamat Koresponden</controllingFieldValue>
+            <valueName>Request_Up date Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Auto Reinstate</controllingFieldValue>
+            <valueName>Request_Auto Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Update Email Address</controllingFieldValue>
+            <valueName>Request_Up date Email Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Update Nomor Kontak</controllingFieldValue>
+            <valueName>Request_Up date Nomor Kontak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VRS</controllingFieldValue>
+            <valueName>Request_VRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Claim_Incoming Documents</controllingFieldValue>
+            <valueName>Request_Claim_Incoming Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Claim_Japen</controllingFieldValue>
+            <valueName>Request_Claim_Japen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Complaint_CS Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cooling Off</controllingFieldValue>
+            <valueName>Cooling Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Courier Delivery - Surat Retur</controllingFieldValue>
+            <valueName>Request_Courier Delivery-surat retur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Claim_Payment</controllingFieldValue>
+            <valueName>Request_Claim_Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wrong Counter</controllingFieldValue>
+            <valueName>Inquiry_CS Wrong Counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Claim_Return Documents</controllingFieldValue>
+            <valueName>Request_Claim_Return Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Claim_Tele Claim</controllingFieldValue>
+            <valueName>Request_Claim_Tele Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <valueName>Request_Claim Health_Express Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Courier Delivery ? Change of Address</controllingFieldValue>
+            <valueName>Request_Courier Delivery ? Change of Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Courier Delivery ? Policy Retur</controllingFieldValue>
+            <valueName>Request_Courier Delivery ? Policy Retur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Courier Delivery ? Speed Up Delivery</controllingFieldValue>
+            <valueName>Request_Courier Delivery ? Speed Up Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK Information</controllingFieldValue>
+            <valueName>Request_DPLK_Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duplikat Polis TM</controllingFieldValue>
+            <valueName>Request_ADS Duplikat Polis TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Form NB / After Sales</controllingFieldValue>
+            <valueName>Request _Form NB / After Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Info Manfaat Polis</controllingFieldValue>
+            <valueName>Inquiry_CS Info Manfaat Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Info Produk</controllingFieldValue>
+            <valueName>Inquiry_CS Info Produk Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry Other</controllingFieldValue>
+            <valueName>Inquiry_Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Touch Point CCC - Quick Response</controllingFieldValue>
+            <valueName>Inquiry_CS Touch Point CCC_Quick Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None</controllingFieldValue>
+            <valueName>Inquiry_CS None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_PDF E-Policy</controllingFieldValue>
+            <valueName>Request_PDF e-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Claim_Excess Claim</controllingFieldValue>
+            <valueName>Corpsol_Claim_Excess Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Claim_Form</controllingFieldValue>
+            <valueName>Corpsol_Claim_Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Claim_History</controllingFieldValue>
+            <valueName>Corpsol_Claim_History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Ex-Gratia</controllingFieldValue>
+            <valueName>Corpsol_Ex-Gratia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Membership_ Reprint Card: Lost/Damage/Wrong Data</controllingFieldValue>
+            <valueName>Corpsol_Membership_ Reprint Card: Lost/Damage/Wrong Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corpsol_Membership_Update: Add/Term/Change Data</controllingFieldValue>
+            <valueName>Corpsol_Membership_Update: Add/Term/Change Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Penyelesaian Keluhan</controllingFieldValue>
+            <valueName>Request_CMU_Penyelesaian Keluhan</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

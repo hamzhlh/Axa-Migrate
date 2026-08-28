@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Call_Note_Lightning</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Create Call Note</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/lightning/o/Case/new?recordTypeId={!Contact.CallNote_RecordTypeId_Keeper__c}&amp;ws=%2Flightning%2Fr%2FContact%2F{!Contact.Id}%2Fview&amp;count=1&amp;defaultFieldValues=ContactId={!Contact.Id},AccountId={!Account.Id},Type=Inquiry,Origin=Phone</url>
+    <width>600</width>
+</WebLink>

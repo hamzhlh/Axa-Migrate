@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Over_SLA_Email_AFI_1_Day__c</fullName>
+    <description>IF(ISBLANK(Last_Response_Date__c), &quot;On Schedule&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &lt;= Target_Datetime_1_Day__c, &quot;On-Time (&lt;= 1 Hari)&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &gt; Target_Datetime__c &amp;&amp; Last_Response_Date__c &lt;= Target_Datetime_1_Day__c + 1, &quot;Over SLA 1 (&gt;4-24 Jam)&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &gt; Target_Datetime__c + 1 &amp;&amp; Last_Response_Date__c &lt;= Target_Datetime_1_Day__c + 1.5, &quot;Over SLA 2 (&gt;24-36 Jam)&quot;,
+
+&quot;Over SLA 3 (&gt;36 Jam)&quot; ))))</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Last_Response_Date__c), &quot;On Schedule&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &lt;= Target_Datetime_1_Day__c, &quot;On-Time (&lt;= 1 Hari)&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &gt; Target_Datetime_1_Day__c &amp;&amp; Last_Response_Date__c &lt;= Target_Datetime_1_Day__c + 0.5, &quot;Over SLA 1 (&gt;24-36 Jam)&quot;,
+
+IF( (Parent.Entity__c == &quot;AFI&quot; || Parent.Entity__c == &quot;ALI&quot;) &amp;&amp; Last_Response_Date__c &gt; Target_Datetime_1_Day__c + 0.5 &amp;&amp; Last_Response_Date__c &lt;= Target_Datetime_1_Day__c + 1, &quot;Over SLA 2 (&gt;36-48 Jam)&quot;,
+
+&quot;Over SLA 3 (&gt;48 Jam)&quot; ))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Over SLA Email AFI (1 Day)</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

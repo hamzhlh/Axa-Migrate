@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_Calling_Text__c</fullName>
+    <description>LEFT(TEXT((Start_Calling__c + ((7*60))/1440)),LEN(TEXT(Start_Calling__c))-7) &amp;&apos;:00&apos;</description>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(TEXT(( Start_Calling__c + ((7*60))/1440)),&quot;Z&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Start Calling Text</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

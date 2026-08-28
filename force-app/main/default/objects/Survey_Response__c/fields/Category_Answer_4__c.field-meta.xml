@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Answer_4__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(VALUE(Answer_4__c)&gt;=0 &amp;&amp;  VALUE(Answer_4__c)&lt;7,&apos;Detractor&apos;,
+IF(VALUE(Answer_4__c)&gt;=7 &amp;&amp;  VALUE(Answer_4__c)&lt;9,&apos;Passive&apos;,
+IF(VALUE(Answer_4__c)&gt;=9 &amp;&amp;  VALUE(Answer_4__c)&lt;11,&apos;Promoter&apos;,&apos;&apos;)))</formula>
+    <label>Category Answer 4</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

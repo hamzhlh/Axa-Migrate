@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average_Talk_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Duration_Average_Talk_Time__c/3600 &lt; 10, &apos;0&apos;,&apos;&apos;)+TEXT(FLOOR(Duration_Average_Talk_Time__c/3600)) + &quot;:&quot; + IF(FLOOR(MOD(Duration_Average_Talk_Time__c,3600)/60)&lt; 10, &apos;0&apos;,&apos;&apos;)+TEXT( FLOOR(MOD(Duration_Average_Talk_Time__c,3600)/60)) + &quot;:&quot; + IF(MOD(MOD(Duration_Average_Talk_Time__c,3600),60)&lt; 10, &apos;0&apos;,&apos;&apos;)+ TEXT(MOD(MOD(Duration_Average_Talk_Time__c,3600),60))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Average Talk Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

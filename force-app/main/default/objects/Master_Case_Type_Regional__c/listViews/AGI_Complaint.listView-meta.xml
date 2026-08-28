@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AGI_Complaint</fullName>
+    <columns>NAME</columns>
+    <columns>Entity__c</columns>
+    <columns>Type__c</columns>
+    <columns>Case_Type__c</columns>
+    <columns>SLA__c</columns>
+    <columns>Active__c</columns>
+    <columns>Call_Type__c</columns>
+    <columns>Sub_Type__c</columns>
+    <columns>Product__c</columns>
+    <columns>Business_Channel__c</columns>
+    <columns>Department_Queue__c</columns>
+    <columns>Department_Queue_2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AGI</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Complaint</value>
+    </filters>
+    <label>AGI - Complaint</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinatesInternal>CEO_AGI</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

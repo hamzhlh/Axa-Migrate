@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Submit</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED(Completed_On__c) &amp;&amp; 
+!ISNULL(Training_Plan__r.End_Datetime__c ) &amp;&amp; 
+Training_Plan__r.End_Datetime__c &lt; NOW()</errorConditionFormula>
+    <errorMessage>Quiz already expired</errorMessage>
+</ValidationRule>

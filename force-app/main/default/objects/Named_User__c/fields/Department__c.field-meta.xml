@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Department</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Department__c.Entity__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Entity__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Department__c</referenceTo>
+    <relationshipLabel>Named User</relationshipLabel>
+    <relationshipName>Named_User</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

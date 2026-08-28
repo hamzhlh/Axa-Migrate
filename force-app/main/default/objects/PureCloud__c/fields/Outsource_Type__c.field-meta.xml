@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outsource_Type__c</fullName>
+    <inlineHelpText>only for Saturday (AFI)
+jika tidak di pilih, productivity seperti hari normal</inlineHelpText>
+    <label>Outsource Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>4</label>
+            </value>
+            <value>
+                <fullName>6</fullName>
+                <default>false</default>
+                <label>6</label>
+            </value>
+            <value>
+                <fullName>7.5</fullName>
+                <default>false</default>
+                <label>7.5</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

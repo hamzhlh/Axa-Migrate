@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rincian_data_transaksi__c</fullName>
+    <label>rincian data transaksi A1A2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pengajuan Premi</fullName>
+                <default>false</default>
+                <label>A1. Pengajuan Premi/Kontribusi Top Up Berkala (sesuai cara bayar Premi/Kontribusi saat ini) menjadi:</label>
+            </value>
+            <value>
+                <fullName>Pembatalan Premi</fullName>
+                <default>false</default>
+                <label>A2. Pembatalan Premi/Kontribusi Top Up Berkala</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Perform__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( Group_Total__c &gt;=  NULLVALUE(Rating_A_Score__c,0) ,  Rating_A_Name__c ,
+IF ( Group_Total__c &gt;= NULLVALUE(Rating_B_Score__c,0), Rating_B_Name__c ,
+IF ( Group_Total__c &gt;= NULLVALUE(Rating_C_Score__c,0), Rating_C_Name__c ,
+IF ( Group_Total__c &gt;= NULLVALUE(Rating_D_Score__c,0), Rating_D_Name__c ,
+IF ( Group_Total__c &gt;= NULLVALUE(Rating_E_Score__c,0), Rating_E_Name__c ,
+&quot;Not Available&quot;)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Perform</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

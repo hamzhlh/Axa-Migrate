@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Type__c</fullName>
+    <label>Case Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Entity__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(NB/UW) Information Status</fullName>
+                <default>false</default>
+                <label>(NB/UW) Information Status</label>
+            </value>
+            <value>
+                <fullName>Account Balance</fullName>
+                <default>false</default>
+                <label>Account Balance</label>
+            </value>
+            <value>
+                <fullName>Admin Charges</fullName>
+                <default>false</default>
+                <label>Admin Charges</label>
+            </value>
+            <value>
+                <fullName>Agent License/New Recruit/ agent replacement</fullName>
+                <default>false</default>
+                <label>Agent License/New Recruit/ agent replacement</label>
+            </value>
+            <value>
+                <fullName>AMFS Customer</fullName>
+                <default>false</default>
+                <label>AMFS Customer</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Claim Related</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Claim Related</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Collection Related</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Collection Related</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Collection Related Failed Debit</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Collection Related Failed Debit</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Collection Related Reminder Debit</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Collection Related Reminder Debit</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS DMU Related</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS DMU Related</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Mobile Service</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Mobile Service</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS NB/UW Related</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS NB/UW Related</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS POS Related MAPAN Lapse</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS POS Related MAPAN Lapse</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS POS Related Pending or Incomplete process</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS POS Related Pending or Incomplete process</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Promo (Produk dan Program)</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Promo (Produk dan Program)</label>
+            </value>
+            <value>
+                <fullName>Bukti transfer</fullName>
+                <default>false</default>
+                <label>Bukti transfer</label>
+            </value>
+            <value>
+                <fullName>capture premi</fullName>
+                <default>false</default>
+                <label>capture premi</label>
+            </value>
+            <value>
+                <fullName>change/add autodebet</fullName>
+                <default>false</default>
+                <label>change/add autodebet</label>
+            </value>
+            <value>
+                <fullName>Claim - Claim AFI-process claim-update pending-special case-feedback</fullName>
+                <default>false</default>
+                <label>Claim - Claim AFI-process claim-update pending-special case-feedback</label>
+            </value>
+            <value>
+                <fullName>Claim - claim group</fullName>
+                <default>false</default>
+                <label>Claim - claim group</label>
+            </value>
+            <value>
+                <fullName>Claim Information Status</fullName>
+                <default>false</default>
+                <label>Claim Information Status</label>
+            </value>
+            <value>
+                <fullName>Claim Procedure</fullName>
+                <default>false</default>
+                <label>Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Claims</fullName>
+                <default>false</default>
+                <label>Claims</label>
+            </value>
+            <value>
+                <fullName>Claim Status</fullName>
+                <default>false</default>
+                <label>Claim Status</label>
+            </value>
+            <value>
+                <fullName>Collection related</fullName>
+                <default>false</default>
+                <label>Collection related</label>
+            </value>
+            <value>
+                <fullName>Complaint_Administrator Procedures</fullName>
+                <default>false</default>
+                <label>Complaint_Administrator Procedures</label>
+            </value>
+            <value>
+                <fullName>Complaint_Admin Prosedure</fullName>
+                <default>false</default>
+                <label>Complaint_Admin Prosedure</label>
+            </value>
+            <value>
+                <fullName>Complaint_Claim</fullName>
+                <default>false</default>
+                <label>Complaint_Claim</label>
+            </value>
+            <value>
+                <fullName>Complaint_Courier Delivery</fullName>
+                <default>false</default>
+                <label>Complaint_Courier Delivery</label>
+            </value>
+            <value>
+                <fullName>Complaint_Financial Advisor Service</fullName>
+                <default>false</default>
+                <label>Complaint_Financial Advisor Service</label>
+            </value>
+            <value>
+                <fullName>Complaint_Forgery</fullName>
+                <default>false</default>
+                <label>Complaint_Forgery</label>
+            </value>
+            <value>
+                <fullName>Complaint_Marketing Program</fullName>
+                <default>false</default>
+                <label>Complaint_Marketing Program</label>
+            </value>
+            <value>
+                <fullName>Complaint_Misappropriation</fullName>
+                <default>false</default>
+                <label>Complaint_Misappropriation</label>
+            </value>
+            <value>
+                <fullName>Complaint_Misrepresentation</fullName>
+                <default>false</default>
+                <label>Complaint_Misrepresentation</label>
+            </value>
+            <value>
+                <fullName>Complaint_New Bussiness</fullName>
+                <default>false</default>
+                <label>Complaint_New Bussiness</label>
+            </value>
+            <value>
+                <fullName>Complaint_Non Disclosure</fullName>
+                <default>false</default>
+                <label>Complaint_Non Disclosure</label>
+            </value>
+            <value>
+                <fullName>Complaint_Other</fullName>
+                <default>false</default>
+                <label>Complaint_Other</label>
+            </value>
+            <value>
+                <fullName>Complaint_POS</fullName>
+                <default>false</default>
+                <label>Complaint_POS</label>
+            </value>
+            <value>
+                <fullName>Complaint_SMARTS Related</fullName>
+                <default>false</default>
+                <label>Complaint_SMARTS Related</label>
+            </value>
+            <value>
+                <fullName>Complaint_TM Service</fullName>
+                <default>false</default>
+                <label>Complaint_TM Service</label>
+            </value>
+            <value>
+                <fullName>Complaint_Transaction Statement</fullName>
+                <default>false</default>
+                <label>Complaint_Transaction Statement</label>
+            </value>
+            <value>
+                <fullName>Complaint_Without Consent</fullName>
+                <default>false</default>
+                <label>Complaint_Without Consent</label>
+            </value>
+            <value>
+                <fullName>Complaint Status</fullName>
+                <default>false</default>
+                <label>Complaint Status</label>
+            </value>
+            <value>
+                <fullName>corespondence-status delivery</fullName>
+                <default>false</default>
+                <label>corespondence-status delivery</label>
+            </value>
+            <value>
+                <fullName>Courier Delivery</fullName>
+                <default>false</default>
+                <label>Courier Delivery</label>
+            </value>
+            <value>
+                <fullName>Delivery Status</fullName>
+                <default>false</default>
+                <label>Delivery Status</label>
+            </value>
+            <value>
+                <fullName>Drop Call</fullName>
+                <default>false</default>
+                <label>Drop Call</label>
+            </value>
+            <value>
+                <fullName>Drop Call/Wrong Number</fullName>
+                <default>false</default>
+                <label>Drop Call/Wrong Number</label>
+            </value>
+            <value>
+                <fullName>ERA/Towing Request</fullName>
+                <default>false</default>
+                <label>ERA/Towing Request</label>
+            </value>
+            <value>
+                <fullName>Forgery</fullName>
+                <default>false</default>
+                <label>Forgery</label>
+            </value>
+            <value>
+                <fullName>Form NB / After Sales</fullName>
+                <default>false</default>
+                <label>Form NB / After Sales</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk Asuransi AXA Carrefour</fullName>
+                <default>false</default>
+                <label>Informasi Produk Asuransi AXA Carrefour</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk Asuransi Tradisional</fullName>
+                <default>false</default>
+                <label>Informasi Produk Asuransi Tradisional</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestro Elite Care</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestro Elite Care</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestro Hospital Plan</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestro Hospital Plan</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestro Link Maxy advantage fund</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestro Link Maxy advantage fund</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestrolink Plus</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestrolink Plus</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestro Syariah</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestro Syariah</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Smart Kidz</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Smart Kidz</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk Family Flexy Health</fullName>
+                <default>false</default>
+                <label>Informasi Produk Family Flexy Health</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk Maestro Prosperity Plan</fullName>
+                <default>false</default>
+                <label>Informasi Produk Maestro Prosperity Plan</label>
+            </value>
+            <value>
+                <fullName>Inquiry Status</fullName>
+                <default>false</default>
+                <label>Inquiry Status</label>
+            </value>
+            <value>
+                <fullName>IVR Utilization</fullName>
+                <default>false</default>
+                <label>IVR Utilization</label>
+            </value>
+            <value>
+                <fullName>Kuitansi</fullName>
+                <default>false</default>
+                <label>Kuitansi</label>
+            </value>
+            <value>
+                <fullName>MAGI Branch Information</fullName>
+                <default>false</default>
+                <label>MAGI Branch Information</label>
+            </value>
+            <value>
+                <fullName>MV Claim Report</fullName>
+                <default>false</default>
+                <label>MV Claim Report</label>
+            </value>
+            <value>
+                <fullName>MV Product Inquiry</fullName>
+                <default>false</default>
+                <label>MV Product Inquiry</label>
+            </value>
+            <value>
+                <fullName>NB/Underwriting - uw-pending case-special case-his card-cancell aplication-doc receive</fullName>
+                <default>false</default>
+                <label>NB/Underwriting - uw-pending case-special case-his card-cancell aplication-doc receive</label>
+            </value>
+            <value>
+                <fullName>Non MV Claim Report</fullName>
+                <default>false</default>
+                <label>Non MV Claim Report</label>
+            </value>
+            <value>
+                <fullName>Non MV Product Inquiry</fullName>
+                <default>false</default>
+                <label>Non MV Product Inquiry</label>
+            </value>
+            <value>
+                <fullName>Off Line Application</fullName>
+                <default>false</default>
+                <label>Off Line Application</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Others Product</fullName>
+                <default>false</default>
+                <label>Others Product</label>
+            </value>
+            <value>
+                <fullName>PA Product</fullName>
+                <default>false</default>
+                <label>PA Product</label>
+            </value>
+            <value>
+                <fullName>Pembatalan Polis</fullName>
+                <default>false</default>
+                <label>Pembatalan Polis</label>
+            </value>
+            <value>
+                <fullName>Penerbitan SPK</fullName>
+                <default>false</default>
+                <label>Penerbitan SPK</label>
+            </value>
+            <value>
+                <fullName>Perubahan Data Polis</fullName>
+                <default>false</default>
+                <label>Perubahan Data Polis</label>
+            </value>
+            <value>
+                <fullName>Perubahan Financial Polis</fullName>
+                <default>false</default>
+                <label>Perubahan Financial Polis</label>
+            </value>
+            <value>
+                <fullName>Perubahan non Financial Polis</fullName>
+                <default>false</default>
+                <label>Perubahan non Financial Polis</label>
+            </value>
+            <value>
+                <fullName>Policy Data</fullName>
+                <default>false</default>
+                <label>Policy Data</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Account Balance</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Account Balance</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Admin Charges</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Admin Charges</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Application Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Application Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Claim Payment Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Claim Payment Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Claim Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Claim Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related add debit</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related add debit</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related autoreinstate debit</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related autoreinstate debit</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related failed debit</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related failed debit</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related hold debit</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related hold debit</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Complaint Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Complaint Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CorSol prospect</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CorSol prospect</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Delay Printing Policy</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Delay Printing Policy</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_E-Policy</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_E-Policy</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Format SMS Pull</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Format SMS Pull</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Letter Delivery Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Letter Delivery Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Medical Test Status (NB/UW)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Medical Test Status (NB/UW)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_NB/UW Payment Refund</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_NB/UW Payment Refund</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_NCB Cases</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_NCB Cases</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Others</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Others</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Pending Information (Claim)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Pending Information (Claim)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Pending Information (NB/UW)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Pending Information (NB/UW)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Pending Information (POS)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Pending Information (POS)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Policy Delivery Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Policy Delivery Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Policy Profile</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Policy Profile</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Policy Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Policy Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_POS Payment Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_POS Payment Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Premium Holiday Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Premium Holiday Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Redemption Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Redemption Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Reinstatement Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Reinstatement Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_SMARTS Related</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_SMARTS Related</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_TS Delivery status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_TS Delivery status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_TS explenation</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_TS explenation</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Unit Price</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Unit Price</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Up Date Data Correspondence address</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Up Date Data Correspondence address</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Up Date Data Email address</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Up Date Data Email address</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Up Date Data Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Up Date Data Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Withdraw Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Withdraw Status</label>
+            </value>
+            <value>
+                <fullName>Policy Profile</fullName>
+                <default>false</default>
+                <label>Policy Profile</label>
+            </value>
+            <value>
+                <fullName>Policy Status</fullName>
+                <default>false</default>
+                <label>Policy Status</label>
+            </value>
+            <value>
+                <fullName>POS Financial Information Status</fullName>
+                <default>false</default>
+                <label>POS Financial Information Status</label>
+            </value>
+            <value>
+                <fullName>POS Non Financial Information Status</fullName>
+                <default>false</default>
+                <label>POS Non Financial Information Status</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Accident Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Accident Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Death Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Death Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Easy Claim</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Easy Claim</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_ELI / SLI</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_ELI / SLI</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_In Patient Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_In Patient Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_other</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_other</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Out Patient Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Out Patient Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Payor Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Payor Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_TPD Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_TPD Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_WP Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_WP Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_WPDD 21 Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_WPDD 21 Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure NB/UW_How Fullfill SPAJ</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure NB/UW_How Fullfill SPAJ</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure NB/UW_Other</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure NB/UW_Other</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure NB/UW_Refund Premi Non Taken Application Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure NB/UW_Refund Premi Non Taken Application Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure NB/UW_Sub Standard Letter Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure NB/UW_Sub Standard Letter Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Cooling Off Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Cooling Off Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Down Grade Plan Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Down Grade Plan Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Other</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Other</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Policy Duplicate POS</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Policy Duplicate POS</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Premium Holiday Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Premium Holiday Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Redemption Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Redemption Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Reinstatement</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Reinstatement</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Reinstate Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Reinstate Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Switching Payment Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Switching Payment Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Top Up Lump Sum Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Top Up Lump Sum Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Top up Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Top up Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up / Down Grade Plan Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up / Down Grade Plan Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up Date Data Financial Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up Date Data Financial Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up Grade Plan Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up Grade Plan Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Withdrawal Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Withdrawal Procedure</label>
+            </value>
+            <value>
+                <fullName>Procedure Claim</fullName>
+                <default>false</default>
+                <label>Procedure Claim</label>
+            </value>
+            <value>
+                <fullName>Procedure NB/UW</fullName>
+                <default>false</default>
+                <label>Procedure NB/UW</label>
+            </value>
+            <value>
+                <fullName>Procedure POS</fullName>
+                <default>false</default>
+                <label>Procedure POS</label>
+            </value>
+            <value>
+                <fullName>Process</fullName>
+                <default>false</default>
+                <label>Process</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Free PA</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Free PA</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Hospitalife</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Hospitalife</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk Asuransi AXA Carrefour</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk Asuransi AXA Carrefour</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk Asuransi Tradisional</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk Asuransi Tradisional</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Maestro Elite Care</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Maestro Elite Care</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Maestro Hospital Plan</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Maestro Hospital Plan</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Maestro Link Maxy advantage fund</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Maestro Link Maxy advantage fund</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_ Informasi Produk AXA Maestrolink Plus</fullName>
+                <default>false</default>
+                <label>Product Knowledge_ Informasi Produk AXA Maestrolink Plus</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Maestro Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Maestro Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Smart Kidz</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Smart Kidz</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk Family Flexy Health</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk Family Flexy Health</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk Maestro Prosperity Plan</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk Maestro Prosperity Plan</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Jiwa Prioritas</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Jiwa Prioritas</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Kesehatan Optima (MKO)</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Kesehatan Optima (MKO)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Protection</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Protection</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Proteksi Kesehatan Syariah (MPKS)</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Proteksi Kesehatan Syariah (MPKS)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Sejahtera Cerdas (MSC)</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Sejahtera Cerdas (MSC)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Sejahtera Cerdas Syariah (MSC Syariah)</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Sejahtera Cerdas Syariah (MSC Syariah)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mapan</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mapan</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mapan Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mapan Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MFC</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MFC</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MHS</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MHS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MIS</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MIS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MIS Plus</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MIS Plus</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MIS Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MIS Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MJK</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MJK</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MJK FA</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MJK FA</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MJK Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MJK Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MJS</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MJS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MKG</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MKG</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MKP</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MKP</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MRS</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MRS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MRS Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MRS Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MSP</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MSP</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Other</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Other</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Pre Approve Program</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Pre Approve Program</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Rider</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Rider</label>
+            </value>
+            <value>
+                <fullName>Property Product</fullName>
+                <default>false</default>
+                <label>Property Product</label>
+            </value>
+            <value>
+                <fullName>Repairshop Information</fullName>
+                <default>false</default>
+                <label>Repairshop Information</label>
+            </value>
+            <value>
+                <fullName>Request _Call confirmation CR Withdrawal PBC</fullName>
+                <default>false</default>
+                <label>Request _Call confirmation CR Withdrawal PBC</label>
+            </value>
+            <value>
+                <fullName>Request _Call confirmation CR Withdrawal Regular</fullName>
+                <default>false</default>
+                <label>Request _Call confirmation CR Withdrawal Regular</label>
+            </value>
+            <value>
+                <fullName>Request _Form NB / After Sales</fullName>
+                <default>false</default>
+                <label>Request _Form NB / After Sales</label>
+            </value>
+            <value>
+                <fullName>Request _Other</fullName>
+                <default>false</default>
+                <label>Request _Other</label>
+            </value>
+            <value>
+                <fullName>Request _Transaction Statement</fullName>
+                <default>false</default>
+                <label>Request _Transaction Statement</label>
+            </value>
+            <value>
+                <fullName>Request _Up date Address</fullName>
+                <default>false</default>
+                <label>Request _Up date Address</label>
+            </value>
+            <value>
+                <fullName>Request _Up date Email Address</fullName>
+                <default>false</default>
+                <label>Request _Up date Email Address</label>
+            </value>
+            <value>
+                <fullName>Request _Up date Home/Office Number</fullName>
+                <default>false</default>
+                <label>Request _Up date Home/Office Number</label>
+            </value>
+            <value>
+                <fullName>Request _Up date Mobile Number</fullName>
+                <default>false</default>
+                <label>Request _Up date Mobile Number</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Sharia Claim Report</fullName>
+                <default>false</default>
+                <label>Sharia Claim Report</label>
+            </value>
+            <value>
+                <fullName>Sharia Product Inquiry</fullName>
+                <default>false</default>
+                <label>Sharia Product Inquiry</label>
+            </value>
+            <value>
+                <fullName>Surat Pemberitahuan Jatuh Tempo</fullName>
+                <default>false</default>
+                <label>Surat Pemberitahuan Jatuh Tempo</label>
+            </value>
+            <value>
+                <fullName>Surat Pernyataan</fullName>
+                <default>false</default>
+                <label>Surat Pernyataan</label>
+            </value>
+            <value>
+                <fullName>Survey_Unwilling</fullName>
+                <default>false</default>
+                <label>Survey_Unwilling</label>
+            </value>
+            <value>
+                <fullName>Survey_Willing</fullName>
+                <default>false</default>
+                <label>Survey_Willing</label>
+            </value>
+            <value>
+                <fullName>Survey Schedule</fullName>
+                <default>false</default>
+                <label>Survey Schedule</label>
+            </value>
+            <value>
+                <fullName>Switching Payment</fullName>
+                <default>false</default>
+                <label>Switching Payment</label>
+            </value>
+            <value>
+                <fullName>Tertarik MV</fullName>
+                <default>false</default>
+                <label>Tertarik MV</label>
+            </value>
+            <value>
+                <fullName>Tertarik Others Product</fullName>
+                <default>false</default>
+                <label>Tertarik Others Product</label>
+            </value>
+            <value>
+                <fullName>Tertarik PA</fullName>
+                <default>false</default>
+                <label>Tertarik PA</label>
+            </value>
+            <value>
+                <fullName>Tertarik Property</fullName>
+                <default>false</default>
+                <label>Tertarik Property</label>
+            </value>
+            <value>
+                <fullName>Tertarik Travel</fullName>
+                <default>false</default>
+                <label>Tertarik Travel</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Care Corner</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Care Corner</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Customer Care Corner Surabaya</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Customer Care Corner Surabaya</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Head Office</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Head Office</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Mobile Service</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Mobile Service</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Quick Response</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Quick Response</label>
+            </value>
+            <value>
+                <fullName>Transaction Statement</fullName>
+                <default>false</default>
+                <label>Transaction Statement</label>
+            </value>
+            <value>
+                <fullName>Travel Insurance Certificate</fullName>
+                <default>false</default>
+                <label>Travel Insurance Certificate</label>
+            </value>
+            <value>
+                <fullName>Travel Product</fullName>
+                <default>false</default>
+                <label>Travel Product</label>
+            </value>
+            <value>
+                <fullName>Underwriting</fullName>
+                <default>false</default>
+                <label>Underwriting</label>
+            </value>
+            <value>
+                <fullName>Up date Address</fullName>
+                <default>false</default>
+                <label>Up date Address</label>
+            </value>
+            <value>
+                <fullName>Update Customer Data</fullName>
+                <default>false</default>
+                <label>Update Customer Data</label>
+            </value>
+            <value>
+                <fullName>Up Date Data Status</fullName>
+                <default>false</default>
+                <label>Up Date Data Status</label>
+            </value>
+            <value>
+                <fullName>Up date Email Address</fullName>
+                <default>false</default>
+                <label>Up date Email Address</label>
+            </value>
+            <value>
+                <fullName>Up date Home/Office Number</fullName>
+                <default>false</default>
+                <label>Up date Home/Office Number</label>
+            </value>
+            <value>
+                <fullName>Up date Mobile Number</fullName>
+                <default>false</default>
+                <label>Up date Mobile Number</label>
+            </value>
+            <value>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+                <label>Wrong Number</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Kartu</fullName>
+                <default>false</default>
+                <label>Request_Reprint Kartu</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Polis TM</fullName>
+                <default>false</default>
+                <label>Request_Reprint Polis TM</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery – Delivery</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery – Delivery</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery – Inquiry Delivery</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery – Inquiry Delivery</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery - Inquiry Receipt</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery - Inquiry Receipt</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery – Policy Retur</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery – Policy Retur</label>
+            </value>
+            <value>
+                <fullName>Request_Resend E-Policy</fullName>
+                <default>false</default>
+                <label>Request_Resend E-Policy</label>
+            </value>
+            <value>
+                <fullName>Request_Confirmation Withdrawl Reguler</fullName>
+                <default>false</default>
+                <label>Request_Confirmation Withdrawl Reguler</label>
+            </value>
+            <value>
+                <fullName>Request_Confirmation Withdrawl PBC</fullName>
+                <default>false</default>
+                <label>Request_Confirmation Withdrawl PBC</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Polis Convent</fullName>
+                <default>false</default>
+                <label>Request_Reprint Polis Convent</label>
+            </value>
+            <value>
+                <fullName>Request_Add Debit</fullName>
+                <default>false</default>
+                <label>Request_Add Debit</label>
+            </value>
+            <value>
+                <fullName>Request_Hold Debit</fullName>
+                <default>false</default>
+                <label>Request_Hold Debit</label>
+            </value>
+            <value>
+                <fullName>Request_Auto Reinstate</fullName>
+                <default>false</default>
+                <label>Request_Auto Reinstate</label>
+            </value>
+            <value>
+                <fullName>Request_TAX Amnesty</fullName>
+                <default>false</default>
+                <label>Request_TAX Amnesty</label>
+            </value>
+            <value>
+                <fullName>Soft Complaint</fullName>
+                <default>false</default>
+                <label>Soft Complaint</label>
+            </value>
+            <value>
+                <fullName>Request_Cancel Add</fullName>
+                <default>false</default>
+                <label>Request_Cancel Add</label>
+            </value>
+            <value>
+                <fullName>Request_Cancel Hold</fullName>
+                <default>false</default>
+                <label>Request_Cancel Hold</label>
+            </value>
+            <value>
+                <fullName>Request_Collection_Cancel Add, Hold &amp; Auto Reinstate</fullName>
+                <default>false</default>
+                <label>Request_Collection_Cancel Add, Hold &amp; Auto Reinstate</label>
+            </value>
+            <value>
+                <fullName>Request_VRS</fullName>
+                <default>false</default>
+                <label>Request_VRS</label>
+            </value>
+            <value>
+                <fullName>Request_Refund Premi</fullName>
+                <default>false</default>
+                <label>Request_Refund Premi</label>
+            </value>
+            <value>
+                <fullName>Complaint_Potential Complaint</fullName>
+                <default>false</default>
+                <label>Complaint_Potential Complaint</label>
+            </value>
+            <value>
+                <fullName>Complaint_Soft Complaint</fullName>
+                <default>false</default>
+                <label>Complaint_Soft Complaint</label>
+            </value>
+            <value>
+                <fullName>Request_PDF e-Policy</fullName>
+                <default>false</default>
+                <label>Request_PDF e-Policy</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Incoming Documents</fullName>
+                <default>false</default>
+                <label>Request_Claim_Incoming Documents</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Status</fullName>
+                <default>false</default>
+                <label>Request_Claim_Status</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Payment</fullName>
+                <default>false</default>
+                <label>Request_Claim_Payment</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Japen</fullName>
+                <default>false</default>
+                <label>Request_Claim_Japen</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Return Documents</fullName>
+                <default>false</default>
+                <label>Request_Claim_Return Documents</label>
+            </value>
+            <value>
+                <fullName>Request_Claim Health_Express Claim</fullName>
+                <default>false</default>
+                <label>Request_Claim Health_Express Claim</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Withdrawal Big Amount</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Withdrawal Big Amount</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Redemption</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Information</fullName>
+                <default>false</default>
+                <label>Request_POS_Information</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Non Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Non Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Ubi/Uwi/Ure</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Ubi/Uwi/Ure</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Non Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Non Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Financial</label>
+            </value>
+            <value>
+                <fullName>Top Up Lump Sum</fullName>
+                <default>false</default>
+                <label>Top Up Lump Sum</label>
+            </value>
+            <value>
+                <fullName>Pengalihan Dana (Switching)</fullName>
+                <default>false</default>
+                <label>Pengalihan Dana (Switching)</label>
+            </value>
+            <value>
+                <fullName>Perubahan Alokasi Dana (Redirection)</fullName>
+                <default>false</default>
+                <label>Perubahan Alokasi Dana (Redirection)</label>
+            </value>
+            <value>
+                <fullName>Top Up berkala</fullName>
+                <default>false</default>
+                <label>Top Up berkala</label>
+            </value>
+            <value>
+                <fullName>withdrawal</fullName>
+                <default>false</default>
+                <label>withdrawal</label>
+            </value>
+            <value>
+                <fullName>Pembayaran Manfaat Polis</fullName>
+                <default>false</default>
+                <label>Pembayaran Manfaat Polis</label>
+            </value>
+            <value>
+                <fullName>Pembatalan Polis (surrender)</fullName>
+                <default>false</default>
+                <label>Pembatalan Polis (surrender)</label>
+            </value>
+            <value>
+                <fullName>Pembatalan Cooling Off</fullName>
+                <default>false</default>
+                <label>Pembatalan Cooling Off</label>
+            </value>
+            <value>
+                <fullName>Pengkinian Data</fullName>
+                <default>false</default>
+                <label>Pengkinian Data</label>
+            </value>
+            <value>
+                <fullName>Metode Pembayaran</fullName>
+                <default>false</default>
+                <label>Metode Pembayaran</label>
+            </value>
+            <value>
+                <fullName>Termaslahat</fullName>
+                <default>false</default>
+                <label>Termaslahat</label>
+            </value>
+            <value>
+                <fullName>Penggantian Pemegang Polis</fullName>
+                <default>false</default>
+                <label>Penggantian Pemegang Polis</label>
+            </value>
+            <value>
+                <fullName>Pengajuan Klaim Meninggal</fullName>
+                <default>false</default>
+                <label>Pengajuan Klaim Meninggal</label>
+            </value>
+            <value>
+                <fullName>Pengajuan Klaim Rawat Inap</fullName>
+                <default>false</default>
+                <label>Pengajuan Klaim Rawat Inap</label>
+            </value>
+            <value>
+                <fullName>Pengiriman surat pending claim</fullName>
+                <default>false</default>
+                <label>Pengiriman surat pending claim</label>
+            </value>
+            <value>
+                <fullName>Pengiriman surat tolakan klaim</fullName>
+                <default>false</default>
+                <label>Pengiriman surat tolakan klaim</label>
+            </value>
+            <value>
+                <fullName>Cetak Polis NB</fullName>
+                <default>false</default>
+                <label>Cetak Polis NB</label>
+            </value>
+            <value>
+                <fullName>Pengiriman polis NB</fullName>
+                <default>false</default>
+                <label>Pengiriman polis NB</label>
+            </value>
+            <value>
+                <fullName>Cetak Kartu</fullName>
+                <default>false</default>
+                <label>Cetak Kartu</label>
+            </value>
+            <value>
+                <fullName>Pengiriman Kartu</fullName>
+                <default>false</default>
+                <label>Pengiriman Kartu</label>
+            </value>
+            <value>
+                <fullName>Delivery SPJT</fullName>
+                <default>false</default>
+                <label>Delivery SPJT</label>
+            </value>
+            <value>
+                <fullName>Delivery kwitansi</fullName>
+                <default>false</default>
+                <label>Delivery kwitansi</label>
+            </value>
+            <value>
+                <fullName>Proses Auto debet</fullName>
+                <default>false</default>
+                <label>Proses Auto debet</label>
+            </value>
+            <value>
+                <fullName>Perhitungan loan &amp; interest</fullName>
+                <default>false</default>
+                <label>Perhitungan loan &amp; interest</label>
+            </value>
+            <value>
+                <fullName>Pengajuan aplikasi clean case(Status Aplikasi)</fullName>
+                <default>false</default>
+                <label>Pengajuan aplikasi clean case(Status Aplikasi)</label>
+            </value>
+            <value>
+                <fullName>Pengajuan aplikasi non clean case(Status Aplikasi)</fullName>
+                <default>false</default>
+                <label>Pengajuan aplikasi non clean case(Status Aplikasi)</label>
+            </value>
+            <value>
+                <fullName>Proses Gagal Debet (Salah input) Status Aktif</fullName>
+                <default>false</default>
+                <label>Proses Gagal Debet (Salah input) Status Aktif</label>
+            </value>
+            <value>
+                <fullName>Proses Gagal Debet (Salah input) Status lapse</fullName>
+                <default>false</default>
+                <label>Proses Gagal Debet (Salah input) Status lapse</label>
+            </value>
+            <value>
+                <fullName>Proses Gagal Debet Bank BCA/Danamon (Dokumen Asli belum di serahkan ke Collection)</fullName>
+                <default>false</default>
+                <label>Proses Gagal Debet Bank BCA/Danamon (Dokumen Asli belum di serahkan ke Collection)</label>
+            </value>
+            <value>
+                <fullName>Kesalahan penginputan data/Revisi(Non Reversal)</fullName>
+                <default>false</default>
+                <label>Kesalahan penginputan data/Revisi(Non Reversal)</label>
+            </value>
+            <value>
+                <fullName>Kesalahan penginputan data/Revisi(Reversal Produk UnitLink)</fullName>
+                <default>false</default>
+                <label>Kesalahan penginputan data/Revisi(Reversal Produk UnitLink)</label>
+            </value>
+            <value>
+                <fullName>Kesalahan penginputan data/Revisi( Reversal Produk Health)</fullName>
+                <default>false</default>
+                <label>Kesalahan penginputan data/Revisi( Reversal Produk Health)</label>
+            </value>
+            <value>
+                <fullName>Status dan Pengajuan HIS Card</fullName>
+                <default>false</default>
+                <label>Status dan Pengajuan HIS Card</label>
+            </value>
+            <value>
+                <fullName>Pembayaran Claim Reimbursement</fullName>
+                <default>false</default>
+                <label>Pembayaran Claim Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Pembayaran Claim Provider (ke RS/Klinik)</fullName>
+                <default>false</default>
+                <label>Pembayaran Claim Provider (ke RS/Klinik)</label>
+            </value>
+            <value>
+                <fullName>Penerbitan Surat Jaminan Rawat Inap</fullName>
+                <default>false</default>
+                <label>Penerbitan Surat Jaminan Rawat Inap</label>
+            </value>
+            <value>
+                <fullName>Permintaan Surat COB (Coordination of Benefit)</fullName>
+                <default>false</default>
+                <label>Permintaan Surat COB (Coordination of Benefit)</label>
+            </value>
+            <value>
+                <fullName>Invoice Excess Claim</fullName>
+                <default>false</default>
+                <label>Invoice Excess Claim</label>
+            </value>
+            <value>
+                <fullName>Cek sisa limit (Rawat Jalan / Rawat Gigi / Kacamata)</fullName>
+                <default>false</default>
+                <label>Cek sisa limit (Rawat Jalan / Rawat Gigi / Kacamata)</label>
+            </value>
+            <value>
+                <fullName>Client Service Request (by email &amp; Telp)</fullName>
+                <default>false</default>
+                <label>Client Service Request (by email &amp; Telp)</label>
+            </value>
+            <value>
+                <fullName>Penjelasan Table Benefit / Manfaat / Product</fullName>
+                <default>false</default>
+                <label>Penjelasan Table Benefit / Manfaat / Product</label>
+            </value>
+            <value>
+                <fullName>Cetak Invoice New Business / Renewal / Endorsement</fullName>
+                <default>false</default>
+                <label>Cetak Invoice New Business / Renewal / Endorsement</label>
+            </value>
+            <value>
+                <fullName>Cetak Kartu (Admedika &amp; Non Admedika)</fullName>
+                <default>false</default>
+                <label>Cetak Kartu (Admedika &amp; Non Admedika)</label>
+            </value>
+            <value>
+                <fullName>Cetak Buku Polis</fullName>
+                <default>false</default>
+                <label>Cetak Buku Polis</label>
+            </value>
+            <value>
+                <fullName>Pembayaran Premium / Excess Claim / Capture Premium</fullName>
+                <default>false</default>
+                <label>Pembayaran Premium / Excess Claim / Capture Premium</label>
+            </value>
+            <value>
+                <fullName>Underwriting Medical</fullName>
+                <default>false</default>
+                <label>Underwriting Medical</label>
+            </value>
+            <value>
+                <fullName>Refund Premium Endorsement</fullName>
+                <default>false</default>
+                <label>Refund Premium Endorsement</label>
+            </value>
+            <value>
+                <fullName>Endorsement (Penambahan / Pengurangan Peserta)</fullName>
+                <default>false</default>
+                <label>Endorsement (Penambahan / Pengurangan Peserta)</label>
+            </value>
+            <value>
+                <fullName>Cetak kwitansi pembayaran</fullName>
+                <default>false</default>
+                <label>Cetak kwitansi pembayaran</label>
+            </value>
+            <value>
+                <fullName>Vendor NCS (Pengiriman dokumen / kartu peserta)</fullName>
+                <default>false</default>
+                <label>Vendor NCS (Pengiriman dokumen / kartu peserta)</label>
+            </value>
+            <value>
+                <fullName>Permintaan Formulir Rawat Jalan Provider</fullName>
+                <default>false</default>
+                <label>Permintaan Formulir Rawat Jalan Provider</label>
+            </value>
+            <value>
+                <fullName>Permintaan Kerjasama Provider (RS/Klinik)</fullName>
+                <default>false</default>
+                <label>Permintaan Kerjasama Provider (RS/Klinik)</label>
+            </value>
+            <value>
+                <fullName>Rekonsel outstanding pembayaran claim Provider (RS/Klinik)</fullName>
+                <default>false</default>
+                <label>Rekonsel outstanding pembayaran claim Provider (RS/Klinik)</label>
+            </value>
+            <value>
+                <fullName>Pengiriman Transaction Statement</fullName>
+                <default>false</default>
+                <label>Pengiriman Transaction Statement</label>
+            </value>
+            <value>
+                <fullName>Konfirmasi CR</fullName>
+                <default>false</default>
+                <label>Konfirmasi CR</label>
+            </value>
+            <value>
+                <fullName>Permohonan Duplikat Polis</fullName>
+                <default>false</default>
+                <label>Permohonan Duplikat Polis</label>
+            </value>
+            <value>
+                <fullName>Kartu kepesertaan rawat inap</fullName>
+                <default>false</default>
+                <label>Kartu kepesertaan rawat inap</label>
+            </value>
+            <value>
+                <fullName>Reinstate Otomatis</fullName>
+                <default>false</default>
+                <label>Reinstate Otomatis</label>
+            </value>
+            <value>
+                <fullName>Reinstate Not Otomatis (Perlu ke UW)</fullName>
+                <default>false</default>
+                <label>Reinstate Not Otomatis (Perlu ke UW)</label>
+            </value>
+            <value>
+                <fullName>Transfer MOC Clean Case</fullName>
+                <default>false</default>
+                <label>Transfer MOC Clean Case</label>
+            </value>
+            <value>
+                <fullName>Transfer MOC Non Clean Case</fullName>
+                <default>false</default>
+                <label>Transfer MOC Non Clean Case</label>
+            </value>
+            <value>
+                <fullName>Pemulihan Carefour</fullName>
+                <default>false</default>
+                <label>Pemulihan Carefour</label>
+            </value>
+            <value>
+                <fullName>Proses NCB Carefour Rekening &amp; Non Rekening</fullName>
+                <default>false</default>
+                <label>Proses NCB Carefour Rekening &amp; Non Rekening</label>
+            </value>
+            <value>
+                <fullName>Duplikat polis Carefour</fullName>
+                <default>false</default>
+                <label>Duplikat polis Carefour</label>
+            </value>
+            <value>
+                <fullName>Banding Klaim</fullName>
+                <default>false</default>
+                <label>Banding Klaim</label>
+            </value>
+            <value>
+                <fullName>Pengajuan Klaim Waiver &amp; Payor (Bebas Premi)</fullName>
+                <default>false</default>
+                <label>Pengajuan Klaim Waiver &amp; Payor (Bebas Premi)</label>
+            </value>
+            <value>
+                <fullName>Pengajuan Klaim Penyakit Kritis</fullName>
+                <default>false</default>
+                <label>Pengajuan Klaim Penyakit Kritis</label>
+            </value>
+            <value>
+                <fullName>Pengajuan Klaim Cacat Tetap Total</fullName>
+                <default>false</default>
+                <label>Pengajuan Klaim Cacat Tetap Total</label>
+            </value>
+            <value>
+                <fullName>Pengajuan Klaim Accident</fullName>
+                <default>false</default>
+                <label>Pengajuan Klaim Accident</label>
+            </value>
+            <value>
+                <fullName>Express claim</fullName>
+                <default>false</default>
+                <label>Express claim</label>
+            </value>
+            <value>
+                <fullName>Pertanyaan Inquiry Claim</fullName>
+                <default>false</default>
+                <label>Pertanyaan Inquiry Claim</label>
+            </value>
+            <value>
+                <fullName>Cetak Kwitansi</fullName>
+                <default>false</default>
+                <label>Cetak Kwitansi</label>
+            </value>
+            <value>
+                <fullName>Payment VA</fullName>
+                <default>false</default>
+                <label>Payment VA</label>
+            </value>
+            <value>
+                <fullName>Payment Manual (Transfer Rek)</fullName>
+                <default>false</default>
+                <label>Payment Manual (Transfer Rek)</label>
+            </value>
+            <value>
+                <fullName>Harga unit setelah payment process</fullName>
+                <default>false</default>
+                <label>Harga unit setelah payment process</label>
+            </value>
+            <value>
+                <fullName>Pembukuan payment pemulihan</fullName>
+                <default>false</default>
+                <label>Pembukuan payment pemulihan</label>
+            </value>
+            <value>
+                <fullName>Status SKDR</fullName>
+                <default>false</default>
+                <label>Status SKDR</label>
+            </value>
+            <value>
+                <fullName>polis orphan</fullName>
+                <default>false</default>
+                <label>polis orphan</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Agent License/New Recruit/ agent replacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Bukti transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>capture premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>change/add autodebet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Claim - Claim AFI-process claim-update pending-special case-feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Claim - claim group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>corespondence-status delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>ERA/Towing Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Form NB / After Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Kuitansi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>NB/Underwriting - uw-pending case-special case-his card-cancell aplication-doc receive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Perubahan Financial Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Perubahan non Financial Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Surat Pemberitahuan Jatuh Tempo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Surat Pernyataan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Switching Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Transaction Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Up date Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Up date Email Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Up date Home/Office Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Up date Mobile Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Top Up Lump Sum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengalihan Dana (Switching)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Perubahan Alokasi Dana (Redirection)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Top Up berkala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pembayaran Manfaat Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pembatalan Polis (surrender)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pembatalan Cooling Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengkinian Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Metode Pembayaran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Termaslahat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Penggantian Pemegang Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengajuan Klaim Meninggal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengajuan Klaim Rawat Inap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengiriman surat pending claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengiriman surat tolakan klaim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Cetak Polis NB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengiriman polis NB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Cetak Kartu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengiriman Kartu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Delivery SPJT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Delivery kwitansi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Proses Auto debet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Perhitungan loan &amp; interest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengajuan aplikasi clean case(Status Aplikasi)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengajuan aplikasi non clean case(Status Aplikasi)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Proses Gagal Debet (Salah input) Status Aktif</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Proses Gagal Debet (Salah input) Status lapse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Proses Gagal Debet Bank BCA/Danamon (Dokumen Asli belum di serahkan ke Collection)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Kesalahan penginputan data/Revisi(Non Reversal)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Kesalahan penginputan data/Revisi(Reversal Produk UnitLink)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Kesalahan penginputan data/Revisi( Reversal Produk Health)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Status dan Pengajuan HIS Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pembayaran Claim Reimbursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pembayaran Claim Provider (ke RS/Klinik)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Penerbitan Surat Jaminan Rawat Inap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Permintaan Surat COB (Coordination of Benefit)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Invoice Excess Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Cek sisa limit (Rawat Jalan / Rawat Gigi / Kacamata)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Client Service Request (by email &amp; Telp)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Penjelasan Table Benefit / Manfaat / Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Cetak Invoice New Business / Renewal / Endorsement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Cetak Kartu (Admedika &amp; Non Admedika)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Cetak Buku Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pembayaran Premium / Excess Claim / Capture Premium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Underwriting Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Refund Premium Endorsement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Endorsement (Penambahan / Pengurangan Peserta)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Cetak kwitansi pembayaran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Vendor NCS (Pengiriman dokumen / kartu peserta)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Permintaan Formulir Rawat Jalan Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Permintaan Kerjasama Provider (RS/Klinik)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Rekonsel outstanding pembayaran claim Provider (RS/Klinik)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengiriman Transaction Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Konfirmasi CR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Permohonan Duplikat Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Kartu kepesertaan rawat inap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Reinstate Otomatis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Reinstate Not Otomatis (Perlu ke UW)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Transfer MOC Clean Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Transfer MOC Non Clean Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pemulihan Carefour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Proses NCB Carefour Rekening &amp; Non Rekening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Duplikat polis Carefour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Banding Klaim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengajuan Klaim Waiver &amp; Payor (Bebas Premi)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengajuan Klaim Penyakit Kritis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengajuan Klaim Cacat Tetap Total</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pengajuan Klaim Accident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Express claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pertanyaan Inquiry Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Cetak Kwitansi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Payment VA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Payment Manual (Transfer Rek)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Harga unit setelah payment process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Pembukuan payment pemulihan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Status SKDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>polis orphan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request _Form NB / After Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request _Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request _Transaction Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request _Up date Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request _Up date Email Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Reprint Kartu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Reprint Polis TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Courier Delivery – Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Courier Delivery – Inquiry Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Courier Delivery - Inquiry Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Courier Delivery – Policy Retur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Resend E-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Confirmation Withdrawl Reguler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Confirmation Withdrawl PBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Reprint Polis Convent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Add Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Hold Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Auto Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_TAX Amnesty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Cancel Add</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Cancel Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Collection_Cancel Add, Hold &amp; Auto Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_VRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Refund Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_PDF e-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Claim_Incoming Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Claim_Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Claim_Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Claim_Japen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Claim_Return Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_Claim Health_Express Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Withdrawal Big Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_POS_Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Non Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_POS_Japen Ubi/Uwi/Ure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_POS_Japen Non Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Request_POS_Japen Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>MV Claim Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Non MV Claim Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Pembatalan Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Penerbitan SPK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Perubahan Data Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Sharia Claim Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Tertarik MV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Tertarik Others Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Tertarik PA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Tertarik Property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Tertarik Travel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Travel Insurance Certificate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>Update Customer Data</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

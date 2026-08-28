@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department_Queue_3__c</fullName>
+    <label>Department Queue 3</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Entity__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CCC</fullName>
+                <default>false</default>
+                <label>CCC</label>
+            </value>
+            <value>
+                <fullName>Claim</fullName>
+                <default>false</default>
+                <label>Claim</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>NBUW</fullName>
+                <default>false</default>
+                <label>NBUW</label>
+            </value>
+            <value>
+                <fullName>Orphan</fullName>
+                <default>false</default>
+                <label>Orphan</label>
+            </value>
+            <value>
+                <fullName>VDM</fullName>
+                <default>false</default>
+                <label>VDM</label>
+            </value>
+            <value>
+                <fullName>Collection</fullName>
+                <default>false</default>
+                <label>Collection</label>
+            </value>
+            <value>
+                <fullName>ADS</fullName>
+                <default>false</default>
+                <label>ADS</label>
+            </value>
+            <value>
+                <fullName>CMU</fullName>
+                <default>false</default>
+                <label>CMU</label>
+            </value>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>Agency Health</fullName>
+                <default>false</default>
+                <label>Agency Health</label>
+            </value>
+            <value>
+                <fullName>Bancassurance</fullName>
+                <default>false</default>
+                <label>Bancassurance</label>
+            </value>
+            <value>
+                <fullName>Branch</fullName>
+                <default>false</default>
+                <label>Branch</label>
+            </value>
+            <value>
+                <fullName>Broker Health</fullName>
+                <default>false</default>
+                <label>Broker Health</label>
+            </value>
+            <value>
+                <fullName>Broker Non Health</fullName>
+                <default>false</default>
+                <label>Broker Non Health</label>
+            </value>
+            <value>
+                <fullName>Claim Health Analyst 1</fullName>
+                <default>false</default>
+                <label>Claim Health Analyst 1</label>
+            </value>
+            <value>
+                <fullName>Claim Health Analyst 2</fullName>
+                <default>false</default>
+                <label>Claim Health Analyst 2</label>
+            </value>
+            <value>
+                <fullName>Claim Health QC</fullName>
+                <default>false</default>
+                <label>Claim Health QC</label>
+            </value>
+            <value>
+                <fullName>Claim Health Reg</fullName>
+                <default>false</default>
+                <label>Claim Health Reg</label>
+            </value>
+            <value>
+                <fullName>Claim Lifestyle</fullName>
+                <default>false</default>
+                <label>Claim Lifestyle</label>
+            </value>
+            <value>
+                <fullName>Claim Marine</fullName>
+                <default>false</default>
+                <label>Claim Marine</label>
+            </value>
+            <value>
+                <fullName>Claim MV</fullName>
+                <default>false</default>
+                <label>Claim MV</label>
+            </value>
+            <value>
+                <fullName>Claim Property</fullName>
+                <default>false</default>
+                <label>Claim Property</label>
+            </value>
+            <value>
+                <fullName>Credit Control</fullName>
+                <default>false</default>
+                <label>Credit Control</label>
+            </value>
+            <value>
+                <fullName>Digital</fullName>
+                <default>false</default>
+                <label>Digital</label>
+            </value>
+            <value>
+                <fullName>Direct Health</fullName>
+                <default>false</default>
+                <label>Direct Health</label>
+            </value>
+            <value>
+                <fullName>Direct Team</fullName>
+                <default>false</default>
+                <label>Direct Team</label>
+            </value>
+            <value>
+                <fullName>Health CR</fullName>
+                <default>false</default>
+                <label>Health CR</label>
+            </value>
+            <value>
+                <fullName>Health Retail</fullName>
+                <default>false</default>
+                <label>Health Retail</label>
+            </value>
+            <value>
+                <fullName>MIS</fullName>
+                <default>false</default>
+                <label>MIS</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>Processing Health 1</fullName>
+                <default>false</default>
+                <label>Processing Health 1</label>
+            </value>
+            <value>
+                <fullName>Processing Health 2</fullName>
+                <default>false</default>
+                <label>Processing Health 2</label>
+            </value>
+            <value>
+                <fullName>Processing NH</fullName>
+                <default>false</default>
+                <label>Processing NH</label>
+            </value>
+            <value>
+                <fullName>Product Dev &amp; Marketing</fullName>
+                <default>false</default>
+                <label>Product Dev &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>Sales Business</fullName>
+                <default>false</default>
+                <label>Sales Business</label>
+            </value>
+            <value>
+                <fullName>Underwriting Health 1</fullName>
+                <default>false</default>
+                <label>Underwriting Health 1</label>
+            </value>
+            <value>
+                <fullName>Underwriting Health 2</fullName>
+                <default>false</default>
+                <label>Underwriting Health 2</label>
+            </value>
+            <value>
+                <fullName>Underwriting Health 3</fullName>
+                <default>false</default>
+                <label>Underwriting Health 3</label>
+            </value>
+            <value>
+                <fullName>Underwriting Health 4</fullName>
+                <default>false</default>
+                <label>Underwriting Health 4</label>
+            </value>
+            <value>
+                <fullName>Underwriting NH</fullName>
+                <default>false</default>
+                <label>Underwriting NH</label>
+            </value>
+            <value>
+                <fullName>BPA</fullName>
+                <default>false</default>
+                <label>BPA</label>
+            </value>
+            <value>
+                <fullName>Marine Team</fullName>
+                <default>false</default>
+                <label>Marine Team</label>
+            </value>
+            <value>
+                <fullName>Data Stewardess</fullName>
+                <default>false</default>
+                <label>Data Stewardess</label>
+            </value>
+            <value>
+                <fullName>Quick Response</fullName>
+                <default>false</default>
+                <label>Quick Response</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>CCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>NBUW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>Orphan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <valueName>VDM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>CMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>ADS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Data Stewardess</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <valueName>BPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Agency Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Bancassurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Branch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Broker Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Broker Non Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Claim Health Analyst 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Claim Health Analyst 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Claim Health QC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Claim Health Reg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Claim Lifestyle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Claim Marine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Claim MV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Claim Property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Credit Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Digital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Direct Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Direct Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Health CR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Health Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>MIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Partnership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Processing Health 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Processing Health 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Processing NH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Product Dev &amp; Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Sales Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Underwriting Health 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Underwriting Health 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Underwriting Health 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Underwriting Health 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Underwriting NH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Marine Team</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

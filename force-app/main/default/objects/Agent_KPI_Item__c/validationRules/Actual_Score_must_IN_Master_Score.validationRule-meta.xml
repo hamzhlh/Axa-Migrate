@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Score_must_IN_Master_Score</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( TEXT(Actual_Score__c) == &apos;&apos;,FALSE,
+IF( TEXT(Actual_Score__c) == TEXT(Master_Score_1__c),FALSE,
+IF( TEXT(Actual_Score__c) == TEXT(Master_Score_2__c),FALSE,
+IF( TEXT(Actual_Score__c) == TEXT(Master_Score_3__c),FALSE,
+IF( TEXT(Actual_Score__c) == TEXT(Master_Score_4__c),FALSE,
+IF( TEXT(Actual_Score__c) == TEXT(Master_Score_5__c),FALSE,
+TRUE))))))</errorConditionFormula>
+    <errorDisplayField>Actual_Score__c</errorDisplayField>
+    <errorMessage>Actual Score not available</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Push_Rate_Score_2_Desc__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Survey_Push_Rate__c != 0,
+Survey_Push_Rate_Desc__c &amp;&quot; &quot;&amp; TEXT(Survey_Push_Rate_Score_2__c) &amp;&quot; - &quot;&amp; TEXT(Survey_Push_Rate_Score_3__c)
+,NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Survey Push Rate Score 2 Desc</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

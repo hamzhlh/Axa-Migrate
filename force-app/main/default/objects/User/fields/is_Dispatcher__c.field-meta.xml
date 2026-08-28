@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_Dispatcher__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>User yang dapat change owner pada case detail</description>
+    <label>is Dispatcher?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

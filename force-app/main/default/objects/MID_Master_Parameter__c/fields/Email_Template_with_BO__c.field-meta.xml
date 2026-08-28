@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Template_with_BO__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Email Template with BO</label>
+    <referenceTo>Email_SMS_Template__c</referenceTo>
+    <relationshipLabel>MID_Master_Parameter (Email Template with BO)</relationshipLabel>
+    <relationshipName>MID_Master_Parameter1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PureCloud_Verint_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  RecordType.Name = &quot;ARSI&quot;,
+  HYPERLINK(
+    $Label.ARSI_Interaction_Link &amp; CallObject &amp; &quot;&amp;callDate=&quot; &amp; TEXT(ActivityDate),
+    $Label.ARSI_Interaction_Link &amp; CallObject &amp; &quot;&amp;callDate=&quot; &amp; TEXT(ActivityDate) 
+  ),
+  HYPERLINK(
+    &quot;https://wrcmid01:8443/getRecording?id=&quot; + CallObject,
+    &quot;https://wrcmid01:8443/getRecording?id=&quot; + CallObject
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Telephony Recording Link</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interval_Email_AFI__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+(HOUR(TIMEVALUE((MessageDate + ((7*60))/1440))))&lt;10,
+&quot;0&quot;+(TEXT(HOUR(TIMEVALUE((MessageDate + ((7*60))/1440))))),(TEXT(HOUR(TIMEVALUE((MessageDate + ((7*60))/1440)))))
+)+ &quot;:&quot; +
+IF(MINUTE(TIMEVALUE(MessageDate )) &lt; 30, &quot;00&quot;, &quot;30&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Interval</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

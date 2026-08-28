@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Named_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>From (Named User)</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Named_User__c.User__r.Username</field>
+            <operation>equals</operation>
+            <valueField>$User.Username</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Named_User__c</referenceTo>
+    <relationshipLabel>Case Internal Comment</relationshipLabel>
+    <relationshipName>Case_Internal_Comment</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

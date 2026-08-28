@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ICF_SMS_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>ICF - SMS Template</label>
+    <referenceTo>Email_SMS_Template__c</referenceTo>
+    <relationshipLabel>ICF Non CCC (ICF - SMS Template)</relationshipLabel>
+    <relationshipName>ICF_Non_CCC1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

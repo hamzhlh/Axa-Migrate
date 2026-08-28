@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Softphone_Type__c</fullName>
+    <label>Softphone Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Avaya</fullName>
+                <default>false</default>
+                <label>Avaya</label>
+            </value>
+            <value>
+                <fullName>Asterix</fullName>
+                <default>false</default>
+                <label>Asterix</label>
+            </value>
+            <value>
+                <fullName>PureCloud</fullName>
+                <default>false</default>
+                <label>PureCloud</label>
+            </value>
+            <value>
+                <fullName>ARSI</fullName>
+                <default>false</default>
+                <label>ARSI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

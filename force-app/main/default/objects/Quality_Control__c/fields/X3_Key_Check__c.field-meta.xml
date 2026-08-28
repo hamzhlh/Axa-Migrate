@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_Key_Check__c</fullName>
+    <defaultValue>CASE($User.Entity__c, 
+&apos;ALI&apos;,&apos;INTONATION&apos;, 
+&apos;AFI&apos;,&apos;&apos;, 
+&apos;MAGI&apos;,&apos;&apos;, 
+&apos;AMFS&apos;,&apos;&apos;, 
+&apos;AGI&apos;,&apos;&apos;, 
+&apos;INTONATION&apos;)</defaultValue>
+    <externalId>false</externalId>
+    <label>3 Key Check</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

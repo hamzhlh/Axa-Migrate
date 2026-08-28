@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document__c</fullName>
+    <label>Document</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Kind_Of_Transaction__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Akta Kematian (Asli / Legalisir)</fullName>
+                <default>false</default>
+                <label>Akta Kematian (Asli / Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Bukti OB/Transfer Lumpsum</fullName>
+                <default>false</default>
+                <label>Bukti OB/Transfer Lumpsum</label>
+            </value>
+            <value>
+                <fullName>Bukti OB/Transfer Pembayaran Duplikat Kartu</fullName>
+                <default>false</default>
+                <label>Bukti OB/Transfer Pembayaran Duplikat Kartu</label>
+            </value>
+            <value>
+                <fullName>Bukti OB/Transfer Pembayaran Duplikat Polis Konven</fullName>
+                <default>false</default>
+                <label>Bukti OB/Transfer Pembayaran Duplikat Polis Konven</label>
+            </value>
+            <value>
+                <fullName>Bukti OB/Transfer Pemulihan Polis</fullName>
+                <default>false</default>
+                <label>Bukti OB/Transfer Pemulihan Polis</label>
+            </value>
+            <value>
+                <fullName>Bukti Pemakaman</fullName>
+                <default>false</default>
+                <label>Bukti Pemakaman</label>
+            </value>
+            <value>
+                <fullName>Bukti Pembayaran Pinjaman Polis</fullName>
+                <default>false</default>
+                <label>Bukti Pembayaran Pinjaman Polis</label>
+            </value>
+            <value>
+                <fullName>Bukti Pendukung dari Nasabah</fullName>
+                <default>false</default>
+                <label>Bukti Pendukung dari Nasabah</label>
+            </value>
+            <value>
+                <fullName>Buku Polis</fullName>
+                <default>false</default>
+                <label>Buku Polis</label>
+            </value>
+            <value>
+                <fullName>Form Penyelesaian  Keluhan</fullName>
+                <default>false</default>
+                <label>Form Penyelesaian  Keluhan</label>
+            </value>
+            <value>
+                <fullName>Form Speciment TTD</fullName>
+                <default>false</default>
+                <label>Form Speciment TTD</label>
+            </value>
+            <value>
+                <fullName>Formulir Batal SPAJ</fullName>
+                <default>false</default>
+                <label>Formulir Batal SPAJ</label>
+            </value>
+            <value>
+                <fullName>Formulir Batal Withdrawal</fullName>
+                <default>false</default>
+                <label>Formulir Batal Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Formulir Claim Ketidakmampuan</fullName>
+                <default>false</default>
+                <label>Formulir Claim Ketidakmampuan</label>
+            </value>
+            <value>
+                <fullName>Formulir Claim Meninggal</fullName>
+                <default>false</default>
+                <label>Formulir Claim Meninggal</label>
+            </value>
+            <value>
+                <fullName>Formulir Claim Penyakit Kritis</fullName>
+                <default>false</default>
+                <label>Formulir Claim Penyakit Kritis</label>
+            </value>
+            <value>
+                <fullName>Formulir Claim Rawat Inap</fullName>
+                <default>false</default>
+                <label>Formulir Claim Rawat Inap</label>
+            </value>
+            <value>
+                <fullName>Formulir Claim Rawat Jalan</fullName>
+                <default>false</default>
+                <label>Formulir Claim Rawat Jalan</label>
+            </value>
+            <value>
+                <fullName>Formulir Dana Investasi</fullName>
+                <default>false</default>
+                <label>Formulir Dana Investasi</label>
+            </value>
+            <value>
+                <fullName>Formulir FP5</fullName>
+                <default>false</default>
+                <label>Formulir FP5</label>
+            </value>
+            <value>
+                <fullName>Formulir Keluhan Nasabah</fullName>
+                <default>false</default>
+                <label>Formulir Keluhan Nasabah</label>
+            </value>
+            <value>
+                <fullName>Formulir NCB</fullName>
+                <default>false</default>
+                <label>Formulir NCB</label>
+            </value>
+            <value>
+                <fullName>Formulir Pembatalan Polis (UCO)</fullName>
+                <default>false</default>
+                <label>Formulir Pembatalan Polis (UCO)</label>
+            </value>
+            <value>
+                <fullName>Formulir Pengantar Express Claim</fullName>
+                <default>false</default>
+                <label>Formulir Pengantar Express Claim</label>
+            </value>
+            <value>
+                <fullName>Formulir Pernyataan Kesahatan</fullName>
+                <default>false</default>
+                <label>Formulir Pernyataan Kesahatan</label>
+            </value>
+            <value>
+                <fullName>Formulir Perubahan Data Polis</fullName>
+                <default>false</default>
+                <label>Formulir Perubahan Data Polis</label>
+            </value>
+            <value>
+                <fullName>Formulir Pinjaman Polis</fullName>
+                <default>false</default>
+                <label>Formulir Pinjaman Polis</label>
+            </value>
+            <value>
+                <fullName>Formulir PPS</fullName>
+                <default>false</default>
+                <label>Formulir PPS</label>
+            </value>
+            <value>
+                <fullName>Formulir Redemption</fullName>
+                <default>false</default>
+                <label>Formulir Redemption</label>
+            </value>
+            <value>
+                <fullName>Formulir SKD Rawat Inap</fullName>
+                <default>false</default>
+                <label>Formulir SKD Rawat Inap</label>
+            </value>
+            <value>
+                <fullName>Formulir Withdrawal</fullName>
+                <default>false</default>
+                <label>Formulir Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Fotokopi Akta Lahir</fullName>
+                <default>false</default>
+                <label>Fotokopi Akta Lahir</label>
+            </value>
+            <value>
+                <fullName>Fotokopi Akta Lahir Ahli Waris</fullName>
+                <default>false</default>
+                <label>Fotokopi Akta Lahir Ahli Waris</label>
+            </value>
+            <value>
+                <fullName>Fotokopi Buku Tabungan</fullName>
+                <default>false</default>
+                <label>Fotokopi Buku Tabungan</label>
+            </value>
+            <value>
+                <fullName>Fotokopi Ijazah Terakhir</fullName>
+                <default>false</default>
+                <label>Fotokopi Ijazah Terakhir</label>
+            </value>
+            <value>
+                <fullName>Fotokopi Ijazah Terakhir Ahli Waris</fullName>
+                <default>false</default>
+                <label>Fotokopi Ijazah Terakhir Ahli Waris</label>
+            </value>
+            <value>
+                <fullName>Fotokopi Kartu Keluarga</fullName>
+                <default>false</default>
+                <label>Fotokopi Kartu Keluarga</label>
+            </value>
+            <value>
+                <fullName>Fotokopi Kartu Kredit</fullName>
+                <default>false</default>
+                <label>Fotokopi Kartu Kredit</label>
+            </value>
+            <value>
+                <fullName>Fotokopi KTP</fullName>
+                <default>false</default>
+                <label>Fotokopi KTP</label>
+            </value>
+            <value>
+                <fullName>Fotokopi KTP Ahli Waris</fullName>
+                <default>false</default>
+                <label>Fotokopi KTP Ahli Waris</label>
+            </value>
+            <value>
+                <fullName>Fotokopi KTP PP</fullName>
+                <default>false</default>
+                <label>Fotokopi KTP PP</label>
+            </value>
+            <value>
+                <fullName>Foto nasabah dengan KTP</fullName>
+                <default>false</default>
+                <label>Foto nasabah dengan KTP</label>
+            </value>
+            <value>
+                <fullName>Hasil Laboratorium</fullName>
+                <default>false</default>
+                <label>Hasil Laboratorium</label>
+            </value>
+            <value>
+                <fullName>Kwitansi / Rincian Biaya Perawatan</fullName>
+                <default>false</default>
+                <label>Kwitansi / Rincian Biaya Perawatan</label>
+            </value>
+            <value>
+                <fullName>SKD Claim Ketidakmampuan / Resume Medis</fullName>
+                <default>false</default>
+                <label>SKD Claim Ketidakmampuan / Resume Medis</label>
+            </value>
+            <value>
+                <fullName>SKD Claim Meninggal / Resume Medis</fullName>
+                <default>false</default>
+                <label>SKD Claim Meninggal / Resume Medis</label>
+            </value>
+            <value>
+                <fullName>SKD Claim Penyakit Kritis / Resume Medis</fullName>
+                <default>false</default>
+                <label>SKD Claim Penyakit Kritis / Resume Medis</label>
+            </value>
+            <value>
+                <fullName>SKD Claim Rawat Inap / Resume Medis</fullName>
+                <default>false</default>
+                <label>SKD Claim Rawat Inap / Resume Medis</label>
+            </value>
+            <value>
+                <fullName>SKD Claim Rawat Jalan / Resume Medis</fullName>
+                <default>false</default>
+                <label>SKD Claim Rawat Jalan / Resume Medis</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan dari Kelurahan</fullName>
+                <default>false</default>
+                <label>Surat Keterangan dari Kelurahan</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Kematian</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Kematian</label>
+            </value>
+            <value>
+                <fullName>Surat Kuasa Debet Kartu Kredit</fullName>
+                <default>false</default>
+                <label>Surat Kuasa Debet Kartu Kredit</label>
+            </value>
+            <value>
+                <fullName>Surat Kuasa Debet Rekening</fullName>
+                <default>false</default>
+                <label>Surat Kuasa Debet Rekening</label>
+            </value>
+            <value>
+                <fullName>Surat Pernyataan Batal Redemption</fullName>
+                <default>false</default>
+                <label>Surat Pernyataan Batal Redemption</label>
+            </value>
+            <value>
+                <fullName>Surat Pernyataan Batal Redemption Setuju Top Up Lumpsum</fullName>
+                <default>false</default>
+                <label>Surat Pernyataan Batal Redemption Setuju Top Up Lumpsum</label>
+            </value>
+            <value>
+                <fullName>Surat Pernyataan Tanda Tangan</fullName>
+                <default>false</default>
+                <label>Surat Pernyataan Tanda Tangan</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Request_CR_Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Cooling Off</controllingFieldValue>
+            <valueName>Formulir Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_CR_Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Cancelled Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal Big Amount</controllingFieldValue>
+            <controllingFieldValue>Request_POS Cooling off</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Duplicate Policy DMTM</controllingFieldValue>
+            <controllingFieldValue>Request_UW_Cancelled SPAJ</controllingFieldValue>
+            <controllingFieldValue>Request_UW_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Transfer Tolakan NCB</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Rekening Penerimaan NCB</controllingFieldValue>
+            <controllingFieldValue>Cooling Off</controllingFieldValue>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <controllingFieldValue>Penyelesaian Keluhan</controllingFieldValue>
+            <valueName>Fotokopi Buku Tabungan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_CR_Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Request_Hold Debit</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Cancelled Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat email</controllingFieldValue>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat Koresponden</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Ejaan Nama</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan ID KTP</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Nomor WhatsApp</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Tanggal Lahir</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Switching &amp; Redirection</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Top Up Berkala (RTU)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal Big Amount</controllingFieldValue>
+            <controllingFieldValue>Request_POS Cooling off</controllingFieldValue>
+            <controllingFieldValue>Print Pernyataan Transaksi</controllingFieldValue>
+            <controllingFieldValue>Cancelled Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_Add Debit</controllingFieldValue>
+            <controllingFieldValue>Request_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Duplicate Policy DMTM</controllingFieldValue>
+            <controllingFieldValue>Reprint Kartu ADS</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Duplikat Buku Polis TM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Alamat Korespondensi</controllingFieldValue>
+            <controllingFieldValue>Request Form / Pick Up Doc</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan ID KTP</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Request_UW_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Ketidakmampuan</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Rawat Inap</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Sakit Kritis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request-Printing New Policy DMTM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Reprint Polis TM</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Payment Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Submit Rawat Jalan</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Transfer Tolakan NCB</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Penghentian Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan DOB</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Release PH Passive</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Ejaan nama</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Gender</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Relationship</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Title</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Rekening Penerimaan NCB</controllingFieldValue>
+            <controllingFieldValue>Request_Auto Reinstate</controllingFieldValue>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <valueName>Fotokopi KTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Hold Debit</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal Big Amount</controllingFieldValue>
+            <controllingFieldValue>Request_POS Cooling off</controllingFieldValue>
+            <controllingFieldValue>Cancelled Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_Add Debit</controllingFieldValue>
+            <controllingFieldValue>Request_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Reprint Polis TM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Transfer Tolakan NCB</controllingFieldValue>
+            <valueName>Formulir FP5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cancelled Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Cancelled Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Confirmation Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Confirmation Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Confirmation Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Confirmation Withdrawal Big Amount</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Hold Pengiriman Buku Polis</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Hold Surat Perubahan Alamat</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Hold Transfer Auto Surrender MAPAN</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Information Fin</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Information Non Fin</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Information Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Japen Ubi/Uwi/Ure/Uco</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Major Minor</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Pengalihan Dana (Switching)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perbedaan / perubahan TTD</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat email</controllingFieldValue>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat Koresponden</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Alokasi Dana (Redirection)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Ejaan Nama</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan ID KTP</controllingFieldValue>
+            <controllingFieldValue>POS - Confirmation Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Nomor WhatsApp</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Tanggal Lahir</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Switching &amp; Redirection</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Top Up Berkala (RTU)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal Big Amount</controllingFieldValue>
+            <controllingFieldValue>Request_POS Cooling off</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Kartu</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Polis Konven</controllingFieldValue>
+            <controllingFieldValue>Request_POS Lumpsum</controllingFieldValue>
+            <controllingFieldValue>Request_POS Pemulihan Polis</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Payment Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Penghentian Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Release PH Passive</controllingFieldValue>
+            <valueName>Foto nasabah dengan KTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cancelled Redemption</controllingFieldValue>
+            <valueName>Surat Pernyataan Batal Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cancelled Redemption</controllingFieldValue>
+            <valueName>Surat Pernyataan Batal Redemption Setuju Top Up Lumpsum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cancelled Withdrawal</controllingFieldValue>
+            <valueName>Formulir Batal Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cancelled Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Pengalihan Dana (Switching)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perbedaan / perubahan TTD</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Alokasi Dana (Redirection)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Kartu</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Polis Konven</controllingFieldValue>
+            <controllingFieldValue>Request_POS Lumpsum</controllingFieldValue>
+            <controllingFieldValue>Request_POS Pemulihan Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Request_UW_Cancelled SPAJ</controllingFieldValue>
+            <controllingFieldValue>Request_ADS Duplikat Kartu</controllingFieldValue>
+            <controllingFieldValue>Request_ADS Pemulihan Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Alamat Email</controllingFieldValue>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <controllingFieldValue>Cooling Off</controllingFieldValue>
+            <controllingFieldValue>Duplikat Polis TM</controllingFieldValue>
+            <controllingFieldValue>Penyelesaian Keluhan</controllingFieldValue>
+            <controllingFieldValue>ADS - Perubahan Alamat Koresponden</controllingFieldValue>
+            <valueName>Fotokopi KTP PP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat email</controllingFieldValue>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat Koresponden</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Ejaan Nama</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan ID KTP</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Nomor WhatsApp</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Tanggal Lahir</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Kartu</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Polis Konven</controllingFieldValue>
+            <controllingFieldValue>Request_POS Pemulihan Polis</controllingFieldValue>
+            <controllingFieldValue>Reprint Kartu ADS</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Duplikat Buku Polis TM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Alamat Korespondensi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan ID KTP</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Request-Printing New Policy DMTM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Reprint Polis TM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS Duplikat Kartu</controllingFieldValue>
+            <controllingFieldValue>Request_ADS Pemulihan Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Alamat Email</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Penghentian Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan DOB</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Release PH Passive</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Ejaan nama</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Gender</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Relationship</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Title</controllingFieldValue>
+            <controllingFieldValue>Duplikat Polis TM</controllingFieldValue>
+            <controllingFieldValue>ADS - Perubahan Alamat Koresponden</controllingFieldValue>
+            <valueName>Formulir Perubahan Data Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Pengalihan Dana (Switching)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Alokasi Dana (Redirection)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Switching &amp; Redirection</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Top Up Berkala (RTU)</controllingFieldValue>
+            <controllingFieldValue>Request_POS Lumpsum</controllingFieldValue>
+            <valueName>Formulir Dana Investasi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perbedaan / perubahan TTD</controllingFieldValue>
+            <valueName>Surat Pernyataan Tanda Tangan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Ahli waris</controllingFieldValue>
+            <valueName>Fotokopi Akta Lahir Ahli Waris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Ahli waris</controllingFieldValue>
+            <valueName>Fotokopi Ijazah Terakhir Ahli Waris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Gender</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Relationship</controllingFieldValue>
+            <valueName>Fotokopi Kartu Keluarga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Ahli waris</controllingFieldValue>
+            <valueName>Fotokopi KTP Ahli Waris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Ejaan Nama</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Tanggal Lahir</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Ejaan nama</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Gender</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Relationship</controllingFieldValue>
+            <valueName>Fotokopi Akta Lahir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan Ejaan Nama</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Tanggal Lahir</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Ejaan nama</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Gender</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Title</controllingFieldValue>
+            <valueName>Fotokopi Ijazah Terakhir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Transfer Tolakan NCB</controllingFieldValue>
+            <valueName>Fotokopi Kartu Kredit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDKK</controllingFieldValue>
+            <valueName>Surat Kuasa Debet Kartu Kredit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDR</controllingFieldValue>
+            <valueName>Surat Kuasa Debet Rekening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_UW_Refund Premi</controllingFieldValue>
+            <valueName>Formulir PPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal Big Amount</controllingFieldValue>
+            <valueName>Formulir Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Cooling off</controllingFieldValue>
+            <valueName>Buku Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Cooling off</controllingFieldValue>
+            <valueName>Formulir Pembatalan Polis (UCO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Duplikat Kartu</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Polis Konven</controllingFieldValue>
+            <valueName>Bukti OB/Transfer Pembayaran Duplikat Polis Konven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Lumpsum</controllingFieldValue>
+            <valueName>Bukti OB/Transfer Lumpsum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Pemulihan Polis</controllingFieldValue>
+            <valueName>Bukti OB/Transfer Pemulihan Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS Pemulihan Polis</controllingFieldValue>
+            <valueName>Formulir Pernyataan Kesahatan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS_Duplicate Policy DMTM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Rekening Penerimaan NCB</controllingFieldValue>
+            <valueName>Formulir NCB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_UW_Cancelled SPAJ</controllingFieldValue>
+            <valueName>Formulir Batal SPAJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Ketidakmampuan</controllingFieldValue>
+            <valueName>Formulir Claim Ketidakmampuan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Ketidakmampuan</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Rawat Inap</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Sakit Kritis</controllingFieldValue>
+            <controllingFieldValue>Submit Rawat Jalan</controllingFieldValue>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <valueName>Hasil Laboratorium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Ketidakmampuan</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Rawat Inap</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Sakit Kritis</controllingFieldValue>
+            <controllingFieldValue>Submit Rawat Jalan</controllingFieldValue>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <valueName>Kwitansi / Rincian Biaya Perawatan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Ketidakmampuan</controllingFieldValue>
+            <valueName>SKD Claim Ketidakmampuan / Resume Medis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <valueName>Akta Kematian (Asli / Legalisir)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <valueName>Bukti Pemakaman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <valueName>Formulir Claim Meninggal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <valueName>SKD Claim Meninggal / Resume Medis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <valueName>Surat Keterangan Kematian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Rawat Inap</controllingFieldValue>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <valueName>Formulir Claim Rawat Inap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Rawat Inap</controllingFieldValue>
+            <valueName>SKD Claim Rawat Inap / Resume Medis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Sakit Kritis</controllingFieldValue>
+            <valueName>Formulir Claim Penyakit Kritis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Claim Sakit Kritis</controllingFieldValue>
+            <valueName>SKD Claim Penyakit Kritis / Resume Medis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Payment Policy Loan MSW</controllingFieldValue>
+            <valueName>Formulir Pinjaman Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Payment Policy Loan MSW</controllingFieldValue>
+            <valueName>Bukti Pembayaran Pinjaman Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Rawat Jalan</controllingFieldValue>
+            <valueName>Formulir Claim Rawat Jalan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submit Rawat Jalan</controllingFieldValue>
+            <valueName>SKD Claim Rawat Jalan / Resume Medis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS Duplikat Kartu</controllingFieldValue>
+            <valueName>Bukti OB/Transfer Pembayaran Duplikat Kartu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_ADS - Perubahan Gender</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Relationship</controllingFieldValue>
+            <valueName>Surat Keterangan dari Kelurahan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Bukti Pendukung dari Nasabah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Form Speciment TTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Formulir Keluhan Nasabah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <valueName>Formulir Pengantar Express Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <valueName>Formulir SKD Rawat Inap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Penyelesaian Keluhan</controllingFieldValue>
+            <valueName>Form Penyelesaian  Keluhan</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

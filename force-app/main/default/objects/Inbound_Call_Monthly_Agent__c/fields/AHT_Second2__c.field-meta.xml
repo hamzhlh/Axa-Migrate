@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHT_Second2__c</fullName>
+    <externalId>false</externalId>
+    <formula>VALUE(LEFT(AHT__c,2))*60*60 + VALUE(LEFT(RIGHT(AHT__c,5),2))*60 + VALUE(RIGHT(AHT__c,2))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AHT Second2</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

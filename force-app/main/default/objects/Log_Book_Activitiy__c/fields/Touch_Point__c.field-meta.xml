@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Touch_Point__c</fullName>
+    <description>Branch location</description>
+    <label>Touch Point</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Head Office</fullName>
+                <default>false</default>
+                <label>Head Office</label>
+            </value>
+            <value>
+                <fullName>Care Corner RS Pusat Pertamina</fullName>
+                <default>false</default>
+                <label>Care Corner RS Pusat Pertamina</label>
+            </value>
+            <value>
+                <fullName>CCC Bandung</fullName>
+                <default>false</default>
+                <label>CCC Bandung</label>
+            </value>
+            <value>
+                <fullName>CCC Medan</fullName>
+                <default>false</default>
+                <label>CCC Medan</label>
+            </value>
+            <value>
+                <fullName>CCC Palembang</fullName>
+                <default>false</default>
+                <label>CCC Palembang</label>
+            </value>
+            <value>
+                <fullName>CCC Semarang</fullName>
+                <default>false</default>
+                <label>CCC Semarang</label>
+            </value>
+            <value>
+                <fullName>CCC Surabaya</fullName>
+                <default>false</default>
+                <label>CCC Surabaya</label>
+            </value>
+            <value>
+                <fullName>Preferred Banking Customer</fullName>
+                <default>false</default>
+                <label>Preferred Banking Customer</label>
+            </value>
+            <value>
+                <fullName>E-Mail</fullName>
+                <default>false</default>
+                <label>E-Mail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

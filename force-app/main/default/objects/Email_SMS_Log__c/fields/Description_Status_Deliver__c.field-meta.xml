@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description_Status_Deliver__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Status_Deliver__c , &apos;1&apos;, &apos;Success, received. The SMS received on the Destination Number&apos;, &apos;2&apos;, &apos;Success, not received. The SMS sent successfully to Telco but not received&apos;,&apos;3&apos;,&apos;Success, unknown number. The Destination Number is not valid&apos;,&apos;4&apos;,&apos;Failed SMS submission failed&apos;,&apos;77&apos;,&apos;Delivery Status is not available. The Delivery Status of requested Message Id currently not available Delivery Status available in 1 to 3 days after SMS submission&apos;,&apos;&apos;)</formula>
+    <label>Description Status Deliver</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

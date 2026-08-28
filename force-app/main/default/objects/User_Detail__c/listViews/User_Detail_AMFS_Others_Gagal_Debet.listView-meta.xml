@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Detail_AMFS_Others_Gagal_Debet</fullName>
+    <columns>NAME</columns>
+    <columns>Entity__c</columns>
+    <columns>User__c</columns>
+    <columns>Outbound_Activity_Case_type__c</columns>
+    <columns>Sisa_Waktu_Follow_Up__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AMFS</value>
+    </filters>
+    <filters>
+        <field>Outbound_Activity_Case_type__c</field>
+        <operation>includes</operation>
+        <value>Collection - Others - Gagal Debet</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>User_Detail__c.User_Detail_Collection_AMFS</value>
+    </filters>
+    <label>User Detail AMFS Others Gagal Debet</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>AMFS_PIC_Collection</role>
+    </sharedTo>
+</ListView>
