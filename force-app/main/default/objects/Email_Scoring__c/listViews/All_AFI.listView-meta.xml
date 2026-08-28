@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AFI</fullName>
+    <columns>NAME</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>Agent__c</columns>
+    <columns>Case__c</columns>
+    <columns>Email_Content__c</columns>
+    <columns>Message_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>Supervisor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Incoming__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AFI</value>
+    </filters>
+    <label>All</label>
+    <sharedTo>
+        <role>AFI_Email_SPV</role>
+    </sharedTo>
+</ListView>

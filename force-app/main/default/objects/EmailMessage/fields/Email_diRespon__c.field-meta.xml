@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_diRespon__c</fullName>
+    <formula>AND(
+   Incoming  = TRUE,
+  OR(
+    ISPICKVAL(Status, &quot;Sent&quot;),
+    ISPICKVAL(Status, &quot;Replied&quot;),
+    ISPICKVAL(Status, &quot;Forwarded&quot;)
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Email direspon</label>
+    <type>Checkbox</type>
+</CustomField>

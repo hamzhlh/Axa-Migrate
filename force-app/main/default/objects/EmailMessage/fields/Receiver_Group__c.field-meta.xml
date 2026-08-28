@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receiver_Group__c</fullName>
+    <externalId>false</externalId>
+    <formula>if (  ISPICKVAL( Parent.Entity_Backup__c, &apos;AFI&apos;) , 
+   if ( CONTAINS( ToAddress, &apos;customer@axa-financial.co.id&apos;),
+     &apos;customer@axa-financial.co.id&apos;,   
+     if ( CONTAINS( ToAddress, &apos;helpline@axa-financial.co.id&apos;),
+       &apos;helpline@axa-financial.co.id&apos;, 
+       if ( CONTAINS( CcAddress, &apos;customer@axa-financial.co.id&apos;),  
+         &apos;customer@axa-financial.co.id&apos;, 
+         if ( CONTAINS( CcAddress, &apos;helpline@axa-financial.co.id&apos;),  
+           &apos;helpline@axa-financial.co.id&apos;, 
+           if ( CONTAINS( BccAddress, &apos;customer@axa-financial.co.id&apos;),  
+             &apos;customer@axa-financial.co.id&apos;,
+             if ( CONTAINS( BccAddress, &apos;helpline@axa-financial.co.id&apos;),
+               &apos;helpline@axa-financial.co.id&apos;, &apos;-&apos;
+             )
+            )  
+          )
+        )
+       )  
+    ),
+
+if (  ISPICKVAL( Parent.Entity_Backup__c, &apos;AMFS&apos;) , 
+   if ( CONTAINS( ToAddress, &apos;customer@axa-mandiri.co.id&apos;),
+     &apos;customer@axa-mandiri.co.id&apos;,   
+     if ( CONTAINS( ToAddress, &apos;nasabah@axa-mandiri.co.id&apos;),
+       &apos;nasabah@axa-mandiri.co.id&apos;, 
+       if ( CONTAINS( ToAddress, &apos;priority@axa-mandiri.co.id&apos;),
+         &apos;priority@axa-mandiri.co.id&apos;, 
+
+   if ( CONTAINS( CcAddress, &apos;customer@axa-mandiri.co.id&apos;),
+     &apos;customer@axa-mandiri.co.id&apos;,   
+     if ( CONTAINS( CcAddress, &apos;nasabah@axa-mandiri.co.id&apos;),
+       &apos;nasabah@axa-mandiri.co.id&apos;, 
+       if ( CONTAINS( CcAddress, &apos;priority@axa-mandiri.co.id&apos;),
+         &apos;priority@axa-mandiri.co.id&apos;, 
+
+   if ( CONTAINS( BccAddress, &apos;customer@axa-mandiri.co.id&apos;),
+     &apos;customer@axa-mandiri.co.id&apos;,   
+     if ( CONTAINS( BccAddress, &apos;nasabah@axa-mandiri.co.id&apos;),
+       &apos;nasabah@axa-mandiri.co.id&apos;, 
+       if ( CONTAINS( BccAddress, &apos;priority@axa-mandiri.co.id&apos;),
+         &apos;priority@axa-mandiri.co.id&apos;, 
+         &apos;-&apos;
+       )
+     )
+    )
+        )
+      )
+    )
+        )
+      )
+    )
+  , 
+
+if (ISPICKVAL( Parent.Entity_Backup__c, &apos;MAGI&apos;) , 
+   if ( CONTAINS( ToAddress, &apos;customer.general@axa-mandiri.co.id&apos;),
+     &apos;customer.general@axa-mandiri.co.id&apos;, 
+     if ( CONTAINS( ToAddress, &apos;customer.general@axa-mandiri.co.id&apos;),
+        &apos;customer.general@axa-mandiri.co.id&apos;,
+       if ( CONTAINS( ToAddress, &apos;customer.general@axa-mandiri.co.id&apos;),
+         &apos;customer.general@axa-mandiri.co.id&apos;,  &apos;-&apos;
+       )
+      )
+    ),
+ &apos;-&apos;
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Receiver Group</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

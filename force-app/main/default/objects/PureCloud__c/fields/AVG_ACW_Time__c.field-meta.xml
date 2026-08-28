@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AVG_ACW_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AVG_ACW__c/3600 &lt; 10, &apos;0&apos;,&apos;&apos;)+TEXT(FLOOR(AVG_ACW__c/3600)) + &quot;:&quot; + IF(FLOOR(MOD(AVG_ACW__c,3600)/60)&lt; 10, &apos;0&apos;,&apos;&apos;)+TEXT( FLOOR(MOD(AVG_ACW__c,3600)/60)) + &quot;:&quot; + IF( ROUND(MOD(MOD(AVG_ACW__c,3600),60),0)&lt; 10, &apos;0&apos;,&apos;&apos;)+ TEXT(ROUND(MOD(MOD(AVG_ACW__c,3600),60),0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AVG ACW Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

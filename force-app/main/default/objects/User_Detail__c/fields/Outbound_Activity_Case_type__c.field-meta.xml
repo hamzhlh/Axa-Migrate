@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outbound_Activity_Case_type__c</fullName>
+    <label>Outbound Activity &amp; Case type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>F_Entity__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Confirmation - Welcome Call</fullName>
+                <default>false</default>
+                <label>Confirmation - Welcome Call</label>
+            </value>
+            <value>
+                <fullName>Confirmation - Update Data</fullName>
+                <default>false</default>
+                <label>Confirmation - Update Data</label>
+            </value>
+            <value>
+                <fullName>Confirmation - Claim</fullName>
+                <default>false</default>
+                <label>Confirmation - Claim</label>
+            </value>
+            <value>
+                <fullName>Confirmation - Collection Task</fullName>
+                <default>false</default>
+                <label>Confirmation - Collection Task</label>
+            </value>
+            <value>
+                <fullName>Conservation - Retain Redemption</fullName>
+                <default>false</default>
+                <label>Conservation - Retain Redemption</label>
+            </value>
+            <value>
+                <fullName>Conservation - Reinstate</fullName>
+                <default>false</default>
+                <label>Conservation - Reinstate</label>
+            </value>
+            <value>
+                <fullName>Conservation - Premium FU</fullName>
+                <default>false</default>
+                <label>Conservation - Premium FU</label>
+            </value>
+            <value>
+                <fullName>Conservation - NCB</fullName>
+                <default>false</default>
+                <label>Conservation - NCB</label>
+            </value>
+            <value>
+                <fullName>Survey Feedback</fullName>
+                <default>false</default>
+                <label>Survey Feedback</label>
+            </value>
+            <value>
+                <fullName>Complaint Case</fullName>
+                <default>false</default>
+                <label>Complaint Case</label>
+            </value>
+            <value>
+                <fullName>Confirmation - SMS Pull Confirmation</fullName>
+                <default>false</default>
+                <label>Confirmation - SMS Pull Confirmation</label>
+            </value>
+            <value>
+                <fullName>Confirmation - Complaint Follow Up</fullName>
+                <default>false</default>
+                <label>Confirmation - Complaint Follow Up</label>
+            </value>
+            <value>
+                <fullName>Conservation - Renewal</fullName>
+                <default>false</default>
+                <label>Conservation - Renewal</label>
+            </value>
+            <value>
+                <fullName>Survey Feedback - Survey - I Ask</fullName>
+                <default>false</default>
+                <label>Survey Feedback - Survey - I Ask</label>
+            </value>
+            <value>
+                <fullName>Survey Feedback - Survey - I Buy</fullName>
+                <default>false</default>
+                <label>Survey Feedback - Survey - I Buy</label>
+            </value>
+            <value>
+                <fullName>Survey Feedback - Survey - I Claim</fullName>
+                <default>false</default>
+                <label>Survey Feedback - Survey - I Claim</label>
+            </value>
+            <value>
+                <fullName>Collection - Withdrawal</fullName>
+                <default>false</default>
+                <label>Collection - Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Collection - Renewal Reminder</fullName>
+                <default>false</default>
+                <label>Collection - Renewal Reminder</label>
+            </value>
+            <value>
+                <fullName>Collection - Lapse Konven</fullName>
+                <default>false</default>
+                <label>Collection - Lapse Konven</label>
+            </value>
+            <value>
+                <fullName>Collection - MKP</fullName>
+                <default>false</default>
+                <label>Collection - MKP</label>
+            </value>
+            <value>
+                <fullName>Collection - Cuti Premi</fullName>
+                <default>false</default>
+                <label>Collection - Cuti Premi</label>
+            </value>
+            <value>
+                <fullName>Collection - RTU</fullName>
+                <default>false</default>
+                <label>Collection - RTU</label>
+            </value>
+            <value>
+                <fullName>Collection - Redemption Konven</fullName>
+                <default>false</default>
+                <label>Collection - Redemption Konven</label>
+            </value>
+            <value>
+                <fullName>Collection - Lapse TM</fullName>
+                <default>false</default>
+                <label>Collection - Lapse TM</label>
+            </value>
+            <value>
+                <fullName>Collection - Redemption TM</fullName>
+                <default>false</default>
+                <label>Collection - Redemption TM</label>
+            </value>
+            <value>
+                <fullName>Collection - Secondary Payment - Renewal Reminder</fullName>
+                <default>false</default>
+                <label>Collection - Secondary Payment - Renewal Reminder</label>
+            </value>
+            <value>
+                <fullName>Collection - TRO Project - Renewal Reminder</fullName>
+                <default>false</default>
+                <label>Collection - TRO Project - Renewal Reminder</label>
+            </value>
+            <value>
+                <fullName>Collection - TRO Project</fullName>
+                <default>false</default>
+                <label>Collection - TRO Project</label>
+            </value>
+            <value>
+                <fullName>Collection - Others - Gagal Debet</fullName>
+                <default>false</default>
+                <label>Collection - Others - Gagal Debet</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Confirmation - Welcome Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Confirmation - Update Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Confirmation - Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Confirmation - SMS Pull Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Confirmation - Complaint Follow Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Conservation - Renewal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Survey Feedback - Survey - I Ask</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Survey Feedback - Survey - I Buy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AGI</controllingFieldValue>
+            <valueName>Survey Feedback - Survey - I Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Confirmation - Collection Task</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Conservation - Retain Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Conservation - Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Conservation - Premium FU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Conservation - NCB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Survey Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Complaint Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Renewal Reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Lapse Konven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - MKP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Cuti Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - RTU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Redemption Konven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Lapse TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Redemption TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Secondary Payment - Renewal Reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - TRO Project - Renewal Reminder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - TRO Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <valueName>Collection - Others - Gagal Debet</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

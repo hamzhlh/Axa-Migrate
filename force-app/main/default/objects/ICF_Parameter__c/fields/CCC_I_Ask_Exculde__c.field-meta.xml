@@ -1,0 +1,3205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCC_I_Ask_Exculde__c</fullName>
+    <label>I Ask Exclude (CCC)</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Entity__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Claim Enquiry</fullName>
+                <default>false</default>
+                <label>Claim Enquiry</label>
+            </value>
+            <value>
+                <fullName>un-resolved enquiry</fullName>
+                <default>false</default>
+                <label>un-resolved enquiry</label>
+            </value>
+            <value>
+                <fullName>(NB/UW) Information Status</fullName>
+                <default>false</default>
+                <label>(NB/UW) Information Status</label>
+            </value>
+            <value>
+                <fullName>Account Balance</fullName>
+                <default>false</default>
+                <label>Account Balance</label>
+            </value>
+            <value>
+                <fullName>Admin Charges</fullName>
+                <default>false</default>
+                <label>Admin Charges</label>
+            </value>
+            <value>
+                <fullName>Agent License/New Recruit/ agent replacement</fullName>
+                <default>false</default>
+                <label>Agent License/New Recruit/ agent replacement</label>
+            </value>
+            <value>
+                <fullName>AMFS Customer</fullName>
+                <default>false</default>
+                <label>AMFS Customer</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Claim Related</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Claim Related</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Collection Related</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Collection Related</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Collection Related Failed Debit</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Collection Related Failed Debit</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Collection Related Reminder Debit</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Collection Related Reminder Debit</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS DMU Related</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS DMU Related</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Mobile Service</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Mobile Service</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS NB/UW Related</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS NB/UW Related</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS POS Related MAPAN Lapse</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS POS Related MAPAN Lapse</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS POS Related Pending or Incomplete process</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS POS Related Pending or Incomplete process</label>
+            </value>
+            <value>
+                <fullName>Blast SMS _SMS Promo (Produk dan Program)</fullName>
+                <default>false</default>
+                <label>Blast SMS _SMS Promo (Produk dan Program)</label>
+            </value>
+            <value>
+                <fullName>capture premi</fullName>
+                <default>false</default>
+                <label>capture premi</label>
+            </value>
+            <value>
+                <fullName>change/add autodebet</fullName>
+                <default>false</default>
+                <label>change/add autodebet</label>
+            </value>
+            <value>
+                <fullName>Claim - Claim AFI-process claim-update pending-special case-feedback</fullName>
+                <default>false</default>
+                <label>Claim - Claim AFI-process claim-update pending-special case-feedback</label>
+            </value>
+            <value>
+                <fullName>Claim - claim group</fullName>
+                <default>false</default>
+                <label>Claim - claim group</label>
+            </value>
+            <value>
+                <fullName>Claim Information Status</fullName>
+                <default>false</default>
+                <label>Claim Information Status</label>
+            </value>
+            <value>
+                <fullName>Claim Procedure</fullName>
+                <default>false</default>
+                <label>Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Claim Status</fullName>
+                <default>false</default>
+                <label>Claim Status</label>
+            </value>
+            <value>
+                <fullName>Collection related</fullName>
+                <default>false</default>
+                <label>Collection related</label>
+            </value>
+            <value>
+                <fullName>Complaint_Administrator Procedures</fullName>
+                <default>false</default>
+                <label>Complaint_Administrator Procedures</label>
+            </value>
+            <value>
+                <fullName>Complaint_Admin Prosedure</fullName>
+                <default>false</default>
+                <label>Complaint_Admin Prosedure</label>
+            </value>
+            <value>
+                <fullName>Complaint_Claim</fullName>
+                <default>false</default>
+                <label>Complaint_Claim</label>
+            </value>
+            <value>
+                <fullName>Complaint_Courier Delivery</fullName>
+                <default>false</default>
+                <label>Complaint_Courier Delivery</label>
+            </value>
+            <value>
+                <fullName>Complaint_Financial Advisor Service</fullName>
+                <default>false</default>
+                <label>Complaint_Financial Advisor Service</label>
+            </value>
+            <value>
+                <fullName>Complaint_Forgery</fullName>
+                <default>false</default>
+                <label>Complaint_Forgery</label>
+            </value>
+            <value>
+                <fullName>Complaint_Marketing Program</fullName>
+                <default>false</default>
+                <label>Complaint_Marketing Program</label>
+            </value>
+            <value>
+                <fullName>Complaint_Misappropriation</fullName>
+                <default>false</default>
+                <label>Complaint_Misappropriation</label>
+            </value>
+            <value>
+                <fullName>Complaint_Misrepresentation</fullName>
+                <default>false</default>
+                <label>Complaint_Misrepresentation</label>
+            </value>
+            <value>
+                <fullName>Complaint_New Bussiness</fullName>
+                <default>false</default>
+                <label>Complaint_New Bussiness</label>
+            </value>
+            <value>
+                <fullName>Complaint_Non Disclosure</fullName>
+                <default>false</default>
+                <label>Complaint_Non Disclosure</label>
+            </value>
+            <value>
+                <fullName>Complaint_Other</fullName>
+                <default>false</default>
+                <label>Complaint_Other</label>
+            </value>
+            <value>
+                <fullName>Complaint_POS</fullName>
+                <default>false</default>
+                <label>Complaint_POS</label>
+            </value>
+            <value>
+                <fullName>Complaint_SMARTS Related</fullName>
+                <default>false</default>
+                <label>Complaint_SMARTS Related</label>
+            </value>
+            <value>
+                <fullName>Complaint_TM Service</fullName>
+                <default>false</default>
+                <label>Complaint_TM Service</label>
+            </value>
+            <value>
+                <fullName>Complaint_Transaction Statement</fullName>
+                <default>false</default>
+                <label>Complaint_Transaction Statement</label>
+            </value>
+            <value>
+                <fullName>Complaint_Without Consent</fullName>
+                <default>false</default>
+                <label>Complaint_Without Consent</label>
+            </value>
+            <value>
+                <fullName>Complaint Status</fullName>
+                <default>false</default>
+                <label>Complaint Status</label>
+            </value>
+            <value>
+                <fullName>corespondence-status delivery</fullName>
+                <default>false</default>
+                <label>corespondence-status delivery</label>
+            </value>
+            <value>
+                <fullName>Delivery Status</fullName>
+                <default>false</default>
+                <label>Delivery Status</label>
+            </value>
+            <value>
+                <fullName>Drop Call</fullName>
+                <default>false</default>
+                <label>Drop Call</label>
+            </value>
+            <value>
+                <fullName>Drop Call/Wrong Number</fullName>
+                <default>false</default>
+                <label>Drop Call/Wrong Number</label>
+            </value>
+            <value>
+                <fullName>ERA/Towing Request</fullName>
+                <default>false</default>
+                <label>ERA/Towing Request</label>
+            </value>
+            <value>
+                <fullName>Form NB / After Sales</fullName>
+                <default>false</default>
+                <label>Form NB / After Sales</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk Asuransi AXA Carrefour</fullName>
+                <default>false</default>
+                <label>Informasi Produk Asuransi AXA Carrefour</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk Asuransi Tradisional</fullName>
+                <default>false</default>
+                <label>Informasi Produk Asuransi Tradisional</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestro Elite Care</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestro Elite Care</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestro Hospital Plan</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestro Hospital Plan</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestro Link Maxy advantage fund</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestro Link Maxy advantage fund</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestrolink Plus</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestrolink Plus</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Maestro Syariah</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Maestro Syariah</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk AXA Smart Kidz</fullName>
+                <default>false</default>
+                <label>Informasi Produk AXA Smart Kidz</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk Family Flexy Health</fullName>
+                <default>false</default>
+                <label>Informasi Produk Family Flexy Health</label>
+            </value>
+            <value>
+                <fullName>Informasi Produk Maestro Prosperity Plan</fullName>
+                <default>false</default>
+                <label>Informasi Produk Maestro Prosperity Plan</label>
+            </value>
+            <value>
+                <fullName>Inquiry Status</fullName>
+                <default>false</default>
+                <label>Inquiry Status</label>
+            </value>
+            <value>
+                <fullName>IVR Utilization</fullName>
+                <default>false</default>
+                <label>IVR Utilization</label>
+            </value>
+            <value>
+                <fullName>Kuitansi</fullName>
+                <default>false</default>
+                <label>Kuitansi</label>
+            </value>
+            <value>
+                <fullName>MAGI Branch Information</fullName>
+                <default>false</default>
+                <label>MAGI Branch Information</label>
+            </value>
+            <value>
+                <fullName>MV Claim Report</fullName>
+                <default>false</default>
+                <label>MV Claim Report</label>
+            </value>
+            <value>
+                <fullName>MV Product Inquiry</fullName>
+                <default>false</default>
+                <label>MV Product Inquiry</label>
+            </value>
+            <value>
+                <fullName>NB/Underwriting - uw-pending case-special case-his card-cancell aplication-doc receive</fullName>
+                <default>false</default>
+                <label>NB/Underwriting - uw-pending case-special case-his card-cancell aplication-doc receive</label>
+            </value>
+            <value>
+                <fullName>Non MV Claim Report</fullName>
+                <default>false</default>
+                <label>Non MV Claim Report</label>
+            </value>
+            <value>
+                <fullName>Non MV Product Inquiry</fullName>
+                <default>false</default>
+                <label>Non MV Product Inquiry</label>
+            </value>
+            <value>
+                <fullName>Off Line Application</fullName>
+                <default>false</default>
+                <label>Off Line Application</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Others Product</fullName>
+                <default>false</default>
+                <label>Others Product</label>
+            </value>
+            <value>
+                <fullName>PA Product</fullName>
+                <default>false</default>
+                <label>PA Product</label>
+            </value>
+            <value>
+                <fullName>Pembatalan Polis</fullName>
+                <default>false</default>
+                <label>Pembatalan Polis</label>
+            </value>
+            <value>
+                <fullName>Penerbitan SPK</fullName>
+                <default>false</default>
+                <label>Penerbitan SPK</label>
+            </value>
+            <value>
+                <fullName>Perubahan Data Polis</fullName>
+                <default>false</default>
+                <label>Perubahan Data Polis</label>
+            </value>
+            <value>
+                <fullName>Perubahan Financial Polis</fullName>
+                <default>false</default>
+                <label>Perubahan Financial Polis</label>
+            </value>
+            <value>
+                <fullName>Perubahan non Financial Polis</fullName>
+                <default>false</default>
+                <label>Perubahan non Financial Polis</label>
+            </value>
+            <value>
+                <fullName>Policy Data</fullName>
+                <default>false</default>
+                <label>Policy Data</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Account Balance</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Account Balance</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Admin Charges</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Admin Charges</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Application Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Application Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Claim Payment Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Claim Payment Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Claim Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Claim Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related add debit</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related add debit</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related autoreinstate debit</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related autoreinstate debit</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related failed debit</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related failed debit</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Collection related hold debit</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Collection related hold debit</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Complaint Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Complaint Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_CorSol prospect</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_CorSol prospect</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Delay Printing Policy</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Delay Printing Policy</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_E-Policy</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_E-Policy</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Format SMS Pull</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Format SMS Pull</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Letter Delivery Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Letter Delivery Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Medical Test Status (NB/UW)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Medical Test Status (NB/UW)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_NB/UW Payment Refund</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_NB/UW Payment Refund</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_NCB Cases</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_NCB Cases</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Others</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Others</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Pending Information (Claim)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Pending Information (Claim)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Pending Information (NB/UW)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Pending Information (NB/UW)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Pending Information (POS)</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Pending Information (POS)</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Policy Delivery Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Policy Delivery Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Policy Profile</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Policy Profile</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Policy Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Policy Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_POS Payment Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_POS Payment Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Premium Holiday Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Premium Holiday Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Redemption Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Redemption Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Reinstatement Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Reinstatement Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_SMARTS Related</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_SMARTS Related</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_TS Delivery status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_TS Delivery status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_TS explenation</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_TS explenation</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Unit Price</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Unit Price</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Up Date Data Correspondence address</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Up Date Data Correspondence address</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Up Date Data Email address</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Up Date Data Email address</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Up Date Data Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Up Date Data Status</label>
+            </value>
+            <value>
+                <fullName>Policy Inquiry_Withdraw Status</fullName>
+                <default>false</default>
+                <label>Policy Inquiry_Withdraw Status</label>
+            </value>
+            <value>
+                <fullName>Policy Profile</fullName>
+                <default>false</default>
+                <label>Policy Profile</label>
+            </value>
+            <value>
+                <fullName>Policy Status</fullName>
+                <default>false</default>
+                <label>Policy Status</label>
+            </value>
+            <value>
+                <fullName>POS Financial Information Status</fullName>
+                <default>false</default>
+                <label>POS Financial Information Status</label>
+            </value>
+            <value>
+                <fullName>POS Non Financial Information Status</fullName>
+                <default>false</default>
+                <label>POS Non Financial Information Status</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Accident Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Accident Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Death Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Death Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Easy Claim</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Easy Claim</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_ELI / SLI</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_ELI / SLI</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_In Patient Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_In Patient Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_other</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_other</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Out Patient Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Out Patient Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_Payor Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_Payor Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_TPD Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_TPD Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_WP Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_WP Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure Claim_WPDD 21 Claim Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure Claim_WPDD 21 Claim Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure NB/UW_How Fullfill SPAJ</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure NB/UW_How Fullfill SPAJ</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure NB/UW_Other</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure NB/UW_Other</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure NB/UW_Refund Premi Non Taken Application Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure NB/UW_Refund Premi Non Taken Application Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure NB/UW_Sub Standard Letter Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure NB/UW_Sub Standard Letter Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Cooling Off Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Cooling Off Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Down Grade Plan Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Down Grade Plan Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Other</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Other</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Policy Duplicate POS</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Policy Duplicate POS</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Premium Holiday Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Premium Holiday Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Redemption Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Redemption Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Reinstatement</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Reinstatement</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Reinstate Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Reinstate Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Switching Payment Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Switching Payment Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Top Up Lump Sum Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Top Up Lump Sum Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Top up Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Top up Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up / Down Grade Plan Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up / Down Grade Plan Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up Date Data Financial Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up Date Data Financial Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Up Grade Plan Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Up Grade Plan Procedure</label>
+            </value>
+            <value>
+                <fullName>Proccess &amp; Procedure POS_Withdrawal Procedure</fullName>
+                <default>false</default>
+                <label>Proccess &amp; Procedure POS_Withdrawal Procedure</label>
+            </value>
+            <value>
+                <fullName>Procedure Claim</fullName>
+                <default>false</default>
+                <label>Procedure Claim</label>
+            </value>
+            <value>
+                <fullName>Procedure NB/UW</fullName>
+                <default>false</default>
+                <label>Procedure NB/UW</label>
+            </value>
+            <value>
+                <fullName>Procedure POS</fullName>
+                <default>false</default>
+                <label>Procedure POS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Free PA</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Free PA</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Hospitalife</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Hospitalife</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk Asuransi AXA Carrefour</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk Asuransi AXA Carrefour</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk Asuransi Tradisional</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk Asuransi Tradisional</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Maestro Elite Care</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Maestro Elite Care</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Maestro Hospital Plan</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Maestro Hospital Plan</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Maestro Link Maxy advantage fund</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Maestro Link Maxy advantage fund</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_ Informasi Produk AXA Maestrolink Plus</fullName>
+                <default>false</default>
+                <label>Product Knowledge_ Informasi Produk AXA Maestrolink Plus</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Maestro Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Maestro Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk AXA Smart Kidz</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk AXA Smart Kidz</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk Family Flexy Health</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk Family Flexy Health</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Informasi Produk Maestro Prosperity Plan</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Informasi Produk Maestro Prosperity Plan</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Jiwa Prioritas</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Jiwa Prioritas</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Kesehatan Optima (MKO)</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Kesehatan Optima (MKO)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Protection</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Protection</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Proteksi Kesehatan Syariah (MPKS)</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Proteksi Kesehatan Syariah (MPKS)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Sejahtera Cerdas (MSC)</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Sejahtera Cerdas (MSC)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mandiri Sejahtera Cerdas Syariah (MSC Syariah)</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mandiri Sejahtera Cerdas Syariah (MSC Syariah)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mapan</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mapan</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Mapan Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Mapan Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MFC</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MFC</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MHS</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MHS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MIS</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MIS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MIS Plus</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MIS Plus</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MIS Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MIS Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MJK</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MJK</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MJK FA</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MJK FA</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MJK Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MJK Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MJS</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MJS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MKG</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MKG</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MKP</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MKP</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MRS</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MRS</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MRS Syariah</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MRS Syariah</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_MSP</fullName>
+                <default>false</default>
+                <label>Product Knowledge_MSP</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Other</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Other</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Pre Approve Program</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Pre Approve Program</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge_Rider</fullName>
+                <default>false</default>
+                <label>Product Knowledge_Rider</label>
+            </value>
+            <value>
+                <fullName>Property Product</fullName>
+                <default>false</default>
+                <label>Property Product</label>
+            </value>
+            <value>
+                <fullName>Repairshop Information</fullName>
+                <default>false</default>
+                <label>Repairshop Information</label>
+            </value>
+            <value>
+                <fullName>Request _Call confirmation CR Withdrawal PBC</fullName>
+                <default>false</default>
+                <label>Request _Call confirmation CR Withdrawal PBC</label>
+            </value>
+            <value>
+                <fullName>Request _Call confirmation CR Withdrawal Regular</fullName>
+                <default>false</default>
+                <label>Request _Call confirmation CR Withdrawal Regular</label>
+            </value>
+            <value>
+                <fullName>Request _Form NB / After Sales</fullName>
+                <default>false</default>
+                <label>Request _Form NB / After Sales</label>
+            </value>
+            <value>
+                <fullName>Request _Other</fullName>
+                <default>false</default>
+                <label>Request _Other</label>
+            </value>
+            <value>
+                <fullName>Request _Transaction Statement</fullName>
+                <default>false</default>
+                <label>Request _Transaction Statement</label>
+            </value>
+            <value>
+                <fullName>Request _Up date Address</fullName>
+                <default>false</default>
+                <label>Request _Up date Address</label>
+            </value>
+            <value>
+                <fullName>Request _Up date Email Address</fullName>
+                <default>false</default>
+                <label>Request _Up date Email Address</label>
+            </value>
+            <value>
+                <fullName>Request _Up date Home/Office Number</fullName>
+                <default>false</default>
+                <label>Request _Up date Home/Office Number</label>
+            </value>
+            <value>
+                <fullName>Request _Up date Mobile Number</fullName>
+                <default>false</default>
+                <label>Request _Up date Mobile Number</label>
+            </value>
+            <value>
+                <fullName>Sharia Claim Report</fullName>
+                <default>false</default>
+                <label>Sharia Claim Report</label>
+            </value>
+            <value>
+                <fullName>Sharia Product Inquiry</fullName>
+                <default>false</default>
+                <label>Sharia Product Inquiry</label>
+            </value>
+            <value>
+                <fullName>Surat Pemberitahuan Jatuh Tempo</fullName>
+                <default>false</default>
+                <label>Surat Pemberitahuan Jatuh Tempo</label>
+            </value>
+            <value>
+                <fullName>Surat Pernyataan</fullName>
+                <default>false</default>
+                <label>Surat Pernyataan</label>
+            </value>
+            <value>
+                <fullName>Survey_Unwilling</fullName>
+                <default>false</default>
+                <label>Survey_Unwilling</label>
+            </value>
+            <value>
+                <fullName>Survey_Willing</fullName>
+                <default>false</default>
+                <label>Survey_Willing</label>
+            </value>
+            <value>
+                <fullName>Survey Schedule</fullName>
+                <default>false</default>
+                <label>Survey Schedule</label>
+            </value>
+            <value>
+                <fullName>Switching Payment</fullName>
+                <default>false</default>
+                <label>Switching Payment</label>
+            </value>
+            <value>
+                <fullName>Tertarik MV</fullName>
+                <default>false</default>
+                <label>Tertarik MV</label>
+            </value>
+            <value>
+                <fullName>Tertarik Others Product</fullName>
+                <default>false</default>
+                <label>Tertarik Others Product</label>
+            </value>
+            <value>
+                <fullName>Tertarik PA</fullName>
+                <default>false</default>
+                <label>Tertarik PA</label>
+            </value>
+            <value>
+                <fullName>Tertarik Property</fullName>
+                <default>false</default>
+                <label>Tertarik Property</label>
+            </value>
+            <value>
+                <fullName>Tertarik Travel</fullName>
+                <default>false</default>
+                <label>Tertarik Travel</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Care Corner</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Care Corner</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Customer Care Corner Surabaya</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Customer Care Corner Surabaya</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Head Office</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Head Office</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Mobile Service</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Mobile Service</label>
+            </value>
+            <value>
+                <fullName>Touch Point CCC_Quick Response</fullName>
+                <default>false</default>
+                <label>Touch Point CCC_Quick Response</label>
+            </value>
+            <value>
+                <fullName>Transaction Statement</fullName>
+                <default>false</default>
+                <label>Transaction Statement</label>
+            </value>
+            <value>
+                <fullName>Travel Insurance Certificate</fullName>
+                <default>false</default>
+                <label>Travel Insurance Certificate</label>
+            </value>
+            <value>
+                <fullName>Travel Product</fullName>
+                <default>false</default>
+                <label>Travel Product</label>
+            </value>
+            <value>
+                <fullName>Up date Address</fullName>
+                <default>false</default>
+                <label>Up date Address</label>
+            </value>
+            <value>
+                <fullName>Update Customer Data</fullName>
+                <default>false</default>
+                <label>Update Customer Data</label>
+            </value>
+            <value>
+                <fullName>Up Date Data Status</fullName>
+                <default>false</default>
+                <label>Up Date Data Status</label>
+            </value>
+            <value>
+                <fullName>Up date Email Address</fullName>
+                <default>false</default>
+                <label>Up date Email Address</label>
+            </value>
+            <value>
+                <fullName>Up date Home/Office Number</fullName>
+                <default>false</default>
+                <label>Up date Home/Office Number</label>
+            </value>
+            <value>
+                <fullName>Up date Mobile Number</fullName>
+                <default>false</default>
+                <label>Up date Mobile Number</label>
+            </value>
+            <value>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+                <label>Wrong Number</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Polis TM</fullName>
+                <default>false</default>
+                <label>Request_Reprint Polis TM</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Kartu</fullName>
+                <default>false</default>
+                <label>Request_Reprint Kartu</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery – Delivery</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery – Delivery</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery – Inquiry Delivery</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery – Inquiry Delivery</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery - Inquiry Receipt</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery - Inquiry Receipt</label>
+            </value>
+            <value>
+                <fullName>Request_Courier Delivery – Policy Retur</fullName>
+                <default>false</default>
+                <label>Request_Courier Delivery – Policy Retur</label>
+            </value>
+            <value>
+                <fullName>Request_Resend E-Policy</fullName>
+                <default>false</default>
+                <label>Request_Resend E-Policy</label>
+            </value>
+            <value>
+                <fullName>Request_Confirmation Withdrawl Reguler</fullName>
+                <default>false</default>
+                <label>Request_Confirmation Withdrawl Reguler</label>
+            </value>
+            <value>
+                <fullName>Request_Confirmation Withdrawl PBC</fullName>
+                <default>false</default>
+                <label>Request_Confirmation Withdrawl PBC</label>
+            </value>
+            <value>
+                <fullName>Request_Reprint Polis Convent</fullName>
+                <default>false</default>
+                <label>Request_Reprint Polis Convent</label>
+            </value>
+            <value>
+                <fullName>Bukti transfer</fullName>
+                <default>false</default>
+                <label>Bukti transfer</label>
+            </value>
+            <value>
+                <fullName>test1</fullName>
+                <default>false</default>
+                <label>test1</label>
+            </value>
+            <value>
+                <fullName>Request_Add Debit</fullName>
+                <default>false</default>
+                <label>Request_Add Debit</label>
+            </value>
+            <value>
+                <fullName>Request_Hold Debit</fullName>
+                <default>false</default>
+                <label>Request_Hold Debit</label>
+            </value>
+            <value>
+                <fullName>Request_Auto Reinstate</fullName>
+                <default>false</default>
+                <label>Request_Auto Reinstate</label>
+            </value>
+            <value>
+                <fullName>Request_TAX Amnesty</fullName>
+                <default>false</default>
+                <label>Request_TAX Amnesty</label>
+            </value>
+            <value>
+                <fullName>Request_Cancel Add</fullName>
+                <default>false</default>
+                <label>Request_Cancel Add</label>
+            </value>
+            <value>
+                <fullName>Request_Cancel Hold</fullName>
+                <default>false</default>
+                <label>Request_Cancel Hold</label>
+            </value>
+            <value>
+                <fullName>Request_Collection_Cancel Add, Hold &amp; Auto Reinstate</fullName>
+                <default>false</default>
+                <label>Request_Collection_Cancel Add, Hold &amp; Auto Reinstate</label>
+            </value>
+            <value>
+                <fullName>Request_VRS</fullName>
+                <default>false</default>
+                <label>Request_VRS</label>
+            </value>
+            <value>
+                <fullName>Request_Refund Premi</fullName>
+                <default>false</default>
+                <label>Request_Refund Premi</label>
+            </value>
+            <value>
+                <fullName>Request_PDF e-Policy</fullName>
+                <default>false</default>
+                <label>Request_PDF e-Policy</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Incoming Documents</fullName>
+                <default>false</default>
+                <label>Request_Claim_Incoming Documents</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Status</fullName>
+                <default>false</default>
+                <label>Request_Claim_Status</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Payment</fullName>
+                <default>false</default>
+                <label>Request_Claim_Payment</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Japen</fullName>
+                <default>false</default>
+                <label>Request_Claim_Japen</label>
+            </value>
+            <value>
+                <fullName>Request_Claim_Return Documents</fullName>
+                <default>false</default>
+                <label>Request_Claim_Return Documents</label>
+            </value>
+            <value>
+                <fullName>Request_Claim Health_Express Claim</fullName>
+                <default>false</default>
+                <label>Request_Claim Health_Express Claim</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Withdrawal Big Amount</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Withdrawal Big Amount</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Redemption</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Information</fullName>
+                <default>false</default>
+                <label>Request_POS_Information</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Confirmation Non Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Confirmation Non Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Ubi/Uwi/Ure</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Ubi/Uwi/Ure</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Non Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Non Financial</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Japen Financial</fullName>
+                <default>false</default>
+                <label>Request_POS_Japen Financial</label>
+            </value>
+            <value>
+                <fullName>Soft Complaint</fullName>
+                <default>false</default>
+                <label>Soft Complaint</label>
+            </value>
+            <value>
+                <fullName>Offline System</fullName>
+                <default>false</default>
+                <label>Offline System</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>Surrender</fullName>
+                <default>false</default>
+                <label>Surrender</label>
+            </value>
+            <value>
+                <fullName>Dutycall</fullName>
+                <default>false</default>
+                <label>Dutycall</label>
+            </value>
+            <value>
+                <fullName>Service Recovery</fullName>
+                <default>false</default>
+                <label>Service Recovery</label>
+            </value>
+            <value>
+                <fullName>Auto Debet</fullName>
+                <default>false</default>
+                <label>Auto Debet</label>
+            </value>
+            <value>
+                <fullName>Registrasi SKDR</fullName>
+                <default>false</default>
+                <label>Registrasi SKDR</label>
+            </value>
+            <value>
+                <fullName>Non Auto Debet</fullName>
+                <default>false</default>
+                <label>Non Auto Debet</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Delivery Collection</fullName>
+                <default>false</default>
+                <label>Delivery Collection</label>
+            </value>
+            <value>
+                <fullName>Collection TM</fullName>
+                <default>false</default>
+                <label>Collection TM</label>
+            </value>
+            <value>
+                <fullName>Agency Related</fullName>
+                <default>false</default>
+                <label>Agency Related</label>
+            </value>
+            <value>
+                <fullName>POS-Penarikan</fullName>
+                <default>false</default>
+                <label>POS-Penarikan</label>
+            </value>
+            <value>
+                <fullName>POS-Perubahan</fullName>
+                <default>false</default>
+                <label>POS-Perubahan</label>
+            </value>
+            <value>
+                <fullName>Delivery Status POS</fullName>
+                <default>false</default>
+                <label>Delivery Status POS</label>
+            </value>
+            <value>
+                <fullName>Prosecure POS</fullName>
+                <default>false</default>
+                <label>Prosecure POS</label>
+            </value>
+            <value>
+                <fullName>Table Benefit</fullName>
+                <default>false</default>
+                <label>Table Benefit</label>
+            </value>
+            <value>
+                <fullName>Transaction Statement CCC</fullName>
+                <default>false</default>
+                <label>Transaction Statement CCC</label>
+            </value>
+            <value>
+                <fullName>Transaction Statement POS</fullName>
+                <default>false</default>
+                <label>Transaction Statement POS</label>
+            </value>
+            <value>
+                <fullName>(NB/UW) Information Status (status polis NB/UW, refund, reimburst,perubahan ke POS)</fullName>
+                <default>false</default>
+                <label>(NB/UW) Information Status (status polis NB/UW, refund, reimburst,perubahan ke POS)</label>
+            </value>
+            <value>
+                <fullName>Delivery Status NBUW (buku polis revisi, SKDR, perubahan polis)</fullName>
+                <default>false</default>
+                <label>Delivery Status NBUW (buku polis revisi, SKDR, perubahan polis)</label>
+            </value>
+            <value>
+                <fullName>Kesalahan Input Data (Patching)</fullName>
+                <default>false</default>
+                <label>Kesalahan Input Data (Patching)</label>
+            </value>
+            <value>
+                <fullName>Delivery Status VDM</fullName>
+                <default>false</default>
+                <label>Delivery Status VDM</label>
+            </value>
+            <value>
+                <fullName>Delivery Claim Status</fullName>
+                <default>false</default>
+                <label>Delivery Claim Status</label>
+            </value>
+            <value>
+                <fullName>Appeal Claim Status</fullName>
+                <default>false</default>
+                <label>Appeal Claim Status</label>
+            </value>
+            <value>
+                <fullName>Pengkinian Data TM</fullName>
+                <default>false</default>
+                <label>Pengkinian Data TM</label>
+            </value>
+            <value>
+                <fullName>Reinstate TM</fullName>
+                <default>false</default>
+                <label>Reinstate TM</label>
+            </value>
+            <value>
+                <fullName>E-Policy TM</fullName>
+                <default>false</default>
+                <label>E-Policy TM</label>
+            </value>
+            <value>
+                <fullName>Harcopy Policy TM</fullName>
+                <default>false</default>
+                <label>Harcopy Policy TM</label>
+            </value>
+            <value>
+                <fullName>NCB TM</fullName>
+                <default>false</default>
+                <label>NCB TM</label>
+            </value>
+            <value>
+                <fullName>Status CO TM</fullName>
+                <default>false</default>
+                <label>Status CO TM</label>
+            </value>
+            <value>
+                <fullName>Request Email TM</fullName>
+                <default>false</default>
+                <label>Request Email TM</label>
+            </value>
+            <value>
+                <fullName>Claim Information Status TM</fullName>
+                <default>false</default>
+                <label>Claim Information Status TM</label>
+            </value>
+            <value>
+                <fullName>Conservation Agency</fullName>
+                <default>false</default>
+                <label>Conservation Agency</label>
+            </value>
+            <value>
+                <fullName>Non Conservation Agency</fullName>
+                <default>false</default>
+                <label>Non Conservation Agency</label>
+            </value>
+            <value>
+                <fullName>CSV TM</fullName>
+                <default>false</default>
+                <label>CSV TM</label>
+            </value>
+            <value>
+                <fullName>SPO TM</fullName>
+                <default>false</default>
+                <label>SPO TM</label>
+            </value>
+            <value>
+                <fullName>Claim Information Status (Agency)</fullName>
+                <default>false</default>
+                <label>Claim Information Status (Agency)</label>
+            </value>
+            <value>
+                <fullName>Claim Information Status (TM)</fullName>
+                <default>false</default>
+                <label>Claim Information Status (TM)</label>
+            </value>
+            <value>
+                <fullName>Claim Information Status (Ac+ive)</fullName>
+                <default>false</default>
+                <label>Claim Information Status (Ac+ive)</label>
+            </value>
+            <value>
+                <fullName>Claim Related (Active)</fullName>
+                <default>false</default>
+                <label>Claim Related (Active)</label>
+            </value>
+            <value>
+                <fullName>Claim Related (Agency)</fullName>
+                <default>false</default>
+                <label>Claim Related (Agency)</label>
+            </value>
+            <value>
+                <fullName>Claim Related (APE)</fullName>
+                <default>false</default>
+                <label>Claim Related (APE)</label>
+            </value>
+            <value>
+                <fullName>Claim Related (TM)</fullName>
+                <default>false</default>
+                <label>Claim Related (TM)</label>
+            </value>
+            <value>
+                <fullName>Surrender TM</fullName>
+                <default>false</default>
+                <label>Surrender TM</label>
+            </value>
+            <value>
+                <fullName>Cooling Off TM</fullName>
+                <default>false</default>
+                <label>Cooling Off TM</label>
+            </value>
+            <value>
+                <fullName>Cancel TM</fullName>
+                <default>false</default>
+                <label>Cancel TM</label>
+            </value>
+            <value>
+                <fullName>Sharia Complaint</fullName>
+                <default>false</default>
+                <label>Sharia Complaint</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>(NB/UW) Information Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Blast SMS _SMS Claim Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Blast SMS _SMS Collection Related Failed Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Blast SMS _SMS Collection Related Reminder Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Blast SMS _SMS DMU Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Blast SMS _SMS Mobile Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Blast SMS _SMS NB/UW Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Blast SMS _SMS POS Related MAPAN Lapse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Blast SMS _SMS POS Related Pending or Incomplete process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Administrator Procedures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Admin Prosedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Courier Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Financial Advisor Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Forgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Marketing Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Misappropriation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Misrepresentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_New Bussiness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Non Disclosure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_SMARTS Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_TM Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Transaction Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint_Without Consent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Drop Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>IVR Utilization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Off Line Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Account Balance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Admin Charges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Application Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Claim Payment Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Claim Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Collection related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Collection related add debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Collection related autoreinstate debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Collection related failed debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Collection related hold debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Complaint Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_CorSol prospect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Delay Printing Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_E-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Format SMS Pull</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Letter Delivery Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Medical Test Status (NB/UW)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_NB/UW Payment Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_NCB Cases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Pending Information (Claim)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Pending Information (NB/UW)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Pending Information (POS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Policy Delivery Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Policy Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Policy Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_POS Payment Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Premium Holiday Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Redemption Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Reinstatement Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_SMARTS Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_TS Delivery status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_TS explenation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Unit Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Up Date Data Correspondence address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Up Date Data Email address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Up Date Data Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Inquiry_Withdraw Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_Accident Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_Death Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_Easy Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_ELI / SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_In Patient Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_Out Patient Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_Payor Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_TPD Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_WP Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure Claim_WPDD 21 Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure NB/UW_How Fullfill SPAJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure NB/UW_Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure NB/UW_Refund Premi Non Taken Application Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure NB/UW_Sub Standard Letter Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Cooling Off Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Down Grade Plan Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Policy Duplicate POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Premium Holiday Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Redemption Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Reinstatement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Reinstate Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Switching Payment Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Top Up Lump Sum Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Top up Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Up / Down Grade Plan Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Up Date Data Financial Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Up Date Data Non Financial Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Up Grade Plan Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Proccess &amp; Procedure POS_Withdrawal Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Free PA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Hospitalife</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Mandiri Jiwa Prioritas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Mandiri Kesehatan Optima (MKO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Mandiri Protection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Mandiri Proteksi Kesehatan Syariah (MPKS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Mandiri Sejahtera Cerdas (MSC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Mandiri Sejahtera Cerdas Syariah (MSC Syariah)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Mapan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Mapan Syariah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MFC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MHS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MIS Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MIS Syariah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MJK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MJK FA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MJK Syariah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MJS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MKG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MKP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MRS Syariah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_MSP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Pre Approve Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Rider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Call confirmation CR Withdrawal PBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Call confirmation CR Withdrawal Regular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Form NB / After Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Transaction Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Up date Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Up date Email Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Up date Home/Office Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request _Up date Mobile Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Survey_Unwilling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Survey_Willing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Touch Point CCC_Care Corner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Touch Point CCC_Customer Care Corner Surabaya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Touch Point CCC_Head Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Touch Point CCC_Mobile Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Touch Point CCC_Quick Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Up Date Data Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Reprint Polis TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Reprint Kartu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Courier Delivery – Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Courier Delivery – Inquiry Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Courier Delivery - Inquiry Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Courier Delivery – Policy Retur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Resend E-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Confirmation Withdrawl Reguler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Confirmation Withdrawl PBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Reprint Polis Convent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Add Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Hold Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Auto Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_TAX Amnesty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Cancel Add</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Cancel Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Collection_Cancel Add, Hold &amp; Auto Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_VRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Refund Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_PDF e-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Claim_Incoming Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Claim_Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Claim_Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Claim_Japen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Claim_Return Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_Claim Health_Express Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Withdrawal Big Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_POS_Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_POS_Confirmation Non Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_POS_Japen Ubi/Uwi/Ure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_POS_Japen Non Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMFS</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Request_POS_Japen Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Account Balance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Admin Charges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Agent License/New Recruit/ agent replacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Blast SMS _SMS Collection Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Blast SMS _SMS Promo (Produk dan Program)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>capture premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>change/add autodebet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim - Claim AFI-process claim-update pending-special case-feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim - claim group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Information Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Collection related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Complaint Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>corespondence-status delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Delivery Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Form NB / After Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk Asuransi AXA Carrefour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk Asuransi Tradisional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk AXA Maestro Elite Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk AXA Maestro Hospital Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk AXA Maestro Link Maxy advantage fund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk AXA Maestrolink Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk AXA Maestro Syariah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk AXA Smart Kidz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk Family Flexy Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Informasi Produk Maestro Prosperity Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Inquiry Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Kuitansi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>NB/Underwriting - uw-pending case-special case-his card-cancell aplication-doc receive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Perubahan Financial Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Perubahan non Financial Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Policy Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Policy Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>POS Financial Information Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>POS Non Financial Information Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Procedure Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Procedure NB/UW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Procedure POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Surat Pemberitahuan Jatuh Tempo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Surat Pernyataan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Switching Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Transaction Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Up date Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Up date Email Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Up date Home/Office Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Bukti transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Soft Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Offline System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Cancel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Surrender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Dutycall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Service Recovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Auto Debet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Registrasi SKDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Non Auto Debet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Delivery Collection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Collection TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Agency Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>POS-Penarikan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>POS-Perubahan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Delivery Status POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Prosecure POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Table Benefit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Transaction Statement CCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Transaction Statement POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>(NB/UW) Information Status (status polis NB/UW, refund, reimburst,perubahan ke POS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Delivery Status NBUW (buku polis revisi, SKDR, perubahan polis)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Kesalahan Input Data (Patching)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Delivery Status VDM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Delivery Claim Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Appeal Claim Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Pengkinian Data TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Reinstate TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>E-Policy TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Harcopy Policy TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>NCB TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Status CO TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Request Email TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Information Status TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Conservation Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Non Conservation Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>CSV TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>SPO TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Information Status (Agency)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Information Status (TM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Information Status (Ac+ive)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Related (Active)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Related (Agency)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Related (APE)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Claim Related (TM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Surrender TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Cooling Off TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Cancel TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFI</controllingFieldValue>
+            <controllingFieldValue>ALI</controllingFieldValue>
+            <valueName>Sharia Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>AMFS Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Claim Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Claim Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Drop Call/Wrong Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>ERA/Towing Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>MAGI Branch Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>MV Claim Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>MV Product Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Non MV Claim Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Non MV Product Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Others Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>PA Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Pembatalan Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Penerbitan SPK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Perubahan Data Polis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Policy Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Property Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Repairshop Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Sharia Claim Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Sharia Product Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Survey Schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Tertarik MV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Tertarik Others Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Tertarik PA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Tertarik Property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Tertarik Travel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Travel Insurance Certificate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Travel Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAGI</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Update Customer Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Claim Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>un-resolved enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk Asuransi AXA Carrefour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk Asuransi Tradisional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk AXA Maestro Elite Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk AXA Maestro Hospital Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk AXA Maestro Link Maxy advantage fund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_ Informasi Produk AXA Maestrolink Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk AXA Maestro Syariah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk AXA Smart Kidz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk Family Flexy Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Product Knowledge_Informasi Produk Maestro Prosperity Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Up date Mobile Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Wrong Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>test1</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

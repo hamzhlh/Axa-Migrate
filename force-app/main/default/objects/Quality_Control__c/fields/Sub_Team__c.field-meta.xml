@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Team__c</fullName>
+    <label>Sub Team</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Team__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inbound Individu</fullName>
+                <default>false</default>
+                <label>Inbound Individu</label>
+            </value>
+            <value>
+                <fullName>Inbound DPLK</fullName>
+                <default>false</default>
+                <label>Inbound DPLK</label>
+            </value>
+            <value>
+                <fullName>Inbound Corporate Solutions</fullName>
+                <default>false</default>
+                <label>Inbound Corporate Solutions</label>
+            </value>
+            <value>
+                <fullName>Outbound</fullName>
+                <default>false</default>
+                <label>Outbound</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Live Chat</fullName>
+                <default>false</default>
+                <label>Live Chat</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Walk-in Regular</fullName>
+                <default>false</default>
+                <label>Walk-in Regular</label>
+            </value>
+            <value>
+                <fullName>Walk-In Preffered</fullName>
+                <default>false</default>
+                <label>Walk-In Preffered</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Walk IN</controllingFieldValue>
+            <valueName>Walk-in Regular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk IN</controllingFieldValue>
+            <valueName>Walk-In Preffered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inbound</controllingFieldValue>
+            <valueName>Inbound Individu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inbound</controllingFieldValue>
+            <valueName>Inbound DPLK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inbound</controllingFieldValue>
+            <valueName>Inbound Corporate Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <valueName>Outbound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Live Chat</controllingFieldValue>
+            <valueName>Live Chat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Social Media</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

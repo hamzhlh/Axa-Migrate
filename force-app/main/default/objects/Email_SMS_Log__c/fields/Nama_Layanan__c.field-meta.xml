@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nama_Layanan__c</fullName>
+    <description>Before: IF(TEXT(Case__r.Type)=&apos;Inquiry&apos; &amp;&amp; Touchpoint__c =&apos;Others&apos;,&apos;Customer Care Channel Lainnya&apos;,
+IF(TEXT(Case__r.Type)=&apos;Inquiry&apos;,Touchpoint__c,
+IF(TEXT(Case__r.Type)=&apos;Request POS&apos; &amp;&amp;  TEXT(Case__r.Case_Type__c )=&apos;Request_POS_Withdrawal&apos;,&apos;Penarikan Dana Sebagian&apos;,
+IF(TEXT(Case__r.Type)=&apos;Request POS&apos; &amp;&amp; (TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Redemption&apos; || TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Surrender_Non_UL&apos; || TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Surrender Endowment&apos;),&apos;Penutupan Polis&apos;,
+IF(Survey__r.Name=&apos;Survey Nasabah Onboarding&apos;,&apos;Pembelian Polis&apos;,
+IF(TEXT(Case__r.Type)=&apos;Complaint&apos;,&apos;Penanganan Pengaduan Nasabah&apos;,
+IF(TEXT(Case__r.Type)=&apos;Request&apos; &amp;&amp; Case__r.MOT__c=&apos;I Claim&apos; &amp;&amp; TEXT(Claim_Transaction_Type__c)=&apos;Cashless&apos;,&apos;Klaim Penjaminan (Cashless)&apos;,
+IF(TEXT(Case__r.Type)=&apos;Request&apos; &amp;&amp; Case__r.MOT__c=&apos;I Claim&apos; &amp;&amp; TEXT(Claim_Transaction_Type__c)=&apos;Reimbursement&apos;,&apos;Klaim Penggantian (Reimbursement)&apos;,&apos;&apos;))))))))</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Case__r.Type)=&apos;Inquiry&apos; &amp;&amp; Touchpoint__c =&apos;Others&apos;,&apos;Customer Care Channel Lainnya&apos;,
+IF(TEXT(Case__r.Type)=&apos;Inquiry&apos;,Touchpoint__c,
+IF(TEXT(Case__r.Type)=&apos;Request POS&apos; &amp;&amp; TEXT(Case__r.Case_Type__c )=&apos;Request_POS_Withdrawal&apos;,&apos;Penarikan Dana Sebagian&apos;,
+IF(TEXT(Case__r.Type)=&apos;Request POS&apos; &amp;&amp; (TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Redemption&apos; || TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Surrender_Non_UL&apos; || TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Surrender Endowment&apos;),&apos;Penutupan Polis&apos;,
+IF(Survey__r.Name=&apos;Survey Nasabah Onboarding&apos;,&apos;Pembelian Polis&apos;,
+IF(TEXT(Case__r.Type)=&apos;Complaint&apos;,&apos;Penanganan Pengaduan Nasabah&apos;,
+IF( ((TEXT(Case__r.Type)=&apos;Request&apos; &amp;&amp; Case__r.MOT__c=&apos;I Claim&apos;) || TEXT(MOT__c)=&apos;I Claim&apos;) &amp;&amp; TEXT(Claim_Transaction_Type__c)=&apos;Cashless&apos;,&apos;Klaim Penjaminan (Cashless)&apos;,
+IF( ((TEXT(Case__r.Type)=&apos;Request&apos; &amp;&amp; Case__r.MOT__c=&apos;I Claim&apos;) || TEXT(MOT__c)=&apos;I Claim&apos;) &amp;&amp; (TEXT(Claim_Transaction_Type__c)=&apos;Reimbursement&apos; || TEXT(Claim_Transaction_Type__c)=&apos;&apos; ),&apos;Klaim Penggantian (Reimbursement)&apos;,&apos;&apos;)
+)
+)
+)
+)
+)
+)
+)</formula>
+    <label>Nama Layanan</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

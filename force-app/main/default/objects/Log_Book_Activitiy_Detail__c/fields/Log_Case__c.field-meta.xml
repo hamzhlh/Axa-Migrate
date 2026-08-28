@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_Case__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Log Case</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Log Book Activitiy Details</relationshipLabel>
+    <relationshipName>Log_Book_Activitiy_Details</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MID_Secure_Payment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>MID_Secure_Payment</label>
+    <referenceTo>MID_Secure_Payment__c</referenceTo>
+    <relationshipLabel>MID_Custom_History</relationshipLabel>
+    <relationshipName>MID_Custom_History</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

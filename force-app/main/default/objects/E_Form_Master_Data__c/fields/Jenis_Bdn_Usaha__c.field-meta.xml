@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jenis_Bdn_Usaha__c</fullName>
+    <description>digunakan untuk form CRS Badan Usaha</description>
+    <inlineHelpText>Jenis Badan Usaha</inlineHelpText>
+    <label>Jenis Badan Usaha</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Perusahaan Investasi profesional yang berada di negara yang tidak termasuk Yurisdiksi Mitra&apos; dan yang dikelola oleh Lembaga Keuangan.</fullName>
+                <default>false</default>
+                <label>Perusahaan Investasi profesional yang berada di negara yang tidak termasuk Yurisdiksi Mitra&apos; dan yang dikelola oleh Lembaga Keuangan.</label>
+            </value>
+            <value>
+                <fullName>Lembaga Keuangan selain Perusahaan Investasi profesional yang berada di negara selain Indonesia dan Amerika dan yang dikelola oleh Lembaga Keuangan.</fullName>
+                <default>false</default>
+                <label>Lembaga Keuangan selain Perusahaan Investasi profesional yang berada di negara selain Indonesia dan Amerika dan yang dikelola oleh Lembaga Keuangan.</label>
+            </value>
+            <value>
+                <fullName>Lembaga Non Keuangan Aktif -Perusahaan Terbuka yang sahamnya aktif diperdagangkan, Lembaga Pemerintah atau Bank Sentral, atau Organisasi Interasional.</fullName>
+                <default>false</default>
+                <label>Lembaga Non Keuangan Aktif -Perusahaan Terbuka yang sahamnya aktif diperdagangkan, Lembaga Pemerintah atau Bank Sentral, atau Organisasi Interasional.</label>
+            </value>
+            <value>
+                <fullName>Lembaga Non Keuangan Aktif selain Perusahaan Terbuka yang sahamnya aktif diperdagangkan, Lembaga Pemerintah atau Bank Sentral, atau Organisasi Internasional.</fullName>
+                <default>false</default>
+                <label>Lembaga Non Keuangan Aktif selain Perusahaan Terbuka yang sahamnya aktif diperdagangkan, Lembaga Pemerintah atau Bank Sentral, atau Organisasi Internasional.</label>
+            </value>
+            <value>
+                <fullName>Lembaga Non Keuangan Pasif.</fullName>
+                <default>false</default>
+                <label>Lembaga Non Keuangan Pasif.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

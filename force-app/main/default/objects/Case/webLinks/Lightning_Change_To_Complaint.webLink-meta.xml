@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lightning_Change_To_Complaint</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>[Lightning]Change To Complaint</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/CaseRequestLayoutLightning?retURL=/{!Case.Id}&amp;def_contact_id={!Case.ContactId}&amp;def_account_id={!Case.AccountId}&amp;RecordType={!Case.RecordTypeId}&amp;cas5={!Case.Type}&amp;cas11=none&amp;ent=Case</url>
+</WebLink>

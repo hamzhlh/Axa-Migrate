@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMFS_Tele_Service_Distribute_This_Month</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Distribution_Date_Time__c</columns>
+    <columns>Survey_Name__c</columns>
+    <columns>Owner_Full_Name__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Policy_Number__c</columns>
+    <columns>Case__c</columns>
+    <columns>Survey_Response__c</columns>
+    <columns>Case_Origin__c</columns>
+    <columns>Case_Type__c</columns>
+    <columns>Follow_Up_ICF__c</columns>
+    <columns>Call_Status__c</columns>
+    <columns>Call_Remark__c</columns>
+    <columns>Due_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Survey_Form__c</field>
+        <operation>equals</operation>
+        <value>Survey Qualtrics</value>
+    </filters>
+    <filters>
+        <field>Distribution_Date_Time__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>AMFS-Tele Service Distribute This Month</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>AMFS_Outbound_SPV</role>
+    </sharedTo>
+</ListView>

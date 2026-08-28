@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AMFS_Per_Polis</fullName>
+    <columns>NAME</columns>
+    <columns>Origin__c</columns>
+    <columns>SFDC_Order_Id__c</columns>
+    <columns>Change_Name__c</columns>
+    <columns>Beneficial_Owner__c</columns>
+    <columns>Send_Email__c</columns>
+    <columns>Card_Number__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Midtrans_Token__c</columns>
+    <columns>Policy_No__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AMFS</value>
+    </filters>
+    <filters>
+        <field>SFDC_Order_Id__c</field>
+        <operation>contains</operation>
+        <value>5208921295</value>
+    </filters>
+    <label>All AMFS Per Polis</label>
+    <language>en_US</language>
+</ListView>

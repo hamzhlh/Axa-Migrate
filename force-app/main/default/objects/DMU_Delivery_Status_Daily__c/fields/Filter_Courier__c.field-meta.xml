@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter_Courier__c</fullName>
+    <label>Filter Courier</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NCS</fullName>
+                <default>false</default>
+                <label>NCS</label>
+            </value>
+            <value>
+                <fullName>KGP</fullName>
+                <default>false</default>
+                <label>KGP</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

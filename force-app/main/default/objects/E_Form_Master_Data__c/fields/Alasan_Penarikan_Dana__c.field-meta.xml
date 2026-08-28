@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alasan_Penarikan_Dana__c</fullName>
+    <label>Alasan Penarikan Dana</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Butuh dana</fullName>
+                <default>false</default>
+                <label>Butuh dana</label>
+            </value>
+            <value>
+                <fullName>Di investasikan ke instrumen lain</fullName>
+                <default>false</default>
+                <label>Di investasikan ke instrumen lain</label>
+            </value>
+            <value>
+                <fullName>Keluarga</fullName>
+                <default>false</default>
+                <label>Keluarga</label>
+            </value>
+            <value>
+                <fullName>Profit Taking</fullName>
+                <default>false</default>
+                <label>Profit Taking</label>
+            </value>
+            <value>
+                <fullName>Hasil investasi kurang memuaskan</fullName>
+                <default>false</default>
+                <label>Hasil investasi kurang memuaskan</label>
+            </value>
+            <value>
+                <fullName>Premi/Kontribusi mahal</fullName>
+                <default>false</default>
+                <label>Premi/Kontribusi mahal</label>
+            </value>
+            <value>
+                <fullName>Pertanggungan/perlindungan asuransi tidak menyeluruh</fullName>
+                <default>false</default>
+                <label>Pertanggungan/perlindungan asuransi tidak menyeluruh</label>
+            </value>
+            <value>
+                <fullName>Polis jatuh tempo</fullName>
+                <default>false</default>
+                <label>Polis jatuh tempo</label>
+            </value>
+            <value>
+                <fullName>Layanan Perusahaan</fullName>
+                <default>false</default>
+                <label>Layanan Perusahaan</label>
+            </value>
+            <value>
+                <fullName>Layanan tenaga pemasar</fullName>
+                <default>false</default>
+                <label>Layanan tenaga pemasar</label>
+            </value>
+            <value>
+                <fullName>Lainnya</fullName>
+                <default>false</default>
+                <label>Lainnya</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

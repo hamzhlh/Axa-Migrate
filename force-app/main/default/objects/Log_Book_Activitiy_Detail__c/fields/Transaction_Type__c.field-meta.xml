@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Type__c</fullName>
+    <label>Transaction Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Kind_Of_Transaction__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request</fullName>
+                <default>false</default>
+                <label>Request</label>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Transaksi EMMA</controllingFieldValue>
+            <controllingFieldValue>Activasi EMMA</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_NCB Over SLA</controllingFieldValue>
+            <controllingFieldValue>Request_Courier Delivery - Inquiry Receipt</controllingFieldValue>
+            <controllingFieldValue>Request_Courier Delivery-surat retur</controllingFieldValue>
+            <controllingFieldValue>Request_CR_Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_CR_Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Request_CR_Withdrawal Big Amount</controllingFieldValue>
+            <controllingFieldValue>Request_CR_Withdrawal Big Amount TM</controllingFieldValue>
+            <controllingFieldValue>Request_DMU_Hold Pengiriman Buku Polis</controllingFieldValue>
+            <controllingFieldValue>Request_DMU_Reprint Polis TM</controllingFieldValue>
+            <controllingFieldValue>Request_DMU_Sanggah</controllingFieldValue>
+            <controllingFieldValue>Request_DMU_Sanggah Berulang</controllingFieldValue>
+            <controllingFieldValue>Request_DMU-resend email welcome video</controllingFieldValue>
+            <controllingFieldValue>Request_Hold Debit</controllingFieldValue>
+            <controllingFieldValue>Request_Lumpsum Ex-Autosurrender</controllingFieldValue>
+            <controllingFieldValue>Request_MDM ID</controllingFieldValue>
+            <controllingFieldValue>Request_NB_Polis Belum Cetak</controllingFieldValue>
+            <controllingFieldValue>Request_NBUW_Ikhtisar Polis</controllingFieldValue>
+            <controllingFieldValue>Request_NBUW_Reprint Kartu In Branch</controllingFieldValue>
+            <controllingFieldValue>Request_NBUW_Reprint Polis In Branch</controllingFieldValue>
+            <controllingFieldValue>Request_ PDF E- Policy</controllingFieldValue>
+            <controllingFieldValue>Request_Pdf Transaction Statement</controllingFieldValue>
+            <controllingFieldValue>Request_Penundaan Pembayaran Covid 19</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Cancelled Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Cancelled Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Confirmation Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Confirmation Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Confirmation Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Confirmation Withdrawal Big Amount</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Hold Pengiriman Buku Polis</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Hold Surat Perubahan Alamat</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Hold Transfer Auto Surrender MAPAN</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Information Fin</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Information Non Fin</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Information Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Japen Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Japen Ubi/Uwi/Ure/Uco</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Major Minor</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Pengalihan Dana (Switching)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perbedaan / perubahan TTD</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat email</controllingFieldValue>
+            <controllingFieldValue>Dplk - Request - Bukti Potong Pajak</controllingFieldValue>
+            <controllingFieldValue>Request_POS_ Perubahan Alamat Koresponden</controllingFieldValue>
+            <controllingFieldValue>Dplk - Request - Presentasi Perusahaan</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Alokasi Dana (Redirection)</controllingFieldValue>
+            <controllingFieldValue>Dplk - Request - Rekening Koran/saldo</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen Kelengkapan</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Ejaan Nama</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen Life Cycle Fund</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Dipercepat</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan ID KTP</controllingFieldValue>
+            <controllingFieldValue>POS - Confirmation Non Financial</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Ditunda</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Meninggal Dunia</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Normal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Nomor WhatsApp</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen MP Resign</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen Penarikan Iuran Sebagian</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen Pendaftaran Individu</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen Pengalihan</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Tanggal Lahir</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen Pengkinian Data</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Redemption</controllingFieldValue>
+            <controllingFieldValue>Dplk - Submit Dokumen Perubahan Investasi</controllingFieldValue>
+            <controllingFieldValue>Call Back Customer</controllingFieldValue>
+            <controllingFieldValue>Call Back DMU</controllingFieldValue>
+            <controllingFieldValue>Request_Call Back Withdrawl PBC (HL &amp; EMAIL)</controllingFieldValue>
+            <controllingFieldValue>Request_Call Back Withdrawl Reguler (HL &amp; EMAIL)</controllingFieldValue>
+            <controllingFieldValue>Call Confirmation CR Withdrawal PBC</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Switching &amp; Redirection</controllingFieldValue>
+            <controllingFieldValue>FA Mobile</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Top Up Berkala (RTU)</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Withdrawal Big Amount</controllingFieldValue>
+            <controllingFieldValue>Request_POS Cooling off</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Kartu</controllingFieldValue>
+            <controllingFieldValue>Request_POS Duplikat Polis Konven</controllingFieldValue>
+            <controllingFieldValue>Request_POS Lumpsum</controllingFieldValue>
+            <controllingFieldValue>Req_ CCC Surat Kepemilikan Polis</controllingFieldValue>
+            <controllingFieldValue>Request_POS Pemulihan Polis</controllingFieldValue>
+            <controllingFieldValue>Print Pernyataan Transaksi</controllingFieldValue>
+            <controllingFieldValue>Req _ Transaction Statemen</controllingFieldValue>
+            <controllingFieldValue>Call Confirmation CR Withdrawal Reguler</controllingFieldValue>
+            <controllingFieldValue>Cancelled Redemption</controllingFieldValue>
+            <controllingFieldValue>Request_ Prospek Corpsol</controllingFieldValue>
+            <controllingFieldValue>Request_Add Debit</controllingFieldValue>
+            <controllingFieldValue>Request_Prospek Inbranch</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Cancel Polis (Tutup Usia)</controllingFieldValue>
+            <controllingFieldValue>Request_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request_Prospek TM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Confirmation financial</controllingFieldValue>
+            <controllingFieldValue>Request_ Release Hold Debit</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Confirmation Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_Reprint Polis Convent</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Document NCB</controllingFieldValue>
+            <controllingFieldValue>Request_Resend email dan sms epolicy</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Duplicate Policy DMTM</controllingFieldValue>
+            <controllingFieldValue>Request_Resend E-Policy</controllingFieldValue>
+            <controllingFieldValue>Reprint Kartu ADS</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Duplikat Buku Polis TM</controllingFieldValue>
+            <controllingFieldValue>Request_Resend SMS E-Policy</controllingFieldValue>
+            <controllingFieldValue>Reprint Kartu NBUW</controllingFieldValue>
+            <controllingFieldValue>Request_Take Out Auto Reinstate</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Ahli waris</controllingFieldValue>
+            <controllingFieldValue>Request_Takeout Prospek TM</controllingFieldValue>
+            <controllingFieldValue>Request Other</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Alamat Korespondensi</controllingFieldValue>
+            <controllingFieldValue>Request_Up date Address</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Request_Up date Email Address</controllingFieldValue>
+            <controllingFieldValue>Request Form / Pick Up Doc</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan ID KTP</controllingFieldValue>
+            <controllingFieldValue>Request_Up date Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Resend E-Policy</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Request_UW_Cancelled SPAJ</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Nomor WhatsApp</controllingFieldValue>
+            <controllingFieldValue>Request_UW_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Ketidakmampuan</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Request_UW_Submit Kelengkapan SPAJ</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Meninggal</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Request_ VRS</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Rawat Inap</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Request_Wellcome Call</controllingFieldValue>
+            <controllingFieldValue>Submit Claim Sakit Kritis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Request E-policy</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Refund Premi</controllingFieldValue>
+            <controllingFieldValue>Request-Printing New Policy DMTM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Reprint Kartu TM</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Reprint Polis &amp; Kartu TM</controllingFieldValue>
+            <controllingFieldValue>Submit Kelengkapan Dok CMU</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Reprint Polis TM</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Submit kelengkapan dok ADS</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Payment Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Switching Payment</controllingFieldValue>
+            <controllingFieldValue>Submit Rawat Jalan</controllingFieldValue>
+            <controllingFieldValue>Request_ADS_Transfer Tolakan NCB</controllingFieldValue>
+            <controllingFieldValue>Request_ADS Duplikat Kartu</controllingFieldValue>
+            <controllingFieldValue>Surat Kepemilikan Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS Pemulihan Polis</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Alamat Email</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Penghentian Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan DOB</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Release PH Passive</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Ejaan nama</controllingFieldValue>
+            <controllingFieldValue>Request_Tax Amnesty</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Gender</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Relationship</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Perubahan Title</controllingFieldValue>
+            <controllingFieldValue>Request_ADS - Rekening Penerimaan NCB</controllingFieldValue>
+            <controllingFieldValue>Update Address</controllingFieldValue>
+            <controllingFieldValue>Request_Auto Reinstate</controllingFieldValue>
+            <controllingFieldValue>Update Email Address</controllingFieldValue>
+            <controllingFieldValue>Request_Call Comfirmation CR Withdrawal PBC</controllingFieldValue>
+            <controllingFieldValue>Update Nomor Kontak</controllingFieldValue>
+            <controllingFieldValue>Request_Call Comfirmation CR Withdrawal Regular</controllingFieldValue>
+            <controllingFieldValue>VRS</controllingFieldValue>
+            <controllingFieldValue>Request_Claim_Incoming Documents</controllingFieldValue>
+            <controllingFieldValue>Request_Claim_Japen</controllingFieldValue>
+            <controllingFieldValue>Cooling Off</controllingFieldValue>
+            <controllingFieldValue>Courier Delivery - Surat Retur</controllingFieldValue>
+            <controllingFieldValue>Request_Claim_Payment</controllingFieldValue>
+            <controllingFieldValue>Request_Claim_Return Documents</controllingFieldValue>
+            <controllingFieldValue>Request_Claim_Status</controllingFieldValue>
+            <controllingFieldValue>Request_Claim_Tele Claim</controllingFieldValue>
+            <controllingFieldValue>Request_Claim Health_Express Claim</controllingFieldValue>
+            <controllingFieldValue>Request_Courier Delivery ? Change of Address</controllingFieldValue>
+            <controllingFieldValue>Request_Courier Delivery ? Policy Retur</controllingFieldValue>
+            <controllingFieldValue>Request_Courier Delivery ? Speed Up Delivery</controllingFieldValue>
+            <controllingFieldValue>Request_Courier Delivery - Delivery</controllingFieldValue>
+            <controllingFieldValue>Request_Courier Delivery - Inquiry Delivery</controllingFieldValue>
+            <controllingFieldValue>DPLK Information</controllingFieldValue>
+            <controllingFieldValue>Duplikat Polis TM</controllingFieldValue>
+            <controllingFieldValue>Form NB / After Sales</controllingFieldValue>
+            <controllingFieldValue>Request_PDF E-Policy</controllingFieldValue>
+            <controllingFieldValue>Penyelesaian Keluhan</controllingFieldValue>
+            <controllingFieldValue>ADS - Perubahan Alamat Koresponden</controllingFieldValue>
+            <valueName>Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Activated Emma</controllingFieldValue>
+            <controllingFieldValue>Already Activated Emma</controllingFieldValue>
+            <controllingFieldValue>Dplk - Cek Saldo</controllingFieldValue>
+            <controllingFieldValue>Dplk - Ilustrasi Investasi/Kalkulator Pensiun</controllingFieldValue>
+            <controllingFieldValue>Dplk - Info Data nasabah</controllingFieldValue>
+            <controllingFieldValue>Dplk - Info Dokumen</controllingFieldValue>
+            <controllingFieldValue>Dplk - Info Progress Klaim/Penarikan</controllingFieldValue>
+            <controllingFieldValue>Dplk - Info Progress Pengalihan</controllingFieldValue>
+            <controllingFieldValue>Dplk - Info Status Kepesertaan</controllingFieldValue>
+            <controllingFieldValue>Dplk - Tanya Mekanisme / Prosedur</controllingFieldValue>
+            <controllingFieldValue>Info Mekanisme/Prosedur</controllingFieldValue>
+            <controllingFieldValue>Info Saldo</controllingFieldValue>
+            <controllingFieldValue>Cancelled Transaction</controllingFieldValue>
+            <controllingFieldValue>Cek Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Cek Lumpsum</controllingFieldValue>
+            <controllingFieldValue>Cek NB/UW Refund</controllingFieldValue>
+            <controllingFieldValue>Cek No Claim Bonus (NCB)</controllingFieldValue>
+            <controllingFieldValue>Cek Pemulihan Polis</controllingFieldValue>
+            <controllingFieldValue>Cek Pengalihan Dana (Switching)</controllingFieldValue>
+            <controllingFieldValue>Cek Perbedaan / Perubahan TTD</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan Ahli Waris</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan Data Pertanggungan</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan Ejaan Nama</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan Frekuensi Pembayaran</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan ID KTP</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan Pemegang Polis</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan SKDKK</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan SKDR</controllingFieldValue>
+            <controllingFieldValue>Cek Perubahan Tanggal Lahir</controllingFieldValue>
+            <controllingFieldValue>Cek Redemption</controllingFieldValue>
+            <controllingFieldValue>Cek Refund Premi (Collection Related)</controllingFieldValue>
+            <controllingFieldValue>Cek Refund Premi (NB)</controllingFieldValue>
+            <controllingFieldValue>Cek saldo</controllingFieldValue>
+            <controllingFieldValue>Cek Status Claim</controllingFieldValue>
+            <controllingFieldValue>Cek Status Complaint</controllingFieldValue>
+            <controllingFieldValue>Cek Status Polis</controllingFieldValue>
+            <controllingFieldValue>Cek Switching &amp; Redirection</controllingFieldValue>
+            <controllingFieldValue>Cek Top Up Berkala (RTU)</controllingFieldValue>
+            <controllingFieldValue>Tanya Mekanisme Prosedur</controllingFieldValue>
+            <controllingFieldValue>Product Knowledge_MSW</controllingFieldValue>
+            <controllingFieldValue>Process &amp; Procedure POS_Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Policy Inquiry_Policy Loan Status MSW</controllingFieldValue>
+            <controllingFieldValue>Policy Inquiry_Payment Policy Loan MSW</controllingFieldValue>
+            <controllingFieldValue>Cek Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Cek Payment</controllingFieldValue>
+            <controllingFieldValue>Cek Payment Collection</controllingFieldValue>
+            <controllingFieldValue>Touch Point CCC - Care Corner</controllingFieldValue>
+            <controllingFieldValue>Touch Point CCC - Regional</controllingFieldValue>
+            <controllingFieldValue>TS Explanation</controllingFieldValue>
+            <controllingFieldValue>Wrong Counter</controllingFieldValue>
+            <controllingFieldValue>Info Manfaat Polis</controllingFieldValue>
+            <controllingFieldValue>Info Produk</controllingFieldValue>
+            <controllingFieldValue>Inquiry Other</controllingFieldValue>
+            <controllingFieldValue>Touch Point CCC - Quick Response</controllingFieldValue>
+            <controllingFieldValue>None</controllingFieldValue>
+            <valueName>Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dplk - Complaint - Dana Pencairan Belum Diterima (Over SLA)</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Dana Pencairan Tidak Sesuai</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Iuran - Double Pendebetan</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Iuran - Tidak Terdebet</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Kartu - Belum Terima</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Kartu - Hilang/Rusak</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Perbedaan Data</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Rekening Koran - Belum Terima</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Rekening Koran - Tidak Bisa Dibuka</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - SMS/Email Nomor DPLK - Belum Terima</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Website - Saldo Tidak Update</controllingFieldValue>
+            <controllingFieldValue>Dplk - Complaint - Website - Tidak Bisa Login/Terblokir</controllingFieldValue>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Complaint</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

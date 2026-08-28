@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Today</fullName>
+    <columns>NAME</columns>
+    <columns>signature_data__c</columns>
+    <columns>Entity__c</columns>
+    <columns>CLASSTYPE__c</columns>
+    <columns>Operation__c</columns>
+    <columns>Service__c</columns>
+    <columns>sequenceNo__c</columns>
+    <columns>Order__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>All Today</label>
+    <language>en_US</language>
+</ListView>

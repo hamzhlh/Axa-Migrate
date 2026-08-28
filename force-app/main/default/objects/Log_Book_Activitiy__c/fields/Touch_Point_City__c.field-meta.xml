@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Touch_Point_City__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISPICKVAL( Touch_Point__c , &apos;Head Office&apos; ),ISPICKVAL( Touch_Point__c , &apos;Care Corner RS Pusat Pertamina&apos;),ISPICKVAL( Touch_Point__c , &apos;Preferred Banking Customer&apos; )),&apos;Jakarta&apos;,IF(ISPICKVAL( Touch_Point__c , &apos;Care Corner RS Kasih Ibu Denpasar&apos; ),&apos;Denpasar&apos;,IF(ISPICKVAL( Touch_Point__c , &apos;CCC Bandung&apos; ),&apos;Bandung&apos;,IF(ISPICKVAL( Touch_Point__c , &apos;CCC Medan&apos; ),&apos;Medan&apos;,IF(ISPICKVAL( Touch_Point__c , &apos;CCC Palembang&apos; ),&apos;Palembang&apos;,IF(ISPICKVAL( Touch_Point__c , &apos;CCC Surabaya&apos; ),&apos;Surabaya&apos;,IF(ISPICKVAL( Touch_Point__c , &apos;CCC Semarang&apos; ),&apos;Semarang&apos;,&apos;&apos;)))))))</formula>
+    <label>Touch Point City</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

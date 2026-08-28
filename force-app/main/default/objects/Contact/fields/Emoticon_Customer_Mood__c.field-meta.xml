@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emoticon_Customer_Mood__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+        CASE(
+            TEXT(Last_Case__r.General_Attitude__c),
+            &quot;Happy&quot;, &quot;/resource/emo_5&quot;,
+            &quot;Normal&quot;, &quot;/resource/emo_3&quot;,
+            &quot;Angry&quot;, &quot;/resource/emo_1&quot;,
+            &quot;/resource/emo_3&quot;
+        ),
+        &quot;Customer Mood&quot;,
+        100,
+        100
+    )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Emoticon Customer Mood</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

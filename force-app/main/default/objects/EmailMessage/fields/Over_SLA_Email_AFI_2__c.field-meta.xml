@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Over_SLA_Email_AFI_2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Parent.Entity__c = &quot;AFI&quot; &amp;&amp; ISNULL(First_Response_Date_In_Datetime__c) &amp;&amp; NOW() &lt;= Email_Due_Date_In_Datetime__c, &quot;On-Time (&lt;= 5 Jam&quot;, 
+
+IF( Parent.Entity__c = &quot;AFI&quot; &amp;&amp; First_Response_Date_In_Datetime__c &lt;= Email_Due_Date_In_Datetime__c, &quot;On-Time (&lt;= 5 Jam&quot; , 
+
+IF( Parent.Entity__c = &quot;AFI&quot; &amp;&amp; First_Response_Date_In_Datetime__c &gt; Email_Due_Date_In_Datetime__c + 5/24 &amp;&amp; First_Response_Date_In_Datetime__c &lt; Email_Due_Date_In_Datetime__c + 1, &quot;Over SLA 1 (&gt;5-24 Jam)&quot;  , 
+
+IF( Parent.Entity__c = &quot;AFI&quot; &amp;&amp; First_Response_Date_In_Datetime__c &gt; Email_Due_Date_In_Datetime__c + 1 &amp;&amp; First_Response_Date_In_Datetime__c &lt; Email_Due_Date_In_Datetime__c + 1.5, &quot;Over SLA 2 (&gt;24-36 Jam)&quot;, 
+&quot;Over SLA 3 (&gt;36 Jam)&quot; ))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Over SLA Email AFI 2</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

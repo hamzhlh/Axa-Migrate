@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Result_2B__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( TEXT(Field_2__c) == &quot;&quot;, &quot;&quot;,
+Field_F2__c &amp;&quot; &quot;&amp; Operator_F2__c &amp; Value_Custom_2__c &amp; &quot;&apos;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Result 2B</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

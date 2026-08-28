@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Request_Lightning</fullName>
+    <availability>online</availability>
+    <description>button new request case</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>New Request</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/CaseRequestLayoutContactLightning?retURL=/{!Case.Id}&amp;def_contact_id={!Case.ContactId}&amp;def_account_id={!Case.AccountId}&amp;RecordType={!Case.Request_Recordtype_ID__c}&amp;cas5=Request&amp;ent=Case&amp;cas11=none&amp;idcase={!Case.Id}</url>
+    <width>600</width>
+</WebLink>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem_Solving</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(Problem_Solving__c &lt;0,Problem_Solving__c &gt;100)</errorConditionFormula>
+    <errorDisplayField>Problem_Solving__c</errorDisplayField>
+    <errorMessage>Problem Solving should be in 0 to 100.</errorMessage>
+</ValidationRule>

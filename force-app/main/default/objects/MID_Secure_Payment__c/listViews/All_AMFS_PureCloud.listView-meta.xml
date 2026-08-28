@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AMFS_PureCloud</fullName>
+    <columns>NAME</columns>
+    <columns>Policy_No__c</columns>
+    <columns>Origin__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>SFDC_Order_Id__c</columns>
+    <columns>Change_Name__c</columns>
+    <columns>Beneficial_Owner__c</columns>
+    <columns>Card_Number__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Midtrans_Token__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AMFS</value>
+    </filters>
+    <filters>
+        <field>Origin__c</field>
+        <operation>equals</operation>
+        <value>PureCloud</value>
+    </filters>
+    <label>All AMFS PureCloud</label>
+    <language>en_US</language>
+</ListView>

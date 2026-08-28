@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Late_Time_Score_3_Desc__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Late_Time__c != 0,
+Late_Time_Desc__c &amp;&quot; = &quot;&amp; TEXT(Late_Time_Score_3__c)
+,NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Late Time Score 3 Desc</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

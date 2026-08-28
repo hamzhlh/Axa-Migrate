@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Productivity__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( TEXT(Outsource_Type__c) == &apos;&apos;,
+((End_Login__c - Start_Login__c) * 1440) 
+- 
+((Break_Pray_Sum__c + Break_Rest_Sum__c + Break_Lunch_Sum__c + Break_Other_Sum__c + Busy_Sum__c) /  60)
+,
+IF ( ((End_Login__c - Start_Login__c) * 1440) &gt; (VALUE(TEXT(Outsource_Type__c))*60), 450, 
+((End_Login__c - Start_Login__c) * 1440) 
+- 
+((Break_Pray_Sum__c + Break_Rest_Sum__c + Break_Lunch_Sum__c + Break_Other_Sum__c + Busy_Sum__c) /  60)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Productivity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

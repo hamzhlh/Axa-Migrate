@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Detail_AMFS_PBC_CCC</fullName>
+    <columns>NAME</columns>
+    <columns>F_Entity__c</columns>
+    <columns>Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>User_Detail__c.User_Detail_CCC_AMFS</value>
+    </filters>
+    <label>User Detail AMFS PBC CCC</label>
+    <language>en_US</language>
+</ListView>

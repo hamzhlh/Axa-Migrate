@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Policy__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Contact Policy</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <filterItems>
+            <field>Contact.Entity__c</field>
+            <operation>equals</operation>
+            <value>AMFS</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.PolicyApp__c</field>
+            <operation>equals</operation>
+            <value>RLS</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.PolicyApp__c</field>
+            <operation>equals</operation>
+            <value>DMTM</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Log Book Activitiy Details</relationshipLabel>
+    <relationshipName>Log_Book_Activitiy_Details</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_sendCommunicationMessage</fullName>
+    <columns>NAME</columns>
+    <columns>signature_data__c</columns>
+    <columns>Entity__c</columns>
+    <columns>CLASSTYPE__c</columns>
+    <columns>Operation__c</columns>
+    <columns>Service__c</columns>
+    <columns>sequenceNo__c</columns>
+    <columns>Order__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Service__c</field>
+        <operation>equals</operation>
+        <value>sendCommunicationMessage</value>
+    </filters>
+    <label>All - sendCommunicationMessage</label>
+    <language>en_US</language>
+</ListView>

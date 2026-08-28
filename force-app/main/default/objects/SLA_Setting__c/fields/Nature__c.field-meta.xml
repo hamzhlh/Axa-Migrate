@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nature__c</fullName>
+    <label>Nature</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administrator Procedures</fullName>
+                <default>false</default>
+                <label>Administrator Procedures</label>
+            </value>
+            <value>
+                <fullName>Claims</fullName>
+                <default>false</default>
+                <label>Claims</label>
+            </value>
+            <value>
+                <fullName>Claim</fullName>
+                <default>false</default>
+                <label>Claim</label>
+            </value>
+            <value>
+                <fullName>Claim Decision</fullName>
+                <default>false</default>
+                <label>Claim Decision</label>
+            </value>
+            <value>
+                <fullName>Comben</fullName>
+                <default>false</default>
+                <label>Comben</label>
+            </value>
+            <value>
+                <fullName>Courier Delivery</fullName>
+                <default>false</default>
+                <label>Courier Delivery</label>
+            </value>
+            <value>
+                <fullName>Courier Investigation</fullName>
+                <default>false</default>
+                <label>Courier Investigation</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor Service</fullName>
+                <default>false</default>
+                <label>Financial Advisor Service</label>
+            </value>
+            <value>
+                <fullName>Forgery</fullName>
+                <default>false</default>
+                <label>Forgery</label>
+            </value>
+            <value>
+                <fullName>Misappropiation</fullName>
+                <default>false</default>
+                <label>Misappropiation</label>
+            </value>
+            <value>
+                <fullName>Misrepresentation</fullName>
+                <default>false</default>
+                <label>Misrepresentation</label>
+            </value>
+            <value>
+                <fullName>New Business</fullName>
+                <default>false</default>
+                <label>New Business</label>
+            </value>
+            <value>
+                <fullName>Non Disclosure</fullName>
+                <default>false</default>
+                <label>Non Disclosure</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>Policy Duplicate</fullName>
+                <default>false</default>
+                <label>Policy Duplicate</label>
+            </value>
+            <value>
+                <fullName>Policy Retur</fullName>
+                <default>false</default>
+                <label>Policy Retur</label>
+            </value>
+            <value>
+                <fullName>Process</fullName>
+                <default>false</default>
+                <label>Process</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>TM Service</fullName>
+                <default>false</default>
+                <label>TM Service</label>
+            </value>
+            <value>
+                <fullName>Twisting/Chunning</fullName>
+                <default>false</default>
+                <label>Twisting/Chunning</label>
+            </value>
+            <value>
+                <fullName>Underwriting</fullName>
+                <default>false</default>
+                <label>Underwriting</label>
+            </value>
+            <value>
+                <fullName>Without Consent</fullName>
+                <default>false</default>
+                <label>Without Consent</label>
+            </value>
+            <value>
+                <fullName>Processing Error</fullName>
+                <default>false</default>
+                <label>Processing Error</label>
+            </value>
+            <value>
+                <fullName>Agent Services</fullName>
+                <default>false</default>
+                <label>Agent Services</label>
+            </value>
+            <value>
+                <fullName>Human Error</fullName>
+                <default>false</default>
+                <label>Human Error</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

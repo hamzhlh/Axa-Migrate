@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entity__c</fullName>
+    <label>Entity</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AFI</fullName>
+                <default>false</default>
+                <label>AFI</label>
+            </value>
+            <value>
+                <fullName>AMFS</fullName>
+                <default>false</default>
+                <label>AMFS</label>
+            </value>
+            <value>
+                <fullName>MAGI</fullName>
+                <default>false</default>
+                <label>MAGI</label>
+            </value>
+            <value>
+                <fullName>ALI</fullName>
+                <default>false</default>
+                <label>ALI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

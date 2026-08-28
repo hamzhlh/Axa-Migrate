@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Subject__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(Payment_Type__c) == &apos;Visa / Master / JCB&apos;,
+IF (Beneficial_Owner__c, &apos;Change Payment - Beneficial Owner Form&apos;, &apos;&apos;),
+IF (TEXT(Payment_Type__c) == &apos;Private&apos;,
+IF (Beneficial_Owner__c, &apos;Change Payment - SKDKK and Beneficial Owner Form&apos;, &apos;Change Payment - SKDKK Form&apos;),
+IF (TEXT(Payment_Type__c) == &apos;Saving Account&apos;,
+IF (Beneficial_Owner__c, &apos;Change Payment - SKDR and Beneficial Owner Form&apos;, &apos;Change Payment - SKDR Form&apos;),null)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Email Subject</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

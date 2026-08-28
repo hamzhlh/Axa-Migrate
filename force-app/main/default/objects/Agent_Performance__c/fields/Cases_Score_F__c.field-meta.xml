@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cases_Score_F__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (ISBLANK(Cases_Type__c),NULL,
+IF (Cases_Score_3__c  &gt;= Cases_Data__c,3,
+IF (Cases_Score_2__c  &gt;= Cases_Data__c, 2,
+IF (Cases_Score_1__c  &gt;= Cases_Data__c, 1
+,0)))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cases_Score_F</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

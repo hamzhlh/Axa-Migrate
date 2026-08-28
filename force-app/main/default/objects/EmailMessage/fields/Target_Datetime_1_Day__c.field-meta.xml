@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Datetime_1_Day__c</fullName>
+    <formula>Target_Datetime__c+((24-Target_TAT__c)/24)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Target Datetime (1 Day)</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

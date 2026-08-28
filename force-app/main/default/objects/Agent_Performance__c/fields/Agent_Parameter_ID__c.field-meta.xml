@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Parameter_ID__c</fullName>
+    <description>Select id, name, entity__c FROM Agent_Parameter__c</description>
+    <externalId>false</externalId>
+    <formula>CASE(Team__c, 
+&apos;ICT&apos;,&apos;a0x6F00000LJmlAQAT&apos;,
+&apos;WCT&apos;,&apos;a0x6F00000LJmlUQAT&apos;,
+&apos;TCC&apos;,&apos;a0x6F00000LJml5QAD&apos;,
+&apos;Premium FU&apos;,&apos;a0x6F00000LJmlFQAT&apos;,
+&apos;Reinstate&apos;,&apos;a0x6F00000LJmlKQAT&apos;,
+&apos;Retention&apos;,&apos;a0x6F00000LJmlPQAT&apos;,
+&apos;DIGITAL TEAM&apos;,&apos;a0x6F00000LJml5QAD&apos;,
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Agent Parameter ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

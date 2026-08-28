@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Touchpoint__c</fullName>
+    <description>Touchpoint kebutuhan Inquiry I Ask</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Case__r.Origin)=&apos;Email&apos;,&apos;Email&apos;,
+IF(TEXT(Case__r.Origin)=&apos;Phone&apos;,&apos;Call Center&apos;,
+IF(TEXT(Case__r.Origin)=&apos;Walk-In&apos;,&apos;Customer Service&apos;,
+IF((TEXT(Case__r.Origin)=&apos;Twitter&apos; || TEXT(Case__r.Origin)=&apos;Facebook&apos; || TEXT(Case__r.Origin)=&apos;Instagram&apos;),&apos;Social Media&apos;,
+IF((TEXT(Case__r.Origin)=&apos;Web&apos; || TEXT(Case__r.Origin)=&apos;Facebook Messenger&apos; || TEXT(Case__r.Origin)=&apos;WhatsApp&apos; || TEXT(Case__r.Origin)=&apos;Chatbot&apos;),&apos;Live Chat&apos;,
+IF((TEXT(Case__r.Origin)=&apos;Chatter Answers&apos; || TEXT(Case__r.Origin)=&apos;RM&apos; || TEXT(Case__r.Origin)=&apos;Facebook Syariah&apos; || TEXT(Case__r.Origin)=&apos;WhatsApp Easy Claim&apos; || TEXT(Case__r.Origin)=&apos;CR (Customer Retention)&apos; || TEXT(Case__r.Origin)=&apos;Customer Portal&apos; || TEXT(Case__r.Origin)=&apos;Welcome Call&apos; || TEXT(Case__r.Origin)=&apos;OH (Operation Helpdesk)&apos; || TEXT(Case__r.Origin)=&apos;Phone - Data Callback&apos; || TEXT(Case__r.Origin)=&apos;Phone - Outbound Call&apos; || TEXT(Case__r.Origin)=&apos;LinkedIn&apos; || TEXT(Case__r.Origin)=&apos;YouTube&apos;),&apos;Others&apos;,&apos;-&apos;))))))</formula>
+    <inlineHelpText>Touchpoint kebutuhan Inquiry I Ask</inlineHelpText>
+    <label>Touchpoint</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

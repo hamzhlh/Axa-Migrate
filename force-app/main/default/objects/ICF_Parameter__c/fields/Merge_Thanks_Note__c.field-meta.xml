@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Merge_Thanks_Note__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Will merge the thanks note if have same request date. This configuration will take effect after the change of the flag and will not affect the existing thanks note</description>
+    <inlineHelpText>Will merge the thanks note if have same request date. This configuration will take effect after the change of the flag and will not affect the existing thanks note</inlineHelpText>
+    <label>Merge Thanks Note</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

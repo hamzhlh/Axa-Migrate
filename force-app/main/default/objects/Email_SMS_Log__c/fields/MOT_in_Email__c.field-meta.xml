@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MOT_in_Email__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Case__r.Type)=&apos;Inquiry&apos;,&apos;Customer Care&apos;,
+IF(TEXT(Case__r.Type)=&apos;Request POS&apos; &amp;&amp; (TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Redemption&apos; || TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Surrender_Non_UL&apos; || TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Surrender Endowment&apos; || TEXT(Case__r.Case_Type__c)=&apos;Request_POS_Withdrawal&apos;),&apos;Pelayanan Polis&apos;,
+IF(TEXT(Case__r.Type)=&apos;Complaint&apos;,&apos;Pengaduan Nasabah&apos;,
+IF( ((TEXT(Case__r.Type)=&apos;Request&apos; &amp;&amp; Case__r.MOT__c=&apos;I Claim&apos;) || TEXT(MOT__c) == &apos;I Claim&apos;) &amp;&amp; TEXT(Claim_Transaction_Type__c)=&apos;Cashless&apos;,&apos;Klaim Penjaminan&apos;,
+IF( ((TEXT(Case__r.Type)=&apos;Request&apos; &amp;&amp; Case__r.MOT__c=&apos;I Claim&apos;) || TEXT(MOT__c) == &apos;I Claim&apos;) &amp;&amp; (TEXT(Claim_Transaction_Type__c)=&apos;Reimbursement&apos; || TEXT(Claim_Transaction_Type__c)=&apos;&apos;),&apos;Klaim Penggantian&apos;,&apos;&apos;)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MOT in Email</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

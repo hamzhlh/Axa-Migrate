@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inforce_Score_3_Desc__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Inforce__c !=0 ,
+Inforce_Desc__c &amp;&quot; &gt;= &quot;&amp; TEXT(Inforce_Score_3__c)
+,NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Inforce Score 3 Desc</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

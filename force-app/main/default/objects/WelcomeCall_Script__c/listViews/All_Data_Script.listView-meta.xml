@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Data_Script</fullName>
+    <columns>NAME</columns>
+    <columns>WelcomeCall_Tab_Name__c</columns>
+    <columns>WelcomeCall_Order__c</columns>
+    <columns>WelcomeCall_Parent__c</columns>
+    <columns>WelcomeCall_Section__c</columns>
+    <columns>WelcomeCall_Product_Name__c</columns>
+    <columns>WelcomeCall_Content_Question__c</columns>
+    <columns>WelcomeCall_Content_Question_2__c</columns>
+    <columns>WelcomeCall_Lookup_Label__c</columns>
+    <columns>welcomeCall_Lookup_Label_2__c</columns>
+    <columns>WelcomeCall_Type__c</columns>
+    <columns>WelcomeCall_Content_Answer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>WelcomeCall_Order__c</field>
+        <operation>equals</operation>
+        <value>5</value>
+    </filters>
+    <label>All Data Script</label>
+    <language>en_US</language>
+</ListView>

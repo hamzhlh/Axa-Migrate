@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Product__c</fullName>
+    <label>Type Product</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NCB</fullName>
+                <default>false</default>
+                <label>NCB</label>
+            </value>
+            <value>
+                <fullName>Finalty</fullName>
+                <default>false</default>
+                <label>Finalty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

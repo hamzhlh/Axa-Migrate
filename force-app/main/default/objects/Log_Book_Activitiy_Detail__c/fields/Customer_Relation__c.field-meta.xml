@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Relation__c</fullName>
+    <label>Customer Relation</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Diri Sendiri</fullName>
+                <default>false</default>
+                <label>Diri Sendiri</label>
+            </value>
+            <value>
+                <fullName>Suami/Istri</fullName>
+                <default>false</default>
+                <label>Suami/Istri</label>
+            </value>
+            <value>
+                <fullName>Anak</fullName>
+                <default>false</default>
+                <label>Anak</label>
+            </value>
+            <value>
+                <fullName>Orang Tua</fullName>
+                <default>false</default>
+                <label>Orang Tua</label>
+            </value>
+            <value>
+                <fullName>Wali</fullName>
+                <default>false</default>
+                <label>Wali</label>
+            </value>
+            <value>
+                <fullName>Mertua</fullName>
+                <default>false</default>
+                <label>Mertua</label>
+            </value>
+            <value>
+                <fullName>Cucu</fullName>
+                <default>false</default>
+                <label>Cucu</label>
+            </value>
+            <value>
+                <fullName>Nenek/Kakek</fullName>
+                <default>false</default>
+                <label>Nenek/Kakek</label>
+            </value>
+            <value>
+                <fullName>Sepupu</fullName>
+                <default>false</default>
+                <label>Sepupu</label>
+            </value>
+            <value>
+                <fullName>Paman</fullName>
+                <default>false</default>
+                <label>Paman</label>
+            </value>
+            <value>
+                <fullName>Bibi</fullName>
+                <default>false</default>
+                <label>Bibi</label>
+            </value>
+            <value>
+                <fullName>Saudara Laki-Laki</fullName>
+                <default>false</default>
+                <label>Saudara Laki-Laki</label>
+            </value>
+            <value>
+                <fullName>Saudara Perempuan</fullName>
+                <default>false</default>
+                <label>Saudara Perempuan</label>
+            </value>
+            <value>
+                <fullName>Keponakan Laki-Laki</fullName>
+                <default>false</default>
+                <label>Keponakan Laki-Laki</label>
+            </value>
+            <value>
+                <fullName>Keponakan Perempuan</fullName>
+                <default>false</default>
+                <label>Keponakan Perempuan</label>
+            </value>
+            <value>
+                <fullName>Tunangan</fullName>
+                <default>false</default>
+                <label>Tunangan</label>
+            </value>
+            <value>
+                <fullName>Pasangan</fullName>
+                <default>false</default>
+                <label>Pasangan</label>
+            </value>
+            <value>
+                <fullName>Ahli Waris</fullName>
+                <default>false</default>
+                <label>Ahli Waris</label>
+            </value>
+            <value>
+                <fullName>Yayasan</fullName>
+                <default>false</default>
+                <label>Yayasan</label>
+            </value>
+            <value>
+                <fullName>Karyawan</fullName>
+                <default>false</default>
+                <label>Karyawan</label>
+            </value>
+            <value>
+                <fullName>Kepemilikan Tanah</fullName>
+                <default>false</default>
+                <label>Kepemilikan Tanah</label>
+            </value>
+            <value>
+                <fullName>Lain-Lain</fullName>
+                <default>false</default>
+                <label>Lain-Lain</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

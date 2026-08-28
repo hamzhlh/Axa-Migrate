@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Type__c</fullName>
+    <label>Case Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request_Up Date Data Email address</fullName>
+                <default>false</default>
+                <label>Request_Up Date Data Email address</label>
+            </value>
+            <value>
+                <fullName>Request_Up Date Data Correspondence address</fullName>
+                <default>false</default>
+                <label>Request_Up Date Data Correspondence address</label>
+            </value>
+            <value>
+                <fullName>Request_Up Date Data Phone/HP</fullName>
+                <default>false</default>
+                <label>Request_Up Date Data Phone/HP</label>
+            </value>
+            <value>
+                <fullName>Request_Up Date Data Correspondence address &amp; Email address</fullName>
+                <default>false</default>
+                <label>Request_Up Date Data Correspondence address &amp; Email address</label>
+            </value>
+            <value>
+                <fullName>Request_Up Date Data Correspondence address &amp; Phone/HP</fullName>
+                <default>false</default>
+                <label>Request_Up Date Data Correspondence address &amp; Phone/HP</label>
+            </value>
+            <value>
+                <fullName>Request_Up Date Data Email address &amp; Phone/HP</fullName>
+                <default>false</default>
+                <label>Request_Up Date Data Email address &amp; Phone/HP</label>
+            </value>
+            <value>
+                <fullName>Request_Up Date Data Correspondence address, Email address &amp; Phone/HP</fullName>
+                <default>false</default>
+                <label>Request_Up Date Data Correspondence address, Email address &amp; Phone/HP</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Lumpsum</fullName>
+                <default>false</default>
+                <label>Request_POS_Lumpsum</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Cuti Premi</fullName>
+                <default>false</default>
+                <label>Request_POS_Cuti Premi</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Data Pertanggungan</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Data Pertanggungan</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Alokasi Dana (Redirection)</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Alokasi Dana (Redirection)</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Frekuensi Pembayaran</fullName>
+                <default>false</default>
+                <label>Request_POS_Frekuensi Pembayaran</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan ID KTP</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan ID KTP</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Perubahan Lainnya</fullName>
+                <default>false</default>
+                <label>Request_POS_Perubahan Lainnya</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Redemption</fullName>
+                <default>false</default>
+                <label>Request_POS_Redemption</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Withdrawal</fullName>
+                <default>false</default>
+                <label>Request_POS_Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Top Up Berkala (RTU)</fullName>
+                <default>false</default>
+                <label>Request_POS_Top Up Berkala (RTU)</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Switching &amp; Redirection</fullName>
+                <default>false</default>
+                <label>Request_POS_Switching &amp; Redirection</label>
+            </value>
+            <value>
+                <fullName>REQUEST Cancellation Polis TM_Cooling Off</fullName>
+                <default>false</default>
+                <label>REQUEST Cancellation Polis TM_Cooling Off</label>
+            </value>
+            <value>
+                <fullName>REQUEST Cancellation Polis TM_Surrender</fullName>
+                <default>false</default>
+                <label>REQUEST Cancellation Polis TM_Surrender</label>
+            </value>
+            <value>
+                <fullName>Request_POS_Pengalihan Dana (Switching)</fullName>
+                <default>false</default>
+                <label>Request_POS_Pengalihan Dana (Switching)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

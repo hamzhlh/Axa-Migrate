@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Result__c</fullName>
+    <description>IF (TEXT(Value__c) != &apos;Custom&apos;,
+ Field_F__c &amp;&quot; &quot;&amp; Operator_F__c &amp; &quot; &quot; &amp; TEXT(Value__c) , 
+ Field_F__c &amp;&quot; &quot;&amp; Operator_F__c &amp; &quot; &quot; &amp; 
+IF ( CONTAINS(Value_Custom__c,&quot;,&quot;), &quot;(&apos;&quot;&amp;SUBSTITUTE(Value_Custom__c, &quot;,&quot;, &quot;&apos;,&apos;&quot;)&amp;&quot;&apos;)&quot; ,Value_Custom__c)
+)</description>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(Field__c) == &quot;&quot;, &quot;&quot;,
+ Field_F__c &amp;&quot; &quot;&amp; Operator_F__c &amp; Value_Custom__c &amp; &quot;&apos;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Result</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

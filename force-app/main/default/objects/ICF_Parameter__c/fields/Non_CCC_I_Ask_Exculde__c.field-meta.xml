@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_CCC_I_Ask_Exculde__c</fullName>
+    <label>Non CCC - I Ask – Exculde</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non in-force policies</fullName>
+                <default>false</default>
+                <label>Non in-force policies</label>
+            </value>
+            <value>
+                <fullName>Policies for worksites</fullName>
+                <default>false</default>
+                <label>Policies for worksites</label>
+            </value>
+            <value>
+                <fullName>Claim Enquiry</fullName>
+                <default>false</default>
+                <label>Claim Enquiry</label>
+            </value>
+            <value>
+                <fullName>Agent Calls</fullName>
+                <default>false</default>
+                <label>Agent Calls</label>
+            </value>
+            <value>
+                <fullName>un-resolved enquiry</fullName>
+                <default>false</default>
+                <label>un-resolved enquiry</label>
+            </value>
+            <value>
+                <fullName>un-resolved request</fullName>
+                <default>false</default>
+                <label>un-resolved request</label>
+            </value>
+            <value>
+                <fullName>Intermediaries</fullName>
+                <default>false</default>
+                <label>Intermediaries</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

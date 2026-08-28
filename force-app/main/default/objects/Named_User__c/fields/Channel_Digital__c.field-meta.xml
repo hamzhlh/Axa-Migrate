@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Digital__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>PIC khusus untuk Channel (&apos;Social Media&apos;, &apos;Print Media&apos;, &apos;Website&apos;, &apos;Regulator&apos;, &apos;Solicitor/Lawyer&apos;).</inlineHelpText>
+    <label>Channel Digital</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

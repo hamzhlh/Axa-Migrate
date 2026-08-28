@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Response_Date__c</fullName>
+    <formula>IF( isFirstEmail__c = TRUE, Parent.Email_First_Response_Date__c, null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>First Response Date (1)</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

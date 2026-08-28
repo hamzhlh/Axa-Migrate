@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RecordTypeID__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Team__c, 
+&apos;INBOUND CALL&apos;,&apos;0126F000001MINgQAO&apos;,
+&apos;WELCOME CALL&apos;,&apos;0126F000001MINlQAO&apos;,
+&apos;DIGITAL TEAM&apos;,&apos;0126F000001MINfQAO&apos;,
+&apos;RETENTION FU&apos;,&apos;0126F000001MINiQAO&apos;,
+&apos;RETENTION REINSTATE&apos;,&apos;0126F000001MINjQAO&apos;,
+&apos;RETENTION STANDBY&apos;,&apos;0126F000001MINkQAO&apos;,
+&apos;ICT&apos;,&apos;0126F000001MINgQAO&apos;,
+&apos;WCT&apos;,&apos;0126F000001MINlQAO&apos;,
+&apos;TCC&apos;,&apos;0126F000001MINfQAO&apos;,
+&apos;Premium FU&apos;,&apos;0126F000001MINiQAO&apos;,
+&apos;Reinstate&apos;,&apos;0126F000001MINjQAO&apos;,
+&apos;Retention&apos;,&apos;0126F000001MINkQAO&apos;,
+&apos;0126F000001MINhQAO&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>RecordTypeID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

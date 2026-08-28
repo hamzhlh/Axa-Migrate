@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Login_05__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (isBlank(Login_05__c) || isBlank(First_Login_05__c),NULL,IF (Login_05__c &lt; First_Login_05__c, &apos;Late&apos;,&apos;On Time&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status_Login_05</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

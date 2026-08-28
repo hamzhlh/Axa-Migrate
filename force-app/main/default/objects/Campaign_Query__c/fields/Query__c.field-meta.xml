@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Query__c</fullName>
+    <inlineHelpText>Child__c.Connected_Date_Validation__c &lt;= #{&quot;m&quot;:-2,&quot;d&quot;:-15}#</inlineHelpText>
+    <label>Query</label>
+    <length>10000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>8</visibleLines>
+</CustomField>

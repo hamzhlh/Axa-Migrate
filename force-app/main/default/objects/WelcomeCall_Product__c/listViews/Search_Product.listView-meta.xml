@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Search_Product</fullName>
+    <columns>NAME</columns>
+    <columns>WelcomeCall_Category__c</columns>
+    <columns>WelcomeCall_Fg_Active__c</columns>
+    <columns>WelcomeCall_Product_Group__c</columns>
+    <columns>WelcomeCall_Product_Name__c</columns>
+    <columns>WelcomeCall_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>MFP</value>
+    </filters>
+    <label>Search Product</label>
+    <language>en_US</language>
+</ListView>

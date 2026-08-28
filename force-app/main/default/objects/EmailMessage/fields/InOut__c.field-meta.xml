@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InOut__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( isFirstEmail__c , 
+    IMAGE(&quot;/servlet/servlet.FileDownload?file=0156F00000CZ6X9&quot;,&quot;&quot;,20,20),
+IF(Incoming, 
+    IMAGE(&quot;/servlet/servlet.FileDownload?file=0156F00000CZ6X8&quot;,&quot;&quot;,20,20),
+IF(Incoming=false,
+    IMAGE(&quot;/servlet/servlet.FileDownload?file=0156F00000CZ6XA&quot;,&quot;&quot;,20,20), &apos;&apos;
+)
+
+  ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>InOut</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

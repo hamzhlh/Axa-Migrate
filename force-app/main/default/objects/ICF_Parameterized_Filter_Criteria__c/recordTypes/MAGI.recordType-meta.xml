@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MAGI</fullName>
+    <active>true</active>
+    <label>MAGI</label>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-MV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Field_2__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Captured Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Payment Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issued Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay To Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Mode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PolicyIssue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium Settled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Record Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversal Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversal Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Success full transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspicious</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Completion Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle checkout date</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Field_3__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Captured Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Payment Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issued Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay To Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Mode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PolicyIssue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium Settled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Record Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversal Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversal Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Success full transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspicious</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Completion Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle checkout date</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Field_4__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Captured Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Payment Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issued Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay To Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Mode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PolicyIssue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium Settled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Record Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversal Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversal Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Success full transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspicious</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Completion Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle checkout date</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Field__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Captured Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim payment date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issued Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay To Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Mode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PolicyIssue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium Settled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Record Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversal Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversal Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Success full transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspicious</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Completion Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle checkout date</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Logic_2__c</picklist>
+        <values>
+            <fullName>AND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Logic_3__c</picklist>
+        <values>
+            <fullName>AND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Logic__c</picklist>
+        <values>
+            <fullName>AND</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Operator_2__c</picklist>
+        <values>
+            <fullName>Contains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater or equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater than</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less or equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Contains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not End With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Equal to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Starts With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starts With</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Operator_3__c</picklist>
+        <values>
+            <fullName>Contains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater or equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater than</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less or equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Contains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not End With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Equal to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Starts With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starts With</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Operator_4__c</picklist>
+        <values>
+            <fullName>Contains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater or equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater than</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less or equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Contains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not End With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Equal to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Starts With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starts With</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Operator__c</picklist>
+        <values>
+            <fullName>Contains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater or equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater than</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less or equal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Contains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not End With</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Equal to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Starts With</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Send_Field__c</picklist>
+        <values>
+            <fullName>Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Captured Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Approved Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Payment Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Submitted Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issued Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay To Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted Date</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Send_Value__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Exclude - I Ask</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclude - I Buy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclude - I Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclude - I Renew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule - I Ask</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule - I Buy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule - I Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule - I Renew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Value__c</picklist>
+        <values>
+            <fullName>0 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank Mandiri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FALSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRUE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

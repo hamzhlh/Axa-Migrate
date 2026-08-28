@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flagging_Email_SLA__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( ISNULL(First_Response_Date_In_Datetime__c) &amp;&amp;  
+    NOW() &lt;= Email_Due_Date_In_Datetime__c,
+   IMAGE(&quot;/servlet/servlet.FileDownload?file=0156F00000CZ6X5&quot;,&quot;&quot;,20,20),
+
+if( First_Response_Date_In_Datetime__c &lt;= Email_Due_Date_In_Datetime__c,
+   IMAGE(&quot;/servlet/servlet.FileDownload?file=0156F00000CZ6X5&quot;,&quot;&quot;,20,20),
+
+if( ISNULL(First_Response_Date_In_Datetime__c) &amp;&amp;  
+    NOW() &gt; Email_Due_Date_In_Datetime__c,
+   IMAGE(&quot;/servlet/servlet.FileDownload?file=0156F00000CZ6X6&quot;,&quot;&quot;,20,20),
+
+if( First_Response_Date_In_Datetime__c &gt; Email_Due_Date_In_Datetime__c,
+   IMAGE(&quot;/servlet/servlet.FileDownload?file=0156F00000CZ6X6&quot;,&quot;&quot;,20,20),
+   IMAGE(&quot;/servlet/servlet.FileDownload?file=0156F00000CZ6X6&quot;,&quot;&quot;,20,20)
+)
+)
+
+)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Flagging_Email_SLA</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

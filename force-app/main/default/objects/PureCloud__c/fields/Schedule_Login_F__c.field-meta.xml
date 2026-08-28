@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Login_F__c</fullName>
+    <formula>IF ( TEXT(Entity__c) == &apos;AMFS&apos; &amp;&amp; CONTAINS(TEXT(Agent_Name__r.Queue_PureCloud__c), &apos;Outbound&apos;),
+DATETIMEVALUE( Date__c ) + (1.5 / 24),
+IF ( TEXT(Entity__c) == &apos;AMFS&apos; &amp;&amp; !CONTAINS(TEXT(Agent_Name__r.Queue_PureCloud__c), &apos;Outbound&apos;),
+DATETIMEVALUE( Date__c ) + (1 / 24),
+DATETIMEVALUE( Date__c ) ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Schedule Login F</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

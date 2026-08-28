@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Update_Negative_Answer_1_to_2</fullName>
+    <columns>NAME</columns>
+    <columns>Survey__c</columns>
+    <columns>SurveyTaker__c</columns>
+    <columns>Email_Sms_Log__c</columns>
+    <columns>Negative_Answer__c</columns>
+    <columns>Negative_Question__c</columns>
+    <columns>Answer_Index_1__c</columns>
+    <columns>Negative_Result__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Negative_Answer__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All - Update Negative Answer 1 to 2</label>
+    <language>en_US</language>
+</ListView>

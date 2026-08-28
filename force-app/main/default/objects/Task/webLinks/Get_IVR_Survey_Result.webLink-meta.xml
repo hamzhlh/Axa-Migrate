@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Get_IVR_Survey_Result</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Get IVR Survey Result</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)}
+ 
+sforce.apex.execute(&quot;Purecloud_InsertTask&quot;,&quot;getTest&quot;,{&quot;conversationId&quot;:&apos;{!Task.CallObject}&apos;,&quot;TaskId&quot;:&apos;{!Task.Id}&apos;,&quot;ParticipantId&quot;:&apos;{!Task.Purecloud_Participant_ID__c}&apos;});
+
+window.location.href=&quot;/{!Task.Id}&quot;;</url>
+</WebLink>

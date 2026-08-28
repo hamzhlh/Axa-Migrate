@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Leave__c</fullName>
+    <formula>AND(  TODAY() &gt;= WelcomeCall_Start_Date__c ,TODAY() &lt;=  WelcomeCall_End_Date__c )</formula>
+    <label>Active Formula</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

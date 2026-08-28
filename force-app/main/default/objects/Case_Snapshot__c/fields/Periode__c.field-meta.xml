@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Periode__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (MONTH(Date__c) == 1, &quot;Januari &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 2, &quot;Februari &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 3, &quot;Maret &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 4, &quot;April &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 5, &quot;Mei &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 6, &quot;Juni &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 7, &quot;Juli &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 8, &quot;Agustus &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 9, &quot;September &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 10, &quot;Oktober &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 11, &quot;November &quot; &amp; TEXT(YEAR(Date__c)), 
+IF (MONTH(Date__c) == 12, &quot;Desember &quot; &amp; TEXT(YEAR(Date__c)), 
+NULL))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Periode</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AFI_Outbound</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>Description__c</columns>
+    <columns>Duration__c</columns>
+    <columns>Published__c</columns>
+    <columns>Sync_progress__c</columns>
+    <columns>Current_Published_Version_Formula__c</columns>
+    <columns>Source__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source__c</field>
+        <operation>equals</operation>
+        <value>AFI - Outbound</value>
+    </filters>
+    <label>All AFI - Outbound</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>AFI_Almond_Outbound_Group</group>
+    </sharedTo>
+</ListView>

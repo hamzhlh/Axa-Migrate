@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ICF</fullName>
+                <default>false</default>
+                <label>ICF</label>
+            </value>
+            <value>
+                <fullName>Thanks Note</fullName>
+                <default>false</default>
+                <label>Thanks Note</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>true</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Reminder CMU</fullName>
+                <default>false</default>
+                <label>Reminder CMU</label>
+            </value>
+            <value>
+                <fullName>Ereciept-AMFS</fullName>
+                <default>false</default>
+                <label>Ereciept-AMFS</label>
+            </value>
+            <value>
+                <fullName>BookingCall</fullName>
+                <default>false</default>
+                <label>BookingCall</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

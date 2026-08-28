@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Line_Survey__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Related call Line Survey</description>
+    <label>Call Line Survey</label>
+    <referenceTo>Call_Line__c</referenceTo>
+    <relationshipLabel>Surveys Taken (Call Line Survey)</relationshipLabel>
+    <relationshipName>Surveys_Taken1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

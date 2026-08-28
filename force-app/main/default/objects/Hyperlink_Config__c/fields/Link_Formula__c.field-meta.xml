@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>if ( ISPICKVAL(Type__c , &apos;Share Folder&apos;), 
+  HYPERLINK(&quot;file:&quot; &amp; Link__c , Name, &apos;_blank&apos;),
+  HYPERLINK(&quot;//&quot; &amp; Link__c , Name,&apos;_blank&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Link Formula</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

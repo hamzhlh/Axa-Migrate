@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team__c</fullName>
+    <label>Team</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>WELCOME CALL</fullName>
+                <default>false</default>
+                <label>WELCOME CALL</label>
+            </value>
+            <value>
+                <fullName>INBOUND CALL</fullName>
+                <default>false</default>
+                <label>INBOUND CALL</label>
+            </value>
+            <value>
+                <fullName>RETENTION STANDBY</fullName>
+                <default>false</default>
+                <label>RETENTION STANDBY</label>
+            </value>
+            <value>
+                <fullName>RETENTION REINSTATE</fullName>
+                <default>false</default>
+                <label>RETENTION REINSTATE</label>
+            </value>
+            <value>
+                <fullName>RETENTION FU</fullName>
+                <default>false</default>
+                <label>RETENTION FU</label>
+            </value>
+            <value>
+                <fullName>DIGITAL TEAM</fullName>
+                <default>false</default>
+                <label>DIGITAL TEAM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

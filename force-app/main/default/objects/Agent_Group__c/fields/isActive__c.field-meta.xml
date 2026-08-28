@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isActive__c</fullName>
+    <formula>IF( RecordType.DeveloperName != &apos;Agent&apos;,  
+IF( (Agent__r.WelcomeCall_Resign__c) , false, IF( Agent__r.Active_Leave__c == 0 , true, false)) , 
+IF( WelcomeCall_Resign__c , false ,IF( Active_Leave__c == 0 , true, false)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Active</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

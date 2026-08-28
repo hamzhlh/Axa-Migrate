@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (ISBLANK(End_Datetime__c), 
+ IF (Target_Datetime__c &gt; NOW(), &apos;On Schedule&apos;, &apos;Late&apos;)
+,
+ IF (Target_Datetime__c &gt; End_Datetime__c, &apos;Meet&apos;, &apos;Late&apos;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Target Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

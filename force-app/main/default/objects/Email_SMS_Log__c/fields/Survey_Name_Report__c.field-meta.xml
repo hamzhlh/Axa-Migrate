@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Name_Report__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Survey__r.Name =&quot;Survey Nasabah Onboarding&quot;,&quot;01 - Survey Pembelian Polis &quot; &amp; TEXT(Contact__r.Agent_Role_Code__c),
+IF(Survey__r.Name =&quot;Survey POS/Request&quot;,&quot;02 - Survey POS&quot;,
+IF(Survey__r.Name =&quot;Survey Request I Claim Individu Cashless&quot; &amp;&amp; ISBLANK(TEXT(VALUE(Case__r.CaseNumber))),&quot;03 - Survey Claim Cashless Reject&quot;,
+IF(Survey__r.Name =&quot;Survey Request I Claim Individu Cashless&quot; &amp;&amp; NOT(ISBLANK(TEXT(VALUE(Case__r.CaseNumber)))),&quot;03 - Survey Claim Cashless Approve&quot;,
+IF(Survey__r.Name =&quot;Survey Request I Claim Individu Reimbursement&quot; &amp;&amp; ISBLANK(TEXT(VALUE(Case__r.CaseNumber))),&quot;04 - Survey Claim Reimbursement Reject&quot;,
+IF(Survey__r.Name =&quot;Survey Request I Claim Individu Reimbursement&quot; &amp;&amp; NOT(ISBLANK(TEXT(VALUE(Case__r.CaseNumber)))),&quot;04 - Survey Claim Reimbursement Approve&quot;,
+IF(Survey__r.Name =&quot;Survey Inquiry Dynamic&quot;,&quot;05 - Survey Inquiry&quot;,
+IF(Survey__r.Name =&quot;Survey Request I Complaint Dynamic&quot; &amp;&amp; ( TEXT(Case__r.Complaint_Decision_AMFS__c)= &quot;Approve &amp; Paid&quot; || TEXT(Case__r.Complaint_Decision_AMFS__c)= &quot;Invalid &amp; Paid&quot;),&quot;06 - Survey Complaint Approve&quot;,
+IF(Survey__r.Name =&quot;Survey Request I Complaint Dynamic&quot; &amp;&amp; TEXT(Case__r.Complaint_Decision_AMFS__c)= &quot;Invalid &amp; Reject&quot;,&quot;06 - Survey Complaint Reject&quot;,&quot;-&quot;))
+
+)))))))</formula>
+    <label>Survey Name Report</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WelcomeCall_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Group</label>
+    <referenceTo>WelcomeCall_Group__c</referenceTo>
+    <relationshipLabel>Agent Group</relationshipLabel>
+    <relationshipName>Agent_Group</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

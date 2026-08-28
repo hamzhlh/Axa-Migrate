@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AFI_Email_Agent_Non_Active_Trust_Queue_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>AFI - Email Agent Non Active Trust Queue</label>
+    <queue>AFI_Email_Agent_Non_Active_Trust_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

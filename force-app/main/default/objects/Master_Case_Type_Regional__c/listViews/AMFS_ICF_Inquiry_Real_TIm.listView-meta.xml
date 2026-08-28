@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMFS_ICF_Inquiry_Real_TIm</fullName>
+    <columns>NAME</columns>
+    <columns>Active__c</columns>
+    <columns>Case_Type__c</columns>
+    <columns>Department_Queue__c</columns>
+    <columns>Entity__c</columns>
+    <columns>MOT__c</columns>
+    <columns>PIC_Department__c</columns>
+    <columns>Qualtrics__c</columns>
+    <columns>TAT__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AMFS</value>
+    </filters>
+    <filters>
+        <field>Qualtrics__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>AMFS - Inquiry Real Time</label>
+    <language>en_US</language>
+</ListView>

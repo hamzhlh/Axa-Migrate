@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Information__c</fullName>
+    <label>Information</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent Profile</fullName>
+                <default>false</default>
+                <label>Agent Profile</label>
+            </value>
+            <value>
+                <fullName>Top-Down Hierachy</fullName>
+                <default>false</default>
+                <label>Top-Down Hierachy</label>
+            </value>
+            <value>
+                <fullName>Contact Detail</fullName>
+                <default>false</default>
+                <label>Contact Detail</label>
+            </value>
+            <value>
+                <fullName>Detail Information (Life)/ Account Info(GI)</fullName>
+                <default>false</default>
+                <label>Detail Information (Life)/ Account Info(GI)</label>
+            </value>
+            <value>
+                <fullName>Insured Details (Life)</fullName>
+                <default>false</default>
+                <label>Insured Details (Life)</label>
+            </value>
+            <value>
+                <fullName>Policy Details</fullName>
+                <default>false</default>
+                <label>Policy Details</label>
+            </value>
+            <value>
+                <fullName>Agent Info</fullName>
+                <default>false</default>
+                <label>Agent Info</label>
+            </value>
+            <value>
+                <fullName>Reporting Structure Hierachy</fullName>
+                <default>false</default>
+                <label>Reporting Structure Hierachy</label>
+            </value>
+            <value>
+                <fullName>Insured Details (GI)</fullName>
+                <default>false</default>
+                <label>Insured Details (GI)</label>
+            </value>
+            <value>
+                <fullName>Beneficiary Details</fullName>
+                <default>false</default>
+                <label>Beneficiary Details</label>
+            </value>
+            <value>
+                <fullName>Premium Breakdown</fullName>
+                <default>false</default>
+                <label>Premium Breakdown</label>
+            </value>
+            <value>
+                <fullName>Policy Changes</fullName>
+                <default>false</default>
+                <label>Policy Changes</label>
+            </value>
+            <value>
+                <fullName>Risk Info</fullName>
+                <default>false</default>
+                <label>Risk Info</label>
+            </value>
+            <value>
+                <fullName>Own Risk</fullName>
+                <default>false</default>
+                <label>Own Risk</label>
+            </value>
+            <value>
+                <fullName>Interest Info</fullName>
+                <default>false</default>
+                <label>Interest Info</label>
+            </value>
+            <value>
+                <fullName>Payment History</fullName>
+                <default>false</default>
+                <label>Payment History</label>
+            </value>
+            <value>
+                <fullName>Fund History</fullName>
+                <default>false</default>
+                <label>Fund History</label>
+            </value>
+            <value>
+                <fullName>Fund Details</fullName>
+                <default>false</default>
+                <label>Fund Details</label>
+            </value>
+            <value>
+                <fullName>Fund Price History</fullName>
+                <default>false</default>
+                <label>Fund Price History</label>
+            </value>
+            <value>
+                <fullName>Surveys Taken</fullName>
+                <default>false</default>
+                <label>Surveys Taken</label>
+            </value>
+            <value>
+                <fullName>Assessment Notes List (UW)</fullName>
+                <default>false</default>
+                <label>Assessment Notes List (UW)</label>
+            </value>
+            <value>
+                <fullName>Assessment Notes Desc (UW)</fullName>
+                <default>false</default>
+                <label>Assessment Notes Desc (UW)</label>
+            </value>
+            <value>
+                <fullName>Assessment Notes List (POS)</fullName>
+                <default>false</default>
+                <label>Assessment Notes List (POS)</label>
+            </value>
+            <value>
+                <fullName>Assessment Notes Desc (POS)</fullName>
+                <default>false</default>
+                <label>Assessment Notes Desc (POS)</label>
+            </value>
+            <value>
+                <fullName>Assessment Notes List (PA)</fullName>
+                <default>false</default>
+                <label>Assessment Notes List (PA)</label>
+            </value>
+            <value>
+                <fullName>Assessment Notes Desc (PA)</fullName>
+                <default>false</default>
+                <label>Assessment Notes Desc (PA)</label>
+            </value>
+            <value>
+                <fullName>Assessment Notes List (Oth)</fullName>
+                <default>false</default>
+                <label>Assessment Notes List (Oth)</label>
+            </value>
+            <value>
+                <fullName>Assessment Notes Desc (Oth)</fullName>
+                <default>false</default>
+                <label>Assessment Notes Desc (Oth)</label>
+            </value>
+            <value>
+                <fullName>Cash value</fullName>
+                <default>false</default>
+                <label>Cash value</label>
+            </value>
+            <value>
+                <fullName>Sequence</fullName>
+                <default>false</default>
+                <label>Sequence</label>
+            </value>
+            <value>
+                <fullName>Account Detail</fullName>
+                <default>false</default>
+                <label>Account Detail</label>
+            </value>
+            <value>
+                <fullName>Reinstatement Amount</fullName>
+                <default>false</default>
+                <label>Reinstatement Amount</label>
+            </value>
+            <value>
+                <fullName>RHS History</fullName>
+                <default>false</default>
+                <label>RHS History</label>
+            </value>
+            <value>
+                <fullName>RHS Open/Last Request</fullName>
+                <default>false</default>
+                <label>RHS Open/Last Request</label>
+            </value>
+            <value>
+                <fullName>CHS History</fullName>
+                <default>false</default>
+                <label>CHS History</label>
+            </value>
+            <value>
+                <fullName>CHS Open/Last Complaint</fullName>
+                <default>false</default>
+                <label>CHS Open/Last Complaint</label>
+            </value>
+            <value>
+                <fullName>Inquiry/Call Notes History</fullName>
+                <default>false</default>
+                <label>Inquiry/Call Notes History</label>
+            </value>
+            <value>
+                <fullName>Last Iquiry/Call Notes</fullName>
+                <default>false</default>
+                <label>Last Iquiry/Call Notes</label>
+            </value>
+            <value>
+                <fullName>Claims History</fullName>
+                <default>false</default>
+                <label>Claims History</label>
+            </value>
+            <value>
+                <fullName>Claims Assessment Notes</fullName>
+                <default>false</default>
+                <label>Claims Assessment Notes</label>
+            </value>
+            <value>
+                <fullName>Claims Open/Last Claim</fullName>
+                <default>false</default>
+                <label>Claims Open/Last Claim</label>
+            </value>
+            <value>
+                <fullName>Social Media History</fullName>
+                <default>false</default>
+                <label>Social Media History</label>
+            </value>
+            <value>
+                <fullName>Social Media Last Message</fullName>
+                <default>false</default>
+                <label>Social Media Last Message</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

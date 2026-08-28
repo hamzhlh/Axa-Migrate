@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dokumen_Tambahan__c</fullName>
+    <label>Dokumen Tambahan</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Formulir Pernyataan Tandatangan atau Perubahan Tandatangan</fullName>
+                <default>false</default>
+                <label>Formulir Pernyataan Tandatangan atau Perubahan Tandatangan</label>
+            </value>
+            <value>
+                <fullName>Akta kelahiran Pemegang Polis (Copy)</fullName>
+                <default>false</default>
+                <label>Akta kelahiran Pemegang Polis (Copy)</label>
+            </value>
+            <value>
+                <fullName>Akta kelahiran Pemegang Polis (Legalisir)</fullName>
+                <default>false</default>
+                <label>Akta kelahiran Pemegang Polis (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Akta Kelahiran Ahli Waris (Copy)</fullName>
+                <default>false</default>
+                <label>Akta Kelahiran Ahli Waris (Copy)</label>
+            </value>
+            <value>
+                <fullName>Akta Kelahiran Ahli Waris (Legalisir)</fullName>
+                <default>false</default>
+                <label>Akta Kelahiran Ahli Waris (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Akta kelahiran Tertanggung (Copy)</fullName>
+                <default>false</default>
+                <label>Akta kelahiran Tertanggung (Copy)</label>
+            </value>
+            <value>
+                <fullName>Akta kelahiran Tertanggung (Legalisir)</fullName>
+                <default>false</default>
+                <label>Akta kelahiran Tertanggung (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Akta Kematian (Legalisir)</fullName>
+                <default>false</default>
+                <label>Akta Kematian (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Akta Kematian (Copy)</fullName>
+                <default>false</default>
+                <label>Akta Kematian (Copy)</label>
+            </value>
+            <value>
+                <fullName>Berita Acara Kepolisian (asli)</fullName>
+                <default>false</default>
+                <label>Berita Acara Kepolisian (asli)</label>
+            </value>
+            <value>
+                <fullName>Berita Acara Kepolisian (Legalisir)</fullName>
+                <default>false</default>
+                <label>Berita Acara Kepolisian (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Berita Acara Kepolisian (Copy)</fullName>
+                <default>false</default>
+                <label>Berita Acara Kepolisian (Copy)</label>
+            </value>
+            <value>
+                <fullName>Buku nikah/Akta nikah (Legalisir)</fullName>
+                <default>false</default>
+                <label>Buku nikah/Akta nikah (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Buku nikah/Akta nikah (Copy)</fullName>
+                <default>false</default>
+                <label>Buku nikah/Akta nikah (Copy)</label>
+            </value>
+            <value>
+                <fullName>Bukti Transfer/VA/OB</fullName>
+                <default>false</default>
+                <label>Bukti Transfer/VA/OB</label>
+            </value>
+            <value>
+                <fullName>Buku Polis</fullName>
+                <default>false</default>
+                <label>Buku Polis</label>
+            </value>
+            <value>
+                <fullName>Buku Tabungan (Copy)</fullName>
+                <default>false</default>
+                <label>Buku Tabungan (Copy)</label>
+            </value>
+            <value>
+                <fullName>Foto nasabah dengan KTP</fullName>
+                <default>false</default>
+                <label>Foto nasabah dengan KTP</label>
+            </value>
+            <value>
+                <fullName>Hasil laboratorium (Legalisir)</fullName>
+                <default>false</default>
+                <label>Hasil laboratorium (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Hasil laboratorium (Copy)</fullName>
+                <default>false</default>
+                <label>Hasil laboratorium (Copy)</label>
+            </value>
+            <value>
+                <fullName>Hasil Visum et repertum</fullName>
+                <default>false</default>
+                <label>Hasil Visum et repertum</label>
+            </value>
+            <value>
+                <fullName>Ijazah (Legalisir)</fullName>
+                <default>false</default>
+                <label>Ijazah (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Ijazah Ahli Waris (Legalisir)</fullName>
+                <default>false</default>
+                <label>Ijazah Ahli Waris (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Ijazah Ahli Waris (Copy)</fullName>
+                <default>false</default>
+                <label>Ijazah Ahli Waris (Copy)</label>
+            </value>
+            <value>
+                <fullName>Ijazah (Copy)</fullName>
+                <default>false</default>
+                <label>Ijazah (Copy)</label>
+            </value>
+            <value>
+                <fullName>Kartu Kredit (Copy)</fullName>
+                <default>false</default>
+                <label>Kartu Kredit (Copy)</label>
+            </value>
+            <value>
+                <fullName>Kartu Keluarga (Copy)</fullName>
+                <default>false</default>
+                <label>Kartu Keluarga (Copy)</label>
+            </value>
+            <value>
+                <fullName>Kartu Keluarga (Legalisir)</fullName>
+                <default>false</default>
+                <label>Kartu Keluarga (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>KTP Pemilik Rekening (Copy)</fullName>
+                <default>false</default>
+                <label>KTP Pemilik Rekening (Copy)</label>
+            </value>
+            <value>
+                <fullName>KTP Tertanggung (Copy)</fullName>
+                <default>false</default>
+                <label>KTP Tertanggung (Copy)</label>
+            </value>
+            <value>
+                <fullName>KTP Tertanggung (Legalisir)</fullName>
+                <default>false</default>
+                <label>KTP Tertanggung (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>KTP termaslahat/ ahli waris (Copy)</fullName>
+                <default>false</default>
+                <label>KTP termaslahat/ ahli waris (Copy)</label>
+            </value>
+            <value>
+                <fullName>KTP wali termaslahat (Copy)</fullName>
+                <default>false</default>
+                <label>KTP wali termaslahat (Copy)</label>
+            </value>
+            <value>
+                <fullName>KTP Ahli Waris (Copy)</fullName>
+                <default>false</default>
+                <label>KTP Ahli Waris (Copy)</label>
+            </value>
+            <value>
+                <fullName>KTP PP (Copy)</fullName>
+                <default>false</default>
+                <label>KTP PP (Copy)</label>
+            </value>
+            <value>
+                <fullName>KTP (Copy)</fullName>
+                <default>false</default>
+                <label>KTP (Copy)</label>
+            </value>
+            <value>
+                <fullName>KITAS (copy)</fullName>
+                <default>false</default>
+                <label>KITAS (copy)</label>
+            </value>
+            <value>
+                <fullName>NPWP (copy)</fullName>
+                <default>false</default>
+                <label>NPWP (copy)</label>
+            </value>
+            <value>
+                <fullName>Surat Penetapan Pengadilan (Copy)</fullName>
+                <default>false</default>
+                <label>Surat Penetapan Pengadilan (Copy)</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Pamong Praja (Copy)</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Pamong Praja (Copy)</label>
+            </value>
+            <value>
+                <fullName>Surat Kuasa Bermaterai (Copy)</fullName>
+                <default>false</default>
+                <label>Surat Kuasa Bermaterai (Copy)</label>
+            </value>
+            <value>
+                <fullName>Surat Penyataan (Copy)</fullName>
+                <default>false</default>
+                <label>Surat Penyataan (Copy)</label>
+            </value>
+            <value>
+                <fullName>Surat Kehilangan (Copy)</fullName>
+                <default>false</default>
+                <label>Surat Kehilangan (Copy)</label>
+            </value>
+            <value>
+                <fullName>Resume Medis (Copy)</fullName>
+                <default>false</default>
+                <label>Resume Medis (Copy)</label>
+            </value>
+            <value>
+                <fullName>Surat Kuasa Debet Rekening</fullName>
+                <default>false</default>
+                <label>Surat Kuasa Debet Rekening</label>
+            </value>
+            <value>
+                <fullName>Surat Kuasa Debet Kartu Kredit</fullName>
+                <default>false</default>
+                <label>Surat Kuasa Debet Kartu Kredit</label>
+            </value>
+            <value>
+                <fullName>Passport (copy)</fullName>
+                <default>false</default>
+                <label>Passport (copy)</label>
+            </value>
+            <value>
+                <fullName>Resume Medis (Legalisir)</fullName>
+                <default>false</default>
+                <label>Resume Medis (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Resume Medis (Asli)</fullName>
+                <default>false</default>
+                <label>Resume Medis (Asli)</label>
+            </value>
+            <value>
+                <fullName>Rekening Koran (Asli)</fullName>
+                <default>false</default>
+                <label>Rekening Koran (Asli)</label>
+            </value>
+            <value>
+                <fullName>Rekening Koran (Copy)</fullName>
+                <default>false</default>
+                <label>Rekening Koran (Copy)</label>
+            </value>
+            <value>
+                <fullName>Rekening Koran (Legalisir)</fullName>
+                <default>false</default>
+                <label>Rekening Koran (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>SIM (Copy)</fullName>
+                <default>false</default>
+                <label>SIM (Copy)</label>
+            </value>
+            <value>
+                <fullName>Surat Penetapan Pengadilan (Legalisir)</fullName>
+                <default>false</default>
+                <label>Surat Penetapan Pengadilan (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Pamong Praja (Legalisir)</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Pamong Praja (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Surat Kuasa Bermaterai (Legalisir)</fullName>
+                <default>false</default>
+                <label>Surat Kuasa Bermaterai (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Surat Penyataan (Legalisir)</fullName>
+                <default>false</default>
+                <label>Surat Penyataan (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Surat Kehilangan (Legalisir)</fullName>
+                <default>false</default>
+                <label>Surat Kehilangan (Legalisir)</label>
+            </value>
+            <value>
+                <fullName>Surat Kehilangan (Asli)</fullName>
+                <default>false</default>
+                <label>Surat Kehilangan (Asli)</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan tidak visum</fullName>
+                <default>false</default>
+                <label>Surat Keterangan tidak visum</label>
+            </value>
+            <value>
+                <fullName>Surat Kuasa Bermaterai (Asli)</fullName>
+                <default>false</default>
+                <label>Surat Kuasa Bermaterai (Asli)</label>
+            </value>
+            <value>
+                <fullName>Surat Penetapan Pengadilan (Asli)</fullName>
+                <default>false</default>
+                <label>Surat Penetapan Pengadilan (Asli)</label>
+            </value>
+            <value>
+                <fullName>Surat Penyataan (Asli)</fullName>
+                <default>false</default>
+                <label>Surat Penyataan (Asli)</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Dokter</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Dokter</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Dokter untuk Klaim Rawat Inap</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Dokter untuk Klaim Rawat Inap</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Dokter untuk Klaim Meninggal</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Dokter untuk Klaim Meninggal</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Dokter untuk Klaim Penyakit Kritis</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Dokter untuk Klaim Penyakit Kritis</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Dokter untuk Klaim Ketidakmampuan</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Dokter untuk Klaim Ketidakmampuan</label>
+            </value>
+            <value>
+                <fullName>Surat Keterangan Kelurahan</fullName>
+                <default>false</default>
+                <label>Surat Keterangan Kelurahan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

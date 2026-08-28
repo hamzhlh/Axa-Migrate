@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendance_Score_1_Desc__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Attendance__c != 0,
+Attendance_Desc__c &amp;&quot; &quot;&amp; TEXT(Attendance_Score_1__c) &amp;&quot; - &quot;&amp; TEXT(Attendance_Score_2__c)
+,NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Attendance Score 1 Desc</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

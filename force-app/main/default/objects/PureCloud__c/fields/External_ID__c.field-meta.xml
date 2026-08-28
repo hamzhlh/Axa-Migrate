@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>{SIP}_{YYYY-MM_DD}</description>
+    <externalId>true</externalId>
+    <inlineHelpText>{SIP}_{YYYY-MM-DD}
+exp : ab24ddb8-f1ef-4cca-ae72-9f20f5975332_2018-10-08</inlineHelpText>
+    <label>External ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

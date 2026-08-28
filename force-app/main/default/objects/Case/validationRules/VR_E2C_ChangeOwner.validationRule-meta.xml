@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_E2C_ChangeOwner</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(OwnerId),
+    $RecordType.Name = &quot;AMFSEmailtoCase&quot;,
+    NOT($User.is_Dispatcher__c),
+    $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+    NOT(
+        CONTAINS(
+             Owner:Queue.QueueName,
+            &quot;AMFS E2C&quot;)))</errorConditionFormula>
+    <errorMessage>Change Owner hanya untuk Dispatcher</errorMessage>
+</ValidationRule>
