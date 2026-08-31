@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_ActiveDate_Less_than_EndDate</fullName>
+    <active>true</active>
+    <description>Active Date tidak boleh lebih kecil dari End Date</description>
+    <errorConditionFormula>Active_Date__c  &lt;  DATEVALUE(End_Date_Time__c)</errorConditionFormula>
+    <errorDisplayField>Active_Date__c</errorDisplayField>
+    <errorMessage>Cannot be less than End Date &amp; Time</errorMessage>
+</ValidationRule>
