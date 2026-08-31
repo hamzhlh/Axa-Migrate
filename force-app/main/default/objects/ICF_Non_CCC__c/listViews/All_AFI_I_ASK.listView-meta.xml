@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AFI_I_ASK</fullName>
+    <columns>NAME</columns>
+    <columns>MOT__c</columns>
+    <columns>Entity__c</columns>
+    <columns>Policy_Number__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity__c</field>
+        <operation>equals</operation>
+        <value>AFI</value>
+    </filters>
+    <filters>
+        <field>MOT__c</field>
+        <operation>equals</operation>
+        <value>IASK</value>
+    </filters>
+    <label>All - AFI - I ASK</label>
+    <language>en_US</language>
+</ListView>

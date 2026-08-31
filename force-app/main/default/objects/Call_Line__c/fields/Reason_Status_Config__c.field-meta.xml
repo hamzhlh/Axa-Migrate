@@ -10,7 +10,7 @@
     <valueSet>
         <controllingField>Call_Status_Config__c</controllingField>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>AFI - Wrong Number</fullName>
                 <default>false</default>

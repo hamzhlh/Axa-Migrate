@@ -10,7 +10,7 @@
     <valueSet>
         <controllingField>Activity_Result__c</controllingField>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>AFI - Wrong Number</fullName>
                 <default>false</default>
@@ -1483,99 +1483,112 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>Approved</controllingFieldValue>
-            <valueName>Ok Debet</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>CLAI</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Akan konfirmasi FA</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SAGT</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Cuti Premi</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SCOM</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Dana Tidak Tersedia</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SCON</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <controllingFieldValue>Cancel</controllingFieldValue>
-            <controllingFieldValue>Inforced</controllingFieldValue>
-            <controllingFieldValue>Pending</controllingFieldValue>
-            <valueName>Financial Dificulities</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SDEA</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Kartu Kredit Sudah Tutup</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SFAM</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Kartu Kredit Tidak Aktif</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SFIN</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Kecewa dengan AXA</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SIMM</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Kecewa Dengan Layanan AXA MANDIRI - Buku Polis Tidak Diterima</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SINV</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Kecewa Dengan Layanan AXA MANDIRI - Claim Proses</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SMIN</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Kecewa Dengan Layanan AXA MANDIRI - Penjelasan FA Tidak Sesuai</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SNAV</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Kecewa Dengan Layanan AXA MANDIRI - Service / Pelayanan</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SNOT</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Manfaat Kurang Menarik</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SOTH</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Miss Selling</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SPRO</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Need FA Confirmation</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SREP</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Penurunan RTU</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SSER</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Redemption</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>STRM</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Reedem</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Rekening Sudah Tutup</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Terlalu Banyak Asuransi</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Tidak Pernah Setuju</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Not Approved</controllingFieldValue>
-            <valueName>Too Many Insurance</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Sudah Pay By System</controllingFieldValue>
-            <valueName>Sudah Pay By System</valueName>
+            <controllingFieldValue>Y</controllingFieldValue>
+            <controllingFieldValue>N</controllingFieldValue>
+            <controllingFieldValue>P</controllingFieldValue>
+            <valueName>SWLK</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cancel By System</controllingFieldValue>
@@ -1590,15 +1603,15 @@
         <valueSettings>
             <controllingFieldValue>Cancel</controllingFieldValue>
             <controllingFieldValue>Retry</controllingFieldValue>
-            <controllingFieldValue>F</controllingFieldValue>
             <controllingFieldValue>Uncontacted</controllingFieldValue>
+            <controllingFieldValue>F</controllingFieldValue>
             <valueName>At Work/Meeting</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cancel</controllingFieldValue>
             <controllingFieldValue>Retry</controllingFieldValue>
-            <controllingFieldValue>F</controllingFieldValue>
             <controllingFieldValue>Uncontacted</controllingFieldValue>
+            <controllingFieldValue>F</controllingFieldValue>
             <valueName>Busy Line</valueName>
         </valueSettings>
         <valueSettings>
@@ -1683,6 +1696,13 @@
             <controllingFieldValue>Cancel</controllingFieldValue>
             <controllingFieldValue>Inforced</controllingFieldValue>
             <controllingFieldValue>Pending</controllingFieldValue>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Financial Dificulities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancel</controllingFieldValue>
+            <controllingFieldValue>Inforced</controllingFieldValue>
+            <controllingFieldValue>Pending</controllingFieldValue>
             <valueName>Frequency Of Claim Within 12 Month-[Claim Investigation]</valueName>
         </valueSettings>
         <valueSettings>
@@ -1718,8 +1738,8 @@
         <valueSettings>
             <controllingFieldValue>Cancel</controllingFieldValue>
             <controllingFieldValue>Retry</controllingFieldValue>
-            <controllingFieldValue>F</controllingFieldValue>
             <controllingFieldValue>Uncontacted</controllingFieldValue>
+            <controllingFieldValue>F</controllingFieldValue>
             <valueName>Mailbox</valueName>
         </valueSettings>
         <valueSettings>
@@ -1755,8 +1775,8 @@
         <valueSettings>
             <controllingFieldValue>Cancel</controllingFieldValue>
             <controllingFieldValue>Retry</controllingFieldValue>
-            <controllingFieldValue>F</controllingFieldValue>
             <controllingFieldValue>Uncontacted</controllingFieldValue>
+            <controllingFieldValue>F</controllingFieldValue>
             <valueName>No Answer</valueName>
         </valueSettings>
         <valueSettings>
@@ -1896,119 +1916,6 @@
             <controllingFieldValue>Inforced</controllingFieldValue>
             <controllingFieldValue>Pending</controllingFieldValue>
             <valueName>Walk In Customer</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>CLAI</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SAGT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SCOM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SCON</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SDEA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SFAM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SFIN</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SIMM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SINV</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SMIN</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SNAV</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SNOT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SOTH</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SPRO</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SREP</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SSER</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>STRM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Y</controllingFieldValue>
-            <controllingFieldValue>N</controllingFieldValue>
-            <controllingFieldValue>P</controllingFieldValue>
-            <valueName>SWLK</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>F</controllingFieldValue>
-            <controllingFieldValue>Uncontacted</controllingFieldValue>
-            <valueName>Wrong Number</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Contacted</controllingFieldValue>
@@ -2803,6 +2710,99 @@
         <valueSettings>
             <controllingFieldValue>Uncontacted</controllingFieldValue>
             <valueName>Tidak Bersedia Diverifikasi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uncontacted</controllingFieldValue>
+            <controllingFieldValue>F</controllingFieldValue>
+            <valueName>Wrong Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>Ok Debet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Akan konfirmasi FA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Cuti Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Dana Tidak Tersedia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Kartu Kredit Sudah Tutup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Kartu Kredit Tidak Aktif</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Kecewa dengan AXA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Kecewa Dengan Layanan AXA MANDIRI - Buku Polis Tidak Diterima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Kecewa Dengan Layanan AXA MANDIRI - Claim Proses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Kecewa Dengan Layanan AXA MANDIRI - Penjelasan FA Tidak Sesuai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Kecewa Dengan Layanan AXA MANDIRI - Service / Pelayanan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Manfaat Kurang Menarik</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Miss Selling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Need FA Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Penurunan RTU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Reedem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Rekening Sudah Tutup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Terlalu Banyak Asuransi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Tidak Pernah Setuju</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Approved</controllingFieldValue>
+            <valueName>Too Many Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sudah Pay By System</controllingFieldValue>
+            <valueName>Sudah Pay By System</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

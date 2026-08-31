@@ -207,10 +207,10 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
-            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
             <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
             <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
             <valueName>Application</valueName>
         </valueSettings>
     </valueSet>

@@ -12,7 +12,7 @@
         <controllingField>Request_Type__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>Family Matter</fullName>
                 <default>false</default>

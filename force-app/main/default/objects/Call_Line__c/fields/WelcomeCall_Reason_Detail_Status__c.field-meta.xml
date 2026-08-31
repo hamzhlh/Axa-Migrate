@@ -11,7 +11,7 @@
         <controllingField>WelcomeCall_Detail_Status__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>Ahli waris tidak sesuai keinginan nasabah</fullName>
                 <color>#33FF33</color>
@@ -184,6 +184,60 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
+            <controllingFieldValue>SPRO - Produk tidak sesuai</controllingFieldValue>
+            <controllingFieldValue>Produk Tidak Sesuai</controllingFieldValue>
+            <valueName>Nasabah hanya ingin sekali bayar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPRO - Produk tidak sesuai</controllingFieldValue>
+            <controllingFieldValue>Produk Tidak Sesuai</controllingFieldValue>
+            <valueName>Nasabah ingin deposito / tabungan / hanya investasi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPRO - Produk tidak sesuai</controllingFieldValue>
+            <controllingFieldValue>Produk Tidak Sesuai</controllingFieldValue>
+            <valueName>Nasabah ingin produk lain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPRO - Produk tidak sesuai</controllingFieldValue>
+            <valueName>Nasabah merasa pengembalian premi nya terlalu lama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Polis tidak sesuai</controllingFieldValue>
+            <valueName>Ahli waris tidak sesuai keinginan nasabah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Polis tidak sesuai</controllingFieldValue>
+            <valueName>Data polis tidak sesuai keinginan nasabah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Polis tidak sesuai</controllingFieldValue>
+            <controllingFieldValue>Produk Tidak Sesuai</controllingFieldValue>
+            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
+            <controllingFieldValue>FA Service</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
+            <valueName>Informasi tentang investasi yang fluktuatif dan tidak dijamin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
+            <valueName>Klausal kegagalan pendebitan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
+            <valueName>Konfirmasi mengenai penalty (MEP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
+            <valueName>Memastikan nasabah membaca kembali aplikasi sebelum di tandatangani</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
+            <valueName>Nominal premi dan cara bayar</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>FA perlu menjelaskan kembali</controllingFieldValue>
             <valueName>Besaran atau masa pembayaran premi</valueName>
         </valueSettings>
@@ -236,23 +290,24 @@
             <valueName>Tidak merasa membeli/mengajukan/menyetujui/menandatangani polis</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>SPRO - Produk tidak sesuai</controllingFieldValue>
-            <controllingFieldValue>Produk Tidak Sesuai</controllingFieldValue>
-            <valueName>Nasabah hanya ingin sekali bayar</valueName>
+            <controllingFieldValue>FA Service</controllingFieldValue>
+            <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
+            <valueName>Tidak dijelaskan biaya asuransi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>SPRO - Produk tidak sesuai</controllingFieldValue>
-            <controllingFieldValue>Produk Tidak Sesuai</controllingFieldValue>
-            <valueName>Nasabah ingin deposito / tabungan / hanya investasi</valueName>
+            <controllingFieldValue>FA Service</controllingFieldValue>
+            <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
+            <valueName>Tidak dijelaskan fluktuasi nilai investasi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>SPRO - Produk tidak sesuai</controllingFieldValue>
-            <controllingFieldValue>Produk Tidak Sesuai</controllingFieldValue>
-            <valueName>Nasabah ingin produk lain</valueName>
+            <controllingFieldValue>FA Service</controllingFieldValue>
+            <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
+            <valueName>Tidak dijelaskan masa pembayaran premi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>SPRO - Produk tidak sesuai</controllingFieldValue>
-            <valueName>Nasabah merasa pengembalian premi nya terlalu lama</valueName>
+            <controllingFieldValue>FA Service</controllingFieldValue>
+            <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
+            <valueName>Tidak dijelaskan tentang biaya penalty</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
@@ -260,62 +315,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
-            <controllingFieldValue>FA Service</controllingFieldValue>
-            <valueName>Tidak dijelaskan biaya asuransi</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
-            <controllingFieldValue>FA Service</controllingFieldValue>
-            <valueName>Tidak dijelaskan fluktuasi nilai investasi</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
-            <controllingFieldValue>FA Service</controllingFieldValue>
-            <valueName>Tidak dijelaskan masa pembayaran premi</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
-            <controllingFieldValue>FA Service</controllingFieldValue>
-            <valueName>Tidak dijelaskan tentang biaya penalty</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>SAGT - Kecewa dengan Service FA</controllingFieldValue>
             <valueName>Tidak dijelaskan tentang manfaat produk</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
-            <valueName>Informasi tentang investasi yang fluktuatif dan tidak dijamin</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
-            <valueName>Klausal kegagalan pendebitan</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
-            <valueName>Konfirmasi mengenai penalty (MEP)</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
-            <valueName>Memastikan nasabah membaca kembali aplikasi sebelum di tandatangani</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
-            <valueName>Nominal premi dan cara bayar</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Customer wants to meet FA</controllingFieldValue>
-            <controllingFieldValue>Produk Tidak Sesuai</controllingFieldValue>
-            <controllingFieldValue>FA Service</controllingFieldValue>
-            <controllingFieldValue>Polis tidak sesuai</controllingFieldValue>
-            <valueName>Others</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Polis tidak sesuai</controllingFieldValue>
-            <valueName>Ahli waris tidak sesuai keinginan nasabah</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Polis tidak sesuai</controllingFieldValue>
-            <valueName>Data polis tidak sesuai keinginan nasabah</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

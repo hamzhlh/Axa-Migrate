@@ -129,7 +129,7 @@
             <default>false</default>
         </values>
     </picklistValues>
-    <picklistValues>
+    <!-- <picklistValues>
         <picklist>Case_Type_Config__c</picklist>
         <values>
             <fullName>Activasi EMMA</fullName>
@@ -1323,7 +1323,7 @@
             <fullName>product knowledge_MPS</fullName>
             <default>false</default>
         </values>
-    </picklistValues>
+    </picklistValues> -->
     <picklistValues>
         <picklist>Case_Type_Reason__c</picklist>
         <values>
@@ -3062,7 +3062,7 @@
             <default>false</default>
         </values>
     </picklistValues>
-    <picklistValues>
+    <!-- <picklistValues>
         <picklist>E2CP__Latest_Inbound_BH__c</picklist>
         <values>
             <fullName>Holiday</fullName>
@@ -3076,7 +3076,7 @@
             <fullName>Outside of Business Hours</fullName>
             <default>false</default>
         </values>
-    </picklistValues>
+    </picklistValues> -->
     <picklistValues>
         <picklist>Email_Status__c</picklist>
         <values>

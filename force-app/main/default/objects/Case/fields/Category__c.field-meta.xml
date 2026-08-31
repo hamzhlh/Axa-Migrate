@@ -1306,10 +1306,6 @@
             <valueName>Others - Forgery</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Twisting/Chunning</controllingFieldValue>
-            <valueName>Twisting/Chunning</valueName>
-        </valueSettings>
-        <valueSettings>
             <controllingFieldValue>Transaction</controllingFieldValue>
             <valueName>Cashback</valueName>
         </valueSettings>
@@ -1334,22 +1330,6 @@
             <valueName>Pendebetan Premi</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Underwriting</controllingFieldValue>
-            <valueName>UW Decision - New Business</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Underwriting</controllingFieldValue>
-            <valueName>UW Decision - Endorsement/Cancellation</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Underwriting</controllingFieldValue>
-            <valueName>Underwriting Delay - New Business</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Underwriting</controllingFieldValue>
-            <valueName>Underwriting Delay - Endorsement/Cancellation</valueName>
-        </valueSettings>
-        <valueSettings>
             <controllingFieldValue>Complain CS</controllingFieldValue>
             <controllingFieldValue>Processing Error</controllingFieldValue>
             <valueName>Processing Error</valueName>
@@ -1372,8 +1352,8 @@
             <valueName>CS-3rd parties related</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Without Consent</controllingFieldValue>
             <controllingFieldValue>Complain DC</controllingFieldValue>
+            <controllingFieldValue>Without Consent</controllingFieldValue>
             <valueName>Without Consent</valueName>
         </valueSettings>
         <valueSettings>
@@ -1389,8 +1369,24 @@
             <valueName>Incomplete Information (Marketing)</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Agent Services</controllingFieldValue>
-            <valueName>Agent Services</valueName>
+            <controllingFieldValue>Twisting/Chunning</controllingFieldValue>
+            <valueName>Twisting/Chunning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>UW Decision - New Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>UW Decision - Endorsement/Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>Underwriting Delay - New Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>Underwriting Delay - Endorsement/Cancellation</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>AFI DC</controllingFieldValue>
@@ -1447,6 +1443,10 @@
         <valueSettings>
             <controllingFieldValue>AFI MKT</controllingFieldValue>
             <valueName>MKT-Price Increases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Services</controllingFieldValue>
+            <valueName>Agent Services</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>AFI TC</controllingFieldValue>

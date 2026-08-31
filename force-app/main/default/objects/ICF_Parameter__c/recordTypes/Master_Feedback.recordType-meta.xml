@@ -3,4 +3,2501 @@
     <fullName>Master_Feedback</fullName>
     <active>true</active>
     <label>Master - Feedback</label>
+    <picklistValues>
+        <picklist>CCC_I_Ask_Exculde__c</picklist>
+        <values>
+            <fullName>%28NB%2FUW%29 Information Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMFS Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin Charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent License%2FNew Recruit%2F agent replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS Claim Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS Collection Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS Collection Related Failed Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS Collection Related Reminder Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS DMU Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS Mobile Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS NB%2FUW Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS POS Related MAPAN Lapse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS POS Related Pending or Incomplete process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast SMS _SMS Promo %28Produk dan Program%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bukti transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim - Claim AFI-process claim-update pending-special case-feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim - claim group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Information Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collection related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Admin Prosedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Administrator Procedures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Courier Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Financial Advisor Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Forgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Marketing Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Misappropriation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Misrepresentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_New Bussiness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Non Disclosure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_SMARTS Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_TM Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Transaction Statement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint_Without Consent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drop Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drop Call%2FWrong Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERA%2FTowing Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form NB %2F After Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVR Utilization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk AXA Maestro Elite Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk AXA Maestro Hospital Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk AXA Maestro Link Maxy advantage fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk AXA Maestro Syariah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk AXA Maestrolink Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk AXA Smart Kidz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk Asuransi AXA Carrefour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk Asuransi Tradisional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk Family Flexy Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informasi Produk Maestro Prosperity Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kuitansi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAGI Branch Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MV Claim Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MV Product Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NB%2FUnderwriting - uw-pending case-special case-his card-cancell aplication-doc receive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non MV Claim Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non MV Product Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Line Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Financial Information Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Non Financial Information Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pembatalan Polis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penerbitan SPK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perubahan Data Polis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perubahan Financial Polis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perubahan non Financial Polis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Account Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Admin Charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Application Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Claim Payment Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Claim Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Collection related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Collection related add debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Collection related autoreinstate debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Collection related failed debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Collection related hold debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Complaint Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_CorSol prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Delay Printing Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_E-Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Format SMS Pull</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Letter Delivery Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Medical Test Status %28NB%2FUW%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_NB%2FUW Payment Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_NCB Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_POS Payment Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Pending Information %28Claim%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Pending Information %28NB%2FUW%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Pending Information %28POS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Policy Delivery Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Policy Profile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Policy Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Premium Holiday Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Redemption Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Reinstatement Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_SMARTS Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_TS Delivery status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_TS explenation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Unit Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Up Date Data Correspondence address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Up Date Data Email address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Up Date Data Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Inquiry_Withdraw Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Profile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_Accident Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_Death Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_ELI %2F SLI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_Easy Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_In Patient Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_Out Patient Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_Payor Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_TPD Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_WP Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_WPDD 21 Claim Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure Claim_other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure NB%2FUW_How Fullfill SPAJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure NB%2FUW_Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure NB%2FUW_Refund Premi Non Taken Application Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure NB%2FUW_Sub Standard Letter Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Cooling Off Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Down Grade Plan Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Policy Duplicate POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Premium Holiday Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Redemption Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Reinstate Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Reinstatement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Switching Payment Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Top Up Lump Sum Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Top up Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Up %2F Down Grade Plan Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Up Date Data Financial Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Up Date Data Non Financial Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Up Grade Plan Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proccess %26 Procedure POS_Withdrawal Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure NB%2FUW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_ Informasi Produk AXA Maestrolink Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Free PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Hospitalife</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk AXA Maestro Elite Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk AXA Maestro Hospital Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk AXA Maestro Link Maxy advantage fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk AXA Maestro Syariah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk AXA Smart Kidz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk Asuransi AXA Carrefour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk Asuransi Tradisional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk Family Flexy Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Informasi Produk Maestro Prosperity Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MHS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MIS Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MIS Syariah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MJK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MJK FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MJK Syariah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MJS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MKG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MKP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MRS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MRS Syariah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_MSP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Mandiri Jiwa Prioritas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Mandiri Kesehatan Optima %28MKO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Mandiri Protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Mandiri Proteksi Kesehatan Syariah %28MPKS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Mandiri Sejahtera Cerdas %28MSC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Mandiri Sejahtera Cerdas Syariah %28MSC Syariah%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Mapan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Mapan Syariah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Pre Approve Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Knowledge_Rider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repairshop Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Call confirmation CR Withdrawal PBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Call confirmation CR Withdrawal Regular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Form NB %2F After Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Transaction Statement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Up date Address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Up date Email Address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Up date Home%2FOffice Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request _Up date Mobile Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Add Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Auto Reinstate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Cancel Add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Cancel Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Claim Health_Express Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Claim_Incoming Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Claim_Japen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Claim_Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Claim_Return Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Claim_Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Collection_Cancel Add%2C Hold %26 Auto Reinstate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Confirmation Withdrawl PBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Confirmation Withdrawl Reguler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Courier Delivery %E2%80%93 Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Courier Delivery %E2%80%93 Inquiry Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Courier Delivery %E2%80%93 Policy Retur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Courier Delivery - Inquiry Receipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Hold Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_PDF e-Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_POS_Confirmation Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_POS_Confirmation Non Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_POS_Confirmation Redemption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_POS_Confirmation Withdrawal Big Amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_POS_Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_POS_Japen Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_POS_Japen Non Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_POS_Japen Ubi%2FUwi%2FUre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Refund Premi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Reprint Kartu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Reprint Polis Convent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Reprint Polis TM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_Resend E-Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_TAX Amnesty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request_VRS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharia Claim Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharia Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharia Product Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soft Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surat Pemberitahuan Jatuh Tempo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surat Pernyataan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey_Unwilling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey_Willing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switching Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertarik MV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertarik Others Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertarik PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertarik Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertarik Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Touch Point CCC_Care Corner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Touch Point CCC_Customer Care Corner Surabaya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Touch Point CCC_Head Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Touch Point CCC_Mobile Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Touch Point CCC_Quick Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Statement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Insurance Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Up Date Data Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Up date Address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Up date Email Address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Up date Home%2FOffice Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Up date Mobile Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update Customer Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>capture premi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>change%2Fadd autodebet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>corespondence-status delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>test1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>un-resolved enquiry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CCC_I_Complain_Exculde__c</picklist>
+        <values>
+            <fullName>Complex Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potensial Complaint %28MAGI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potential Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soft Complaint</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Priority_ICF__c</picklist>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Priority__c</picklist>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Division__c</picklist>
+        <values>
+            <fullName>CCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCCAFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMU_AMFS_SFDC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations Customer Care Center</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Entity__c</picklist>
+        <values>
+            <fullName>AFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAGI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exclude_Product_Plan_Code__c</picklist>
+        <values>
+            <fullName>AMMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS1N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMS50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSE1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSE2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSE3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSE4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSE5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSJT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSJT1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSJT2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSJT3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSJT4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSJT5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSLP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSLP1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSLP2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSLP3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSLP4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMMSLP5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLPMTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MANPRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKEAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIPECISY%2F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TABINS_USD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRMIDR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exclude_Survey_Type__c</picklist>
+        <values>
+            <fullName>I Ask - Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Ask - Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Buy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Complain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Renew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Frequency__c</picklist>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ICF_Method__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Include_Product_Code_Plan_Claim_1__c</picklist>
+        <values>
+            <fullName>MEA1B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA1B21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA1B31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA1B41</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA2B21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA2B31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA2B41</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA3B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA3B21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA3B31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA3B41</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA3B51</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKD1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKD2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDA1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDA2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDAB1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDAB2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDC1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDC2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDCB1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDCB2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDD1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDD2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDDB1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDDB2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDV1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKDV2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO17</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKO25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMCAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMCB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMCBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMCCS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMCD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMCDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJ1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJ2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJA1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJA2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJAB1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJAB2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJC1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJC2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJCB1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJCB2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJD1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJD2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJDB1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJDB2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJV1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPJV2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPT1A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPT1C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPT1D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPT1V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPT2A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPT2C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPT2D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPT2V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPTDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPTDB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPPTII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPT1BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPT1BD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPT2BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPT2VT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH00F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH00F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH00F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH01F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH01F1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Include_Product_Code_Plan_Claim_2__c</picklist>
+        <values>
+            <fullName>MSH01F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH02F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH02F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH02F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH03F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH03F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH03F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH04F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH04F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH04F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH05F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH05F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH05F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH06F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH06F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH06F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH07F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH07F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH07F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH08F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH08F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH08F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH09F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH09F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH09F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH10F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH10F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH10F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH11F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH11F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH11F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH12F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH12F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH12F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH13F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH13F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH13F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH14F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH14F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH14F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH15F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH15F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH15F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH16F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH16F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH16F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH17F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH17F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH17F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH18F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH18F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH18F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH19F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH19F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH19F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH20F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH20F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH20F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH21F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH21F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH21F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH22F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH22F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH22F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH23F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH23F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH23F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH24F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH24F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH24F2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH25F0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH25F1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSH25F2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interval_Completed_Month__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interval_Max_Loop__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interval_No_Response_Month__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Negative_Feedback_Row__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Negative_feedback__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_CCC_I_Ask_Exculde__c</picklist>
+        <values>
+            <fullName>Agent Calls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediaries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non in-force policies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policies for worksites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>un-resolved enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>un-resolved request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_CCC_I_Buy_Exculde__c</picklist>
+        <values>
+            <fullName>Intermediaries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non in-force policies</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_CCC_I_Claim_Exculde__c</picklist>
+        <values>
+            <fullName>CI%2C AP and diability %28WP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim With Adjustment Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Death Claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non in-force policies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Payment Claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reject Claims</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_CCC_I_Renew_Exculde__c</picklist>
+        <values>
+            <fullName>Intermediaries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non in-force policies</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_CCC_Status_Cases__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Send_ICF_Day__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Send_Thanks_Note_Day__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Send_Thanks_Note_When_Case__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Created</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Send_to_Case_Contacting__c</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %26 Agent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sender__c</picklist>
+        <values>
+            <fullName>AXA_FIN_IND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AXA_MANDIRI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_Cases__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>I Ask</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Buy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Renew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

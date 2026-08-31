@@ -3,4 +3,27 @@
     <fullName>I_RENEW</fullName>
     <active>true</active>
     <label>I RENEW</label>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Start</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

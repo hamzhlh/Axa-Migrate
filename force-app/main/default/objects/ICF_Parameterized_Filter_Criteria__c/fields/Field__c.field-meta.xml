@@ -207,9 +207,31 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
+            <controllingFieldValue>Exclude - I Buy</controllingFieldValue>
+            <controllingFieldValue>Exclude - I Renew</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
             <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
+            <valueName>Application</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>Exclude - I Claim</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
             <valueName>Claim Type</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
+            <valueName>Policy Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
+            <valueName>Transaction Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
+            <valueName>MOT</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
@@ -220,30 +242,8 @@
             <valueName>Plan Code</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
-            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
-            <controllingFieldValue>Exclude - I Buy</controllingFieldValue>
-            <controllingFieldValue>Exclude - I Renew</controllingFieldValue>
-            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
-            <valueName>Application</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
-            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
-            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
-            <valueName>Policy Communication</valueName>
-        </valueSettings>
-        <valueSettings>
             <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
             <valueName>Record Type</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
-            <valueName>Transaction Code</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
-            <valueName>MOT</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

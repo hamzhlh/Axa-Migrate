@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AFI_Desi_Putri_Notification_Queue_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>AFI - Desi Putri Notification Queue</label>
+    <queue>AFI_Desi_Putri_Notification_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

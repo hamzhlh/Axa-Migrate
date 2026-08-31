@@ -67,6 +67,21 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
+            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
+            <valueName>Issued Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
+            <valueName>Approved Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
+            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
+            <valueName>Submitted Date</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
             <valueName>Claim Payment Date</valueName>
         </valueSettings>
@@ -77,21 +92,6 @@
         <valueSettings>
             <controllingFieldValue>Schedule - I Claim</controllingFieldValue>
             <valueName>Claim Submitted Date</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
-            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
-            <valueName>Submitted Date</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Schedule - I Renew</controllingFieldValue>
-            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
-            <controllingFieldValue>Schedule - I Buy</controllingFieldValue>
-            <valueName>Issued Date</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Schedule - I Ask</controllingFieldValue>
-            <valueName>Approved Date</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

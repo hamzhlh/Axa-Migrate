@@ -11,7 +11,7 @@
         <controllingField>Line_Queue__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>ASURANSI JIWA KREDIT (KPR)</fullName>
                 <default>false</default>

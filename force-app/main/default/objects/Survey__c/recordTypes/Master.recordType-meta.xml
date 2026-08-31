@@ -4,4 +4,106 @@
     <active>true</active>
     <description>Created by system, used as master template</description>
     <label>Master</label>
+    <picklistValues>
+        <picklist>Answer_Count__c</picklist>
+        <values>
+            <fullName>10 Answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Answer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Answer_Type__c</picklist>
+        <values>
+            <fullName>Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Text</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Entity__c</picklist>
+        <values>
+            <fullName>AFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAGI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Format_Skala__c</picklist>
+        <values>
+            <fullName>0 to 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 to 0</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Survey_Type__c</picklist>
+        <values>
+            <fullName>I Ask</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>I Buy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Complain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Renew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

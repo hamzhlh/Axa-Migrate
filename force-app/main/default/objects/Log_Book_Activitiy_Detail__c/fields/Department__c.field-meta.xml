@@ -9,17 +9,11 @@
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>ADS</fullName>
                 <default>false</default>
                 <label>ADS</label>
-            </value>
-            <value>
-                <fullName>BO</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>BO</label>
             </value>
             <value>
                 <fullName>CCC</fullName>
@@ -40,12 +34,6 @@
                 <fullName>CMU</fullName>
                 <default>false</default>
                 <label>CMU</label>
-            </value>
-            <value>
-                <fullName>COLL</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>COLL</label>
             </value>
             <value>
                 <fullName>CR</fullName>
@@ -73,26 +61,43 @@
                 <label>DPLK</label>
             </value>
             <value>
+                <fullName>UW</fullName>
+                <default>false</default>
+                <label>NB / UW</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>Tele Services</fullName>
+                <default>false</default>
+                <label>Tele Services</label>
+            </value>
+            <value>
+                <fullName>BO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BO</label>
+            </value>
+            <value>
+                <fullName>COLL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>COLL</label>
+            </value>
+            <value>
                 <fullName>NB</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
                 <label>NB</label>
             </value>
             <value>
-                <fullName>UW</fullName>
-                <default>false</default>
-                <label>NB / UW</label>
-            </value>
-            <value>
                 <fullName>NONE</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
                 <label>NONE</label>
-            </value>
-            <value>
-                <fullName>POS</fullName>
-                <default>false</default>
-                <label>POS</label>
             </value>
             <value>
                 <fullName>Quick Responses</fullName>
@@ -105,11 +110,6 @@
                 <default>false</default>
                 <isActive>false</isActive>
                 <label>SALES</label>
-            </value>
-            <value>
-                <fullName>Tele Services</fullName>
-                <default>false</default>
-                <label>Tele Services</label>
             </value>
             <value>
                 <fullName>Walk In/RO</fullName>

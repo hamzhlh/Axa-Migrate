@@ -4,4 +4,15 @@
     <active>true</active>
     <description>Task</description>
     <label>Task</label>
+    <picklistValues>
+        <picklist>Source__c</picklist>
+        <values>
+            <fullName>AFI - CCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFI - Outbound</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

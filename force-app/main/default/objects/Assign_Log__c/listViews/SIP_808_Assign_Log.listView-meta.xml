@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIP_808_Assign_Log</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SIP 808 (Achmad Imam)</label>
+    <queue>SIP_808</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

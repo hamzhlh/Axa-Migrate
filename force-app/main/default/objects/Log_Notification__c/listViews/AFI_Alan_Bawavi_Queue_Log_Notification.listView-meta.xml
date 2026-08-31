@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AFI_Alan_Bawavi_Queue_Log_Notification</fullName>
+    <columns>NAME</columns>
+    <filterScope>Queue</filterScope>
+    <label>AFI - Alan Bawavi Queue</label>
+    <language>en_US</language>
+    <queue>AFI_Alan_Bawavi_Queue</queue>
+    <sharedTo>
+        <group>AFI_Alan_Bawavi_Report_Group</group>
+    </sharedTo>
+</ListView>

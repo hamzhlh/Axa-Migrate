@@ -11,7 +11,7 @@
         <controllingField>Verification__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>Belum terima e-pol</fullName>
                 <default>false</default>
@@ -171,17 +171,25 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>Wrong Number</controllingFieldValue>
-            <valueName>Kenal dengan PP</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Wrong Number</controllingFieldValue>
-            <valueName>Tidak kenal dengan PP</valueName>
-        </valueSettings>
-        <valueSettings>
             <controllingFieldValue>Agree - Agree to pay via Autodebet</controllingFieldValue>
             <controllingFieldValue>Hold</controllingFieldValue>
             <valueName>Customer wants to meet FA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Success with data changes</controllingFieldValue>
+            <valueName>Correspondence Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Success with data changes</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Success with data changes</controllingFieldValue>
+            <controllingFieldValue>Success with Note</controllingFieldValue>
+            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
+            <controllingFieldValue>Cancel the Policy</controllingFieldValue>
+            <controllingFieldValue>Cancel the Policy – tidak setuju biaya UCO</controllingFieldValue>
+            <valueName>Others</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Success with Note</controllingFieldValue>
@@ -190,14 +198,6 @@
         <valueSettings>
             <controllingFieldValue>Success with Note</controllingFieldValue>
             <valueName>Kecewa dengan layanan FA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Success with Note</controllingFieldValue>
-            <controllingFieldValue>Cancel the Policy</controllingFieldValue>
-            <controllingFieldValue>Success with data changes</controllingFieldValue>
-            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
-            <controllingFieldValue>Cancel the Policy – tidak setuju biaya UCO</controllingFieldValue>
-            <valueName>Others</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Success with Note</controllingFieldValue>
@@ -210,6 +210,34 @@
         <valueSettings>
             <controllingFieldValue>Success with Note</controllingFieldValue>
             <valueName>Terdapat ketidaksesuaian data pada proses NBUW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Un success/need meet FA</controllingFieldValue>
+            <valueName>FA perlu menjelaskan kembali</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Un-Verified</controllingFieldValue>
+            <valueName>Verification is not succeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
+            <valueName>Nasabah merasa tidak pernah diinformasikan akan dihubungi oleh AXA Mandiri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
+            <valueName>Nasabah Sibuk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
+            <valueName>Nasabah Takut Penipuan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
+            <valueName>Nasabah Tidak Mau Dikonfirmasi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
+            <valueName>Nasabah Tidak Mau Direkam</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cancel the Policy</controllingFieldValue>
@@ -257,40 +285,12 @@
             <valueName>Tidak mau sebutkan alasannya</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Success with data changes</controllingFieldValue>
-            <valueName>Correspondence Address</valueName>
+            <controllingFieldValue>Wrong Number</controllingFieldValue>
+            <valueName>Kenal dengan PP</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Success with data changes</controllingFieldValue>
-            <valueName>Email</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Un-Verified</controllingFieldValue>
-            <valueName>Verification is not succeed</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Un success/need meet FA</controllingFieldValue>
-            <valueName>FA perlu menjelaskan kembali</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
-            <valueName>Nasabah merasa tidak pernah diinformasikan akan dihubungi oleh AXA Mandiri</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
-            <valueName>Nasabah Sibuk</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
-            <valueName>Nasabah Takut Penipuan</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
-            <valueName>Nasabah Tidak Mau Dikonfirmasi</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Un-willing to be confirmed</controllingFieldValue>
-            <valueName>Nasabah Tidak Mau Direkam</valueName>
+            <controllingFieldValue>Wrong Number</controllingFieldValue>
+            <valueName>Tidak kenal dengan PP</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

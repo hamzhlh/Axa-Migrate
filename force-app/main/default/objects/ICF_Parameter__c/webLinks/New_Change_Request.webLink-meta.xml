@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Change_Request</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New Change Request</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)} 
+
+var o = new sforce.SObject(&quot;ICF_Parameter__c&quot;); 
+o.id = &quot;{!ICF_Parameter__c.Id}&quot;;
+o.Change_Request__c = &quot;TRUE&quot;; 
+
+sforce.connection.update([o]); 
+
+window.location.reload();</url>
+</WebLink>

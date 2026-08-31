@@ -21,19 +21,19 @@
     <label>All - Need Confirm</label>
     <language>en_US</language>
     <sharedTo>
-        <roleAndSubordinates>ADS_Head_AMFS</roleAndSubordinates>
-        <roleAndSubordinates>AMFS_CMU_SPV</roleAndSubordinates>
-        <roleAndSubordinates>AMFS_Central_Operation_CO_Head</roleAndSubordinates>
-        <roleAndSubordinates>AMFS_Claim_Head</roleAndSubordinates>
-        <roleAndSubordinates>AMFS_Collection_Manager</roleAndSubordinates>
-        <roleAndSubordinates>AMFS_Email_SPV</roleAndSubordinates>
-        <roleAndSubordinates>AMFS_Finance_Head</roleAndSubordinates>
-        <roleAndSubordinates>AMFS_Request_Manager</roleAndSubordinates>
-        <roleAndSubordinates>AMFS_Sales_Distribution_Head</roleAndSubordinates>
-        <roleAndSubordinates>CEO_AFI_AFI_TM</roleAndSubordinates>
-        <roleAndSubordinates>CEO_ALI</roleAndSubordinates>
-        <roleAndSubordinates>CEO_MAGI_AGI</roleAndSubordinates>
-        <roleAndSubordinates>DMU_Head_AMFS</roleAndSubordinates>
-        <roleAndSubordinates>PIC_Admin_CCC</roleAndSubordinates>
+        <roleAndSubordinatesInternal>ADS_Head_AMFS</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>AMFS_CMU_SPV</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>AMFS_Central_Operation_CO_Head</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>AMFS_Claim_Head</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>AMFS_Collection_Manager</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>AMFS_Email_SPV</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>AMFS_Finance_Head</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>AMFS_Request_Manager</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>AMFS_Sales_Distribution_Head</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CEO_AFI_AFI_TM</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CEO_ALI</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>CEO_MAGI_AGI</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>DMU_Head_AMFS</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>PIC_Admin_CCC</roleAndSubordinatesInternal>
     </sharedTo>
 </ListView>

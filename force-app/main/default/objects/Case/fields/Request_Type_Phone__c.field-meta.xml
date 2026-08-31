@@ -11,7 +11,7 @@
         <controllingField>Related_Departments__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>Cooling Off</fullName>
                 <default>false</default>
@@ -86,12 +86,6 @@
                 <fullName>Informasi_Pengalaman &amp; Saran</fullName>
                 <default>false</default>
                 <label>Informasi_Pengalaman &amp; Saran</label>
-            </value>
-            <value>
-                <fullName>--None--</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>--None--</label>
             </value>
             <value>
                 <fullName>Request_Add/Remove Specified Policy Number</fullName>
@@ -232,12 +226,6 @@
                 <fullName>Request_ADS Pemulihan Polis</fullName>
                 <default>false</default>
                 <label>Request_ADS Pemulihan Polis</label>
-            </value>
-            <value>
-                <fullName>Request_ADS - Perubahan Alamat Email</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Request_ADS - Perubahan Alamat Email</label>
             </value>
             <value>
                 <fullName>Request_ADS - Perubahan DOB</fullName>
@@ -1304,171 +1292,19 @@
                 <default>false</default>
                 <label>Request-Reschedule-CR-Withdrawal</label>
             </value>
+            <value>
+                <fullName>--None--</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>--None--</label>
+            </value>
+            <value>
+                <fullName>Request_ADS - Perubahan Alamat Email</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request_ADS - Perubahan Alamat Email</label>
+            </value>
         </valueSetDefinition>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_Courier Delivery ? Change of Address</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_Courier Delivery ? Policy Retur</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_Courier Delivery ? Speed Up Delivery</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_Courier Delivery-surat retur</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_DMU_Reprint Polis TM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_DMU_Sanggah</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_DMU_Sanggah Berulang</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_Resend email dan sms epolicy</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_Resend E-Policy</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DMU</controllingFieldValue>
-            <valueName>Request_Resend SMS E-Policy</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Bukti Potong Pajak</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_E-Card</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Life Cycle Fund</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_MP Dipercepat</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_MP Ditunda</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_MP Meninggal Dunia</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_MP Normal</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_MP Resign</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Penarikan Iuran Sebagian</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Pendaftaran Individu</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Pengalihan</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Pengkinian Data</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Perubahan Investasi</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Presentasi Perusahaan</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>DPLK</controllingFieldValue>
-            <valueName>Request_Rekening Koran/saldo</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Tele Services</controllingFieldValue>
-            <valueName>Request_Call Back Withdrawl PBC (HL &amp; EMAIL)</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Tele Services</controllingFieldValue>
-            <valueName>Request_Call Back Withdrawl Reguler (HL &amp; EMAIL)</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Tele Services</controllingFieldValue>
-            <valueName>Request _Call Confirmation CR Withdrawal PBC</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Tele Services</controllingFieldValue>
-            <valueName>Request _Call Confirmation CR Withdrawal Regular</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Tele Services</controllingFieldValue>
-            <valueName>Request_Up date Address</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Tele Services</controllingFieldValue>
-            <valueName>Request_Up date Email Address</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Tele Services</controllingFieldValue>
-            <valueName>Request_Up date Nomor Kontak</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS_Cancelled Redemption</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS_Redemption TM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS_Submit Claim Ketidakmampuan</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS_Submit Claim Meninggal</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS_Submit Claim Rawat Inap</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS_Submit Claim Sakit Kritis</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS_Submit Kelengkapan dok CMU</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS Req Form / Pick Up Doc</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Walk In/RO</controllingFieldValue>
-            <valueName>Request_CS Submit rawat jalan</valueName>
-        </valueSettings>
         <valueSettings>
             <controllingFieldValue>Corpsol</controllingFieldValue>
             <valueName>Corpsol_Claim_Excess Claim</valueName>
@@ -1720,6 +1556,221 @@
         <valueSettings>
             <controllingFieldValue>Portofolio Syariah</controllingFieldValue>
             <valueName>Request_Portofolio Syariah_Transfer ASLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <valueName>Request_Add Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <valueName>Request_Auto Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
+            <valueName>Request_CR_Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
+            <valueName>Request_CR_Withdrawal Big Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
+            <valueName>Request_Hold Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <valueName>Request_Lumpsum Ex-Autosurrender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <valueName>Request_Refund Premi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <valueName>Request_Take Out Auto Reinstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
+            <valueName>Request_CR_Redemption TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
+            <valueName>Request_Release Hold Debet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
+            <valueName>Request-Reschedule CR Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
+            <valueName>Request-Reschedule-CR-Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_Courier Delivery ? Change of Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_Courier Delivery ? Policy Retur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_Courier Delivery ? Speed Up Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_Courier Delivery-surat retur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_DMU_Reprint Polis TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_DMU_Sanggah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_DMU_Sanggah Berulang</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_Resend email dan sms epolicy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_Resend E-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMU</controllingFieldValue>
+            <valueName>Request_Resend SMS E-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Bukti Potong Pajak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_E-Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Life Cycle Fund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_MP Dipercepat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_MP Ditunda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_MP Meninggal Dunia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_MP Normal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_MP Resign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Penarikan Iuran Sebagian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Pendaftaran Individu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Pengalihan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Pengkinian Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Perubahan Investasi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Presentasi Perusahaan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DPLK</controllingFieldValue>
+            <valueName>Request_Rekening Koran/saldo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tele Services</controllingFieldValue>
+            <valueName>Request_Call Back Withdrawl PBC (HL &amp; EMAIL)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tele Services</controllingFieldValue>
+            <valueName>Request_Call Back Withdrawl Reguler (HL &amp; EMAIL)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tele Services</controllingFieldValue>
+            <valueName>Request _Call Confirmation CR Withdrawal PBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tele Services</controllingFieldValue>
+            <valueName>Request _Call Confirmation CR Withdrawal Regular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tele Services</controllingFieldValue>
+            <valueName>Request_Up date Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tele Services</controllingFieldValue>
+            <valueName>Request_Up date Email Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tele Services</controllingFieldValue>
+            <valueName>Request_Up date Nomor Kontak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS_Cancelled Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS_Redemption TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS_Submit Claim Ketidakmampuan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS_Submit Claim Meninggal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS_Submit Claim Rawat Inap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS_Submit Claim Sakit Kritis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS_Submit Kelengkapan dok CMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS Req Form / Pick Up Doc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Walk In/RO</controllingFieldValue>
+            <valueName>Request_CS Submit rawat jalan</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>POS</controllingFieldValue>
@@ -2053,57 +2104,6 @@
         <valueSettings>
             <controllingFieldValue>CCC</controllingFieldValue>
             <valueName>REQUEST Cancellation Polis TM_Surrender</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection</controllingFieldValue>
-            <valueName>Request_Add Debit</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection</controllingFieldValue>
-            <valueName>Request_Auto Reinstate</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection</controllingFieldValue>
-            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
-            <valueName>Request_CR_Redemption</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection</controllingFieldValue>
-            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
-            <valueName>Request_CR_Withdrawal Big Amount</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection</controllingFieldValue>
-            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
-            <valueName>Request_Hold Debit</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection</controllingFieldValue>
-            <valueName>Request_Lumpsum Ex-Autosurrender</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection</controllingFieldValue>
-            <valueName>Request_Refund Premi</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection</controllingFieldValue>
-            <valueName>Request_Take Out Auto Reinstate</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
-            <valueName>Request_CR_Redemption TM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
-            <valueName>Request_Release Hold Debet</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
-            <valueName>Request-Reschedule CR Redemption</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Collection &amp; CR</controllingFieldValue>
-            <valueName>Request-Reschedule-CR-Withdrawal</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

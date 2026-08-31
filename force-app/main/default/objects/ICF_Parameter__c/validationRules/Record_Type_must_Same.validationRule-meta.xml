@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Type_must_Same</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF ( CONTAINS(RecordType.DeveloperName, &apos;Change Request&apos;), RecordType.DeveloperName ==   SUBSTITUTE(Master__r.RecordType.DeveloperName,&apos;Master&apos;, &apos;Change Request&apos;), FALSE)</errorConditionFormula>
+    <errorMessage>Record Type must same with Master Record Type.</errorMessage>
+</ValidationRule>

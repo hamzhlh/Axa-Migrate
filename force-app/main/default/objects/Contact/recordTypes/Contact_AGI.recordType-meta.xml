@@ -297,7 +297,7 @@
             <default>false</default>
         </values>
     </picklistValues>
-    <picklistValues>
+    <!-- <picklistValues>
         <picklist>sf4twitter__Influencer_Type__c</picklist>
         <values>
             <fullName>None</fullName>
@@ -311,7 +311,7 @@
             <fullName>Reporter</fullName>
             <default>false</default>
         </values>
-    </picklistValues>
+    </picklistValues> 
     <picklistValues>
         <picklist>sf4twitter__Influencer__c</picklist>
         <values>
@@ -348,5 +348,5 @@
             <fullName>Twitter</fullName>
             <default>false</default>
         </values>
-    </picklistValues>
+    </picklistValues>-->
 </RecordType>

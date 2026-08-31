@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancel_Transaction</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Cancel Transaction</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/43.0/connection.js&quot;)} // Load Salesforce AJAX Toolkit
+
+// Confirm before proceeding
+var proceed = confirm(&quot;Apakah anda yakin ingin membatalkan transaksi ini?&quot;);
+if (proceed) {
+    // Get current record ID
+    var recordId = &quot;{!Log_Book_Activitiy_Detail__c.Id}&quot;;
+
+    // Create sObject and set field
+    var log = new sforce.SObject(&quot;Log_Book_Activitiy_Detail__c&quot;);
+    log.Id = recordId;
+    log.Canceled__c = true;
+
+    // Update the record
+    var result = sforce.connection.update([log]);
+
+    if (result[0].success === &quot;true&quot;) {
+        alert(&quot;Transaksi berhasil dibatalkan.&quot;);
+        window.location.reload(); // Refresh the page
+    } else {
+        alert(&quot;Error cancelling activity: &quot; + result[0].errors.message);
+    }
+}</url>
+</WebLink>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <members>Agent_Group__c.Agent</members>
+    <!--<members>Agent_Group__c.Agent</members>
     <members>Agent_Group__c.Agent_Group</members>
     <members>Agent_Performance__c.DIGITAL_TEAM</members>
     <members>Agent_Performance__c.INBOUND_CALL</members>
@@ -9,11 +9,11 @@
     <members>Agent_Performance__c.RETENTION_FU</members>
     <members>Agent_Performance__c.RETENTION_REINSTATE</members>
     <members>Agent_Performance__c.RETENTION_STANDBY</members>
-    <members>Agent_Performance__c.WELCOME_CALL</members>
+    <members>Agent_Performance__c.WELCOME_CALL</members> 
     <members>Call_Line__c.Collection_AMFS_6</members>
     <members>Call_Line__c.Collection_AMFS_9</members>
     <members>Call_Line__c.TeleService</members>
-    <members>Call_Line__c.TelUW</members>
+    <members>Call_Line__c.TelUW</members> -->
     <members>Case.AFIComplaintCase</members>
     <members>Case.AFIComplaintCaseNewButton</members>
     <members>Case.AGIComplaintCase</members>
@@ -52,7 +52,7 @@
     <members>Contact.Contact_AGI</members>
     <members>Contact.Contact_ALI</members>
     <members>Contact.Contact_Health</members>
-    <members>E_Form_Master_Data__c.Paydi</members>
+    <!--<members>x.Paydi</members>
     <members>E_Form_Master_Data__c.Penarikan_sebagian_unit</members>
     <members>E_Form_Master_Data__c.Pernyataan_Kesehatan</members>
     <members>E_Form_Master_Data__c.Perubahan_Data_Polis</members>
@@ -61,7 +61,7 @@
     <members>Quality_Control__c.Edit</members>
     <members>Quality_Control__c.General</members>
     <members>Quality_Control__c.Master</members>
-    <members>Quality_Control__c.New</members>
+    <members>Quality_Control__c.New</members> -->
     <members>Task.ARSI</members>
     <members>Task.General</members>
     <members>Task.PureCloud</members>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jenis_Perubahan_Lainnya__c</fullName>
+    <label>Jenis Perubahan Lainnya</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Kind_Of_Transaction__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Perubahan Jenis Kelamin</fullName>
+                <default>false</default>
+                <label>Perubahan Jenis Kelamin</label>
+            </value>
+            <value>
+                <fullName>Perubahan Kewarganegaraan</fullName>
+                <default>false</default>
+                <label>Perubahan Kewarganegaraan</label>
+            </value>
+            <value>
+                <fullName>Perubahan Pekerjaan</fullName>
+                <default>false</default>
+                <label>Perubahan Pekerjaan</label>
+            </value>
+            <value>
+                <fullName>Perubahan Status Perkawinan</fullName>
+                <default>false</default>
+                <label>Perubahan Status Perkawinan</label>
+            </value>
+            <value>
+                <fullName>Perubahan Agama</fullName>
+                <default>false</default>
+                <label>Perubahan Agama</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <valueName>Perubahan Jenis Kelamin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <valueName>Perubahan Kewarganegaraan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <valueName>Perubahan Pekerjaan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <valueName>Perubahan Status Perkawinan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request_POS_Japen Non Financial</controllingFieldValue>
+            <controllingFieldValue>Request_POS_Perubahan Lainnya</controllingFieldValue>
+            <valueName>Perubahan Agama</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

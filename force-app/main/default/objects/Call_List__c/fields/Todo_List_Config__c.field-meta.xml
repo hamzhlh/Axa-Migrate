@@ -153,7 +153,6 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>Lapse TM</controllingFieldValue>
             <controllingFieldValue>Redemption TM</controllingFieldValue>
             <controllingFieldValue>Others - Gagal Debet</controllingFieldValue>
             <controllingFieldValue>Withdrawal</controllingFieldValue>
@@ -162,56 +161,8 @@
             <controllingFieldValue>MKP</controllingFieldValue>
             <controllingFieldValue>Cuti Premi</controllingFieldValue>
             <controllingFieldValue>Redemption Konven</controllingFieldValue>
+            <controllingFieldValue>Lapse TM</controllingFieldValue>
             <valueName>Verifikasi</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Lapse TM</controllingFieldValue>
-            <controllingFieldValue>Redemption TM</controllingFieldValue>
-            <valueName>Info manfaat produk</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Lapse TM</controllingFieldValue>
-            <controllingFieldValue>Redemption TM</controllingFieldValue>
-            <valueName>Pastikan Due NCB</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Lapse TM</controllingFieldValue>
-            <controllingFieldValue>Redemption TM</controllingFieldValue>
-            <controllingFieldValue>Others - Gagal Debet</controllingFieldValue>
-            <controllingFieldValue>Renewal Reminder</controllingFieldValue>
-            <valueName>Pengkinian data</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Lapse TM</controllingFieldValue>
-            <valueName>Alasan polis lapse</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Lapse TM</controllingFieldValue>
-            <valueName>Legal info pendebetan (ok debet)</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Lapse TM</controllingFieldValue>
-            <controllingFieldValue>Redemption TM</controllingFieldValue>
-            <controllingFieldValue>Others - Gagal Debet</controllingFieldValue>
-            <controllingFieldValue>Withdrawal</controllingFieldValue>
-            <controllingFieldValue>Renewal Reminder</controllingFieldValue>
-            <controllingFieldValue>Lapse Konven</controllingFieldValue>
-            <controllingFieldValue>MKP</controllingFieldValue>
-            <controllingFieldValue>Cuti Premi</controllingFieldValue>
-            <controllingFieldValue>Redemption Konven</controllingFieldValue>
-            <valueName>Campaign Emma</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Lapse TM</controllingFieldValue>
-            <controllingFieldValue>Redemption TM</controllingFieldValue>
-            <controllingFieldValue>Others - Gagal Debet</controllingFieldValue>
-            <controllingFieldValue>Withdrawal</controllingFieldValue>
-            <controllingFieldValue>Renewal Reminder</controllingFieldValue>
-            <controllingFieldValue>Lapse Konven</controllingFieldValue>
-            <controllingFieldValue>MKP</controllingFieldValue>
-            <controllingFieldValue>Cuti Premi</controllingFieldValue>
-            <controllingFieldValue>Redemption Konven</controllingFieldValue>
-            <valueName>Legal statement</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Redemption TM</controllingFieldValue>
@@ -219,7 +170,48 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Lapse TM</controllingFieldValue>
+            <valueName>Info manfaat produk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Lapse TM</controllingFieldValue>
+            <valueName>Pastikan Due NCB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Redemption TM</controllingFieldValue>
             <valueName>Legal info pendebetan (inforce)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Others - Gagal Debet</controllingFieldValue>
+            <controllingFieldValue>Renewal Reminder</controllingFieldValue>
+            <controllingFieldValue>Lapse TM</controllingFieldValue>
+            <valueName>Pengkinian data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Others - Gagal Debet</controllingFieldValue>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Renewal Reminder</controllingFieldValue>
+            <controllingFieldValue>Lapse Konven</controllingFieldValue>
+            <controllingFieldValue>MKP</controllingFieldValue>
+            <controllingFieldValue>Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Redemption Konven</controllingFieldValue>
+            <controllingFieldValue>Lapse TM</controllingFieldValue>
+            <valueName>Campaign Emma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Redemption TM</controllingFieldValue>
+            <controllingFieldValue>Others - Gagal Debet</controllingFieldValue>
+            <controllingFieldValue>Withdrawal</controllingFieldValue>
+            <controllingFieldValue>Renewal Reminder</controllingFieldValue>
+            <controllingFieldValue>Lapse Konven</controllingFieldValue>
+            <controllingFieldValue>MKP</controllingFieldValue>
+            <controllingFieldValue>Cuti Premi</controllingFieldValue>
+            <controllingFieldValue>Redemption Konven</controllingFieldValue>
+            <controllingFieldValue>Lapse TM</controllingFieldValue>
+            <valueName>Legal statement</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Others - Gagal Debet</controllingFieldValue>
@@ -308,6 +300,14 @@
         <valueSettings>
             <controllingFieldValue>Cuti Premi</controllingFieldValue>
             <valueName>Polis akan tidak aktif sementara jika NAB tidak mencukupi (PH Release)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lapse TM</controllingFieldValue>
+            <valueName>Alasan polis lapse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lapse TM</controllingFieldValue>
+            <valueName>Legal info pendebetan (ok debet)</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

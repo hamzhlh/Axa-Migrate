@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIP_811_Assign_Log</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SIP 811 (Dini Purwanti)</label>
+    <queue>SIP_811</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

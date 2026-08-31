@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Regular</fullName>
+        <default>true</default>
+        <label>Regular</label>
+    </customValue>
+    <customValue>
+        <fullName>Priority</fullName>
+        <default>false</default>
+        <label>Priority</label>
+    </customValue>
+    <customValue>
+        <fullName>Private</fullName>
+        <default>false</default>
+        <label>Private</label>
+    </customValue>
+    <customValue>
+        <fullName>Regular, Nasabah Aceh</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Regular, Nasabah Aceh</label>
+    </customValue>
+    <customValue>
+        <fullName>Priority, Nasabah Aceh</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Priority, Nasabah Aceh</label>
+    </customValue>
+    <customValue>
+        <fullName>Private, Nasabah Aceh</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Private, Nasabah Aceh</label>
+    </customValue>
+    <description>This LOV for AMFS&apos;s Customer Segmentation</description>
+    <masterLabel>Customer Segmentation</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

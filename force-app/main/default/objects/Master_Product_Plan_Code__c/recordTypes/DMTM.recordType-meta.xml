@@ -3,4 +3,48 @@
     <fullName>DMTM</fullName>
     <active>true</active>
     <label>DMTM</label>
+    <picklistValues>
+        <picklist>Flag__c</picklist>
+        <values>
+            <fullName>Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individu</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Generate_Hardcopy__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parent_Group__c</picklist>
+        <values>
+            <fullName>Konvensional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syariah</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>System__c</picklist>
+        <values>
+            <fullName>Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RLS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>
