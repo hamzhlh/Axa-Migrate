@@ -4,15 +4,4 @@
     <active>true</active>
     <description>Quiz</description>
     <label>Quiz</label>
-    <picklistValues>
-        <picklist>Source__c</picklist>
-        <values>
-            <fullName>AFI - CCC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>AFI - Outbound</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
 </RecordType>

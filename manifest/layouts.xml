@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>Access_Token__c-Access Token Layout</members>
+    <members>Account-Account Layout</members>
+    <members>Achievement__c-Achievement Layout</members>
+    <members>Achievement_Assignment__c-Achievement Assignment Layout</members>
+    <members>Achievement_Category__c-Achievement Category Layout</members>
+    <members>Agent_KPI__c-Agent KPI Layout</members>
+    <members>Agent_KPI_Item__c-Agent KPI Item Layout</members>
+    <members>Agent_Parameter__c-Agent Parameter Layout</members>
+    <members>Agent_Status__c-Agent Status Layout</members>
+    <members>AMFS_Dipcad_Setting__mdt-AMFS Dipcad Setting Layout</members>
+    <members>AMFS_E2C_Scheduler__mdt-AMFS E2C Scheduler Layout</members>
+    <members>AMFS_E2C_Setting__mdt-AMFS E2C Setting Layout</members>
+    <members>AMFS_Service_API__mdt-AMFS Service API Layout</members>
+    <members>Answer_Sequence__c-Answer Sequence Layout</members>
+    <members>Answer_Sequence_Item__c-Answer Sequence Item Layout</members>
+    <members>AppLog__c-AppLog Layout</members>
+    <members>Approver__c-Approver Layout</members>
+    <members>Asset-Asset Layout</members>
+    <members>AssetRelationship-Asset Relationship Layout</members>
+    <members>Assign_Log__c-Assign Log Layout</members>
+    <members>AuthorizationForm-Authorization Form Layout</members>
+    <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
+    <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
+    <members>AuthorizationFormText-Authorization Form Text Layout</members>
+    <members>BackEndPaging__c-BackEndPaging Layout</members>
+    <members>Batch_Operation_Record__c-Batch Operation Record Layout</members>
+    <members>Business_Hours_Adjustment__c-Business Hours Adjustment Layout</members>
+    <members>BusinessBrand-Business Brand Layout</members>
+    <members>Calc_FCR_Manual__c-Calc FCR Manual Layout</members>
+    <members>Call_Bucket__c-Call Bucket Layout</members>
+    <members>Call_Line__c-Call Line Layout</members>
+    <members>Call_List__c-Campaign Layout</members>
+    <members>Campaign_Query__c-Campaign Query Layout</members>
+    <members>Campaign_Setup__c-Campaign Setup Layout</members>
+    <members>Campaign-Campaign Layout</members>
+    <members>CampaignMember-Campaign Member Page Layout</members>
+    <members>Case_Escalation__c-Case Escalation Layout</members>
+    <members>Case_Snapshot__c-Case Snapshot FCR Layout</members>
+    <members>Case-Case Layout</members>
+    <members>CaseClose-Close Case Layout</members>
+    <members>CaseInteraction-Case Feed Layout</members>
+    <members>CaseMilestone-Case Milestone Layout</members>
+    <members>CMU_Contact__c-CMU Contact Layout</members>
+    <members>Config__c-Config Layout</members>
+    <members>Contact-Contact Layout</members>
+    <members>ContactPointAddress-Contact Point Address Layout</members>
+    <members>ContactPointEmail-Contact Point Email Layout</members>
+    <members>ContactPointPhone-Contact Point Phone Layout</members>
+    <members>ContactPointTypeConsent-Contact Point Type Consent Layout</members>
+    <members>Contract-Contract Layout</members>
+    <members>ContractLineItem-Contract Line Item Layout</members>
+    <members>Customer-Customer Layout</members>
+    <members>Data_Load_Sequence__c-Data Load Sequence Layout</members>
+    <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
+    <members>DataUsePurpose-Data Use Purpose Layout</members>
+    <members>Department__c-Department Layout</members>
+    <members>DMU_Data_Manual__c-DMU Data Manual Layout</members>
+    <members>DMU_Delivery_Status_Daily__c-DMU_Delivery_Status_Daily Layout</members>
+    <members>Dummy__c-Dummy Layout</members>
+    <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+    <members>Email_Assignment__c-Email Assignment Layout</members>
+    <members>Email_Config__c-Email Config Layout</members>
+    <members>Email_Scoring__c-Email Scoring Layout</members>
+    <members>Email_SMS_Log__c-Email %26 SMS Log Layout</members>
+    <members>Email_SMS_Template__c-Email %26 SMS Template Layout</members>
+    <members>EmailMessage-Email Message Layout</members>
+    <members>Entitlement-Entitlement Layout</members>
+    <members>EntityMilestone-Object Milestone Layout</members>
+    <members>Event-Event Layout</members>
+    <members>FA_Integration__mdt-FA Integration Layout</members>
+    <members>FeedItem-Feed Item Layout</members>
+    <members>Global-Global Layout</members>
+    <members>Hashkey__c-Hashkey Layout</members>
+    <members>Hyperlink_Config__c-Hyperlink Config Layout</members>
+    <members>ICF_Claim_Approve__c-ICF Claim Approve Layout</members>
+    <members>ICF_Non_CCC__c-ICF Non CCC Layout</members>
+    <members>ICF_Parameter__c-ICF Parameter Layout</members>
+    <members>ICF_Parameterized_Filter_Criteria__c-ICF Parameterized Filter Criteria Layout</members>
+    <members>ICF_Template_and_Namespace__c-ICF Template and Namespace Layout</members>
+    <members>Idea-Idea Layout</members>
+    <members>Inbound_Call_Monthly_Agent__c-Inbound Call Agent Layout</members>
+    <members>Inbound_Call_Monthly_Interval__c-Inbound Call Interval Layout</members>
+    <members>Incoming_Email_Checker__c-Incoming Email Checker Layout</members>
+    <members>Individual-Individual Layout</members>
+    <members>Lead-Lead Layout</members>
+    <members>Learning__c-Learning Layout</members>
+    <members>Learning_Assignment__c-Learning Assignment Layout</members>
+    <members>Learning_Category__c-Learning Category Layout</members>
+    <members>Learning_Version__c-Learning Version Layout</members>
+    <members>Log_Book_Activitiy__c-Log Book Activitiy Layout</members>
+    <members>Log_Book_Activitiy_Detail__c-Log Book Activitiy Detail Layout</members>
+    <members>Log_CTI_Valdo__c-Log CTI Valdo Layout</members>
+    <members>Log_Notification__c-Log Notification Layout</members>
+    <members>Log_PCIDSS__c-Log PCIDSS Layout</members>
+    <members>Macro-Macro Layout</members>
+    <members>Master_Case_Type_Regional__c-Master Case Type Regional Layout</members>
+    <members>Master_Document_Type__c-Master Document Type Layout</members>
+    <members>Master_Fund_Code__c-Master Fund Code Layout</members>
+    <members>Master_legal__c-Master legal Layout</members>
+    <members>Master_Pinalty__c-Master Pinalty Layout</members>
+    <members>Master_Product_Plan_Code__c-Master Product Plan Code Layout</members>
+    <members>MID_Custom_History__c-MID_Custom_History Layout</members>
+    <members>MID_Secure_Payment__c-MID_Secure_Payment Layout</members>
+    <members>Named_User__c-Named User Layout</members>
+    <members>Negative_Feedback__c-Negative Feedback Layout</members>
+    <members>NumberCounter__c-NumberCounter Layout</members>
+    <members>OpportunityLineItem-Opportunity Product Layout</members>
+    <members>Opportunity-Opportunity Layout</members>
+    <members>OrderItem-Order Product Layout</members>
+    <members>Order-Order Layout</members>
+    <members>PIC_Department__c-PIC Department Layout</members>
+    <members>Postal_Code__c-Postal Code Layout</members>
+    <members>Pricebook2-Price Book Layout</members>
+    <members>PricebookEntry-Price Book Entry Layout</members>
+    <members>ProcessException-Process Exception Layout</members>
+    <members>Product2-Product Layout</members>
+    <members>PureCloud__c-PureCloud-Call Agent Layout</members>
+    <members>PureCloud_Call_Service__c-PureCloud-Call Service Layout</members>
+    <members>PureCloud_Call_Summary__c-PureCloud-Call Summary Layout</members>
+    <members>Purecloud_Connector__c-Purecloud Master Presence Layout</members>
+    <members>Purecloud_Master_Queue__c-Purecloud Master Queue Layout</members>
+    <members>Question__c-Question Layout</members>
+    <members>Question_Line__c-Question Line Layout</members>
+    <members>QuickText-Quick Text Layout</members>
+    <members>Quiz__c-Quiz Layout</members>
+    <members>RDS_Box__c-RDS Box Layout</members>
+    <members>Related_Policy__c-Related Policy Layout</members>
+    <members>Repeat_Call__c-Repeat Call Layout</members>
+    <members>Request_Tada_History__c-Request Tada History Layout</members>
+    <members>Response__c-Response Layout</members>
+    <members>Response_History__c-Response History Layout</members>
+    <members>SampleObject__c-SampleObject Layout</members>
+    <members>Score_Card__c-Score Card Layout</members>
+    <members>ScorecardAssociation-Scorecard Association Layout</members>
+    <members>ScorecardMetric-Scorecard Metric Layout</members>
+    <members>Scorecard-Scorecard Layout</members>
+    <members>Seller-Seller Layout</members>
+    <members>ServiceContract-Service Contract Layout</members>
+    <members>Session_Data__c-Session Data Layout</members>
+    <members>Shared_Learning_Assignment__c-Shared Learning Assignment Layout</members>
+    <members>Skill_of_Nature_Category__c-Skill of Nature Category Layout</members>
+    <members>SLA_Setting__c-SLA Setting Layout</members>
+    <members>SocialPersona-Social Persona Layout</members>
+    <members>Solution-Solution Layout</members>
+    <members>Summary_Daily__c-Summary Daily Layout</members>
+    <members>Survey__c-Survey Layout</members>
+    <members>Survey_Response__c-Survey_Response Layout</members>
+    <members>Task__c-Task Layout</members>
+    <members>Task_Approver__c-Task Approver Layout</members>
+    <members>Task-Task Layout</members>
+    <members>TML_Answer_Sequence__c-TML Answer Sequence Layout</members>
+    <members>TML_Answer_Sequence_Item__c-TML Answer Sequence Item Layout</members>
+    <members>TML_Question__c-TML Question Layout</members>
+    <members>Touchpoint_Setting__mdt-Touchpoint Setting Layout</members>
+    <members>Training_Plan__c-Training Plan Layout</members>
+    <members>Training_Plan_Access_Request__c-Training Plan Access Request Layout</members>
+    <members>Training_Plan_Account__c-Training Plan Account Layout</members>
+    <members>Training_Plan_Achievement__c-Training Plan Achievement Layout</members>
+    <members>Training_Plan_Assignment__c-Training Plan Assignment Layout</members>
+    <members>Training_Plan_Batch_Operation__c-Training Plan Batch Operation Layout</members>
+    <members>Training_Plan_Category__c-Training Plan Category Layout</members>
+    <members>Training_Plan_Feedback__c-Training Plan Feedback Layout</members>
+    <members>Training_Plan_Section__c-Training Plan Section Layout</members>
+    <members>Training_Plan_Section_Assignment__c-Training Plan Section Assignment Layout</members>
+    <members>Training_Plan_Section_Item__c-Training Plan Section Item Layout</members>
+    <members>Training_Resource__c-Training Resource Layout</members>
+    <members>Training_Track__c-Training Track Layout</members>
+    <members>Training_Track_Account__c-Training Track Account Layout</members>
+    <members>Training_Track_Level__c-Training Track Level Layout</members>
+    <members>Training_Track_Level_Item__c-Training Track Level Item Layout</members>
+    <members>User_Detail__c-User Detail Layout</members>
+    <members>User_Skill__c-User Skill Layout</members>
+    <members>UserProvAccount-User Provisioning Account Layout</members>
+    <members>UserProvisioningLog-User Provisioning Log Layout</members>
+    <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+    <members>User-User Layout</members>
+    <members>WelcomeCall_Group__c-Group Layout</members>
+    <members>WorkAccess-Access Layout</members>
+    <members>WorkOrderLineItem-Work Order Line Item Layout</members>
+    <members>WorkOrder-Work Order Layout</members>
+    <members>WorkPlanTemplateEntry-Work Plan Template Entry Layout</members>
+    <members>WorkPlanTemplate-Work Plan Template Layout</members>
+    <members>WorkPlan-Work Plan Layout</members>
+    <members>WorkStepTemplate-Work Step Template Layout</members>
+    <members>WorkStep-Work Step Layout</members>
+    <members>WorkThanks-Thanks Layout</members>
+    <name>Layout</name>
+  </types>
+  <version>65.0</version>
+</Package>

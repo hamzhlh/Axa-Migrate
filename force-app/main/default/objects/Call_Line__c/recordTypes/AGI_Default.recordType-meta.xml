@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AGI_Default</fullName>
+    <active>true</active>
+    <description>Default AGI</description>
+    <label>AGI Default</label>
+</RecordType>

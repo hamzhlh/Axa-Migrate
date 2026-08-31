@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>Account-Account %28Marketing%29 Layout</members>
+    <members>Account-Account %28Sales%29 Layout</members>
+    <members>Account-Account %28Support%29 Layout</members>
+    <members>Achievement_Category__c-Achivement Category Layout</members>
+    <members>Activity_History__c-Activity History Layout</members>
+    <members>AFI_Knowledge__kav-AFI Knowledge Layout</members>
+    <members>Agent_Distribution_History__c-Agent Distribution History Layout</members>
+    <members>Agent_Group__c-Agent Group Layout</members>
+    <members>Agent_Group__c-Agent Layout</members>
+    <members>Agent_KPI__c-Agent KPI Layout - Input</members>
+    <members>Agent_KPI__c-Agent KPI Layout - Master</members>
+    <members>Agent_Parameter__c-Agent Schedule Layout</members>
+    <members>Agent_Parameter__c-DIGITAL TEAM Layout</members>
+    <members>Agent_Parameter__c-INBOUND CALL Layout</members>
+    <members>Agent_Parameter__c-RETENTION FU Layout</members>
+    <members>Agent_Parameter__c-RETENTION REINSTATE Layout</members>
+    <members>Agent_Parameter__c-RETENTION STANDBY Layout</members>
+    <members>Agent_Parameter__c-WELCOME CALL Layout</members>
+    <members>Agent_Performance__c-Agent Layout - Digital</members>
+    <members>Agent_Performance__c-Agent Layout - General</members>
+    <members>Agent_Performance__c-Agent Layout - Inbound Call</members>
+    <members>Agent_Performance__c-Agent Layout - Retention FU</members>
+    <members>Agent_Performance__c-Agent Layout - Retention Reinstate</members>
+    <members>Agent_Performance__c-Agent Layout - Standby</members>
+    <members>Agent_Performance__c-Agent Layout - Welcome</members>
+    <members>Agent_Performance__c-Agent Performance Layout</members>
+    <members>Agent_Scheduling__c-Agent Scheduling Layout</members>
+    <members>AGI_Knowledge__kav-AGI Knowledge Layout</members>
+    <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
+    <members>AMFS_Knowledge__kav-AMFS Knowledge Layout</members>
+    <members>ApiAnomalyEventStore-API Anomaly Event Store Layout</members>
+    <members>AppLog__c-AppLog AMFS Service Layout</members>
+    <members>AppointmentInvitation-Appointment Invitation Layout</members>
+    <members>AssetAction-Asset Action Layout</members>
+    <members>AssetActionSource-Asset Action Source Layout</members>
+    <members>AssetStatePeriod-Asset State Period Layout</members>
+    <members>Assign_Log__c-Assign Contact Log Layout</members>
+    <members>AssignedResource-Assigned Resource Layout</members>
+    <members>AssociatedLocation-Associated Location Layout</members>
+    <members>AsyncOperationLog-Async Operation Log Layout</members>
+    <members>Call_Line__c-AFI - Call Line Layout</members>
+    <members>Call_Line__c-AGI Claim</members>
+    <members>Call_Line__c-AGI Complaint Follow Up</members>
+    <members>Call_Line__c-AGI Renewal</members>
+    <members>Call_Line__c-AGI SMS Pull Confirmation</members>
+    <members>Call_Line__c-AGI Survey Claim%2CBuy%2CAsk</members>
+    <members>Call_Line__c-AGI Update Data</members>
+    <members>Call_Line__c-AGI Welcome Call</members>
+    <members>Call_Line__c-ALI Claim</members>
+    <members>Call_Line__c-ALI Collection Task</members>
+    <members>Call_Line__c-ALI NCB</members>
+    <members>Call_Line__c-ALI Premium FU Layout</members>
+    <members>Call_Line__c-ALI Reinstate Layout</members>
+    <members>Call_Line__c-ALI Retention Layout</members>
+    <members>Call_Line__c-ALI Survey Feedback</members>
+    <members>Call_Line__c-ALI Update Data</members>
+    <members>Call_Line__c-ALI Welcome Layout</members>
+    <members>Call_Line__c-Call Line Customer Segmentation</members>
+    <members>Call_Line__c-Call Line Layout - Admin</members>
+    <members>Call_Line__c-Callback Call Line Layout</members>
+    <members>Call_Line__c-CMU ICF Complaint Layout</members>
+    <members>Call_Line__c-Collection AMFS</members>
+    <members>Call_Line__c-Collection AMFS - Lapse Konven</members>
+    <members>Call_Line__c-Collection AMFS - Lapse Konven %28Agent%29</members>
+    <members>Call_Line__c-Collection AMFS - Lapse TM</members>
+    <members>Call_Line__c-Collection AMFS - Lapse TM %28Agent%29</members>
+    <members>Call_Line__c-Collection AMFS - MKP</members>
+    <members>Call_Line__c-Collection AMFS - MKP %28Agent%29</members>
+    <members>Call_Line__c-Collection AMFS - Redem Konven %26 Withdrawal</members>
+    <members>Call_Line__c-Collection AMFS - Redem Konven %26 Withdrawal %28Agent%29</members>
+    <members>Call_Line__c-Collection AMFS - Redem TM</members>
+    <members>Call_Line__c-Collection AMFS - Redem TM %28Agent%29</members>
+    <members>Call_Line__c-Collection AMFS - Renewal Reminder</members>
+    <members>Call_Line__c-Collection AMFS - Renewal Reminder %28Agent%29</members>
+    <members>Call_Line__c-Collection AMFS %28Agent%29</members>
+    <members>Call_Line__c-Conservation Layout</members>
+    <members>Call_Line__c-Survey Call Line Layout</members>
+    <members>Call_Line__c-TeleService Layout</members>
+    <members>Call_Line__c-TelUW</members>
+    <members>Call_Line__c-Welcome Call</members>
+    <members>Call_Line_History__c-Call Line History Layout</members>
+    <members>Call_Line_Retention__c-Call Line Retention Layout</members>
+    <members>Call_List__c-Call List Layout</members>
+    <members>Call_List__c-Callback</members>
+    <members>Call_List__c-Customer Segmentation Layout</members>
+    <members>Call_List__c-Survey Call List Layout</members>
+    <members>Call_List__c-TeleService ICF Layout</members>
+    <members>CardPaymentMethod-Card Payment Method Layout</members>
+    <members>CartCheckoutSession-Cart Checkout Session Layout</members>
+    <members>CartDeliveryGroup-Cart Delivery Group Layout</members>
+    <members>CartDeliveryGroupMethod-Cart Delivery Group Method Layout</members>
+    <members>CartItem-Cart Item Layout</members>
+    <members>CartTax-Cart Tax Layout</members>
+    <members>CartValidationOutput-Cart Validation Output Layout</members>
+    <members>Case_Internal_Comment__c-Case Internal Comment Layout</members>
+    <members>Case-AMFS Email to Case</members>
+    <members>Case-Case %28Marketing%29 Layout</members>
+    <members>Case-Case %28Sales%29 Layout</members>
+    <members>Case-Case %28Support%29 Layout</members>
+    <members>Case-Case-Call Note Layout</members>
+    <members>Case-Case-Complaint Layout</members>
+    <members>Case-Case-Complaint Layout - Non CMU</members>
+    <members>Case-Case-Complaint Layout %28New Button%29</members>
+    <members>Case-Case-Complaint Layout %28New Button%29 Afi Agency</members>
+    <members>Case-Case-Complaint Layout %28New Button%29 ALI</members>
+    <members>Case-Case-Complaint Layout AGI Feed</members>
+    <members>Case-Case-Complaint Layout ALI</members>
+    <members>Case-Case-Complaint Layout Feed</members>
+    <members>Case-Case-Complaint Layout Feed %28CMU AMFS%29</members>
+    <members>Case-Case-Complaint Layout Feed Afi Agency</members>
+    <members>Case-Case-Complaint Layout MAGI</members>
+    <members>Case-Case-Complaint Layout MAGI %28New Button%29</members>
+    <members>Case-Case-Complaint Layout MAGI Feed</members>
+    <members>Case-Case-Inquiry Layout</members>
+    <members>Case-Case-Inquiry Layout -  Sosmed</members>
+    <members>Case-Case-Inquiry Layout -  Sosmed AFI</members>
+    <members>Case-Case-Inquiry Layout -  Sosmed AGI</members>
+    <members>Case-Case-Inquiry Layout -  Sosmed AMFS</members>
+    <members>Case-Case-Inquiry Layout -  Sosmed MAGI</members>
+    <members>Case-Case-Inquiry Layout - Sosmed Admin</members>
+    <members>Case-Case-Inquiry Layout AFI Agency</members>
+    <members>Case-Case-Inquiry Layout AFI Agency Feed</members>
+    <members>Case-Case-Inquiry Layout AGI Feed</members>
+    <members>Case-Case-Inquiry Layout ALI</members>
+    <members>Case-Case-Inquiry Layout ALI Feed</members>
+    <members>Case-Case-Request Layout</members>
+    <members>Case-Case-Request Layout AGI Feed</members>
+    <members>Case-Case-Request Layout Feed</members>
+    <members>Case-Case-Request Layout Feed AFI Agency</members>
+    <members>Case-Case-Request Layout-AMFS-SPV</members>
+    <members>Case-Case-Request Layout-AMFS-SPV Feed</members>
+    <members>Case-Case-Request MAGI Layout</members>
+    <members>Case-Case-Request MAGI Layout Feed</members>
+    <members>CaseClose-Close Case Layout - Request</members>
+    <members>CaseClose-Close Case Layout - Sosmed</members>
+    <members>CaseClose-Close Case Layout Complaint AGI</members>
+    <members>CaseClose-Close Case Layout-AMFS-SPV</members>
+    <members>Case-Portal Case Layout</members>
+    <members>CommunityMemberLayout-Community Member Layout</members>
+    <members>ConsumptionRate-Consumption Rate Layout</members>
+    <members>ConsumptionSchedule-Consumption Schedule Layout</members>
+    <members>Contact-Contact %28Marketing%29 Layout</members>
+    <members>Contact-Contact %28Sales%29 Layout</members>
+    <members>Contact-Contact %28Support%29 Layout</members>
+    <members>Contact-Contact Layout %28EIP%29</members>
+    <members>Contact-Contact Layout AGI</members>
+    <members>Contact-Contact Layout AGI %28EIP%29</members>
+    <members>Contact-Contact Layout ALI</members>
+    <members>Contact-Contact Layout ALI %28System Admin%29</members>
+    <members>Contact-Contact Layout Health</members>
+    <members>Contact-Copy of Inbound %26 Outbound Contact Layout %28360%29 v3</members>
+    <members>Contact-Inbound %26 Outbound Contact Layout</members>
+    <members>Contact-Inbound %26 Outbound Contact Layout %28360%29</members>
+    <members>Contact-Inbound %26 Outbound Contact Layout %28360%29 v2</members>
+    <members>Contact-Inbound %26 Outbound Contact Layout %28360%29 v3</members>
+    <members>Contact-Inbound %26 Outbound Contact Layout %28EIP%29</members>
+    <members>Contact-Inbound %26 Outbound Contact Layout %28EIP%29 AFI Agency</members>
+    <members>Contact-Inbound %26 Outbound Contact Layout %28Feed%29</members>
+    <members>Contact-Outbound Contact Layout</members>
+    <members>Contact-Outbound Contact Layout %28EIP%29</members>
+    <members>Contact-Outbound Contact Layout %28EIP%29 AFI TM</members>
+    <members>ContentVersion-Content Version Layout</members>
+    <members>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</members>
+    <members>CreditMemo-Credit Memo Layout</members>
+    <members>CreditMemoInvApplication-Credit Memo Invoice Application Layout</members>
+    <members>CreditMemoLine-Credit Memo Line Layout</members>
+    <members>DandBCompany-D%26B Company Layout</members>
+    <members>DigitalWallet-Digital Wallet Layout</members>
+    <members>E_Form_Log__c-E-Form Log Layout</members>
+    <members>E_Form_Master_Data__c-E-Form Master Data Layout</members>
+    <members>EmailMessage-Email Message Layout - Email-to-Case</members>
+    <members>EngagementChannelType-Engagement Channel Type Layout</members>
+    <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
+    <members>FinanceTransaction-Finance Transaction Layout</members>
+    <members>FulfillmentOrder-Fulfillment Order Layout</members>
+    <members>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</members>
+    <members>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</members>
+    <members>FulfillmentOrderLineItem-Fulfillment Order Product Layout</members>
+    <members>GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout</members>
+    <members>ICF_Non_CCC__c-ICF Non CCC Layout - I ASK</members>
+    <members>ICF_Non_CCC__c-ICF Non CCC Layout - I BUY</members>
+    <members>ICF_Non_CCC__c-ICF Non CCC Layout - I CLAIM</members>
+    <members>ICF_Non_CCC__c-ICF Non CCC Layout - I RENEW</members>
+    <members>ICF_Non_Real_Time__c-ICF Non Real Time Layout</members>
+    <members>ICF_Parameter__c-Parameterized %28MASTER%29 Layout</members>
+    <members>ICF_Parameter__c-Parameterized CCC %28Master%29 Layout</members>
+    <members>ICF_Parameter__c-Parameterized CCC Layout</members>
+    <members>ICF_Parameter__c-Parameterized Email %26 SMS %28Master%29 Layout</members>
+    <members>ICF_Parameter__c-Parameterized Email %26 SMS Layout</members>
+    <members>ICF_Parameter__c-Parameterized Feedback %28Master%29 Layout</members>
+    <members>ICF_Parameter__c-Parameterized Feedback Layout</members>
+    <members>ICF_Parameter__c-Parameterized IDAS %28Master%29 Layout</members>
+    <members>ICF_Parameter__c-Parameterized IDAS Layout</members>
+    <members>ICF_Parameter__c-Parameterized Layout</members>
+    <members>ICF_Parameter__c-Parameterized Non CCC %28Master%29 Layout</members>
+    <members>ICF_Parameter__c-Parameterized Non CCC Layout</members>
+    <members>ICF_Parameter__c-Parameterized Qualtrics %28Master%29 Layout</members>
+    <members>ICF_Parameterized_Filter_Criteria__c-Parameterized Filter Criteria Layout</members>
+    <members>Inbound_Call_Monthly_Agent__c-Inbound Call Monthly Agent Layout</members>
+    <members>Inbound_Call_Monthly_Interval__c-Inbound Call Monthly Interval Layout</members>
+    <members>Invoice-Invoice Layout</members>
+    <members>InvoiceLine-Invoice Line Layout</members>
+    <members>Lead-Lead %28Marketing%29 Layout</members>
+    <members>Lead-Lead %28Sales%29 Layout</members>
+    <members>Lead-Lead %28Support%29 Layout</members>
+    <members>Learning__c-Learning-Quiz Layout</members>
+    <members>Learning__c-Learning-Resource Layout</members>
+    <members>Learning__c-Learning-Task Layout</members>
+    <members>LegalEntity-Legal Entity Layout</members>
+    <members>LocationGroupAssignment-Location Group Assignment Layout</members>
+    <members>LocationGroup-Location Group Layout</members>
+    <members>Location-Location Layout</members>
+    <members>LoginAnomalyEventStore-Login Anomaly Event Store Layout</members>
+    <members>MAGI_Knowledge__kav-MAGI Knowledge Layout</members>
+    <members>Master_Dipcad_Code__c-Master Dipcad Code Layout</members>
+    <members>Master_Holiday__c-Master Holiday Layout</members>
+    <members>MID_Master_Parameter__c-MID_Master_Parameter Layout</members>
+    <members>OperatingHours-Operating Hours Layout</members>
+    <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+    <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+    <members>Opportunity-Opportunity %28Support%29 Layout</members>
+    <members>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</members>
+    <members>PaymentAuthorization-Payment Authorization Layout</members>
+    <members>PaymentGatewayLog-Payment Gateway Log Layout</members>
+    <members>PaymentGateway-Payment Gateway Layout</members>
+    <members>PaymentGroup-Payment Group Layout</members>
+    <members>PaymentLineInvoice-Payment Line Invoice Layout</members>
+    <members>Payment-Payment Layout</members>
+    <members>Product_Knowledge__kav-Product Knowledge Layout</members>
+    <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
+    <members>PureCloud_Call_Agent__c-PureCloud-Call Agent Layout</members>
+    <members>Quality_Control__c-QC - Edit Layout</members>
+    <members>Quality_Control__c-QC - Master Layout</members>
+    <members>Quality_Control__c-QC - New Layout</members>
+    <members>Quality_Control__c-Quality Control Layout</members>
+    <members>RefundLinePayment-Refund Line Payment Layout</members>
+    <members>Refund-Refund Layout</members>
+    <members>ReportAnomalyEventStore-Report Anomaly Event Store Layout</members>
+    <members>ResourceAbsence-Resource Absence Layout</members>
+    <members>ResourcePreference-Resource Preference Layout</members>
+    <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
+    <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
+    <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+    <members>ReturnOrder-Return Order Layout</members>
+    <members>Score_Card__c-Score Card Layout - Agent</members>
+    <members>ServiceAppointment-Service Appointment Layout</members>
+    <members>ServiceAppointmentShift-Service Appointment Shift Layout</members>
+    <members>ServiceResource-Service Resource Layout</members>
+    <members>ServiceResourceSkill-Service Resource Skill Layout</members>
+    <members>ServiceTerritoryMember-Service Territory Member Layout</members>
+    <members>ServiceTerritory-Service Territory Layout</members>
+    <members>SessionHijackingEventStore-Session Hijacking Event Store Layout</members>
+    <members>Shift-Shift Layout</members>
+    <members>ShiftWorkTopic-Shift Work Topic Layout</members>
+    <members>ShippingConfigurationSet-Shipping Configuration Set Layout</members>
+    <members>ShippingRateArea-Shipping Rate Area Layout</members>
+    <members>ShippingRateGroup-Shipping Rate Group Layout</members>
+    <members>SkillRequirement-Skill Requirement Layout</members>
+    <members>SOP__kav-SOP Layout</members>
+    <members>StandardShippingRate-Standard Shipping Rate Layout</members>
+    <members>Survey__c-Survey %28Master%29 Layout</members>
+    <members>Survey_Qualtrics_Response__c-Survey Qualtrics Response Layout</members>
+    <members>Survey_Question__c-Survey Question Layout</members>
+    <members>Survey_Response__c-Response Layout</members>
+    <members>Survey_Response__c-Survey Question Response Layout</members>
+    <members>SurveyQuestionResponse__c-Survey Question Answer Layout</members>
+    <members>SurveyTaker__c-SurveyTaker Layout</members>
+    <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
+    <members>TimeSlot-Time Slot Layout</members>
+    <members>Transcript_Chat__c-Transcript Chat Layout</members>
+    <members>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</members>
+    <members>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</members>
+    <members>WebCartAdjustmentGroup-Cart Adjustment Group Layout</members>
+    <members>WebCart-Cart Layout</members>
+    <members>WebStoreConfig-Web Store Configuration Layout</members>
+    <members>WebStore-Store Layout</members>
+    <members>WelcomeCall_Leave__c-Leave Layout</members>
+    <members>WorkBadge-Badge Received Layout</members>
+    <members>WorkBadgeDefinition-Badge Layout</members>
+    <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
+    <members>WorkTypeGroup-Work Type Group Layout</members>
+    <members>WorkType-Work Type Layout</members>
+    <name>Layout</name>
+  </types>
+  <version>65.0</version>
+</Package>

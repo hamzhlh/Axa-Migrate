@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AGI_Complaint_Follow_Up</fullName>
+    <active>true</active>
+    <description>Record Type for Complaint Follow Up Case Type AGI</description>
+    <label>AGI Complaint Follow Up</label>
+</RecordType>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collection_AMFS_8</fullName>
+    <active>true</active>
+    <description>Untuk campaign Redemption TM</description>
+    <label>Collection AMFS 8</label>
+</RecordType>
